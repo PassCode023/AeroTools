@@ -99,6 +99,8 @@ function goSettings() {
 <style lang="scss" scoped>
 .page {
   padding: 0 32rpx 48rpx;
+  display: flex;
+  flex-direction: column;
 }
 .hero {
   margin: 0 -32rpx;
@@ -169,6 +171,7 @@ function goSettings() {
   flex-direction: column;
   gap: 24rpx;
   margin-top: -48rpx;
+  margin-bottom: 32rpx;
   position: relative;
   z-index: 1;
 }
@@ -219,7 +222,7 @@ function goSettings() {
 }
 
 .db-card {
-  margin-top: 32rpx;
+  margin-top: auto;
   padding: 28rpx 32rpx;
   background: var(--at-card);
   border-radius: 24rpx;
