@@ -1,0 +1,18 @@
+{
+  "description": "微信开发者工具配置。小程序代码位于 app/dist/build/mp-weixin,由 app 目录下 `npm run build:mp-weixin` 生成;开发热更新用 `npm run dev:mp-weixin`(产物在 app/dist/dev/mp-weixin)。",
+  "miniprogramRoot": "app/dist/build/mp-weixin/",
+  "compileType": "miniprogram",
+  "appid": "wxa4e40aaa5503d167",
+  "projectname": "AeroTools 航枢",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": true,
+    "minified": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
+  }
+}
