@@ -30,7 +30,7 @@ function goSettings() {
   <view class="page at-page" :class="themeClass">
     <view class="hero">
       <text class="logo">AeroTools</text>
-      <text class="subtitle">民航工具箱</text>
+      <text class="subtitle">航枢</text>
       <view class="hero-badge">
         <text>时间与航路，尽在掌握</text>
       </view>

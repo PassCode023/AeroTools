@@ -140,7 +140,7 @@ function pickTheme(m: ThemeMode) {
         <text class="info-value">{{ APP_VERSION }}</text>
       </view>
       <text class="note">
-        AeroTools 民航工具箱 · 面向机长/副驾驶的航前准备工具。核心功能完全离线可用。
+        AeroTools 航枢 · 面向机长/副驾驶的航前准备工具。核心功能完全离线可用。
         本应用数据仅供参考，请以民航局及相关官方发布的航行资料为准。
       </text>
     </view>

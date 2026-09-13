@@ -2,7 +2,7 @@
   "pages": [
     {
       "path": "pages/home/home",
-      "style": { "navigationBarTitleText": "AeroTools 民航工具箱" }
+      "style": { "navigationBarTitleText": "" }
     },
     {
       "path": "pages/time-calc/time-calc",
@@ -19,7 +19,7 @@
   ],
   "globalStyle": {
     "navigationBarTextStyle": "white",
-    "navigationBarTitleText": "AeroTools 民航工具箱",
+    "navigationBarTitleText": "航枢",
     "navigationBarBackgroundColor": "#2456E6",
     "backgroundColor": "#F5F7FA"
   }
