@@ -12,7 +12,10 @@ onLaunch(() => {
 })
 </script>
 
-<style>
+<style lang="scss">
+/* 字体:阿里巴巴普惠体 3.0 子集(官方授权永久免费商用),@font-face 由 scripts/make-font-subset.mjs 生成 */
+@import './styles/puhuiti.scss';
+
 /* ===== 主题令牌（参考 uiverse/galaxy 双模式风格：渐变、大圆角、柔和阴影） ===== */
 /* 每页根 view 绑定 .theme-light / .theme-dark，令牌从这里向下级联 */
 .theme-light {
@@ -55,6 +58,7 @@ onLaunch(() => {
 page {
   background: #f5f7fa;
   font-size: 28rpx;
+  font-family: 'PuHuiTi', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
 }
 view, text, input, button {
   box-sizing: border-box;

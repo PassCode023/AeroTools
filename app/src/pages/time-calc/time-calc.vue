@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { onShow } from '@dcloudio/uni-app'
+import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import {
   type TimeValue,
   type TimeKind,
@@ -15,6 +15,13 @@ import {
 import { loadHistory, addHistory, clearHistory, type HistoryEntry } from '../../utils/calcHistory'
 import { useTheme, syncNavBar } from '../../utils/theme'
 import NumKeypad from '../../components/num-keypad.vue'
+
+// 声明后右上角胶囊菜单才出现"转发给朋友/分享到朋友圈"
+onShareAppMessage(() => ({
+  title: '航枢 · 航班时刻加减，多步连续运算',
+  path: '/pages/time-calc/time-calc',
+}))
+onShareTimeline(() => ({ title: '航枢 · 航班时刻加减，多步连续运算' }))
 
 const { themeClass } = useTheme()
 

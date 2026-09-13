@@ -1,8 +1,15 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { onShow } from '@dcloudio/uni-app'
+import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { currentInfo, type DbInfo } from '../../utils/db'
 import { useTheme, syncNavBar } from '../../utils/theme'
+
+// 声明后右上角胶囊菜单才出现"转发给朋友/分享到朋友圈"
+onShareAppMessage(() => ({
+  title: '航枢 AeroTools · 时间与航路，尽在掌握',
+  path: '/pages/home/home',
+}))
+onShareTimeline(() => ({ title: '航枢 AeroTools · 时间与航路，尽在掌握' }))
 
 const { themeClass } = useTheme()
 
@@ -52,8 +59,13 @@ function goSettings() {
       <view class="hero-nav">
         <view class="gear-btn" aria-label="设置" @tap="goSettings"></view>
       </view>
-      <text class="logo">AeroTools</text>
-      <text class="subtitle">航枢</text>
+      <view class="brand">
+        <image class="brand-logo" src="/static/logo.png" mode="aspectFill" />
+        <view class="brand-text">
+          <text class="logo">AeroTools</text>
+          <text class="subtitle">航枢</text>
+        </view>
+      </view>
       <view class="hero-badge">
         <text>时间与航路，尽在掌握</text>
       </view>
@@ -138,6 +150,26 @@ function goSettings() {
   background-position: center;
   background-size: 44rpx 44rpx;
   background-repeat: no-repeat;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+  position: relative;
+  z-index: 1;
+}
+.brand-logo {
+  width: 112rpx;
+  height: 112rpx;
+  border-radius: 50%;
+  /* 白色描边让云天底图成为徽章面，在深色渐变上形成正式徽章感 */
+  border: 4rpx solid rgba(255, 255, 255, 0.55);
+  box-shadow: 0 6rpx 20rpx rgba(15, 23, 42, 0.28);
+  background: #bae3f5;
+}
+.brand-text {
+  display: flex;
+  flex-direction: column;
 }
 .logo {
   font-size: 68rpx;

@@ -1,9 +1,16 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { onShow } from '@dcloudio/uni-app'
+import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { searchAirports, type Airport } from '../../utils/airportSearch'
 import { loadDb } from '../../utils/db'
 import { useTheme, syncNavBar } from '../../utils/theme'
+
+// 声明后右上角胶囊菜单才出现"转发给朋友/分享到朋友圈"
+onShareAppMessage(() => ({
+  title: '航枢 · 机场信息速查（IATA / ICAO / 中文名 / 城市）',
+  path: '/pages/airport-search/airport-search',
+}))
+onShareTimeline(() => ({ title: '航枢 · 机场信息速查' }))
 
 const { themeClass } = useTheme()
 

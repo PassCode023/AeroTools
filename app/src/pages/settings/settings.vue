@@ -1,10 +1,17 @@
 <script setup lang="ts">
-import { onShow } from '@dcloudio/uni-app'
+import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { computed, ref } from 'vue'
 import { currentInfo, bundledInfo, type DbInfo } from '../../utils/db'
 import { checkAndPrompt, type UpdateStatus } from '../../utils/updater'
 import { APP_VERSION, FEEDBACK_URL } from '../../config'
 import { useTheme, syncNavBar, type ThemeMode } from '../../utils/theme'
+
+// 声明后右上角胶囊菜单才出现"转发给朋友/分享到朋友圈"
+onShareAppMessage(() => ({
+  title: '航枢 AeroTools · 面向大众的航空查询工具集',
+  path: '/pages/home/home',
+}))
+onShareTimeline(() => ({ title: '航枢 AeroTools · 面向大众的航空查询工具集' }))
 
 const { themeClass, mode, setTheme } = useTheme()
 
@@ -136,12 +143,19 @@ function pickTheme(m: ThemeMode) {
     <!-- 关于 -->
     <view class="card section">
       <text class="card-title">关于</text>
+      <view class="about-head">
+        <image class="about-logo" src="/static/logo.png" mode="aspectFill" />
+        <view class="about-name">
+          <text class="about-title">AeroTools 航枢</text>
+          <text class="about-slogan">时间与航路，尽在掌握</text>
+        </view>
+      </view>
       <view class="info-row">
         <text class="info-label">应用版本</text>
         <text class="info-value">{{ APP_VERSION }}</text>
       </view>
       <text class="note">
-        AeroTools 航枢 · 面向机长/副驾驶的航前准备工具。核心功能完全离线可用。
+        AeroTools 航枢 · 面向大众的航空查询工具集。核心功能完全离线可用。
         本应用数据仅供参考，请以民航局及相关官方发布的航行资料为准。
       </text>
     </view>
@@ -167,6 +181,33 @@ function pickTheme(m: ThemeMode) {
   color: var(--at-text);
   margin-bottom: 20rpx;
   display: block;
+}
+.about-head {
+  display: flex;
+  align-items: center;
+  gap: 24rpx;
+  margin-bottom: 24rpx;
+}
+.about-logo {
+  width: 132rpx;
+  height: 132rpx;
+  border-radius: 28rpx;
+  border: 1rpx solid var(--at-border);
+  box-shadow: var(--at-shadow);
+}
+.about-name {
+  display: flex;
+  flex-direction: column;
+}
+.about-title {
+  font-size: 34rpx;
+  font-weight: 700;
+  color: var(--at-text);
+}
+.about-slogan {
+  margin-top: 6rpx;
+  font-size: 24rpx;
+  color: var(--at-sub);
 }
 .theme-switch {
   display: flex;

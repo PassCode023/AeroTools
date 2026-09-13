@@ -30,8 +30,12 @@
     },
     "mp-weixin" : {
         "appid" : "wxa4e40aaa5503d167",
+        "lazyCodeLoading" : "requiredComponents",
         "setting" : {
-            "urlCheck" : false
+            "urlCheck" : false,
+            "minified" : true,
+            "minifyWXML" : true,
+            "minifyWXSS" : true
         },
         "usingComponents" : true
     },
