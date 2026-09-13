@@ -80,7 +80,8 @@ clean.sort(
 )
 
 // 4. 产出
-const updatedAt = now.toISOString().slice(0, 19).replace('T', ' ')
+const pad = (n) => String(n).padStart(2, '0')
+const updatedAt = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`
 const count = clean.length
 
 const dbVersion = { version, count, updatedAt }

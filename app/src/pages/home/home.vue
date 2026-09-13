@@ -1,13 +1,12 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
 import { onShow } from '@dcloudio/uni-app'
-import { loadDb, currentVersion } from '../../utils/db'
+import { currentInfo, type DbInfo } from '../../utils/db'
 import { useTheme, syncNavBar } from '../../utils/theme'
 
 const { themeClass } = useTheme()
 
-const dbVersion = ref('')
-const dbCount = ref(0)
+const dbInfo = ref<DbInfo>({ version: '', count: 0, updatedAt: '', fromRemote: false })
 
 // 自定义导航后内容顶到状态栏下：非 H5 端补状态栏 + 胶囊区高度（小程序胶囊约 44px）
 const heroTop = ref(0)
@@ -27,8 +26,13 @@ try {
 
 onShow(() => {
   syncNavBar()
-  dbVersion.value = currentVersion()
-  dbCount.value = loadDb().length
+  // 每次回到首页实时刷新数据库信息（设置页更新后返回即见最新）
+  dbInfo.value = currentInfo()
+})
+
+const updatedShort = computed(() => {
+  const t = dbInfo.value.updatedAt
+  return t.startsWith(String(new Date().getFullYear()) + '-') ? t.slice(5) : t
 })
 
 function goTimeCalc() {
@@ -45,6 +49,9 @@ function goSettings() {
 <template>
   <view class="page at-page" :class="themeClass">
     <view class="hero" :style="heroTop ? { paddingTop: heroTop + 'px' } : {}">
+      <view class="hero-nav">
+        <view class="gear-btn" aria-label="设置" @tap="goSettings"></view>
+      </view>
       <text class="logo">AeroTools</text>
       <text class="subtitle">航枢</text>
       <view class="hero-badge">
@@ -79,11 +86,11 @@ function goSettings() {
     <view class="db-card" @tap="goSettings">
       <view class="db-row">
         <text class="db-label">机场数据库</text>
-        <text class="db-version">{{ dbVersion }}</text>
+        <text class="db-version">{{ dbInfo.version }}</text>
       </view>
       <view class="db-row sub">
-        <text class="db-sub">{{ dbCount }} 家机场 · 离线可用</text>
-        <text class="db-sub">更新与设置 ›</text>
+        <text class="db-sub">{{ dbInfo.count }} 家机场 · 更新于 {{ updatedShort }}</text>
+        <text class="db-sub offline">离线可用</text>
       </view>
     </view>
   </view>
@@ -95,7 +102,7 @@ function goSettings() {
 }
 .hero {
   margin: 0 -32rpx;
-  padding: 72rpx 48rpx 88rpx;
+  padding: 40rpx 48rpx 88rpx;
   background: var(--at-hero-grad);
   border-radius: 0 0 48rpx 48rpx;
   display: flex;
@@ -114,16 +121,36 @@ function goSettings() {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.12);
 }
+.hero-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 8rpx;
+  position: relative;
+  z-index: 1;
+}
+.gear-btn {
+  width: 72rpx;
+  height: 72rpx;
+  margin: -12rpx -12rpx 0 0;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00xOS4xNCAxMi45NGMuMDQtLjMuMDYtLjYxLjA2LS45NCAwLS4zMi0uMDItLjY0LS4wNy0uOTRsMi4wMy0xLjU4Yy4xOC0uMTQuMjMtLjQxLjEyLS42MWwtMS45Mi0zLjMyYy0uMTItLjIyLS4zNy0uMjktLjU5LS4yMmwtMi4zOS45NmMtLjUtLjM4LTEuMDMtLjctMS42Mi0uOTRMMTQuNCAyLjgxYy0uMDQtLjI0LS4yNC0uNDEtLjQ4LS40MWgtMy44NGMtLjI0IDAtLjQzLjE3LS40Ny40MUw5LjI1IDUuMzVDOC42NiA1LjU5IDguMTIgNS45MiA3LjYzIDYuMjlMNS4yNCA1LjMzYy0uMjItLjA4LS40NyAwLS41OS4yMkwyLjc0IDguODdjLS4xMi4yMS0uMDguNDcuMTIuNjFsMi4wMyAxLjU4Yy0uMDUuMy0uMDkuNjMtLjA5Ljk0cy4wMi42NC4wNy45NGwtMi4wMyAxLjU4Yy0uMTguMTQtLjIzLjQxLS4xMi42MWwxLjkyIDMuMzJjLjEyLjIyLjM3LjI5LjU5LjIybDIuMzktLjk2Yy41LjM4IDEuMDMuNyAxLjYyLjk0bC4zNiAyLjU0Yy4wNS4yNC4yNC40MS40OC40MWgzLjg0Yy4yNCAwIC40NC0uMTcuNDctLjQxbC4zNi0yLjU0Yy41OS0uMjQgMS4xMy0uNTYgMS42Mi0uOTRsMi4zOS45NmMuMjIuMDguNDcgMCAuNTktLjIybDEuOTItMy4zMmMuMTItLjIyLjA3LS40Ny0uMTItLjYxbC0yLjAxLTEuNTh6TTEyIDE1LjZjLTEuOTggMC0zLjYtMS42Mi0zLjYtMy42czEuNjItMy42IDMuNi0zLjYgMy42IDEuNjIgMy42IDMuNi0xLjYyIDMuNi0zLjYgMy42eicvPjwvc3ZnPg==);
+  background-position: center;
+  background-size: 44rpx 44rpx;
+  background-repeat: no-repeat;
+}
 .logo {
   font-size: 68rpx;
   font-weight: 800;
   color: #ffffff;
   letter-spacing: 2rpx;
+  position: relative;
+  z-index: 1;
 }
 .subtitle {
   margin-top: 10rpx;
   font-size: 32rpx;
   color: rgba(255, 255, 255, 0.85);
+  position: relative;
+  z-index: 1;
 }
 .hero-badge {
   margin-top: 28rpx;
@@ -133,6 +160,8 @@ function goSettings() {
   background: rgba(255, 255, 255, 0.18);
   color: #ffffff;
   font-size: 24rpx;
+  position: relative;
+  z-index: 1;
 }
 
 .entries {
@@ -217,5 +246,8 @@ function goSettings() {
 .db-sub {
   font-size: 24rpx;
   color: var(--at-weak);
+}
+.db-sub.offline {
+  color: var(--at-success);
 }
 </style>

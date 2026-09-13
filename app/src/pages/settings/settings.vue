@@ -1,16 +1,15 @@
 <script setup lang="ts">
 import { onShow } from '@dcloudio/uni-app'
 import { computed, ref } from 'vue'
-import { loadDb, currentVersion, bundledInfo, isRemoteDb } from '../../utils/db'
+import { currentInfo, bundledInfo, type DbInfo } from '../../utils/db'
 import { checkAndPrompt, type UpdateStatus } from '../../utils/updater'
 import { APP_VERSION, FEEDBACK_URL } from '../../config'
 import { useTheme, syncNavBar, type ThemeMode } from '../../utils/theme'
 
 const { themeClass, mode, setTheme } = useTheme()
 
-const dbCount = ref(0)
+const dbInfo = ref<DbInfo>({ version: '', count: 0, updatedAt: '', fromRemote: false })
 const bundledVer = bundledInfo()
-const remote = ref(false)
 
 const status = ref<UpdateStatus>({ state: 'idle' })
 const checking = computed(() => status.value.state === 'checking' || status.value.state === 'downloading')
@@ -43,8 +42,7 @@ function openFeedback(): void {
 
 onShow(() => {
   syncNavBar()
-  dbCount.value = loadDb().length
-  remote.value = isRemoteDb()
+  dbInfo.value = currentInfo()
 })
 
 async function manualCheck() {
@@ -52,8 +50,7 @@ async function manualCheck() {
     onStatus: (st) => (status.value = st),
   })
   if (s.state === 'success') {
-    dbCount.value = loadDb().length
-    remote.value = isRemoteDb()
+    dbInfo.value = currentInfo()
     uni.showToast({ title: `已更新到 ${s.version}`, icon: 'success' })
   }
 }
@@ -73,7 +70,7 @@ const statusText = computed(() => {
     case 'not-configured':
       return '未配置更新服务（当前使用内置数据库）'
     default:
-      return remote.value ? '已使用在线更新的数据库' : '使用内置数据库'
+      return dbInfo.value.fromRemote ? '已使用在线更新的数据库' : '使用内置数据库'
   }
 })
 
@@ -102,11 +99,15 @@ function pickTheme(m: ThemeMode) {
       <text class="card-title">机场数据库</text>
       <view class="info-row">
         <text class="info-label">当前版本</text>
-        <text class="info-value">{{ currentVersion() }}{{ remote ? '（在线更新）' : '' }}</text>
+        <text class="info-value">{{ dbInfo.version }}{{ dbInfo.fromRemote ? '（在线更新）' : '' }}</text>
       </view>
       <view class="info-row">
         <text class="info-label">机场数量</text>
-        <text class="info-value">{{ dbCount }} 家</text>
+        <text class="info-value">{{ dbInfo.count }} 家</text>
+      </view>
+      <view class="info-row">
+        <text class="info-label">更新时间</text>
+        <text class="info-value">{{ dbInfo.updatedAt }}</text>
       </view>
       <view class="info-row">
         <text class="info-label">内置版本</text>

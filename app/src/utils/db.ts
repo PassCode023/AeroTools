@@ -50,6 +50,27 @@ export function isRemoteDb(): boolean {
   return !!meta && compareVersion(meta.version, bundledVersion.version) >= 0
 }
 
+export interface DbInfo {
+  version: string
+  count: number
+  updatedAt: string
+  fromRemote: boolean
+}
+
+/** 当前生效数据库的完整信息（版本/条数/更新时间/来源），供首页实时展示 */
+export function currentInfo(): DbInfo {
+  const meta = getItem<DbMeta>(META_KEY)
+  if (meta && compareVersion(meta.version, bundledVersion.version) >= 0) {
+    return { version: meta.version, count: meta.count, updatedAt: meta.updatedAt, fromRemote: true }
+  }
+  return {
+    version: bundledVersion.version,
+    count: bundledVersion.count,
+    updatedAt: bundledVersion.updatedAt,
+    fromRemote: false,
+  }
+}
+
 /** 加载生效数据库（带模块级缓存） */
 export function loadDb(): Airport[] {
   if (cache) return cache
