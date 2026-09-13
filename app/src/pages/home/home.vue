@@ -32,7 +32,7 @@ function goSettings() {
       <text class="logo">AeroTools</text>
       <text class="subtitle">民航工具箱</text>
       <view class="hero-badge">
-        <text>离线可用 · 飞行前准备</text>
+        <text>时间与航路，尽在掌握</text>
       </view>
     </view>
 
