@@ -2,7 +2,7 @@
   "pages": [
     {
       "path": "pages/home/home",
-      "style": { "navigationBarTitleText": "" }
+      "style": { "navigationStyle": "custom", "navigationBarTitleText": "" }
     },
     {
       "path": "pages/time-calc/time-calc",

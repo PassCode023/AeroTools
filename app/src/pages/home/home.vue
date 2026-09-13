@@ -9,6 +9,22 @@ const { themeClass } = useTheme()
 const dbVersion = ref('')
 const dbCount = ref(0)
 
+// 自定义导航后内容顶到状态栏下：非 H5 端补状态栏 + 胶囊区高度（小程序胶囊约 44px）
+const heroTop = ref(0)
+// #ifndef H5
+try {
+  const sys = uni.getSystemInfoSync()
+  // #ifdef MP-WEIXIN
+  heroTop.value = (sys.statusBarHeight || 20) + 48
+  // #endif
+  // #ifdef APP-PLUS
+  heroTop.value = (sys.statusBarHeight || 0) + 16
+  // #endif
+} catch {
+  heroTop.value = 60
+}
+// #endif
+
 onShow(() => {
   syncNavBar()
   dbVersion.value = currentVersion()
@@ -28,7 +44,7 @@ function goSettings() {
 
 <template>
   <view class="page at-page" :class="themeClass">
-    <view class="hero">
+    <view class="hero" :style="heroTop ? { paddingTop: heroTop + 'px' } : {}">
       <text class="logo">AeroTools</text>
       <text class="subtitle">航枢</text>
       <view class="hero-badge">
