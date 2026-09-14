@@ -1,0 +1,5 @@
+== 构建证据 2026-09-14 19:26:49 ==
+H5: 1 DONE
+710	dist/build/mp-weixin
+794	dist/build/h5
+1441	dist/build/app

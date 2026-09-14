@@ -1,6 +1,6 @@
 {
   "name": "aerotools",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AeroTools 民航工具箱 — 时间计算 + 机场查询（Android/iOS/微信小程序）",
   "scripts": {
     "dev:h5": "uni",
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "@dcloudio/types": "^3.4.8",
+    "@types/node": "^20.14.0",
     "@dcloudio/uni-cli-shared": "3.0.0-5020420260813003",
     "@dcloudio/uni-stacktracey": "3.0.0-5020420260813003",
     "@dcloudio/vite-plugin-uni": "3.0.0-5020420260813003",

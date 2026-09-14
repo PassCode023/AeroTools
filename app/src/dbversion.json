@@ -1,9 +1,34 @@
 {
-  "version": "2026.9.1",
-  "count": 519,
-  "updatedAt": "2026-09-14 13:30",
-  "source": "https://github.com/mborsetti/airportsdata\nhttps://github.com/davidmegginson/ourairports-data",
-  "dataAsOf": "2026-09-13",
+  "version": "2026.9.2",
+  "count": 553,
+  "updatedAt": "2026-09-14 19:24",
+  "sources": [
+    {
+      "name": "airportsdata",
+      "url": "https://github.com/mborsetti/airportsdata",
+      "license": "MIT",
+      "usage": "机场基础字段（代码/英文名/坐标/时区/海拔）"
+    },
+    {
+      "name": "ourairports-data",
+      "url": "https://github.com/davidmegginson/ourairports-data",
+      "license": "Unlicense",
+      "usage": "基础字段交叉核对与补齐"
+    },
+    {
+      "name": "caac",
+      "url": "https://www.caac.gov.cn/GYMH/MHGK/MYJC/",
+      "license": "政府公开信息（仅人工事实核对与引用）",
+      "usage": "境内 270 机场名录核对与更名"
+    }
+  ],
+  "dataAsOf": "2026-09-14",
+  "verifiedAt": "2026-09-14",
+  "coverage": {
+    "expected": 270,
+    "matched": 270,
+    "asOf": "2025-12-31"
+  },
   "completeness": {
     "iata": 100,
     "icao": 97,
@@ -13,7 +38,7 @@
     "cityEn": 100,
     "lat": 100,
     "lng": 100,
-    "elevM": 9,
+    "elevM": 13,
     "tz": 100
   }
 }

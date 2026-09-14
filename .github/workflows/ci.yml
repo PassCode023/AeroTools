@@ -1,0 +1,33 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+# 最小 CI（迭代计划 §4.5）：只读仓库数据，不下载或刷新任何外部机场数据；
+# 依赖安装仅限 package-lock 锁定的开源 npm 包。
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - name: 机场数据契约与全部测试（vitest，含 caacRef 270 门禁）
+        run: npm test
+      - name: TypeScript 类型检查（src + tests）
+        run: npm run type-check
+      - name: H5 资源构建
+        run: npm run build:h5
+      - name: 微信小程序资源构建
+        run: npm run build:mp-weixin
+      - name: APP 资源构建
+        run: npm run build:app

@@ -6,17 +6,19 @@
  */
 
 export interface Airport {
-  iata: string
-  icao: string
+  iata?: string
+  icao?: string
   nameZh: string
-  nameEn: string
-  cityZh: string
-  cityEn: string
+  nameEn?: string
+  cityZh?: string
+  cityEn?: string
   country: string
-  lat: number
-  lng: number
-  tz: string
+  lat?: number
+  lng?: number
+  tz?: string
   elevM?: number
+  /** 曾用名（v1.0.2 起，民航局名录确认更名后的旧名） */
+  aliases?: string[]
 }
 
 /** 相关度分值：越小越靠前 */
@@ -42,8 +44,8 @@ export function searchAirports(list: Airport[], query: string, limit = 50): Airp
   const scored: { a: Airport; s: number; i: number }[] = []
   for (let i = 0; i < list.length; i++) {
     const a = list[i]
-    const iata = a.iata.toLowerCase()
-    const icao = a.icao.toLowerCase()
+    const iata = (a.iata || '').toLowerCase()
+    const icao = (a.icao || '').toLowerCase()
     let s = Number.POSITIVE_INFINITY
     if (iata && iata === qLower) s = SCORE.IATA_EXACT
     else if (iata && iata.startsWith(qLower)) s = SCORE.IATA_PREFIX
@@ -51,7 +53,7 @@ export function searchAirports(list: Airport[], query: string, limit = 50): Airp
     else if (iata && iata.includes(qLower)) s = SCORE.IATA_INCLUDES
     else if (icao && icao.includes(qLower)) s = SCORE.ICAO_INCLUDES
     else if (a.nameZh.includes(trimmed)) s = SCORE.NAME_ZH
-    else if (a.cityZh.includes(trimmed)) s = SCORE.CITY_ZH
+    else if ((a.cityZh || '').includes(trimmed)) s = SCORE.CITY_ZH
     if (s !== Number.POSITIVE_INFINITY) scored.push({ a, s, i })
   }
   scored.sort((x, y) => x.s - y.s || x.i - y.i)

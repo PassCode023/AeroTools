@@ -1,0 +1,6 @@
+[2m      Tests [22m [1m[32m104 passed[39m[22m[90m (104)[39m
+[2m   Start at [22m 19:26:45
+[2m   Duration [22m 422ms[2m (transform 337ms, setup 0ms, collect 544ms, tests 104ms, environment 1ms, prepare 791ms)[22m
+
+> vue-tsc --noEmit
+

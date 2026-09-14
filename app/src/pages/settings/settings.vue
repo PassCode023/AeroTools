@@ -24,10 +24,14 @@ const updateConfigured = !!DB_UPDATE_BASE_URL
 const status = ref<UpdateStatus>({ state: 'idle' })
 const checking = computed(() => status.value.state === 'checking' || status.value.state === 'downloading')
 
-/** 数据来源：两个上游开源数据集地址，逐行展示 */
-const sourceLines = computed(() =>
-  (dbInfo.value.source || '').split('\n').map((s) => s.trim()).filter(Boolean)
-)
+/** 数据来源（v1.0.2：结构化三来源，展示名称与用途；完整地址见项目仓库 SOURCES.md） */
+const sourceRows = computed(() => dbInfo.value.sources || [])
+
+/** 境内运输机场覆盖（民航局名录对账结果） */
+const coverageText = computed(() => {
+  const c = dbInfo.value.coverage
+  return c ? `${c.matched}/${c.expected}（截至 ${c.asOf}）` : ''
+})
 
 /** 复制反馈地址（小程序端的主要留言路径） */
 function copyFeedback(): void {
@@ -120,6 +124,10 @@ function pickTheme(m: ThemeMode) {
         <text class="info-label">机场数量</text>
         <text class="info-value">{{ dbInfo.count }} 家</text>
       </view>
+      <view v-if="coverageText" class="info-row">
+        <text class="info-label">境内运输机场</text>
+        <text class="info-value">{{ coverageText }}</text>
+      </view>
       <view class="info-row">
         <text class="info-label">资料截至</text>
         <text class="info-value">{{ dbInfo.dataAsOf || dbInfo.updatedAt }}</text>
@@ -143,7 +151,7 @@ function pickTheme(m: ThemeMode) {
       </template>
       <view class="note tight source-note">
         <text>数据来源：</text>
-        <text v-for="line in sourceLines" :key="line" class="source-url">{{ line }}</text>
+        <text v-for="s in sourceRows" :key="s.name" class="source-url">{{ s.name }} · {{ s.usage }}</text>
       </view>
     </view>
 

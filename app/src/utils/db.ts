@@ -20,10 +20,12 @@ const META_KEY = 'at:db:meta'
 const CHUNK_PREFIX = 'at:db:chunk:'
 const CHUNK_SIZE = 400
 
-/** 数据溯源信息（随库保存并在 UI 展示，评审 P0-2） */
+/** 数据溯源信息（随库保存并在 UI 展示，评审 P0-2；v1.0.2 起结构化） */
 export interface DbSourceInfo {
-  source?: string
+  sources?: Array<{ name: string; url: string; license: string; usage: string }>
   dataAsOf?: string
+  verifiedAt?: string
+  coverage?: { expected: number; matched: number; asOf: string }
   completeness?: Record<string, number>
 }
 
@@ -93,8 +95,10 @@ export function currentInfo(): DbInfo {
       count: meta.count,
       updatedAt: meta.updatedAt,
       fromRemote: true,
-      source: meta.source,
+      sources: meta.sources,
       dataAsOf: meta.dataAsOf,
+      verifiedAt: meta.verifiedAt,
+      coverage: meta.coverage,
       completeness: meta.completeness,
     }
   }
@@ -103,9 +107,11 @@ export function currentInfo(): DbInfo {
     count: bundledVersion.count,
     updatedAt: bundledVersion.updatedAt,
     fromRemote: false,
-    source: (bundledVersion as { source?: string }).source,
-    dataAsOf: (bundledVersion as { dataAsOf?: string }).dataAsOf,
-    completeness: (bundledVersion as { completeness?: Record<string, number> }).completeness,
+    sources: bundledVersion.sources,
+    dataAsOf: bundledVersion.dataAsOf,
+    verifiedAt: bundledVersion.verifiedAt,
+    coverage: bundledVersion.coverage,
+    completeness: bundledVersion.completeness,
   }
 }
 

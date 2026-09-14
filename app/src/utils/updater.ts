@@ -8,14 +8,23 @@ import { DB_UPDATE_BASE_URL } from '../config'
 import { compareVersion, currentVersion, saveDb, bundledInfo } from './db'
 import type { Airport } from './airportSearch'
 
+export interface ManifestSource {
+  name: string
+  url: string
+  license: string
+  usage: string
+}
+
 export interface Manifest {
   version: string
   count: number
   updatedAt: string
   file: string
-  /** 数据溯源（评审 P0-2）：来源署名 / 资料截至日期 / 字段完整率（%） */
-  source?: string
+  /** 数据溯源（v1.0.2 起结构化，与内置 dbversion.json 同构） */
+  sources?: ManifestSource[]
   dataAsOf?: string
+  verifiedAt?: string
+  coverage?: { expected: number; matched: number; asOf: string }
   completeness?: Record<string, number>
 }
 
@@ -72,14 +81,14 @@ export async function checkForUpdate(): Promise<UpdateStatus> {
 }
 
 /**
- * 下载数据包的逐字段结构校验（评审 P0-3）：
- * 数组、条数与清单一致、必填字段、坐标范围、代码至少其一。
+ * 下载数据包的结构校验（与内置数据契约一致，v1.0.2 起）：
+ * 数组、条数与清单一致、仅中文名与国家必填；坐标存在时须为合法数字。
  * 校验失败抛错，由调用方转为用户可见错误；旧库不受影响。
  */
 export function validateAirportData(data: unknown, expectedCount: number): Airport[] {
   if (!Array.isArray(data)) throw new Error('数据包校验失败（非数组）')
   if (data.length !== expectedCount) throw new Error('数据包校验失败（条数不符）')
-  const required = ['nameZh', 'nameEn', 'cityZh', 'cityEn', 'country', 'tz'] as const
+  const required = ['nameZh', 'country'] as const
   for (const r of data) {
     const a = r as Record<string, unknown>
     for (const k of required) {
@@ -87,13 +96,12 @@ export function validateAirportData(data: unknown, expectedCount: number): Airpo
         throw new Error(`数据包校验失败（记录缺少 ${k}）`)
       }
     }
-    if (typeof a.lat !== 'number' || a.lat < -90 || a.lat > 90) {
+    if (a.lat !== undefined && (typeof a.lat !== 'number' || a.lat < -90 || a.lat > 90)) {
       throw new Error('数据包校验失败（坐标非法）')
     }
-    if (typeof a.lng !== 'number' || a.lng < -180 || a.lng > 180) {
+    if (a.lng !== undefined && (typeof a.lng !== 'number' || a.lng < -180 || a.lng > 180)) {
       throw new Error('数据包校验失败（坐标非法）')
     }
-    if (!a.iata && !a.icao) throw new Error('数据包校验失败（记录缺少 IATA/ICAO 代码）')
   }
   return data as Airport[]
 }
@@ -103,8 +111,10 @@ export async function downloadAndApply(manifest: Manifest): Promise<boolean> {
   const data = await request<unknown>(`${DB_UPDATE_BASE_URL}/${manifest.file}`, 30000)
   const airports = validateAirportData(data, manifest.count)
   return saveDb(airports, manifest.version, manifest.updatedAt, {
-    source: manifest.source,
+    sources: manifest.sources,
     dataAsOf: manifest.dataAsOf,
+    verifiedAt: manifest.verifiedAt,
+    coverage: manifest.coverage,
     completeness: manifest.completeness,
   })
 }

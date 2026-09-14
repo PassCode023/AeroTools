@@ -32,7 +32,10 @@ vi.mock('../src/static/airports.json', () => ({
 vi.mock('../src/dbversion.json', () => ({
   default: {
     version: '2026.9.1', count: 1, updatedAt: '2026-09-13 16:12',
-    source: '测试来源', dataAsOf: '2026-09-13', completeness: { iata: 100 },
+    sources: [{ name: 'caac', url: 'https://example.com', license: 'l', usage: 'u' }],
+    dataAsOf: '2026-09-13', verifiedAt: '2026-09-13',
+    coverage: { expected: 270, matched: 270, asOf: '2025-12-31' },
+    completeness: { iata: 100 },
   },
 }))
 
@@ -62,7 +65,7 @@ beforeEach(() => {
 describe('saveDb 原子写入（P0-3）', () => {
   it('成功后 meta 写入且分块带版本号，loadDb/currentInfo 生效', () => {
     const data = makeAirports(901) // 901/400 → 3 块
-    expect(saveDb(data, '2026.10.1', '2026-10-01 10:00', { source: 's', dataAsOf: '2026-10-01' })).toBe(true)
+    expect(saveDb(data, '2026.10.1', '2026-10-01 10:00', { dataAsOf: '2026-10-01' })).toBe(true)
     expect(currentVersion()).toBe('2026.10.1')
     expect(currentInfo().fromRemote).toBe(true)
     expect(currentInfo().count).toBe(901)
@@ -124,14 +127,17 @@ describe('saveDb 原子写入（P0-3）', () => {
     expect(loadDb()).toHaveLength(1)
   })
 
-  it('currentInfo 透传数据来源/资料截至/完整率', () => {
-    expect(currentInfo().source).toBe('测试来源')
+  it('currentInfo 透传数据来源/资料截至/完整率/覆盖', () => {
+    expect(currentInfo().sources?.[0]?.name).toBe('caac')
     expect(currentInfo().dataAsOf).toBe('2026-09-13')
+    expect(currentInfo().coverage).toEqual({ expected: 270, matched: 270, asOf: '2025-12-31' })
     expect(saveDb(makeAirports(10), '2026.10.1', '2026-10-01 10:00', {
-      source: '新来源', dataAsOf: '2026-10-01', completeness: { iata: 99 },
+      sources: [{ name: 'n2', url: 'u2', license: 'l2', usage: 'p2' }],
+      dataAsOf: '2026-10-01',
+      completeness: { iata: 99 },
     })).toBe(true)
     const info = currentInfo()
-    expect(info.source).toBe('新来源')
+    expect(info.sources?.[0]?.name).toBe('n2')
     expect(info.dataAsOf).toBe('2026-10-01')
     expect(info.completeness).toEqual({ iata: 99 })
   })

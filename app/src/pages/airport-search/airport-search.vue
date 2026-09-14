@@ -2,6 +2,7 @@
 import { computed, ref } from 'vue'
 import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { searchAirports, type Airport } from '../../utils/airportSearch'
+import { dash } from '../../utils/display'
 import { loadDb } from '../../utils/db'
 import { useTheme, syncNavBar } from '../../utils/theme'
 
@@ -47,6 +48,12 @@ function toggleDetail(a: Airport) {
 }
 const fmtCoord = (v: number, pos: string, neg: string): string =>
   `${Math.abs(v).toFixed(2)}°${v >= 0 ? pos : neg}`
+// v1.0.2 降级显示：缺失统一 —；曾用名（民航局确认更名的旧名）仅有值时展示
+const coordText = (a: Airport): string =>
+  a.lat === undefined || a.lng === undefined
+    ? '—'
+    : `${fmtCoord(a.lat, 'N', 'S')}，${fmtCoord(a.lng, 'E', 'W')}`
+const elevText = (a: Airport): string => (a.elevM === undefined ? '—' : `${a.elevM} 米`)
 </script>
 
 <template>
@@ -91,25 +98,29 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
           </view>
           <view class="names">
             <text class="name">{{ a.nameZh }}</text>
-            <text class="city">{{ a.cityZh }} · {{ a.country }}</text>
+            <text class="city">{{ dash(a.cityZh) }} · {{ a.country }}</text>
           </view>
         </view>
         <view v-if="expandedKey === `${a.iata}|${a.icao}`" class="detail">
-          <view v-if="a.nameEn" class="d-row">
+          <view class="d-row">
             <text class="d-label">英文名</text>
-            <text class="d-value">{{ a.nameEn }}</text>
+            <text class="d-value">{{ dash(a.nameEn) }}</text>
+          </view>
+          <view v-if="a.aliases && a.aliases.length" class="d-row">
+            <text class="d-label">曾用名</text>
+            <text class="d-value">{{ a.aliases.join('、') }}</text>
           </view>
           <view class="d-row">
             <text class="d-label">坐标</text>
-            <text class="d-value">{{ fmtCoord(a.lat, 'N', 'S') }}，{{ fmtCoord(a.lng, 'E', 'W') }}</text>
+            <text class="d-value">{{ coordText(a) }}</text>
           </view>
           <view class="d-row">
             <text class="d-label">时区</text>
-            <text class="d-value">{{ a.tz }}</text>
+            <text class="d-value">{{ dash(a.tz) }}</text>
           </view>
-          <view v-if="a.elevM !== undefined" class="d-row">
+          <view class="d-row">
             <text class="d-label">海拔</text>
-            <text class="d-value">{{ a.elevM }} 米</text>
+            <text class="d-value">{{ elevText(a) }}</text>
           </view>
         </view>
       </button>
