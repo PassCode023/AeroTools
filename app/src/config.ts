@@ -8,8 +8,8 @@
  */
 export const DB_UPDATE_BASE_URL = ''
 
-/** APP 版本（与 manifest.json 保持一致） */
-export const APP_VERSION = '1.0.2'
+/** APP 版本（与 manifest.json 保持一致，发版时三处同步：package.json / manifest.json / 本文件） */
+export const APP_VERSION = '1.1.1'
 
 /** 意见反馈地址（GitHub Issues，小程序端复制、APP/H5 端直接打开） */
 export const FEEDBACK_URL = 'https://github.com/PassCode023/AeroTools/issues'
