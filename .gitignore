@@ -3,3 +3,9 @@ project.private.config.json
 
 # ZCode 本地会话文件
 .zcode/
+
+# git worktree 本地工作区
+.worktrees/
+
+# 机场数据上游原始文件（仅本地保留，登记 SHA-256，不入库）
+airport-data/raw/
