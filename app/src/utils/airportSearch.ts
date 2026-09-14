@@ -1,9 +1,12 @@
 /**
  * 机场搜索核心（纯函数，禁止依赖 uni API，便于单测）
  *
- * 查询方向（问卷 Q13/Q14/Q15/Q16）：代码 → 机场 为主，同时支持
- * 中文机场名、中文城市名；输入即匹配；IATA 与 ICAO 同权重。
+ * v1.0.2：代码 → 机场为主，支持中文机场名/城市名，输入即匹配。
+ * v1.1.1（§6.1–§6.3）：构建期拼音字段（py 全拼 / pj 首字母）、英文名/城市、
+ * 曾用名进入搜索；查询归一化（大小写/全半角/空格/连字符/点号/拉丁重音）；
+ * 排序按 §6.3 六级优先级，同分保持数据库原始顺序；默认最多 50 条。
  */
+import { normalizeQuery } from './searchNormalize'
 
 export interface Airport {
   iata?: string
@@ -19,43 +22,68 @@ export interface Airport {
   elevM?: number
   /** 曾用名（v1.0.2 起，民航局名录确认更名后的旧名） */
   aliases?: string[]
+  /** 构建期全拼（段间 | 分隔：机场名/城市/曾用名），v1.1.1 */
+  py?: string
+  /** 构建期拼音首字母（段间 | 分隔，同上），v1.1.1 */
+  pj?: string
 }
 
-/** 相关度分值：越小越靠前 */
-const SCORE = {
-  IATA_EXACT: 0,
-  IATA_PREFIX: 1,
-  ICAO_PREFIX: 2,
-  IATA_INCLUDES: 3,
-  ICAO_INCLUDES: 4,
-  NAME_ZH: 5,
-  CITY_ZH: 6,
+/** 相关度层级（§6.3）：数值越小越靠前 */
+const TIER = {
+  CODE_EXACT: 1,
+  CODE_PREFIX: 2,
+  TEXT_EXACT: 3,
+  TEXT_PREFIX: 4,
+  INCLUDES: 5,
 } as const
 
+const Infinity_ = Number.POSITIVE_INFINITY
+
 /**
- * 实时匹配：IATA/ICAO（不区分大小写，前缀优先于包含），
- * 中文机场名/城市名（包含匹配）。按相关度排序，超出 limit 截断。
+ * 实时匹配并按 §6.3 排序；超出 limit 截断（默认 50）。
+ * 归一化对代码、中文名、英文、曾用名与拼音段一致生效。
  */
 export function searchAirports(list: Airport[], query: string, limit = 50): Airport[] {
-  const trimmed = query.trim()
-  if (!trimmed) return []
-  const qLower = trimmed.toLowerCase()
+  const q = normalizeQuery(query)
+  if (!q) return []
 
-  const scored: { a: Airport; s: number; i: number }[] = []
+  const scored: { a: Airport; tier: number; i: number }[] = []
   for (let i = 0; i < list.length; i++) {
     const a = list[i]
-    const iata = (a.iata || '').toLowerCase()
-    const icao = (a.icao || '').toLowerCase()
-    let s = Number.POSITIVE_INFINITY
-    if (iata && iata === qLower) s = SCORE.IATA_EXACT
-    else if (iata && iata.startsWith(qLower)) s = SCORE.IATA_PREFIX
-    else if (icao && icao.startsWith(qLower)) s = SCORE.ICAO_PREFIX
-    else if (iata && iata.includes(qLower)) s = SCORE.IATA_INCLUDES
-    else if (icao && icao.includes(qLower)) s = SCORE.ICAO_INCLUDES
-    else if (a.nameZh.includes(trimmed)) s = SCORE.NAME_ZH
-    else if ((a.cityZh || '').includes(trimmed)) s = SCORE.CITY_ZH
-    if (s !== Number.POSITIVE_INFINITY) scored.push({ a, s, i })
+    const codes: string[] = []
+    if (a.iata) codes.push(a.iata.toLowerCase())
+    if (a.icao) codes.push(a.icao.toLowerCase())
+
+    const texts: string[] = []
+    const push = (v?: string) => {
+      if (v) texts.push(normalizeQuery(v))
+    }
+    push(a.nameZh)
+    push(a.cityZh)
+    push(a.nameEn)
+    push(a.cityEn)
+    if (a.aliases) for (const alias of a.aliases) push(alias)
+
+    // py/pj 由构建期生成（小写、无分隔符），本身即归一化形态
+    const pySegs: string[] = []
+    if (a.py) for (const seg of a.py.split('|')) pySegs.push(seg)
+    if (a.pj) for (const seg of a.pj.split('|')) pySegs.push(seg)
+
+    let tier: number = Infinity_
+    if (codes.some((c) => c === q)) tier = TIER.CODE_EXACT
+    else if (codes.some((c) => c.startsWith(q))) tier = TIER.CODE_PREFIX
+    else if (texts.some((t) => t === q) || pySegs.some((t) => t === q)) tier = TIER.TEXT_EXACT
+    else if (texts.some((t) => t.startsWith(q)) || pySegs.some((t) => t.startsWith(q)))
+      tier = TIER.TEXT_PREFIX
+    else if (
+      codes.some((c) => c.includes(q)) ||
+      texts.some((t) => t.includes(q)) ||
+      pySegs.some((t) => t.includes(q))
+    )
+      tier = TIER.INCLUDES
+
+    if (tier !== Infinity_) scored.push({ a, tier, i })
   }
-  scored.sort((x, y) => x.s - y.s || x.i - y.i)
+  scored.sort((x, y) => x.tier - y.tier || x.i - y.i)
   return scored.slice(0, limit).map((x) => x.a)
 }

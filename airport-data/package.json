@@ -1,0 +1,1 @@
+{"name":"aerotools-airport-data","private":true,"description":"机场数据构建环境（完全离线构建，仅构建期依赖）","dependencies":{"pinyin-pro":"3.29.4"}}

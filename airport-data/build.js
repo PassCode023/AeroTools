@@ -14,6 +14,8 @@
  */
 const fs = require('fs')
 const path = require('path')
+// v1.1.1 §6.1：拼音仅构建期生成（pinyin-pro@3.29.4，MIT），不进入客户端运行依赖
+const { pinyin } = require('pinyin-pro')
 
 const ROOT = __dirname
 const now = new Date()
@@ -152,6 +154,72 @@ clean.sort(
     a.nameZh.localeCompare(b.nameZh, 'zh')
 )
 
+// 4.5 构建期拼音搜索字段（v1.1.1 §6.1）：py=全拼、pj=拼音首字母，
+// 段间 | 分隔（机场名/城市/曾用名），小写；客户端仅做字符串匹配，不含拼音库。
+const zhSegments = (r) => [r.nameZh, r.cityZh, ...(r.aliases || [])].filter(Boolean)
+const fullPy = (s) =>
+  pinyin(s, { toneType: 'none', type: 'array', nonZh: 'consecutive' }).join('').toLowerCase()
+const firstPy = (s) =>
+  pinyin(s, { pattern: 'first', toneType: 'none', type: 'array', nonZh: 'consecutive' })
+    .join('')
+    .toLowerCase()
+for (const r of clean) {
+  const segs = zhSegments(r)
+  r.py = segs.map(fullPy).join('|')
+  r.pj = segs.map(firstPy).join('|')
+}
+
+// 4.6 构建期时区偏移查表（v1.1.1 §6.4）：微信小程序 iOS 端 JSCore 的 Intl 时区支持
+// 不完整，偏移在构建期（本机 Node 含完整 ICU，过程离线）按天采样生成跳变表；
+// 客户端只查表，不依赖运行时 Intl。窗口外沿用端点偏移（显示用途可接受）。
+// 窗口自 2026-01-01 起：覆盖设备时钟略偏与"当前"回看场景，窗口前钳到端点
+const TZ_FROM = new Date(Date.UTC(2026, 0, 1))
+const TZ_TO = new Date(Date.UTC(2028, 11, 31))
+const dayNumUtc = (d) => d.getUTCFullYear() * 10000 + (d.getUTCMonth() + 1) * 100 + d.getUTCDate()
+const gmtPartToMinutes = (gmt) => {
+  // 'GMT+08:00' | 'GMT-04:30' | 'GMT'；返回"东经正"分钟数（UTC+8 → +480）
+  const m = /^GMT([+-])(\d{2}):(\d{2})$/.exec(gmt)
+  if (!m) return 0
+  return (m[1] === '+' ? 1 : -1) * (Number(m[2]) * 60 + Number(m[3]))
+}
+const tzNames = [...new Set(all.map((r) => r.tz).filter(Boolean))].sort()
+const zones = {}
+let tzFailed = 0
+for (const tz of tzNames) {
+  try {
+    const fmt = new Intl.DateTimeFormat('en-US', {
+      timeZone: tz,
+      timeZoneName: 'longOffset',
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    })
+    const offsetAt = (d) =>
+      gmtPartToMinutes(fmt.formatToParts(d).find((p) => p.type === 'timeZoneName').value)
+    const transitions = []
+    let prev = null
+    for (let t = TZ_FROM.getTime(); t <= TZ_TO.getTime(); t += 86400000) {
+      const d = new Date(t)
+      const off = offsetAt(d)
+      if (off !== prev) {
+        transitions.push([dayNumUtc(d), off])
+        prev = off
+      }
+    }
+    // 标准偏移 = 各偏移中的最小值：夏令时总是"拨快"使偏移增大（爱尔兰负夏令时
+    // 惯例下标准 GMT 同为最小），众数法在现代 tzdata（美国夏令时已占全年 ~66%）失效
+    let std = transitions[0][1]
+    for (const [, off] of transitions) {
+      if (off < std) std = off
+    }
+    zones[tz] = { std, t: transitions }
+  } catch {
+    tzFailed += 1
+    console.warn(`警告：时区 ${tz} 偏移生成失败，客户端将显示"当前偏移不可用"`)
+  }
+}
+const tzTransitions = Object.values(zones).reduce((n, z) => n + z.t.length, 0)
+
 // 5. 产出
 const pad = (n) => String(n).padStart(2, '0')
 const updatedAt = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`
@@ -171,6 +239,10 @@ fs.writeFileSync(
   path.join(ROOT, '..', 'app', 'src', 'static', 'airports.json'),
   JSON.stringify(clean)
 )
+fs.writeFileSync(
+  path.join(ROOT, '..', 'app', 'src', 'static', 'tzoffsets.json'),
+  JSON.stringify({ window: { from: dayNumUtc(TZ_FROM), to: dayNumUtc(TZ_TO) }, zones })
+)
 
 const distDir = path.join(ROOT, 'dist')
 fs.mkdirSync(distDir, { recursive: true })
@@ -188,6 +260,7 @@ fs.writeFileSync(
 const kb = (p) => (fs.statSync(p).size / 1024).toFixed(1) + 'KB'
 console.log('产出：')
 console.log(`  app/src/static/airports.json  (${kb(path.join(ROOT, '..', 'app', 'src', 'static', 'airports.json'))})`)
+console.log(`  app/src/static/tzoffsets.json  时区 ${Object.keys(zones).length} 个、跳变 ${tzTransitions} 条${tzFailed ? `（失败 ${tzFailed}）` : ''}`)
 console.log(`  app/src/dbversion.json        version=${version} count=${count} verifiedAt=${verifiedAt}`)
 console.log(`  dist/${dataFile} (${kb(path.join(distDir, dataFile))})`)
 console.log(`  dist/manifest.json`)

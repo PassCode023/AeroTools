@@ -90,7 +90,7 @@ function goSettings() {
         </view>
         <view class="entry-text">
           <text class="entry-title">机场查询</text>
-          <text class="entry-desc">IATA / ICAO / 中文名 / 城市</text>
+          <text class="entry-desc">代码 · 中文名 · 拼音 · 英文</text>
         </view>
         <text class="entry-arrow">›</text>
       </button>

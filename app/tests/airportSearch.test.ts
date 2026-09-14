@@ -83,6 +83,8 @@ describe('searchAirports', () => {
   })
   it('结果按相关度排序：同为前缀时按原始顺序', () => {
     const r = searchAirports(fixtures, 'P')
-    expect(r.map((a) => a.iata)).toEqual(['PEK', 'PKX', 'PVG'])
+    // v1.1.1 起英文名纳入搜索：fixtures 英文名含 "airport" 的记录以包含匹配（tier 5）
+    // 追加在后；代码前缀（tier 2）的 PEK/PKX/PVG 仍按原始顺序排在最前
+    expect(r.map((a) => a.iata).slice(0, 3)).toEqual(['PEK', 'PKX', 'PVG'])
   })
 })

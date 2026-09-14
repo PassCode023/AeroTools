@@ -1,8 +1,8 @@
 {
-  "version": "2026.9.2",
+  "version": "2026.9.3",
   "count": 553,
-  "updatedAt": "2026-09-14 23:35",
-  "file": "airports-2026.9.2.json",
+  "updatedAt": "2026-09-15 00:44",
+  "file": "airports-2026.9.3.json",
   "sources": [
     {
       "name": "airportsdata",
@@ -24,7 +24,7 @@
     }
   ],
   "dataAsOf": "2026-09-14",
-  "verifiedAt": "2026-09-14",
+  "verifiedAt": "2026-09-15",
   "coverage": {
     "expected": 270,
     "matched": 270,

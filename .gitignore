@@ -9,3 +9,6 @@ project.private.config.json
 
 # 机场数据上游原始文件（仅本地保留，登记 SHA-256，不入库）
 airport-data/raw/
+
+# 构建环境依赖（package.json/package-lock.json 入库，包体不入库）
+airport-data/node_modules/

@@ -1,0 +1,31 @@
+== v1.1.1 构建证据（2026-09-15） ==
+
+-- 数据管道 node:test:
+ℹ tests 20
+ℹ pass 20
+ℹ fail 0
+
+-- npm test (vitest):
+[2m Test Files [22m [1m[32m12 passed[39m[22m[90m (12)[39m
+[2m      Tests [22m [1m[32m186 passed[39m[22m[90m (186)[39m
+
+-- npm run type-check:
+
+exit=0
+
+-- npm run build:h5:
+DONE  Build complete.
+
+-- npm run build:mp-weixin:
+DONE  Build complete.
+Run method: open Weixin Mini Program Devtools, import [36mdist\build\mp-weixin[39m run.
+
+-- npm run build:app:
+DONE  Build complete.
+Run method: open HBuilderX, import [36mdist\build\app[39m run.
+
+-- 微信产物大小:
+852	dist/build/mp-weixin
+
+-- 微信产物 pinyin 运行时检查:
+未检出（通过）

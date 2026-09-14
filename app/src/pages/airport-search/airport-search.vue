@@ -3,7 +3,9 @@ import { computed, ref } from 'vue'
 import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { searchAirports, type Airport } from '../../utils/airportSearch'
 import { dash } from '../../utils/display'
-import { loadDb } from '../../utils/db'
+import { coordDegMin, elevDual } from '../../utils/detailFormat'
+import { tzDisplay, isDstActive } from '../../utils/tzOffset'
+import { loadDb, currentInfo } from '../../utils/db'
 import { useTheme, syncNavBar } from '../../utils/theme'
 
 // 声明后右上角胶囊菜单才出现"转发给朋友/分享到朋友圈"
@@ -18,10 +20,12 @@ const { themeClass } = useTheme()
 const query = ref('')
 const expandedKey = ref('')
 const db = ref<Airport[]>([])
+const now = ref(new Date())
 
 onShow(() => {
   syncNavBar()
   db.value = loadDb()
+  now.value = new Date()
 })
 
 let timer: ReturnType<typeof setTimeout> | null = null
@@ -46,14 +50,22 @@ function toggleDetail(a: Airport) {
   const key = `${a.iata}|${a.icao}`
   expandedKey.value = expandedKey.value === key ? '' : key
 }
-const fmtCoord = (v: number, pos: string, neg: string): string =>
-  `${Math.abs(v).toFixed(2)}°${v >= 0 ? pos : neg}`
 // v1.0.2 降级显示：缺失统一 —；曾用名（民航局确认更名的旧名）仅有值时展示
+// v1.1.1：坐标同时显示十进制度与航空度分格式；海拔 m/ft 双单位；
+//         时区显示 IANA + 当前偏移（构建期查表）与夏令时提示
 const coordText = (a: Airport): string =>
   a.lat === undefined || a.lng === undefined
     ? '—'
-    : `${fmtCoord(a.lat, 'N', 'S')}，${fmtCoord(a.lng, 'E', 'W')}`
-const elevText = (a: Airport): string => (a.elevM === undefined ? '—' : `${a.elevM} 米`)
+    : `${Math.abs(a.lat).toFixed(4)}°${a.lat >= 0 ? 'N' : 'S'}，${Math.abs(a.lng).toFixed(4)}°${a.lng >= 0 ? 'E' : 'W'}`
+const coordDmText = (a: Airport): string =>
+  a.lat === undefined || a.lng === undefined
+    ? '—'
+    : `${coordDegMin(a.lat, true)}，${coordDegMin(a.lng, false)}`
+const elevText = (a: Airport): string => (a.elevM === undefined ? '—' : elevDual(a.elevM))
+const tzText = (a: Airport): string => tzDisplay(a.tz, now.value)
+const dstText = (a: Airport): string =>
+  a.tz && isDstActive(a.tz, now.value) ? '（当前执行夏令时）' : ''
+const asOf = currentInfo().dataAsOf
 </script>
 
 <template>
@@ -64,7 +76,7 @@ const elevText = (a: Airport): string => (a.elevM === undefined ? '—' : `${a.e
         class="search-input"
         type="text"
         :value="query"
-        placeholder="IATA / ICAO / 机场名 / 城市"
+        placeholder="IATA / ICAO / 机场名 / 城市 / 拼音 / 英文"
         placeholder-class="ph"
         confirm-type="search"
         @input="onInput"
@@ -74,8 +86,8 @@ const elevText = (a: Airport): string => (a.elevM === undefined ? '—' : `${a.e
 
     <view v-if="!showResults" class="empty">
       <text class="empty-icon">🛫</text>
-      <text class="empty-text">输入代码、机场名或城市名开始查询</text>
-      <text class="empty-sub">如 PEK、ZBAA、首都、北京</text>
+      <text class="empty-text">输入代码、机场名、城市、拼音或英文开始查询</text>
+      <text class="empty-sub">如 PEK、ZBAA、首都、北京、shoudu、bj</text>
     </view>
 
     <view v-else-if="!results.length" class="empty">
@@ -115,12 +127,20 @@ const elevText = (a: Airport): string => (a.elevM === undefined ? '—' : `${a.e
             <text class="d-value">{{ coordText(a) }}</text>
           </view>
           <view class="d-row">
+            <text class="d-label">度分</text>
+            <text class="d-value">{{ coordDmText(a) }}</text>
+          </view>
+          <view class="d-row">
             <text class="d-label">时区</text>
-            <text class="d-value">{{ dash(a.tz) }}</text>
+            <text class="d-value">{{ tzText(a) }}{{ dstText(a) }}</text>
           </view>
           <view class="d-row">
             <text class="d-label">海拔</text>
             <text class="d-value">{{ elevText(a) }}</text>
+          </view>
+          <view v-if="asOf" class="d-row">
+            <text class="d-label">资料截至</text>
+            <text class="d-value">{{ asOf }}</text>
           </view>
         </view>
       </button>
