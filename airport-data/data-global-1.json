@@ -150,8 +150,8 @@
     "cityZh": "熊本",
     "cityEn": "Kumamoto",
     "country": "日本",
-    "lat": 32.75,
-    "lng": 130.85,
+    "lat": 32.837299,
+    "lng": 130.854996,
     "tz": "Asia/Tokyo",
     "elevM": 196
   },
@@ -377,17 +377,17 @@
     "elevM": 12
   },
   {
-    "iata": "ULA",
-    "icao": "ZMUL",
+    "iata": "UBN",
+    "icao": "ZMCK",
     "nameZh": "乌兰巴托成吉思汗国际机场",
     "nameEn": "Ulaanbaatar Chinggis Khaan International Airport",
     "cityZh": "乌兰巴托",
     "cityEn": "Ulaanbaatar",
     "country": "蒙古",
-    "lat": 47.65,
-    "lng": 106.82,
+    "lat": 47.646916,
+    "lng": 106.819833,
     "tz": "Asia/Ulaanbaatar",
-    "elevM": 1747
+    "elevM": 1366
   },
   {
     "iata": "FNJ",
@@ -482,16 +482,16 @@
   },
   {
     "iata": "KBV",
-    "icao": "VTCB",
+    "icao": "VTSG",
     "nameZh": "甲米国际机场",
     "nameEn": "Krabi International Airport",
     "cityZh": "甲米",
     "cityEn": "Krabi",
     "country": "泰国",
-    "lat": 8.1,
-    "lng": 98.98,
+    "lat": 8.095591,
+    "lng": 98.988955,
     "tz": "Asia/Bangkok",
-    "elevM": 388
+    "elevM": 25
   },
   {
     "iata": "HDY",
@@ -612,7 +612,7 @@
   },
   {
     "iata": "SUB",
-    "icao": "WRSJ",
+    "icao": "WARR",
     "nameZh": "泗水朱安达国际机场",
     "nameEn": "Surabaya Juanda International Airport",
     "cityZh": "泗水",
@@ -761,8 +761,8 @@
     "cityZh": "暹粒",
     "cityEn": "Siem Reap",
     "country": "柬埔寨",
-    "lat": 13.41,
-    "lng": 104.16,
+    "lat": 13.4107,
+    "lng": 103.813,
     "tz": "Asia/Phnom_Penh",
     "elevM": 18
   },
@@ -1158,7 +1158,7 @@
   },
   {
     "iata": "KWI",
-    "icao": "OKBK",
+    "icao": "OKKK",
     "nameZh": "科威特国际机场",
     "nameEn": "Kuwait International Airport",
     "cityZh": "科威特城",

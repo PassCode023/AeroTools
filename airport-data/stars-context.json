@@ -1,0 +1,5180 @@
+[
+ {
+  "field": "icao",
+  "nameZh": "秦皇岛北戴河机场",
+  "id": "BPE/ZBSD",
+  "from": "ZBSD",
+  "to": "ZBDH",
+  "ours": {
+   "iata": "BPE",
+   "icao": "ZBSD",
+   "nameEn": "Qinhuangdao Beidaihe Airport",
+   "cityEn": "Qinhuangdao",
+   "cityZh": "秦皇岛",
+   "lat": 39.666384,
+   "lng": 119.061384
+  },
+  "oa": [
+   {
+    "icao": "ZBDH",
+    "iata": "BPE",
+    "name": "Qinhuangdao Beidaihe Airport",
+    "city": "Qinhuangdao (Changli)",
+    "lat": 39.666,
+    "lng": 119.061
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBDH",
+    "iata": "BPE",
+    "name": "Qinhuangdao Beidaihe Airport",
+    "city": "Qinhuangdao",
+    "lat": 39.666,
+    "lng": 119.059
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "张家口宁远机场",
+  "id": "ZQG/ZBZJ",
+  "from": "40.68,114.94",
+  "to": "40.738664,114.933395",
+  "ours": {
+   "iata": "ZQG",
+   "icao": "ZBZJ",
+   "nameEn": "Zhangjiakou Ningyuan Airport",
+   "cityEn": "Zhangjiakou",
+   "cityZh": "张家口",
+   "lat": 40.68,
+   "lng": 114.94
+  },
+  "oa": [
+   {
+    "icao": "ZBZJ",
+    "iata": "ZQZ",
+    "name": "Zhangjiakou Ningyuan Airport",
+    "city": "Zhangjiakou",
+    "lat": 40.739,
+    "lng": 114.933
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "承德普宁机场",
+  "id": "ZXD/ZBCD",
+  "from": "40.89,117.85",
+  "to": "41.1225,118.073889",
+  "ours": {
+   "iata": "ZXD",
+   "icao": "ZBCD",
+   "nameEn": "Chengde Puning Airport",
+   "cityEn": "Chengde",
+   "cityZh": "承德",
+   "lat": 40.89,
+   "lng": 117.85
+  },
+  "oa": [
+   {
+    "icao": "ZBCD",
+    "iata": "CDE",
+    "name": "Chengde Puning Airport",
+    "city": "Chengde",
+    "lat": 41.123,
+    "lng": 118.074
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBCD",
+    "iata": "CDE",
+    "name": "Chengde Puning Airport",
+    "city": "Chengde",
+    "lat": 41.123,
+    "lng": 118.071
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "长治王村机场",
+  "id": "CIH/ZBCP",
+  "from": "ZBCP",
+  "to": "ZBCZ",
+  "ours": {
+   "iata": "CIH",
+   "icao": "ZBCP",
+   "nameEn": "Changzhi Wangcun Airport",
+   "cityEn": "Changzhi",
+   "cityZh": "长治",
+   "lat": 36.247501,
+   "lng": 113.125999
+  },
+  "oa": [
+   {
+    "icao": "ZBCZ",
+    "iata": "CIH",
+    "name": "Changzhi Wangcun Airport",
+    "city": "Changzhi",
+    "lat": 36.248,
+    "lng": 113.126
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBCZ",
+    "iata": "CIH",
+    "name": "Changzhi Airport",
+    "city": "Changzhi",
+    "lat": 36.248,
+    "lng": 113.126
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "忻州五台山机场",
+  "id": "WUT/ZBXZ",
+  "from": "38.62,112.72",
+  "to": "38.597456,112.969173",
+  "ours": {
+   "iata": "WUT",
+   "icao": "ZBXZ",
+   "nameEn": "Xinzhou Wutaishan Airport",
+   "cityEn": "Xinzhou",
+   "cityZh": "忻州",
+   "lat": 38.62,
+   "lng": 112.72
+  },
+  "oa": [
+   {
+    "icao": "ZBXZ",
+    "iata": "WUT",
+    "name": "Xinzhou Wutaishan Airport",
+    "city": "Xinzhou",
+    "lat": 38.597,
+    "lng": 112.969
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "临汾尧都机场",
+  "id": "LFQ/ZBLF",
+  "from": "36.02,111.64",
+  "to": "36.132629,111.641236",
+  "ours": {
+   "iata": "LFQ",
+   "icao": "ZBLF",
+   "nameEn": "Linfen Yaodu Airport",
+   "cityEn": "Linfen",
+   "cityZh": "临汾",
+   "lat": 36.02,
+   "lng": 111.64
+  },
+  "oa": [
+   {
+    "icao": "ZBLF",
+    "iata": "LFQ",
+    "name": "Linfen Yaodu Airport",
+    "city": "Linfen (Yaodu)",
+    "lat": 36.133,
+    "lng": 111.641
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBLF",
+    "iata": "LFQ",
+    "name": "Linfen Yaodu Airport",
+    "city": "Linfen",
+    "lat": 36.133,
+    "lng": 111.641
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "运城盐湖国际机场",
+  "id": "YCU/ZBYC",
+  "from": "35.03,110.99",
+  "to": "35.117823,111.034023",
+  "ours": {
+   "iata": "YCU",
+   "icao": "ZBYC",
+   "nameEn": "Yuncheng Zhangxiao Airport",
+   "cityEn": "Yuncheng",
+   "cityZh": "运城",
+   "lat": 35.03,
+   "lng": 110.99
+  },
+  "oa": [
+   {
+    "icao": "ZBYC",
+    "iata": "YCU",
+    "name": "Yuncheng Yanhu International Airport",
+    "city": "Yuncheng (Yanhu)",
+    "lat": 35.118,
+    "lng": 111.034
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBYC",
+    "iata": "YCU",
+    "name": "Yuncheng Guangong Airport",
+    "city": "Yuncheng",
+    "lat": 35.116,
+    "lng": 111.031
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "乌兰察布集宁机场",
+  "id": "UCG/ZBUC",
+  "from": "41.03,113.19",
+  "to": "41.130266,113.107274",
+  "ours": {
+   "iata": "UCG",
+   "icao": "ZBUC",
+   "nameEn": "Ulanqab Jining Airport",
+   "cityEn": "Ulanqab",
+   "cityZh": "乌兰察布",
+   "lat": 41.03,
+   "lng": 113.19
+  },
+  "oa": [
+   {
+    "icao": "ZBUC",
+    "iata": "UCB",
+    "name": "Ulanqab Jining Airport",
+    "city": "Ulanqab",
+    "lat": 41.13,
+    "lng": 113.107
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBUC",
+    "iata": "UCB",
+    "name": "Ulanqab Jining Airport",
+    "city": "Ulanqab",
+    "lat": 41.13,
+    "lng": 113.108
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "乌海机场",
+  "id": "WUA/ZBUH",
+  "from": "39.7,106.79",
+  "to": "39.7934,106.7993",
+  "ours": {
+   "iata": "WUA",
+   "icao": "ZBUH",
+   "nameEn": "Wuhai Airport",
+   "cityEn": "Wuhai",
+   "cityZh": "乌海",
+   "lat": 39.7,
+   "lng": 106.79
+  },
+  "oa": [
+   {
+    "icao": "ZBUH",
+    "iata": "WUA",
+    "name": "Wuhai Airport",
+    "city": "Wuhai",
+    "lat": 39.793,
+    "lng": 106.799
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBUH",
+    "iata": "WUA",
+    "name": "Wuhai Airport",
+    "city": "Wuhai",
+    "lat": 39.792,
+    "lng": 106.803
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "巴彦淖尔天吉泰机场",
+  "id": "RLK/ZBYL",
+  "from": "ZBYL",
+  "to": "ZBYZ",
+  "ours": {
+   "iata": "RLK",
+   "icao": "ZBYL",
+   "nameEn": "Bayannur Tianjitai Airport",
+   "cityEn": "Bayannur",
+   "cityZh": "巴彦淖尔",
+   "lat": 40.73,
+   "lng": 107.39
+  },
+  "oa": [
+   {
+    "icao": "ZBYZ",
+    "iata": "RLK",
+    "name": "Bayannur Tianjitai Airport",
+    "city": "Bayannur",
+    "lat": 40.926,
+    "lng": 107.741
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBYZ",
+    "iata": "RLK",
+    "name": "Bayannaoer Tianjitai Airport",
+    "city": "Bayannur",
+    "lat": 40.926,
+    "lng": 107.739
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "巴彦淖尔天吉泰机场",
+  "id": "RLK/ZBYL",
+  "from": "40.73,107.39",
+  "to": "40.926358,107.74093",
+  "ours": {
+   "iata": "RLK",
+   "icao": "ZBYL",
+   "nameEn": "Bayannur Tianjitai Airport",
+   "cityEn": "Bayannur",
+   "cityZh": "巴彦淖尔",
+   "lat": 40.73,
+   "lng": 107.39
+  },
+  "oa": [
+   {
+    "icao": "ZBYZ",
+    "iata": "RLK",
+    "name": "Bayannur Tianjitai Airport",
+    "city": "Bayannur",
+    "lat": 40.926,
+    "lng": 107.741
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBYZ",
+    "iata": "RLK",
+    "name": "Bayannaoer Tianjitai Airport",
+    "city": "Bayannur",
+    "lat": 40.926,
+    "lng": 107.739
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "赤峰玉龙机场",
+  "id": "CIF/ZBCF",
+  "from": "42.24,118.54",
+  "to": "42.159723,118.840971",
+  "ours": {
+   "iata": "CIF",
+   "icao": "ZBCF",
+   "nameEn": "Chifeng Yulong Airport",
+   "cityEn": "Chifeng",
+   "cityZh": "赤峰",
+   "lat": 42.24,
+   "lng": 118.54
+  },
+  "oa": [
+   {
+    "icao": "ZBCF",
+    "iata": "CIF",
+    "name": "Chifeng Yulong Airport",
+    "city": "Chifeng",
+    "lat": 42.16,
+    "lng": 118.841
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBCF",
+    "iata": "CIF",
+    "name": "Chifeng Airport",
+    "city": "Chifeng",
+    "lat": 42.235,
+    "lng": 118.908
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "通辽机场",
+  "id": "TGO/ZBTL",
+  "from": "43.55,122.34",
+  "to": "43.556702,122.199997",
+  "ours": {
+   "iata": "TGO",
+   "icao": "ZBTL",
+   "nameEn": "Tongliao Airport",
+   "cityEn": "Tongliao",
+   "cityZh": "通辽",
+   "lat": 43.55,
+   "lng": 122.34
+  },
+  "oa": [
+   {
+    "icao": "ZBTL",
+    "iata": "TGO",
+    "name": "Tongliao Airport",
+    "city": "Tongliao",
+    "lat": 43.557,
+    "lng": 122.2
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBTL",
+    "iata": "TGO",
+    "name": "Tongliao Airport",
+    "city": "Tongliao",
+    "lat": 43.557,
+    "lng": 122.2
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "锡林浩特机场",
+  "id": "XIL/ZBXH",
+  "from": "43.92,116.05",
+  "to": "43.91559982299805,115.96399688720703",
+  "ours": {
+   "iata": "XIL",
+   "icao": "ZBXH",
+   "nameEn": "Xilinhot Airport",
+   "cityEn": "Xilinhot",
+   "cityZh": "锡林浩特",
+   "lat": 43.92,
+   "lng": 116.05
+  },
+  "oa": [
+   {
+    "icao": "ZBXH",
+    "iata": "XIL",
+    "name": "Xilinhot Airport",
+    "city": "Xilinhot",
+    "lat": 43.916,
+    "lng": 115.964
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBXH",
+    "iata": "XIL",
+    "name": "Xilinhot Airport",
+    "city": "Xilinhot",
+    "lat": 43.916,
+    "lng": 115.964
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "二连浩特赛乌素国际机场",
+  "id": "ERL/ZBER",
+  "from": "43.61,111.87",
+  "to": "43.424079,112.091081",
+  "ours": {
+   "iata": "ERL",
+   "icao": "ZBER",
+   "nameEn": "Erenhot Saivus Airport",
+   "cityEn": "Erenhot",
+   "cityZh": "二连浩特",
+   "lat": 43.61,
+   "lng": 111.87
+  },
+  "oa": [
+   {
+    "icao": "ZBER",
+    "iata": "ERL",
+    "name": "Erenhot Saiwusu International Airport",
+    "city": "Erenhot",
+    "lat": 43.424,
+    "lng": 112.091
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBER",
+    "iata": "ERL",
+    "name": "Erenhot Saiwusu International Airport",
+    "city": "Erenhot",
+    "lat": 43.422,
+    "lng": 112.097
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "丹东浪头机场",
+  "id": "DDG/ZYDD",
+  "from": "40.11,124.29",
+  "to": "40.025453,124.28669",
+  "ours": {
+   "iata": "DDG",
+   "icao": "ZYDD",
+   "nameEn": "Dandong Langtou Airport",
+   "cityEn": "Dandong",
+   "cityZh": "丹东",
+   "lat": 40.11,
+   "lng": 124.29
+  },
+  "oa": [
+   {
+    "icao": "ZYDD",
+    "iata": "DDG",
+    "name": "Dandong Langtou International Airport",
+    "city": "Dandong (Zhenxing)",
+    "lat": 40.025,
+    "lng": 124.287
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYDD",
+    "iata": "DDG",
+    "name": "Dandong Airport",
+    "city": "Dandong",
+    "lat": 40.025,
+    "lng": 124.286
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "锦州锦州湾机场",
+  "id": "JNZ/ZYJZ",
+  "from": "41.1,121.09",
+  "to": "40.936032,121.277114",
+  "ours": {
+   "iata": "JNZ",
+   "icao": "ZYJZ",
+   "nameEn": "Jinzhou Bay Airport",
+   "cityEn": "Jinzhou",
+   "cityZh": "锦州",
+   "lat": 41.1,
+   "lng": 121.09
+  },
+  "oa": [
+   {
+    "icao": "ZYJZ",
+    "iata": "JNZ",
+    "name": "Jinzhou Bay Airport",
+    "city": "Jinzhou (Linghai)",
+    "lat": 40.936,
+    "lng": 121.277
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYJZ",
+    "iata": "JNZ",
+    "name": "Jinzhou Airport",
+    "city": "Jinzhou",
+    "lat": 41.101,
+    "lng": 121.062
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "营口兰旗机场",
+  "id": "YKH/ZYYK",
+  "from": "40.47,122.36",
+  "to": "40.542524,122.3586",
+  "ours": {
+   "iata": "YKH",
+   "icao": "ZYYK",
+   "nameEn": "Yingkou Lanqi Airport",
+   "cityEn": "Yingkou",
+   "cityZh": "营口",
+   "lat": 40.47,
+   "lng": 122.36
+  },
+  "oa": [
+   {
+    "icao": "ZYYK",
+    "iata": "YKH",
+    "name": "Yingkou Lanqi Airport",
+    "city": "Yingkou (Laobian)",
+    "lat": 40.543,
+    "lng": 122.359
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYYK",
+    "iata": "YKH",
+    "name": "Yingkou Lanqi Airport",
+    "city": "Yingkou",
+    "lat": 40.543,
+    "lng": 122.359
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "朝阳机场",
+  "id": "CHG/ZYZX",
+  "from": "ZYZX",
+  "to": "ZYCY",
+  "ours": {
+   "iata": "CHG",
+   "icao": "ZYZX",
+   "nameEn": "Chaoyang Airport",
+   "cityEn": "Chaoyang",
+   "cityZh": "朝阳",
+   "lat": 41.538101,
+   "lng": 120.434998
+  },
+  "oa": [
+   {
+    "icao": "ZYCY",
+    "iata": "CHG",
+    "name": "Chaoyang Airport",
+    "city": "Shuangta, Chaoyang",
+    "lat": 41.538,
+    "lng": 120.435
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYCY",
+    "iata": "CHG",
+    "name": "Chaoyang Airport",
+    "city": "Chaoyang",
+    "lat": 41.538,
+    "lng": 120.435
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "鞍山腾鳌机场",
+  "id": "AOG/ZYAS",
+  "from": "41.09,122.63",
+  "to": "41.105301,122.853996",
+  "ours": {
+   "iata": "AOG",
+   "icao": "ZYAS",
+   "nameEn": "Anshan Teng'ao Airport",
+   "cityEn": "Anshan",
+   "cityZh": "鞍山",
+   "lat": 41.09,
+   "lng": 122.63
+  },
+  "oa": [
+   {
+    "icao": "ZYAS",
+    "iata": "AOG",
+    "name": "Anshan Teng'ao Airport / Anshan Air Base",
+    "city": "Anshan",
+    "lat": 41.105,
+    "lng": 122.854
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYAS",
+    "iata": "AOG",
+    "name": "Anshan Air Base",
+    "city": "Anshan",
+    "lat": 41.105,
+    "lng": 122.854
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "吉林二台子机场",
+  "id": "JIL/ZYJL",
+  "from": "43.85,126.38",
+  "to": "44.002652,126.395244",
+  "ours": {
+   "iata": "JIL",
+   "icao": "ZYJL",
+   "nameEn": "Jilin Ertaizi Airport",
+   "cityEn": "Jilin",
+   "cityZh": "吉林",
+   "lat": 43.85,
+   "lng": 126.38
+  },
+  "oa": [
+   {
+    "icao": "ZYJL",
+    "iata": "JIL",
+    "name": "Jilin Ertaizi Airport",
+    "city": "Jilin",
+    "lat": 44.003,
+    "lng": 126.395
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYJL",
+    "iata": "JIL",
+    "name": "Jilin Airport",
+    "city": "Jilin",
+    "lat": 44.002,
+    "lng": 126.396
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "白山长白山机场",
+  "id": "NBS/ZYNB",
+  "from": "ZYNB",
+  "to": "ZYBS",
+  "ours": {
+   "iata": "NBS",
+   "icao": "ZYNB",
+   "nameEn": "Baishan Changbaishan Airport",
+   "cityEn": "Baishan",
+   "cityZh": "白山",
+   "lat": 42.09,
+   "lng": 127.66
+  },
+  "oa": [
+   {
+    "icao": "ZYBS",
+    "iata": "NBS",
+    "name": "Changbaishan Airport",
+    "city": "Baishan",
+    "lat": 42.067,
+    "lng": 127.602
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYBS",
+    "iata": "NBS",
+    "name": "Baishan Changbaishan Airport",
+    "city": "Baishan",
+    "lat": 42.066,
+    "lng": 127.607
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "白山长白山机场",
+  "id": "NBS/ZYNB",
+  "from": "42.09,127.66",
+  "to": "42.066944,127.602222",
+  "ours": {
+   "iata": "NBS",
+   "icao": "ZYNB",
+   "nameEn": "Baishan Changbaishan Airport",
+   "cityEn": "Baishan",
+   "cityZh": "白山",
+   "lat": 42.09,
+   "lng": 127.66
+  },
+  "oa": [
+   {
+    "icao": "ZYBS",
+    "iata": "NBS",
+    "name": "Changbaishan Airport",
+    "city": "Baishan",
+    "lat": 42.067,
+    "lng": 127.602
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYBS",
+    "iata": "NBS",
+    "name": "Baishan Changbaishan Airport",
+    "city": "Baishan",
+    "lat": 42.066,
+    "lng": 127.607
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "通化三源浦机场",
+  "id": "TNH/ZYTN",
+  "from": "41.66,125.66",
+  "to": "42.048435,125.733963",
+  "ours": {
+   "iata": "TNH",
+   "icao": "ZYTN",
+   "nameEn": "Tonghua Sanyuanpu Airport",
+   "cityEn": "Tonghua",
+   "cityZh": "通化",
+   "lat": 41.66,
+   "lng": 125.66
+  },
+  "oa": [
+   {
+    "icao": "ZYTN",
+    "iata": "TNH",
+    "name": "Tonghua Sanyuanpu Airport",
+    "city": "Tonghua",
+    "lat": 42.048,
+    "lng": 125.734
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYTN",
+    "iata": "TNH",
+    "name": "Tonghua Sanyuanpu Airport",
+    "city": "Tonghua",
+    "lat": 42.254,
+    "lng": 125.703
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "松原查干湖机场",
+  "id": "YSQ/ZYSQ",
+  "from": "45.06,124.31",
+  "to": "44.931143,124.552121",
+  "ours": {
+   "iata": "YSQ",
+   "icao": "ZYSQ",
+   "nameEn": "Songyuan Chaganhu Airport",
+   "cityEn": "Songyuan",
+   "cityZh": "松原",
+   "lat": 45.06,
+   "lng": 124.31
+  },
+  "oa": [
+   {
+    "icao": "ZYSQ",
+    "iata": "YSQ",
+    "name": "Songyuan Chaganhu Airport",
+    "city": "Qian Gorlos Mongol Autonomous County",
+    "lat": 44.931,
+    "lng": 124.552
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYSQ",
+    "iata": "YSQ",
+    "name": "Songyuan Chaganhu Airport",
+    "city": "Songyuan",
+    "lat": 44.938,
+    "lng": 124.55
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "白城长安机场",
+  "id": "DBC/ZYBC",
+  "from": "ZYBC",
+  "to": "ZYBA",
+  "ours": {
+   "iata": "DBC",
+   "icao": "ZYBC",
+   "nameEn": "Baicheng Chang'an Airport",
+   "cityEn": "Baicheng",
+   "cityZh": "白城",
+   "lat": 45.35,
+   "lng": 122.81
+  },
+  "oa": [
+   {
+    "icao": "ZYBA",
+    "iata": "DBC",
+    "name": "Baicheng Chang'an Airport",
+    "city": "Baicheng",
+    "lat": 45.505,
+    "lng": 123.02
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "白城长安机场",
+  "id": "DBC/ZYBC",
+  "from": "45.35,122.81",
+  "to": "45.505278,123.019722",
+  "ours": {
+   "iata": "DBC",
+   "icao": "ZYBC",
+   "nameEn": "Baicheng Chang'an Airport",
+   "cityEn": "Baicheng",
+   "cityZh": "白城",
+   "lat": 45.35,
+   "lng": 122.81
+  },
+  "oa": [
+   {
+    "icao": "ZYBA",
+    "iata": "DBC",
+    "name": "Baicheng Chang'an Airport",
+    "city": "Baicheng",
+    "lat": 45.505,
+    "lng": 123.02
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "黑河瑷珲机场",
+  "id": "HEK/ZYHE",
+  "from": "50.22,127.5",
+  "to": "50.171621,127.308884",
+  "ours": {
+   "iata": "HEK",
+   "icao": "ZYHE",
+   "nameEn": "Heihe Aihui Airport",
+   "cityEn": "Heihe",
+   "cityZh": "黑河",
+   "lat": 50.22,
+   "lng": 127.5
+  },
+  "oa": [
+   {
+    "icao": "ZYHE",
+    "iata": "HEK",
+    "name": "Heihe Aihui Airport",
+    "city": "Heihe",
+    "lat": 50.172,
+    "lng": 127.309
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYHE",
+    "iata": "HEK",
+    "name": "Heihe Airport",
+    "city": "Heihe",
+    "lat": 50.172,
+    "lng": 127.309
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "漠河古莲机场",
+  "id": "OHE/ZYMH",
+  "from": "52.96,122.52",
+  "to": "52.916871,122.422759",
+  "ours": {
+   "iata": "OHE",
+   "icao": "ZYMH",
+   "nameEn": "Mohe Gulian Airport",
+   "cityEn": "Mohe",
+   "cityZh": "漠河",
+   "lat": 52.96,
+   "lng": 122.52
+  },
+  "oa": [
+   {
+    "icao": "ZYMH",
+    "iata": "OHE",
+    "name": "Mohe Gulian Airport",
+    "city": "Mohe",
+    "lat": 52.917,
+    "lng": 122.423
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYMH",
+    "iata": "OHE",
+    "name": "Gu-Lian Airport",
+    "city": "Mohe",
+    "lat": 52.913,
+    "lng": 122.43
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "大庆萨尔图机场",
+  "id": "DQA/ZYDQ",
+  "from": "46.72,125.23",
+  "to": "46.750883,125.138642",
+  "ours": {
+   "iata": "DQA",
+   "icao": "ZYDQ",
+   "nameEn": "Daqing Sartu Airport",
+   "cityEn": "Daqing",
+   "cityZh": "大庆",
+   "lat": 46.72,
+   "lng": 125.23
+  },
+  "oa": [
+   {
+    "icao": "ZYDQ",
+    "iata": "DQA",
+    "name": "Daqing Sartu Airport",
+    "city": "Daqing",
+    "lat": 46.751,
+    "lng": 125.139
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYDQ",
+    "iata": "DQA",
+    "name": "Saertu Airport",
+    "city": "Daqing Shi",
+    "lat": 46.746,
+    "lng": 125.141
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "鸡西兴凯湖机场",
+  "id": "JXA/ZYJX",
+  "from": "45.33,130.94",
+  "to": "45.293,131.193",
+  "ours": {
+   "iata": "JXA",
+   "icao": "ZYJX",
+   "nameEn": "Jixi Xingkaihu Airport",
+   "cityEn": "Jixi",
+   "cityZh": "鸡西",
+   "lat": 45.33,
+   "lng": 130.94
+  },
+  "oa": [
+   {
+    "icao": "ZYJX",
+    "iata": "JXA",
+    "name": "Jixi Xingkaihu Airport",
+    "city": "Jixi",
+    "lat": 45.293,
+    "lng": 131.193
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYJX",
+    "iata": "JXA",
+    "name": "Jixi Xingkaihu Airport",
+    "city": "Jixi",
+    "lat": 45.3,
+    "lng": 131.179
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "伊春林都机场",
+  "id": "LDS/ZYLD",
+  "from": "47.8,129.15",
+  "to": "47.752056,129.019125",
+  "ours": {
+   "iata": "LDS",
+   "icao": "ZYLD",
+   "nameEn": "Yichun Lindu Airport",
+   "cityEn": "Yichun",
+   "cityZh": "伊春",
+   "lat": 47.8,
+   "lng": 129.15
+  },
+  "oa": [
+   {
+    "icao": "ZYLD",
+    "iata": "LDS",
+    "name": "Yichun Lindu Airport",
+    "city": "Yichun",
+    "lat": 47.752,
+    "lng": 129.019
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZYLD",
+    "iata": "LDS",
+    "name": "Lindu Airport",
+    "city": "Yichun",
+    "lat": 47.752,
+    "lng": 129.019
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "抚远东极机场",
+  "id": "FYJ/ZYFY",
+  "from": "48.34,134.33",
+  "to": "48.197219,134.36298",
+  "ours": {
+   "iata": "FYJ",
+   "icao": "ZYFY",
+   "nameEn": "Fuyuan Dongji Airport",
+   "cityEn": "Fuyuan",
+   "cityZh": "抚远",
+   "lat": 48.34,
+   "lng": 134.33
+  },
+  "oa": [
+   {
+    "icao": "ZYFY",
+    "iata": "FYJ",
+    "name": "Fuyuan Dongji Airport",
+    "city": "Fuyuan",
+    "lat": 48.197,
+    "lng": 134.363
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "五大连池德都机场",
+  "id": "DTU/ZYDU",
+  "from": "48.6,126.1",
+  "to": "48.441037,126.128374",
+  "ours": {
+   "iata": "DTU",
+   "icao": "ZYDU",
+   "nameEn": "Wudalianchi Dedu Airport",
+   "cityEn": "Wudalianchi",
+   "cityZh": "五大连池",
+   "lat": 48.6,
+   "lng": 126.1
+  },
+  "oa": [
+   {
+    "icao": "ZYDU",
+    "iata": "DTU",
+    "name": "Wudalianchi Dedu Airport",
+    "city": "Heihe",
+    "lat": 48.441,
+    "lng": 126.128
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "淮安涟水国际机场",
+  "id": "HIA/ZSSH",
+  "from": "33.55,119.16",
+  "to": "33.792712,119.126657",
+  "ours": {
+   "iata": "HIA",
+   "icao": "ZSSH",
+   "nameEn": "Huai'an Lianshui International Airport",
+   "cityEn": "Huai'an",
+   "cityZh": "淮安",
+   "lat": 33.55,
+   "lng": 119.16
+  },
+  "oa": [
+   {
+    "icao": "ZSSH",
+    "iata": "HIA",
+    "name": "Huai'an Lianshui Airport",
+    "city": "Huai'an",
+    "lat": 33.793,
+    "lng": 119.127
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSSH",
+    "iata": "HIA",
+    "name": "Lianshui Airport",
+    "city": "Huai'an",
+    "lat": 33.791,
+    "lng": 119.125
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "徐州观音国际机场",
+  "id": "XUZ/ZSXZ",
+  "from": "34.11,117.55",
+  "to": "34.059056,117.555278",
+  "ours": {
+   "iata": "XUZ",
+   "icao": "ZSXZ",
+   "nameEn": "Xuzhou Guanyin International Airport",
+   "cityEn": "Xuzhou",
+   "cityZh": "徐州",
+   "lat": 34.11,
+   "lng": 117.55
+  },
+  "oa": [
+   {
+    "icao": "ZSXZ",
+    "iata": "XUZ",
+    "name": "Xuzhou Guanyin International Airport",
+    "city": "Xuzhou",
+    "lat": 34.059,
+    "lng": 117.555
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSXZ",
+    "iata": "XUZ",
+    "name": "Xuzhou Guanyin Airport",
+    "city": "Xuzhou",
+    "lat": 34.059,
+    "lng": 117.555
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "连云港花果山国际机场",
+  "id": "LYG/ZSLG",
+  "from": "34.56,119.19",
+  "to": "34.41406,119.17899",
+  "ours": {
+   "iata": "LYG",
+   "icao": "ZSLG",
+   "nameEn": "Lianyungang Huaguoshan International Airport",
+   "cityEn": "Lianyungang",
+   "cityZh": "连云港",
+   "lat": 34.56,
+   "lng": 119.19
+  },
+  "oa": [
+   {
+    "icao": "ZSLG",
+    "iata": "LYG",
+    "name": "Lianyungang Huaguoshan International Airport",
+    "city": "Lianyungang",
+    "lat": 34.414,
+    "lng": 119.179
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSLG",
+    "iata": "LYG",
+    "name": "Lianyungang Airport",
+    "city": "Lianyungang",
+    "lat": 34.572,
+    "lng": 118.874
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "阜阳机场",
+  "id": "FUG/ZSFU",
+  "from": "ZSFU",
+  "to": "ZSFY",
+  "ours": {
+   "iata": "FUG",
+   "icao": "ZSFU",
+   "nameEn": "Fuyang Xiguan Airport",
+   "cityEn": "Fuyang",
+   "cityZh": "阜阳",
+   "lat": 32.882157,
+   "lng": 115.734364
+  },
+  "oa": [
+   {
+    "icao": "ZSFY",
+    "iata": "FUG",
+    "name": "Fuyang Xiguan Airport",
+    "city": "Yingzhou, Fuyang",
+    "lat": 32.882,
+    "lng": 115.734
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSFY",
+    "iata": "FUG",
+    "name": "Fuyang Xiguan Airport",
+    "city": "Fuyang",
+    "lat": 32.882,
+    "lng": 115.734
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "池州九华山机场",
+  "id": "JUH/ZSJH",
+  "from": "30.75,117.76",
+  "to": "30.7403,117.6856",
+  "ours": {
+   "iata": "JUH",
+   "icao": "ZSJH",
+   "nameEn": "Chizhou Jiuhuashan Airport",
+   "cityEn": "Chizhou",
+   "cityZh": "池州",
+   "lat": 30.75,
+   "lng": 117.76
+  },
+  "oa": [
+   {
+    "icao": "ZSJH",
+    "iata": "JUH",
+    "name": "Chizhou Jiuhuashan Airport",
+    "city": "Chizhou",
+    "lat": 30.74,
+    "lng": 117.686
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "芜湖宣州机场",
+  "id": "WHA/ZSWU",
+  "from": "31.15,118.63",
+  "to": "31.3906,118.408997",
+  "ours": {
+   "iata": "WHA",
+   "icao": "ZSWU",
+   "nameEn": "Wuhu Xuanzhou Airport",
+   "cityEn": "Wuhu",
+   "cityZh": "芜湖",
+   "lat": 31.15,
+   "lng": 118.63
+  },
+  "oa": [
+   {
+    "icao": "ZSWA",
+    "iata": "WHA",
+    "name": "Wuhu Xuanzhou Airport",
+    "city": "Wuhu",
+    "lat": 31.105,
+    "lng": 118.667
+   },
+   {
+    "icao": "ZSWU",
+    "iata": "WHU",
+    "name": "Wuhu Wanli Airport / Wuhu Air Base",
+    "city": "Wuhu",
+    "lat": 31.391,
+    "lng": 118.409
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSWA",
+    "iata": "WHA",
+    "name": "Wuhu Xuanzhou Airport",
+    "city": "Wuhu",
+    "lat": 31.104,
+    "lng": 118.667
+   },
+   {
+    "icao": "ZSWU",
+    "iata": "WHU",
+    "name": "Wuhu Air Base",
+    "city": "Wuhu",
+    "lat": 31.391,
+    "lng": 118.409
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "连城冠豸山机场",
+  "id": "LCX/ZSLD",
+  "from": "25.61,116.68",
+  "to": "25.6747,116.747",
+  "ours": {
+   "iata": "LCX",
+   "icao": "ZSLD",
+   "nameEn": "Longyan Guanzhaishan Airport",
+   "cityEn": "Longyan",
+   "cityZh": "龙岩",
+   "lat": 25.61,
+   "lng": 116.68
+  },
+  "oa": [
+   {
+    "icao": "ZSLO",
+    "iata": "LCX",
+    "name": "Liancheng Guanzhishan Airport",
+    "city": "Longyan (Liancheng)",
+    "lat": 25.676,
+    "lng": 116.746
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSLD",
+    "iata": "LCX",
+    "name": "Longyan Guanzhishan Airport",
+    "city": "Longyan",
+    "lat": 25.675,
+    "lng": 116.747
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "赣州黄金机场",
+  "id": "KOW/ZSGZ",
+  "from": "25.68,114.78",
+  "to": "25.853333,114.778889",
+  "ours": {
+   "iata": "KOW",
+   "icao": "ZSGZ",
+   "nameEn": "Ganzhou Huangjin Airport",
+   "cityEn": "Ganzhou",
+   "cityZh": "赣州",
+   "lat": 25.68,
+   "lng": 114.78
+  },
+  "oa": [
+   {
+    "icao": "ZSGZ",
+    "iata": "KOW",
+    "name": "Ganzhou Huangjin Airport",
+    "city": "Ganzhou",
+    "lat": 25.853,
+    "lng": 114.779
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSGZ",
+    "iata": "KOW",
+    "name": "Ganzhou Airport",
+    "city": "Ganzhou",
+    "lat": 25.826,
+    "lng": 114.912
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "景德镇罗家机场",
+  "id": "JDZ/ZSJD",
+  "from": "29.28,117.27",
+  "to": "29.3386,117.176003",
+  "ours": {
+   "iata": "JDZ",
+   "icao": "ZSJD",
+   "nameEn": "Jingdezhen Luojia Airport",
+   "cityEn": "Jingdezhen",
+   "cityZh": "景德镇",
+   "lat": 29.28,
+   "lng": 117.27
+  },
+  "oa": [
+   {
+    "icao": "ZSJD",
+    "iata": "JDZ",
+    "name": "Jingdezhen Luojia Airport",
+    "city": "Jingdezhen",
+    "lat": 29.339,
+    "lng": 117.176
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSJD",
+    "iata": "JDZ",
+    "name": "Jingdezhen Airport",
+    "city": "Jingdezhen",
+    "lat": 29.339,
+    "lng": 117.176
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "九江庐山机场",
+  "id": "JIU/ZSJJ",
+  "from": "29.48,116.19",
+  "to": "29.476944,115.801111",
+  "ours": {
+   "iata": "JIU",
+   "icao": "ZSJJ",
+   "nameEn": "Jiujiang Lushan Airport",
+   "cityEn": "Jiujiang",
+   "cityZh": "九江",
+   "lat": 29.48,
+   "lng": 116.19
+  },
+  "oa": [
+   {
+    "icao": "ZSJJ",
+    "iata": "JIU",
+    "name": "Jiujiang Lushan Airport",
+    "city": "Jiujiang",
+    "lat": 29.477,
+    "lng": 115.801
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSJJ",
+    "iata": "JIU",
+    "name": "Jiujiang Lushan Airport",
+    "city": "Jiujiang",
+    "lat": 29.477,
+    "lng": 115.801
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "吉安井冈山机场",
+  "id": "JGS/ZSJM",
+  "from": "ZSJM",
+  "to": "ZSGS",
+  "ours": {
+   "iata": "JGS",
+   "icao": "ZSJM",
+   "nameEn": "Jinggangshan Airport",
+   "cityEn": "Ji'an",
+   "cityZh": "吉安",
+   "lat": 26.85,
+   "lng": 114.42
+  },
+  "oa": [
+   {
+    "icao": "ZSGS",
+    "iata": "JGS",
+    "name": "Jinggangshan Airport",
+    "city": "Ji'an",
+    "lat": 26.857,
+    "lng": 114.737
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSGS",
+    "iata": "JGS",
+    "name": "Jinggangshan Airport",
+    "city": "Ji'an",
+    "lat": 26.857,
+    "lng": 114.737
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "吉安井冈山机场",
+  "id": "JGS/ZSJM",
+  "from": "26.85,114.42",
+  "to": "26.856899,114.737",
+  "ours": {
+   "iata": "JGS",
+   "icao": "ZSJM",
+   "nameEn": "Jinggangshan Airport",
+   "cityEn": "Ji'an",
+   "cityZh": "吉安",
+   "lat": 26.85,
+   "lng": 114.42
+  },
+  "oa": [
+   {
+    "icao": "ZSGS",
+    "iata": "JGS",
+    "name": "Jinggangshan Airport",
+    "city": "Ji'an",
+    "lat": 26.857,
+    "lng": 114.737
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSGS",
+    "iata": "JGS",
+    "name": "Jinggangshan Airport",
+    "city": "Ji'an",
+    "lat": 26.857,
+    "lng": 114.737
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "宜春明月山机场",
+  "id": "YIC/ZSYC",
+  "from": "27.81,114.4",
+  "to": "27.8025,114.3062",
+  "ours": {
+   "iata": "YIC",
+   "icao": "ZSYC",
+   "nameEn": "Yichun Mingyueshan Airport",
+   "cityEn": "Yichun",
+   "cityZh": "宜春",
+   "lat": 27.81,
+   "lng": 114.4
+  },
+  "oa": [
+   {
+    "icao": "ZSYC",
+    "iata": "YIC",
+    "name": "Yichun Mingyueshan Airport",
+    "city": "Yichun",
+    "lat": 27.802,
+    "lng": 114.306
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "上饶三清山机场",
+  "id": "SQD/ZSSR",
+  "from": "28.46,117.96",
+  "to": "28.3797,117.9643",
+  "ours": {
+   "iata": "SQD",
+   "icao": "ZSSR",
+   "nameEn": "Shangrao Sanqingshan Airport",
+   "cityEn": "Shangrao",
+   "cityZh": "上饶",
+   "lat": 28.46,
+   "lng": 117.96
+  },
+  "oa": [
+   {
+    "icao": "ZSSR",
+    "iata": "SQD",
+    "name": "Shangrao Sanqingshan Airport",
+    "city": "Shangrao (Hengfeng)",
+    "lat": 28.38,
+    "lng": 117.964
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSSR",
+    "iata": "SQD",
+    "name": "Sanqingshan",
+    "city": "Shangrao",
+    "lat": 28.38,
+    "lng": 117.964
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "济南遥墙国际机场",
+  "id": "TNA/ZSJN",
+  "from": "36.72,117.22",
+  "to": "36.857201,117.216003",
+  "ours": {
+   "iata": "TNA",
+   "icao": "ZSJN",
+   "nameEn": "Jinan Yaoqiang International Airport",
+   "cityEn": "Jinan",
+   "cityZh": "济南",
+   "lat": 36.72,
+   "lng": 117.22
+  },
+  "oa": [
+   {
+    "icao": "ZSJN",
+    "iata": "TNA",
+    "name": "Jinan Yaoqiang International Airport",
+    "city": "Jinan (Licheng)",
+    "lat": 36.857,
+    "lng": 117.216
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSJN",
+    "iata": "TNA",
+    "name": "Yaoqiang Airport",
+    "city": "Jinan",
+    "lat": 36.857,
+    "lng": 117.216
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "烟台蓬莱国际机场",
+  "id": "YNT/ZSYT",
+  "from": "37.61,121.04",
+  "to": "37.659724,120.978124",
+  "ours": {
+   "iata": "YNT",
+   "icao": "ZSYT",
+   "nameEn": "Yantai Penglai International Airport",
+   "cityEn": "Yantai",
+   "cityZh": "烟台",
+   "lat": 37.61,
+   "lng": 121.04
+  },
+  "oa": [
+   {
+    "icao": "ZSYT",
+    "iata": "YNT",
+    "name": "Yantai Penglai International Airport",
+    "city": "Yantai",
+    "lat": 37.66,
+    "lng": 120.978
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSYT",
+    "iata": "YNT",
+    "name": "Penglai Intl",
+    "city": "Yantai",
+    "lat": 37.657,
+    "lng": 120.987
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "临沂启阳国际机场",
+  "id": "LYI/ZSLY",
+  "from": "35.05,118.36",
+  "to": "35.052918,118.411828",
+  "ours": {
+   "iata": "LYI",
+   "icao": "ZSLY",
+   "nameEn": "Linyi Qiyang Airport",
+   "cityEn": "Linyi",
+   "cityZh": "临沂",
+   "lat": 35.05,
+   "lng": 118.36
+  },
+  "oa": [
+   {
+    "icao": "ZSLY",
+    "iata": "LYI",
+    "name": "Linyi Qiyang Airport",
+    "city": "Linyi (Hedong)",
+    "lat": 35.053,
+    "lng": 118.412
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSLY",
+    "iata": "LYI",
+    "name": "Shubuling Airport",
+    "city": "Linyi",
+    "lat": 35.046,
+    "lng": 118.412
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "济宁大安机场",
+  "id": "JNG/ZSJG",
+  "from": "35.42,116.61",
+  "to": "35.647358,116.743269",
+  "ours": {
+   "iata": "JNG",
+   "icao": "ZSJG",
+   "nameEn": "Jining Da'anshan Airport",
+   "cityEn": "Jining",
+   "cityZh": "济宁",
+   "lat": 35.42,
+   "lng": 116.61
+  },
+  "oa": [
+   {
+    "icao": "ZSJG",
+    "iata": "JNG",
+    "name": "Jining Da'an Airport",
+    "city": "Jining",
+    "lat": 35.647,
+    "lng": 116.743
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSJG",
+    "iata": "JNG",
+    "name": "Jining Da'an Airport",
+    "city": "Jining",
+    "lat": 35.647,
+    "lng": 116.744
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "日照山字河机场",
+  "id": "RIZ/ZSRZ",
+  "from": "35.39,119.44",
+  "to": "35.405033,119.324403",
+  "ours": {
+   "iata": "RIZ",
+   "icao": "ZSRZ",
+   "nameEn": "Rizhao Shanzihe Airport",
+   "cityEn": "Rizhao",
+   "cityZh": "日照",
+   "lat": 35.39,
+   "lng": 119.44
+  },
+  "oa": [
+   {
+    "icao": "ZSRZ",
+    "iata": "RIZ",
+    "name": "Rizhao Shanzihe Airport",
+    "city": "Rizhao (Donggang)",
+    "lat": 35.405,
+    "lng": 119.324
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "东营胜利机场",
+  "id": "DOY/ZSDY",
+  "from": "37.51,118.63",
+  "to": "37.50137,118.789863",
+  "ours": {
+   "iata": "DOY",
+   "icao": "ZSDY",
+   "nameEn": "Dongying Shengli Airport",
+   "cityEn": "Dongying",
+   "cityZh": "东营",
+   "lat": 37.51,
+   "lng": 118.63
+  },
+  "oa": [
+   {
+    "icao": "ZSDY",
+    "iata": "DOY",
+    "name": "Dongying Shengli Airport",
+    "city": "Dongying (Kenli)",
+    "lat": 37.501,
+    "lng": 118.79
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSDY",
+    "iata": "DOY",
+    "name": "Dongying Shengli Airport",
+    "city": "Dongying",
+    "lat": 37.509,
+    "lng": 118.788
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "潍坊机场",
+  "id": "WEF/ZSWF",
+  "from": "36.71,119.17",
+  "to": "36.646702,119.119003",
+  "ours": {
+   "iata": "WEF",
+   "icao": "ZSWF",
+   "nameEn": "Weifang Nanyuan Airport",
+   "cityEn": "Weifang",
+   "cityZh": "潍坊",
+   "lat": 36.71,
+   "lng": 119.17
+  },
+  "oa": [
+   {
+    "icao": "ZSWF",
+    "iata": "WEF",
+    "name": "Weifang Nanyuan Airport",
+    "city": "Weifang (Kuiwen)",
+    "lat": 36.647,
+    "lng": 119.119
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSWF",
+    "iata": "WEF",
+    "name": "Weifang Airport",
+    "city": "Weifang",
+    "lat": 36.647,
+    "lng": 119.119
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "菏泽牡丹机场",
+  "id": "HZA/ZSHZ",
+  "from": "35.16,115.5",
+  "to": "35.212972,115.736748",
+  "ours": {
+   "iata": "HZA",
+   "icao": "ZSHZ",
+   "nameEn": "Heze Mudan Airport",
+   "cityEn": "Heze",
+   "cityZh": "菏泽",
+   "lat": 35.16,
+   "lng": 115.5
+  },
+  "oa": [
+   {
+    "icao": "ZSHZ",
+    "iata": "HZA",
+    "name": "Heze Mudan Airport",
+    "city": "Heze (Dingtao)",
+    "lat": 35.213,
+    "lng": 115.737
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZSHZ",
+    "iata": "HZA",
+    "name": "Heze Mudan Airport",
+    "city": "Heze",
+    "lat": 35.213,
+    "lng": 115.737
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "宜昌三峡国际机场",
+  "id": "YIH/ZHYC",
+  "from": "30.66,111.48",
+  "to": "30.554132,111.482563",
+  "ours": {
+   "iata": "YIH",
+   "icao": "ZHYC",
+   "nameEn": "Yichang Sanxia International Airport",
+   "cityEn": "Yichang",
+   "cityZh": "宜昌",
+   "lat": 30.66,
+   "lng": 111.48
+  },
+  "oa": [
+   {
+    "icao": "ZHYC",
+    "iata": "YIH",
+    "name": "Yichang Sanxia Airport",
+    "city": "Yichang (Xiaoting)",
+    "lat": 30.554,
+    "lng": 111.483
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHYC",
+    "iata": "YIH",
+    "name": "Yichang Airport",
+    "city": "Yichang",
+    "lat": 30.557,
+    "lng": 111.48
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "恩施许家坪国际机场",
+  "id": "ENH/ZHES",
+  "from": "30.4,109.49",
+  "to": "30.320299,109.485001",
+  "ours": {
+   "iata": "ENH",
+   "icao": "ZHES",
+   "nameEn": "Enshi Xujiaping Airport",
+   "cityEn": "Enshi",
+   "cityZh": "恩施",
+   "lat": 30.4,
+   "lng": 109.49
+  },
+  "oa": [
+   {
+    "icao": "ZHES",
+    "iata": "ENH",
+    "name": "Enshi Xujiaping Airport",
+    "city": "Enshi (Enshi)",
+    "lat": 30.32,
+    "lng": 109.485
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHES",
+    "iata": "ENH",
+    "name": "Enshi Airport",
+    "city": "Enshi",
+    "lat": 30.32,
+    "lng": 109.485
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "十堰武当山机场",
+  "id": "WDS/ZHSY",
+  "from": "32.4,110.76",
+  "to": "32.592889,110.906296",
+  "ours": {
+   "iata": "WDS",
+   "icao": "ZHSY",
+   "nameEn": "Shiyan Wudangshan Airport",
+   "cityEn": "Shiyan",
+   "cityZh": "十堰",
+   "lat": 32.4,
+   "lng": 110.76
+  },
+  "oa": [
+   {
+    "icao": "ZHSY",
+    "iata": "WDS",
+    "name": "Shiyan Wudangshan Airport",
+    "city": "Shiyan (Maojian)",
+    "lat": 32.593,
+    "lng": 110.906
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHSY",
+    "iata": "WDS",
+    "name": "Shiyan Wudangshan Airport",
+    "city": "Shiyan",
+    "lat": 32.592,
+    "lng": 110.908
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "鄂州花湖国际机场",
+  "id": "EHU/ZHEC",
+  "from": "30.48,115",
+  "to": "30.341178,115.03926",
+  "ours": {
+   "iata": "EHU",
+   "icao": "ZHEC",
+   "nameEn": "Ezhou Huahu International Airport",
+   "cityEn": "Ezhou",
+   "cityZh": "鄂州",
+   "lat": 30.48,
+   "lng": 115
+  },
+  "oa": [
+   {
+    "icao": "ZHEC",
+    "iata": "EHU",
+    "name": "Ezhou Huahu International Airport",
+    "city": "Ezhou",
+    "lat": 30.341,
+    "lng": 115.039
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHEC",
+    "iata": "EHU",
+    "name": "Ezhou Huahu Airport",
+    "city": "Ezhou",
+    "lat": 30.343,
+    "lng": 115.03
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "荆州沙市机场",
+  "id": "SHS/ZHSS",
+  "from": "30.34,112.44",
+  "to": "30.3244,112.281",
+  "ours": {
+   "iata": "SHS",
+   "icao": "ZHSS",
+   "nameEn": "Jingzhou Shashi Airport",
+   "cityEn": "Jingzhou",
+   "cityZh": "荆州",
+   "lat": 30.34,
+   "lng": 112.44
+  },
+  "oa": [
+   {
+    "icao": "ZHJZ",
+    "iata": "SHS",
+    "name": "Jingzhou Shashi Airport",
+    "city": "Jingzhou (Shashi)",
+    "lat": 30.293,
+    "lng": 112.449
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHSS",
+    "iata": "SHS",
+    "name": "Shashi Airport",
+    "city": "Shashi",
+    "lat": 30.324,
+    "lng": 112.281
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "怀化芷江机场",
+  "id": "HJJ/ZGCJ",
+  "from": "27.45,109.8",
+  "to": "27.443087,109.704666",
+  "ours": {
+   "iata": "HJJ",
+   "icao": "ZGCJ",
+   "nameEn": "Huaihua Zhijiang Airport",
+   "cityEn": "Huaihua",
+   "cityZh": "怀化",
+   "lat": 27.45,
+   "lng": 109.8
+  },
+  "oa": [
+   {
+    "icao": "ZGCJ",
+    "iata": "HJJ",
+    "name": "Huaihua Zhijiang Airport",
+    "city": "Huaihua",
+    "lat": 27.443,
+    "lng": 109.705
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGCJ",
+    "iata": "HJJ",
+    "name": "Zhijiang Airport",
+    "city": "Huaihua",
+    "lat": 27.441,
+    "lng": 109.7
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "郴州北湖机场",
+  "id": "HCZ/ZGCZ",
+  "from": "25.77,113.03",
+  "to": "25.753419,112.845404",
+  "ours": {
+   "iata": "HCZ",
+   "icao": "ZGCZ",
+   "nameEn": "Chenzhou Beihu Airport",
+   "cityEn": "Chenzhou",
+   "cityZh": "郴州",
+   "lat": 25.77,
+   "lng": 113.03
+  },
+  "oa": [
+   {
+    "icao": "ZGCZ",
+    "iata": "HCZ",
+    "name": "Chenzhou Beihu Airport",
+    "city": "Chenzhou",
+    "lat": 25.753,
+    "lng": 112.845
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGCZ",
+    "iata": "HCZ",
+    "name": "Chenzhou Beihu Airport",
+    "city": "Chenzhou",
+    "lat": 25.753,
+    "lng": 112.845
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "衡阳南岳机场",
+  "id": "HNY/ZGHY",
+  "from": "26.86,112.67",
+  "to": "26.72208,112.617958",
+  "ours": {
+   "iata": "HNY",
+   "icao": "ZGHY",
+   "nameEn": "Hengyang Nanyue Airport",
+   "cityEn": "Hengyang",
+   "cityZh": "衡阳",
+   "lat": 26.86,
+   "lng": 112.67
+  },
+  "oa": [
+   {
+    "icao": "ZGHY",
+    "iata": "HNY",
+    "name": "Hengyang Nanyue Airport",
+    "city": "Hengyang",
+    "lat": 26.722,
+    "lng": 112.618
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGHY",
+    "iata": "HNY",
+    "name": "Hengyang Airport",
+    "city": "Hengyang",
+    "lat": 26.905,
+    "lng": 112.628
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "邵阳武冈机场",
+  "id": "WGN/ZGWG",
+  "from": "ZGWG",
+  "to": "ZGSY",
+  "ours": {
+   "iata": "WGN",
+   "icao": "ZGWG",
+   "nameEn": "Shaoyang Wugang Airport",
+   "cityEn": "Shaoyang",
+   "cityZh": "邵阳",
+   "lat": 26.64,
+   "lng": 110.6
+  },
+  "oa": [
+   {
+    "icao": "ZGSY",
+    "iata": "WGN",
+    "name": "Shaoyang Wugang Airport",
+    "city": "Shaoyang (Wugang)",
+    "lat": 26.806,
+    "lng": 110.641
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "邵阳武冈机场",
+  "id": "WGN/ZGWG",
+  "from": "26.64,110.6",
+  "to": "26.806123,110.641042",
+  "ours": {
+   "iata": "WGN",
+   "icao": "ZGWG",
+   "nameEn": "Shaoyang Wugang Airport",
+   "cityEn": "Shaoyang",
+   "cityZh": "邵阳",
+   "lat": 26.64,
+   "lng": 110.6
+  },
+  "oa": [
+   {
+    "icao": "ZGSY",
+    "iata": "WGN",
+    "name": "Shaoyang Wugang Airport",
+    "city": "Shaoyang (Wugang)",
+    "lat": 26.806,
+    "lng": 110.641
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "岳阳三荷机场",
+  "id": "YYA/ZGYY",
+  "from": "29.38,113.32",
+  "to": "29.311699,113.281574",
+  "ours": {
+   "iata": "YYA",
+   "icao": "ZGYY",
+   "nameEn": "Yueyang Sanhe Airport",
+   "cityEn": "Yueyang",
+   "cityZh": "岳阳",
+   "lat": 29.38,
+   "lng": 113.32
+  },
+  "oa": [
+   {
+    "icao": "ZGYY",
+    "iata": "YYA",
+    "name": "Yueyang Sanhe Airport",
+    "city": "Yueyang (Yueyanglou)",
+    "lat": 29.312,
+    "lng": 113.282
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGYY",
+    "iata": "YYA",
+    "name": "Yueyang Sanhe Airport",
+    "city": "Yueyang",
+    "lat": 29.314,
+    "lng": 113.278
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "湛江吴川国际机场",
+  "id": "ZHA/ZGZJ",
+  "from": "21.21,110.35",
+  "to": "21.481667,110.590278",
+  "ours": {
+   "iata": "ZHA",
+   "icao": "ZGZJ",
+   "nameEn": "Zhanjiang Wuchuan International Airport",
+   "cityEn": "Zhanjiang",
+   "cityZh": "湛江",
+   "lat": 21.21,
+   "lng": 110.35
+  },
+  "oa": [
+   {
+    "icao": "ZGZJ",
+    "iata": "ZHA",
+    "name": "Zhanjiang Wuchuan International Airport",
+    "city": "Zhanjiang",
+    "lat": 21.482,
+    "lng": 110.59
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGZJ",
+    "iata": "ZHA",
+    "name": "Zhanjiang Wuchuan Airport",
+    "city": "Zhanjiang",
+    "lat": 21.214,
+    "lng": 110.358
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "韶关丹霞机场",
+  "id": "HSC/ZGSG",
+  "from": "24.96,113.57",
+  "to": "24.9786,113.420998",
+  "ours": {
+   "iata": "HSC",
+   "icao": "ZGSG",
+   "nameEn": "Shaoguan Danxia Airport",
+   "cityEn": "Shaoguan",
+   "cityZh": "韶关",
+   "lat": 24.96,
+   "lng": 113.57
+  },
+  "oa": [
+   {
+    "icao": "ZGSG",
+    "iata": "HSC",
+    "name": "Shaoguan Danxia Airport",
+    "city": "Shaoguan",
+    "lat": 24.979,
+    "lng": 113.421
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGSG",
+    "iata": "HSC",
+    "name": "Shaoguan Guitou Airport",
+    "city": "Shaoguan",
+    "lat": 24.973,
+    "lng": 113.424
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "惠州平潭机场",
+  "id": "HUZ/ZGHZ",
+  "from": "23.25,114.65",
+  "to": "23.049999,114.599998",
+  "ours": {
+   "iata": "HUZ",
+   "icao": "ZGHZ",
+   "nameEn": "Huizhou Pingtan Airport",
+   "cityEn": "Huizhou",
+   "cityZh": "惠州",
+   "lat": 23.25,
+   "lng": 114.65
+  },
+  "oa": [
+   {
+    "icao": "ZGHZ",
+    "iata": "HUZ",
+    "name": "Huizhou Pingtan Airport",
+    "city": "Huizhou (Pingtan)",
+    "lat": 23.05,
+    "lng": 114.6
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGHZ",
+    "iata": "HUZ",
+    "name": "Huizhou Airport",
+    "city": "Huizhou",
+    "lat": 23.05,
+    "lng": 114.6
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "佛山沙堤机场",
+  "id": "FUO/ZGFS",
+  "from": "23.17,112.98",
+  "to": "23.0825,113.070833",
+  "ours": {
+   "iata": "FUO",
+   "icao": "ZGFS",
+   "nameEn": "Foshan Shadi Airport",
+   "cityEn": "Foshan",
+   "cityZh": "佛山",
+   "lat": 23.17,
+   "lng": 112.98
+  },
+  "oa": [
+   {
+    "icao": "ZGFS",
+    "iata": "FUO",
+    "name": "Foshan Shadi Airport",
+    "city": "Foshan (Nanhai)",
+    "lat": 23.082,
+    "lng": 113.071
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGFS",
+    "iata": "FUO",
+    "name": "Foshan Shadi Airport",
+    "city": "Foshan",
+    "lat": 23.083,
+    "lng": 113.07
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "柳州白莲机场",
+  "id": "LZH/ZGLZ",
+  "from": "ZGLZ",
+  "to": "ZGZH",
+  "ours": {
+   "iata": "LZH",
+   "icao": "ZGLZ",
+   "nameEn": "Liuzhou Bailian Airport",
+   "cityEn": "Liuzhou",
+   "cityZh": "柳州",
+   "lat": 24.2,
+   "lng": 109.62
+  },
+  "oa": [
+   {
+    "icao": "ZGZH",
+    "iata": "LZH",
+    "name": "Liuzhou Bailian Airport / Bailian Air Base",
+    "city": "Liuzhou (Liujiang)",
+    "lat": 24.207,
+    "lng": 109.391
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGZH",
+    "iata": "LZH",
+    "name": "Bailian Airport",
+    "city": "Liuzhou",
+    "lat": 24.207,
+    "lng": 109.391
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "柳州白莲机场",
+  "id": "LZH/ZGLZ",
+  "from": "24.2,109.62",
+  "to": "24.2075,109.390999",
+  "ours": {
+   "iata": "LZH",
+   "icao": "ZGLZ",
+   "nameEn": "Liuzhou Bailian Airport",
+   "cityEn": "Liuzhou",
+   "cityZh": "柳州",
+   "lat": 24.2,
+   "lng": 109.62
+  },
+  "oa": [
+   {
+    "icao": "ZGZH",
+    "iata": "LZH",
+    "name": "Liuzhou Bailian Airport / Bailian Air Base",
+    "city": "Liuzhou (Liujiang)",
+    "lat": 24.207,
+    "lng": 109.391
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGZH",
+    "iata": "LZH",
+    "name": "Bailian Airport",
+    "city": "Liuzhou",
+    "lat": 24.207,
+    "lng": 109.391
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "梧州西江机场",
+  "id": "WUZ/ZGWZ",
+  "from": "23.49,111.29",
+  "to": "23.40316,111.09331",
+  "ours": {
+   "iata": "WUZ",
+   "icao": "ZGWZ",
+   "nameEn": "Wuzhou Changzhoudao Airport",
+   "cityEn": "Wuzhou",
+   "cityZh": "梧州",
+   "lat": 23.49,
+   "lng": 111.29
+  },
+  "oa": [
+   {
+    "icao": "ZGWZ",
+    "iata": "WUZ",
+    "name": "Wuzhou Xijiang Airport",
+    "city": "Tangbu",
+    "lat": 23.403,
+    "lng": 111.093
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGWZ",
+    "iata": "WUZ",
+    "name": "Wuzhou Xijiang Airport",
+    "city": "Wuzhou",
+    "lat": 23.401,
+    "lng": 111.099
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "玉林福绵机场",
+  "id": "YLX/ZGYL",
+  "from": "22.61,110.07",
+  "to": "22.433042,110.119996",
+  "ours": {
+   "iata": "YLX",
+   "icao": "ZGYL",
+   "nameEn": "Yulin Fumian Airport",
+   "cityEn": "Yulin",
+   "cityZh": "玉林",
+   "lat": 22.61,
+   "lng": 110.07
+  },
+  "oa": [
+   {
+    "icao": "ZGYL",
+    "iata": "YLX",
+    "name": "Yulin Fumian Airport",
+    "city": "Yulin",
+    "lat": 22.433,
+    "lng": 110.12
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZGYL",
+    "iata": "YLX",
+    "name": "Yulin Fumian Airport",
+    "city": "Yulin",
+    "lat": 22.438,
+    "lng": 110.121
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "百色巴马机场",
+  "id": "AEB/ZGBS",
+  "from": "23.9,106.77",
+  "to": "23.7206,106.959999",
+  "ours": {
+   "iata": "AEB",
+   "icao": "ZGBS",
+   "nameEn": "Baise Bama Airport",
+   "cityEn": "Baise",
+   "cityZh": "百色",
+   "lat": 23.9,
+   "lng": 106.77
+  },
+  "oa": [
+   {
+    "icao": "ZGBS",
+    "iata": "AEB",
+    "name": "Baise (Bose) Bama Airport",
+    "city": "Baise (Tianyang)",
+    "lat": 23.721,
+    "lng": 106.96
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZBGS",
+    "iata": "AEB",
+    "name": "Tian Yang Air Base",
+    "city": "Baise",
+    "lat": 23.721,
+    "lng": 106.96
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "琼海博鳌国际机场",
+  "id": "BAR/ZJQH",
+  "from": "19.23,110.46",
+  "to": "19.140951,110.452766",
+  "ours": {
+   "iata": "BAR",
+   "icao": "ZJQH",
+   "nameEn": "Qionghai Boao Airport",
+   "cityEn": "Qionghai",
+   "cityZh": "琼海",
+   "lat": 19.23,
+   "lng": 110.46
+  },
+  "oa": [
+   {
+    "icao": "ZJQH",
+    "iata": "BAR",
+    "name": "Qionghai Bo'ao Airport",
+    "city": "Qionghai (Basuo)",
+    "lat": 19.141,
+    "lng": 110.453
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZJQH",
+    "iata": "BAR",
+    "name": "Qionghai Boao Airport",
+    "city": "Qionghai",
+    "lat": 19.141,
+    "lng": 110.459
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "洛阳北郊机场",
+  "id": "LYA/ZHLY",
+  "from": "34.69,112.4",
+  "to": "34.7411,112.388",
+  "ours": {
+   "iata": "LYA",
+   "icao": "ZHLY",
+   "nameEn": "Luoyang Beijiao Airport",
+   "cityEn": "Luoyang",
+   "cityZh": "洛阳",
+   "lat": 34.69,
+   "lng": 112.4
+  },
+  "oa": [
+   {
+    "icao": "ZHLY",
+    "iata": "LYA",
+    "name": "Luoyang Beijiao Airport",
+    "city": "Luoyang (Laocheng)",
+    "lat": 34.741,
+    "lng": 112.388
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHLY",
+    "iata": "LYA",
+    "name": "Luoyang Airport",
+    "city": "Luoyang",
+    "lat": 34.741,
+    "lng": 112.388
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "信阳明港机场",
+  "id": "XAI/ZHXY",
+  "from": "32.45,114.05",
+  "to": "32.540819,114.079141",
+  "ours": {
+   "iata": "XAI",
+   "icao": "ZHXY",
+   "nameEn": "Xinyang Minggang Airport",
+   "cityEn": "Xinyang",
+   "cityZh": "信阳",
+   "lat": 32.45,
+   "lng": 114.05
+  },
+  "oa": [
+   {
+    "icao": "ZHXY",
+    "iata": "XAI",
+    "name": "Xinyang Minggang Airport",
+    "city": "Xinyang",
+    "lat": 32.541,
+    "lng": 114.079
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZHXY",
+    "iata": "XAI",
+    "name": "Xinyang Minggang Airport",
+    "city": "Xinyang",
+    "lat": 32.541,
+    "lng": 114.078
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "绵阳南郊机场",
+  "id": "MIG/ZUMY",
+  "from": "31.43,104.68",
+  "to": "31.428101,104.740997",
+  "ours": {
+   "iata": "MIG",
+   "icao": "ZUMY",
+   "nameEn": "Mianyang Nanjiao Airport",
+   "cityEn": "Mianyang",
+   "cityZh": "绵阳",
+   "lat": 31.43,
+   "lng": 104.68
+  },
+  "oa": [
+   {
+    "icao": "ZUMY",
+    "iata": "MIG",
+    "name": "Mianyang Nanjiao Airport",
+    "city": "Mianyang (Fucheng)",
+    "lat": 31.428,
+    "lng": 104.741
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUMY",
+    "iata": "MIG",
+    "name": "Mianyang Airport",
+    "city": "Mianyang",
+    "lat": 31.428,
+    "lng": 104.741
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "宜宾五粮液机场",
+  "id": "YBP/ZUYB",
+  "from": "28.98,104.65",
+  "to": "28.858431,104.526157",
+  "ours": {
+   "iata": "YBP",
+   "icao": "ZUYB",
+   "nameEn": "Yibin Wuliangye Airport",
+   "cityEn": "Yibin",
+   "cityZh": "宜宾",
+   "lat": 28.98,
+   "lng": 104.65
+  },
+  "oa": [
+   {
+    "icao": "ZUYB",
+    "iata": "YBP",
+    "name": "Yibin Wuliangye Airport",
+    "city": "Yibin (Cuiping)",
+    "lat": 28.858,
+    "lng": 104.526
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUYB",
+    "iata": "YBP",
+    "name": "Yibin Wuliangye  Airport",
+    "city": "Yibin",
+    "lat": 28.858,
+    "lng": 104.525
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "泸州云龙机场",
+  "id": "LZO/ZULZ",
+  "from": "29.17,105.43",
+  "to": "29.030357,105.468407",
+  "ours": {
+   "iata": "LZO",
+   "icao": "ZULZ",
+   "nameEn": "Luzhou Yunlong Airport",
+   "cityEn": "Luzhou",
+   "cityZh": "泸州",
+   "lat": 29.17,
+   "lng": 105.43
+  },
+  "oa": [
+   {
+    "icao": "ZULZ",
+    "iata": "LZO",
+    "name": "Luzhou Yunlong Airport",
+    "city": "Luzhou (Yunlong)",
+    "lat": 29.03,
+    "lng": 105.468
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZULZ",
+    "iata": "LZO",
+    "name": "Luzhou Airport",
+    "city": "Luzhou",
+    "lat": 28.852,
+    "lng": 105.393
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "达州金垭机场",
+  "id": "DAX/ZUDY",
+  "from": "ZUDY",
+  "to": "ZUDX",
+  "ours": {
+   "iata": "DAX",
+   "icao": "ZUDY",
+   "nameEn": "Dazhou Jinya Airport",
+   "cityEn": "Dazhou",
+   "cityZh": "达州",
+   "lat": 31.18,
+   "lng": 107.24
+  },
+  "oa": [
+   {
+    "icao": "ZUDX",
+    "iata": "DAX",
+    "name": "Dachuan Airport",
+    "city": "Dazhou (Daxian)",
+    "lat": 31.13,
+    "lng": 107.43
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "达州金垭机场",
+  "id": "DAX/ZUDY",
+  "from": "31.18,107.24",
+  "to": "31.1302,107.4295",
+  "ours": {
+   "iata": "DAX",
+   "icao": "ZUDY",
+   "nameEn": "Dazhou Jinya Airport",
+   "cityEn": "Dazhou",
+   "cityZh": "达州",
+   "lat": 31.18,
+   "lng": 107.24
+  },
+  "oa": [
+   {
+    "icao": "ZUDX",
+    "iata": "DAX",
+    "name": "Dachuan Airport",
+    "city": "Dazhou (Daxian)",
+    "lat": 31.13,
+    "lng": 107.43
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "广元盘龙机场",
+  "id": "GYS/",
+  "from": "32.47,105.75",
+  "to": "32.390254,105.694571",
+  "ours": {
+   "iata": "GYS",
+   "icao": "",
+   "nameEn": "Guangyuan Panlong Airport",
+   "cityEn": "Guangyuan",
+   "cityZh": "广元",
+   "lat": 32.47,
+   "lng": 105.75
+  },
+  "oa": [
+   {
+    "icao": "ZUGU",
+    "iata": "GYS",
+    "name": "Guangyuan Panlong Airport",
+    "city": "Guangyuan (Lizhou)",
+    "lat": 32.39,
+    "lng": 105.695
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUGU",
+    "iata": "GYS",
+    "name": "Guangyuan Airport",
+    "city": "Guangyuan",
+    "lat": 32.391,
+    "lng": 105.702
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "巴中恩阳机场",
+  "id": "BZX/ZUBZ",
+  "from": "31.58,106.58",
+  "to": "31.73842,106.644872",
+  "ours": {
+   "iata": "BZX",
+   "icao": "ZUBZ",
+   "nameEn": "Bazhong Enyang Airport",
+   "cityEn": "Bazhong",
+   "cityZh": "巴中",
+   "lat": 31.58,
+   "lng": 106.58
+  },
+  "oa": [
+   {
+    "icao": "ZUBZ",
+    "iata": "BZX",
+    "name": "Bazhong Enyang Airport",
+    "city": "Bazhong",
+    "lat": 31.738,
+    "lng": 106.645
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUBZ",
+    "iata": "BZX",
+    "name": "Bazhong Enyang Airport",
+    "city": "Bazhong",
+    "lat": 31.738,
+    "lng": 106.645
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "稻城亚丁机场",
+  "id": "DCY/ZUDC",
+  "from": "29.11,100.07",
+  "to": "29.31632,100.060317",
+  "ours": {
+   "iata": "DCY",
+   "icao": "ZUDC",
+   "nameEn": "Daocheng Yading Airport",
+   "cityEn": "Daocheng",
+   "cityZh": "稻城",
+   "lat": 29.11,
+   "lng": 100.07
+  },
+  "oa": [
+   {
+    "icao": "ZUDC",
+    "iata": "DCY",
+    "name": "Daocheng Yading Airport",
+    "city": "Garzê (Daocheng)",
+    "lat": 29.316,
+    "lng": 100.06
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUDC",
+    "iata": "DCY",
+    "name": "Daocheng Yading Airport",
+    "city": "Daocheng County",
+    "lat": 29.323,
+    "lng": 100.053
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "甘孜康定机场",
+  "id": "KGT/ZUKD",
+  "from": "30.29,101.76",
+  "to": "30.142464,101.73872",
+  "ours": {
+   "iata": "KGT",
+   "icao": "ZUKD",
+   "nameEn": "Kangding Airport",
+   "cityEn": "Kangding",
+   "cityZh": "康定",
+   "lat": 30.29,
+   "lng": 101.76
+  },
+  "oa": [
+   {
+    "icao": "ZUKD",
+    "iata": "KGT",
+    "name": "Kangding Airport",
+    "city": "Garzê (Kangding)",
+    "lat": 30.142,
+    "lng": 101.739
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUKD",
+    "iata": "KGT",
+    "name": "Garze Kangding Airport",
+    "city": "Kangding",
+    "lat": 30.142,
+    "lng": 101.739
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "阿坝红原机场",
+  "id": "ABH/ZUAH",
+  "from": "ZUAH",
+  "to": "YAPH",
+  "ours": {
+   "iata": "ABH",
+   "icao": "ZUAH",
+   "nameEn": "Aba Hongyuan Airport",
+   "cityEn": "Aba",
+   "cityZh": "阿坝",
+   "lat": 32.24,
+   "lng": 102.53
+  },
+  "oa": [
+   {
+    "icao": "YAPH",
+    "iata": "ABH",
+    "name": "Alpha Airport",
+    "city": "Alpha",
+    "lat": -23.653,
+    "lng": 146.583
+   }
+  ],
+  "ad": [
+   {
+    "icao": "YAPH",
+    "iata": "ABH",
+    "name": "Alpha Airport",
+    "lat": -23.646,
+    "lng": 146.584
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "阿坝红原机场",
+  "id": "ABH/ZUAH",
+  "from": "32.24,102.53",
+  "to": "-23.652849,146.582668",
+  "ours": {
+   "iata": "ABH",
+   "icao": "ZUAH",
+   "nameEn": "Aba Hongyuan Airport",
+   "cityEn": "Aba",
+   "cityZh": "阿坝",
+   "lat": 32.24,
+   "lng": 102.53
+  },
+  "oa": [
+   {
+    "icao": "YAPH",
+    "iata": "ABH",
+    "name": "Alpha Airport",
+    "city": "Alpha",
+    "lat": -23.653,
+    "lng": 146.583
+   }
+  ],
+  "ad": [
+   {
+    "icao": "YAPH",
+    "iata": "ABH",
+    "name": "Alpha Airport",
+    "lat": -23.646,
+    "lng": 146.584
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "兴义万峰林机场",
+  "id": "ACX/ZUYI",
+  "from": "25.11,104.77",
+  "to": "25.083423,104.960804",
+  "ours": {
+   "iata": "ACX",
+   "icao": "ZUYI",
+   "nameEn": "Xingyi Wanfenglin Airport",
+   "cityEn": "Xingyi",
+   "cityZh": "兴义",
+   "lat": 25.11,
+   "lng": 104.77
+  },
+  "oa": [
+   {
+    "icao": "ZUYI",
+    "iata": "ACX",
+    "name": "Xingyi Wanfenglin Airport",
+    "city": "Xingyi",
+    "lat": 25.083,
+    "lng": 104.961
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUYI",
+    "iata": "ACX",
+    "name": "Xingyi Airport",
+    "city": "Xingyi",
+    "lat": 25.086,
+    "lng": 104.959
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "铜仁凤凰机场",
+  "id": "TEN/ZUTL",
+  "from": "ZUTL",
+  "to": "ZUTR",
+  "ours": {
+   "iata": "TEN",
+   "icao": "ZUTL",
+   "nameEn": "Tongren Fenghuang Airport",
+   "cityEn": "Tongren",
+   "cityZh": "铜仁",
+   "lat": 27.883333,
+   "lng": 109.308889
+  },
+  "oa": [
+   {
+    "icao": "ZUTR",
+    "iata": "TEN",
+    "name": "Tongren Fenghuang Airport",
+    "city": "Tongren (Daxing)",
+    "lat": 27.883,
+    "lng": 109.309
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUTR",
+    "iata": "TEN",
+    "name": "Tongren Fenghuang Airport",
+    "lat": 27.883,
+    "lng": 109.309
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "遵义茅台机场",
+  "id": "WMT/ZUMT",
+  "from": "27.88,106.19",
+  "to": "27.961837,106.435416",
+  "ours": {
+   "iata": "WMT",
+   "icao": "ZUMT",
+   "nameEn": "Zunyi Maotai Airport",
+   "cityEn": "Zunyi",
+   "cityZh": "遵义",
+   "lat": 27.88,
+   "lng": 106.19
+  },
+  "oa": [
+   {
+    "icao": "ZUMT",
+    "iata": "WMT",
+    "name": "Zunyi Maotai Airport",
+    "city": "Zunyi",
+    "lat": 27.962,
+    "lng": 106.435
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUMT",
+    "iata": "WMT",
+    "name": "Zunyi Maotai Airport",
+    "city": "Zunyi",
+    "lat": 27.968,
+    "lng": 106.439
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "安顺黄果树机场",
+  "id": "AVA/ZUAS",
+  "from": "26.26,105.94",
+  "to": "26.260556,105.873333",
+  "ours": {
+   "iata": "AVA",
+   "icao": "ZUAS",
+   "nameEn": "Anshun Huangguoshu Airport",
+   "cityEn": "Anshun",
+   "cityZh": "安顺",
+   "lat": 26.26,
+   "lng": 105.94
+  },
+  "oa": [
+   {
+    "icao": "ZUAS",
+    "iata": "AVA",
+    "name": "Anshun Huangguoshu Airport",
+    "city": "Anshun (Xixiu)",
+    "lat": 26.261,
+    "lng": 105.873
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUAS",
+    "iata": "AVA",
+    "name": "Anshun Huangguoshu Airport",
+    "city": "Anshun",
+    "lat": 26.261,
+    "lng": 105.873
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "毕节飞雄机场",
+  "id": "BFJ/ZUBJ",
+  "from": "27.15,105.57",
+  "to": "27.267066,105.472097",
+  "ours": {
+   "iata": "BFJ",
+   "icao": "ZUBJ",
+   "nameEn": "Bijie Feixiong Airport",
+   "cityEn": "Bijie",
+   "cityZh": "毕节",
+   "lat": 27.15,
+   "lng": 105.57
+  },
+  "oa": [
+   {
+    "icao": "ZUBJ",
+    "iata": "BFJ",
+    "name": "Bijie Feixiong Airport",
+    "city": "Bijie",
+    "lat": 27.267,
+    "lng": 105.472
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUBJ",
+    "iata": "BFJ",
+    "name": "Bijie Airport",
+    "city": "Bijie",
+    "lat": 27.267,
+    "lng": 105.472
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "六盘水月照机场",
+  "id": "LPF/ZUPS",
+  "from": "26.55,104.84",
+  "to": "26.609417,104.979",
+  "ours": {
+   "iata": "LPF",
+   "icao": "ZUPS",
+   "nameEn": "Liupanshui Yuezhao Airport",
+   "cityEn": "Liupanshui",
+   "cityZh": "六盘水",
+   "lat": 26.55,
+   "lng": 104.84
+  },
+  "oa": [
+   {
+    "icao": "ZUPS",
+    "iata": "LPF",
+    "name": "Liupanshui Yuezhao Airport",
+    "city": "Liupanshui (Zhongshan)",
+    "lat": 26.609,
+    "lng": 104.979
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUPS",
+    "iata": "LPF",
+    "name": "Liupanshui Yuezhao Airport",
+    "city": "Liupanshui",
+    "lat": 26.609,
+    "lng": 104.979
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "德宏芒市国际机场",
+  "id": "LUM/ZPMS",
+  "from": "24.4,98.47",
+  "to": "24.4011,98.5317",
+  "ours": {
+   "iata": "LUM",
+   "icao": "ZPMS",
+   "nameEn": "Dehong Mangshi International Airport",
+   "cityEn": "Dehong",
+   "cityZh": "德宏",
+   "lat": 24.4,
+   "lng": 98.47
+  },
+  "oa": [
+   {
+    "icao": "ZPMS",
+    "iata": "LUM",
+    "name": "Dehong Mangshi International Airport",
+    "city": "Dehong (Mangshi)",
+    "lat": 24.401,
+    "lng": 98.532
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZPLX",
+    "iata": "LUM",
+    "name": "Mangshi Airport",
+    "city": "Luxi",
+    "lat": 24.401,
+    "lng": 98.532
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "临沧博尚机场",
+  "id": "LNJ/ZPLC",
+  "from": "23.75,100.08",
+  "to": "23.7381,100.025002",
+  "ours": {
+   "iata": "LNJ",
+   "icao": "ZPLC",
+   "nameEn": "Lincang Boshang Airport",
+   "cityEn": "Lincang",
+   "cityZh": "临沧",
+   "lat": 23.75,
+   "lng": 100.08
+  },
+  "oa": [
+   {
+    "icao": "ZPLC",
+    "iata": "LNJ",
+    "name": "Lincang Boshang Airport",
+    "city": "Lincang",
+    "lat": 23.738,
+    "lng": 100.025
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZPLC",
+    "iata": "LNJ",
+    "name": "Lincang Airport",
+    "city": "Lincang",
+    "lat": 23.738,
+    "lng": 100.025
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "保山云瑞机场",
+  "id": "BSD/ZPBS",
+  "from": "25.11,99.17",
+  "to": "25.053301,99.168297",
+  "ours": {
+   "iata": "BSD",
+   "icao": "ZPBS",
+   "nameEn": "Baoshan Yunrui Airport",
+   "cityEn": "Baoshan",
+   "cityZh": "保山",
+   "lat": 25.11,
+   "lng": 99.17
+  },
+  "oa": [
+   {
+    "icao": "ZPBS",
+    "iata": "BSD",
+    "name": "Baoshan Yunrui Airport",
+    "city": "Baoshan (Longyang)",
+    "lat": 25.053,
+    "lng": 99.168
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZPBS",
+    "iata": "BSD",
+    "name": "Baoshan Yunduan Airport",
+    "lat": 25.053,
+    "lng": 99.168
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "普洱思茅机场",
+  "id": "SYM/ZPSM",
+  "from": "22.79,101.03",
+  "to": "22.793301,100.959",
+  "ours": {
+   "iata": "SYM",
+   "icao": "ZPSM",
+   "nameEn": "Pu'er Simao Airport",
+   "cityEn": "Pu'er",
+   "cityZh": "普洱",
+   "lat": 22.79,
+   "lng": 101.03
+  },
+  "oa": [
+   {
+    "icao": "ZPSM",
+    "iata": "SYM",
+    "name": "Pu'er Simao Airport",
+    "city": "Pu'er",
+    "lat": 22.793,
+    "lng": 100.959
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZPSM",
+    "iata": "SYM",
+    "name": "Simao Airport",
+    "city": "Simao",
+    "lat": 22.793,
+    "lng": 100.959
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "文山砚山机场",
+  "id": "WNH/ZPWS",
+  "from": "23.51,104.24",
+  "to": "23.5583,104.3255",
+  "ours": {
+   "iata": "WNH",
+   "icao": "ZPWS",
+   "nameEn": "Wenshan Puzhehei Airport",
+   "cityEn": "Wenshan",
+   "cityZh": "文山",
+   "lat": 23.51,
+   "lng": 104.24
+  },
+  "oa": [
+   {
+    "icao": "ZPWS",
+    "iata": "WNH",
+    "name": "Wenshan Puzhehei Airport",
+    "city": "Wenshan",
+    "lat": 23.558,
+    "lng": 104.326
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "宁蒗泸沽湖机场",
+  "id": "NLH/ZPNL",
+  "from": "27.28,100.83",
+  "to": "27.5403,100.7593",
+  "ours": {
+   "iata": "NLH",
+   "icao": "ZPNL",
+   "nameEn": "Ninglang Luguhu Airport",
+   "cityEn": "Lijiang",
+   "cityZh": "丽江",
+   "lat": 27.28,
+   "lng": 100.83
+  },
+  "oa": [
+   {
+    "icao": "ZPNL",
+    "iata": "NLH",
+    "name": "Ninglang Luguhu Airport",
+    "city": "Ninglang",
+    "lat": 27.54,
+    "lng": 100.759
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "icao",
+  "nameZh": "林芝米林机场",
+  "id": "LZY/ZUNL",
+  "from": "ZUNL",
+  "to": "ZUNZ",
+  "ours": {
+   "iata": "LZY",
+   "icao": "ZUNL",
+   "nameEn": "Nyingchi Mainling Airport",
+   "cityEn": "Nyingchi",
+   "cityZh": "林芝",
+   "lat": 29.303301,
+   "lng": 94.335297
+  },
+  "oa": [
+   {
+    "icao": "ZUNZ",
+    "iata": "LZY",
+    "name": "Nyingchi Mainling Airport",
+    "city": "Nyingchi (Mainling)",
+    "lat": 29.303,
+    "lng": 94.335
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUNZ",
+    "iata": "LZY",
+    "name": "Nyingchi Airport",
+    "city": "Nyingchi",
+    "lat": 29.303,
+    "lng": 94.335
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "敦煌莫高国际机场",
+  "id": "DNH/ZLDH",
+  "from": "40.29,94.69",
+  "to": "40.161953,94.812827",
+  "ours": {
+   "iata": "DNH",
+   "icao": "ZLDH",
+   "nameEn": "Dunhuang Mogao International Airport",
+   "cityEn": "Dunhuang",
+   "cityZh": "敦煌",
+   "lat": 40.29,
+   "lng": 94.69
+  },
+  "oa": [
+   {
+    "icao": "ZLDH",
+    "iata": "DNH",
+    "name": "Dunhuang Mogao International Airport",
+    "city": "Dunhuang",
+    "lat": 40.162,
+    "lng": 94.813
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLDH",
+    "iata": "DNH",
+    "name": "Dunhuang Airport",
+    "city": "Dunhuang",
+    "lat": 40.161,
+    "lng": 94.809
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "天水麦积山机场",
+  "id": "THQ/ZLTS",
+  "from": "34.35,105.87",
+  "to": "34.5601,105.860343",
+  "ours": {
+   "iata": "THQ",
+   "icao": "ZLTS",
+   "nameEn": "Tianshui Maijishan Airport",
+   "cityEn": "Tianshui",
+   "cityZh": "天水",
+   "lat": 34.35,
+   "lng": 105.87
+  },
+  "oa": [
+   {
+    "icao": "ZLTS",
+    "iata": "THQ",
+    "name": "Tianshui Maijishan Airport",
+    "city": "Tianshui (Maiji)",
+    "lat": 34.56,
+    "lng": 105.86
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLTS",
+    "iata": "THQ",
+    "name": "Tianshui Maijishan Airport",
+    "city": "Tianshui",
+    "lat": 34.559,
+    "lng": 105.86
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "庆阳机场",
+  "id": "IQN/ZLQY",
+  "from": "35.61,107.65",
+  "to": "35.802638,107.598896",
+  "ours": {
+   "iata": "IQN",
+   "icao": "ZLQY",
+   "nameEn": "Qingyang Xifeng Airport",
+   "cityEn": "Qingyang",
+   "cityZh": "庆阳",
+   "lat": 35.61,
+   "lng": 107.65
+  },
+  "oa": [
+   {
+    "icao": "ZLQY",
+    "iata": "IQN",
+    "name": "Qingyang Xifeng Airport",
+    "city": "Qingyang (Xifeng)",
+    "lat": 35.803,
+    "lng": 107.599
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLQY",
+    "iata": "IQN",
+    "name": "Qingyang Airport",
+    "city": "Qingyang",
+    "lat": 35.8,
+    "lng": 107.603
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "金昌金川机场",
+  "id": "JIC/ZLJC",
+  "from": "38.55,102.53",
+  "to": "38.542222,102.348333",
+  "ours": {
+   "iata": "JIC",
+   "icao": "ZLJC",
+   "nameEn": "Jinchang Jinchuan Airport",
+   "cityEn": "Jinchang",
+   "cityZh": "金昌",
+   "lat": 38.55,
+   "lng": 102.53
+  },
+  "oa": [
+   {
+    "icao": "ZLJC",
+    "iata": "JIC",
+    "name": "Jinchang Jinchuan Airport",
+    "city": "Jinchang",
+    "lat": 38.542,
+    "lng": 102.348
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLJC",
+    "iata": "JIC",
+    "name": "Jinchuan Airport",
+    "city": "Jinchang",
+    "lat": 38.542,
+    "lng": 102.348
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "张掖甘州机场",
+  "id": "YZY/ZLZY",
+  "from": "39.04,100.42",
+  "to": "38.801899,100.675003",
+  "ours": {
+   "iata": "YZY",
+   "icao": "ZLZY",
+   "nameEn": "Zhangye Ganzhou Airport",
+   "cityEn": "Zhangye",
+   "cityZh": "张掖",
+   "lat": 39.04,
+   "lng": 100.42
+  },
+  "oa": [
+   {
+    "icao": "ZLZY",
+    "iata": "YZY",
+    "name": "Zhangye Ganzhou Airport",
+    "city": "Zhangye (Ganzhou)",
+    "lat": 38.802,
+    "lng": 100.675
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLZY",
+    "iata": "YZY",
+    "name": "Ganzhou",
+    "city": "Zhangye",
+    "lat": 38.807,
+    "lng": 100.661
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "中卫沙坡头机场",
+  "id": "/ZLZW",
+  "from": "37.52,105.81",
+  "to": "37.573125,105.154454",
+  "ours": {
+   "iata": "",
+   "icao": "ZLZW",
+   "nameEn": "Zhongwei Shapotou Airport",
+   "cityEn": "Zhongwei",
+   "cityZh": "中卫",
+   "lat": 37.52,
+   "lng": 105.81
+  },
+  "oa": [
+   {
+    "icao": "ZLZW",
+    "iata": "ZHY",
+    "name": "Zhongwei Shapotou Airport",
+    "city": "Zhongwei (Shapotou)",
+    "lat": 37.573,
+    "lng": 105.154
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLZW",
+    "iata": "ZHY",
+    "name": "Zhongwei Shapotou Airport",
+    "city": "Zhongwei",
+    "lat": 37.573,
+    "lng": 105.154
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "固原六盘山机场",
+  "id": "GYU/ZLGY",
+  "from": "35.99,106.24",
+  "to": "36.078889,106.216944",
+  "ours": {
+   "iata": "GYU",
+   "icao": "ZLGY",
+   "nameEn": "Guyuan Liupanshan Airport",
+   "cityEn": "Guyuan",
+   "cityZh": "固原",
+   "lat": 35.99,
+   "lng": 106.24
+  },
+  "oa": [
+   {
+    "icao": "ZLGY",
+    "iata": "GYU",
+    "name": "Guyuan Liupanshan Airport",
+    "city": "Guyuan (Yuanzhou)",
+    "lat": 36.079,
+    "lng": 106.217
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLGY",
+    "iata": "GYU",
+    "name": "Guyuan Liupanshan Airport",
+    "city": "Guyuan",
+    "lat": 36.079,
+    "lng": 106.217
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "海西德令哈机场",
+  "id": "DLH/ZLDL",
+  "from": "37.37,97.36",
+  "to": "37.125286,97.268658",
+  "ours": {
+   "iata": "DLH",
+   "icao": "ZLDL",
+   "nameEn": "Delingha Airport",
+   "cityEn": "Delingha",
+   "cityZh": "德令哈",
+   "lat": 37.37,
+   "lng": 97.36
+  },
+  "oa": [
+   {
+    "icao": "KDLH",
+    "iata": "DLH",
+    "name": "Duluth International Airport",
+    "city": "Duluth",
+    "lat": 46.842,
+    "lng": -92.199
+   },
+   {
+    "icao": "ZLDL",
+    "iata": "HXD",
+    "name": "Haixi Delingha Airport",
+    "city": "Delingha",
+    "lat": 37.125,
+    "lng": 97.269
+   }
+  ],
+  "ad": [
+   {
+    "icao": "KDLH",
+    "iata": "DLH",
+    "name": "Duluth International Airport",
+    "city": "Duluth",
+    "lat": 46.842,
+    "lng": -92.193
+   },
+   {
+    "icao": "ZLDL",
+    "iata": "HXD",
+    "name": "Delingha Airport",
+    "city": "Delingha",
+    "lat": 37.125,
+    "lng": 97.269
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "果洛玛沁机场",
+  "id": "GMQ/",
+  "from": "34.4,100.24",
+  "to": "34.418066,100.301144",
+  "ours": {
+   "iata": "GMQ",
+   "icao": "",
+   "nameEn": "Golog Maqin Airport",
+   "cityEn": "Golog",
+   "cityZh": "果洛",
+   "lat": 34.4,
+   "lng": 100.24
+  },
+  "oa": [
+   {
+    "icao": "ZLGL",
+    "iata": "GMQ",
+    "name": "Golog Maqên Airport",
+    "city": "Golog (Maqên)",
+    "lat": 34.418,
+    "lng": 100.301
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "库尔勒梨城机场",
+  "id": "KRL/ZWKL",
+  "from": "41.7,86.14",
+  "to": "41.614979,86.140817",
+  "ours": {
+   "iata": "KRL",
+   "icao": "ZWKL",
+   "nameEn": "Korla Licheng Airport",
+   "cityEn": "Korla",
+   "cityZh": "库尔勒",
+   "lat": 41.7,
+   "lng": 86.14
+  },
+  "oa": [
+   {
+    "icao": "ZWKL",
+    "iata": "KRL",
+    "name": "Korla Licheng Airport",
+    "city": "Korla",
+    "lat": 41.615,
+    "lng": 86.141
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWKL",
+    "iata": "KRL",
+    "name": "Korla Airport",
+    "city": "Korla",
+    "lat": 41.698,
+    "lng": 86.129
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "和田昆冈机场",
+  "id": "HTN/ZWWT",
+  "from": "ZWWT",
+  "to": "ZWTN",
+  "ours": {
+   "iata": "HTN",
+   "icao": "ZWWT",
+   "nameEn": "Hotan Kungang Airport",
+   "cityEn": "Hotan",
+   "cityZh": "和田",
+   "lat": 37.03850173950195,
+   "lng": 79.86489868164062
+  },
+  "oa": [
+   {
+    "icao": "ZWTN",
+    "iata": "HTN",
+    "name": "Hotan Airport",
+    "city": "Hotan",
+    "lat": 37.039,
+    "lng": 79.865
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWTN",
+    "iata": "HTN",
+    "name": "Hotan Airport",
+    "city": "Hotan",
+    "lat": 37.038,
+    "lng": 79.865
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "克拉玛依古海机场",
+  "id": "KRY/ZWKM",
+  "from": "45.07,84.94",
+  "to": "45.46655,84.9527",
+  "ours": {
+   "iata": "KRY",
+   "icao": "ZWKM",
+   "nameEn": "Karamay Airport",
+   "cityEn": "Karamay",
+   "cityZh": "克拉玛依",
+   "lat": 45.07,
+   "lng": 84.94
+  },
+  "oa": [
+   {
+    "icao": "ZWKM",
+    "iata": "KRY",
+    "name": "Karamay Airport",
+    "city": "Karamay",
+    "lat": 45.467,
+    "lng": 84.953
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWKM",
+    "iata": "KRY",
+    "name": "Karamay Airport",
+    "city": "Karamay",
+    "lat": 45.467,
+    "lng": 84.953
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "吐鲁番交河机场",
+  "id": "TLQ/ZWTN",
+  "from": "43.01,89.15",
+  "to": "37.03850173950195,79.86489868164062",
+  "ours": {
+   "iata": "TLQ",
+   "icao": "ZWTN",
+   "nameEn": "Turpan Jiaohe Airport",
+   "cityEn": "Turpan",
+   "cityZh": "吐鲁番",
+   "lat": 43.01,
+   "lng": 89.15
+  },
+  "oa": [
+   {
+    "icao": "ZWTL",
+    "iata": "TLQ",
+    "name": "Turpan Jiaohe Airport",
+    "city": "Turpan",
+    "lat": 43.031,
+    "lng": 89.099
+   },
+   {
+    "icao": "ZWTN",
+    "iata": "HTN",
+    "name": "Hotan Airport",
+    "city": "Hotan",
+    "lat": 37.039,
+    "lng": 79.865
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWTN",
+    "iata": "HTN",
+    "name": "Hotan Airport",
+    "city": "Hotan",
+    "lat": 37.038,
+    "lng": 79.865
+   },
+   {
+    "icao": "ZWTP",
+    "iata": "TLQ",
+    "name": "Turpan Jiaohe Airport",
+    "city": "Turpan",
+    "lat": 43.031,
+    "lng": 89.101
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "哈密伊州机场",
+  "id": "HMI/ZWHM",
+  "from": "42.88,93.54",
+  "to": "42.8414,93.669197",
+  "ours": {
+   "iata": "HMI",
+   "icao": "ZWHM",
+   "nameEn": "Hami Yizhou Airport",
+   "cityEn": "Hami",
+   "cityZh": "哈密",
+   "lat": 42.88,
+   "lng": 93.54
+  },
+  "oa": [
+   {
+    "icao": "ZWHM",
+    "iata": "HMI",
+    "name": "Hami Airport",
+    "city": "Hami",
+    "lat": 42.841,
+    "lng": 93.669
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWHM",
+    "iata": "HMI",
+    "name": "Hami Airport",
+    "city": "Hami",
+    "lat": 42.841,
+    "lng": 93.669
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "塔城千泉机场",
+  "id": "TCG/ZWTC",
+  "from": "46.72,83.02",
+  "to": "46.672501,83.340797",
+  "ours": {
+   "iata": "TCG",
+   "icao": "ZWTC",
+   "nameEn": "Tacheng Qianquan Airport",
+   "cityEn": "Tacheng",
+   "cityZh": "塔城",
+   "lat": 46.72,
+   "lng": 83.02
+  },
+  "oa": [
+   {
+    "icao": "ZWTC",
+    "iata": "TCG",
+    "name": "Tacheng Qianquan Airport",
+    "city": "Tacheng",
+    "lat": 46.673,
+    "lng": 83.341
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWTC",
+    "iata": "TCG",
+    "name": "Tacheng Airport",
+    "city": "Tacheng",
+    "lat": 46.672,
+    "lng": 83.341
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "布尔津喀纳斯机场",
+  "id": "KJI/ZWKN",
+  "from": "48.85,87.13",
+  "to": "48.2223,86.9959",
+  "ours": {
+   "iata": "KJI",
+   "icao": "ZWKN",
+   "nameEn": "Kanas Airport",
+   "cityEn": "Altay",
+   "cityZh": "阿勒泰",
+   "lat": 48.85,
+   "lng": 87.13
+  },
+  "oa": [
+   {
+    "icao": "ZWKN",
+    "iata": "KJI",
+    "name": "Burqin Kanas Airport",
+    "city": "Burqin",
+    "lat": 48.222,
+    "lng": 86.996
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "博乐阿拉山口机场",
+  "id": "BPL/ZWBL",
+  "from": "44.89,82.11",
+  "to": "44.895461,82.30007",
+  "ours": {
+   "iata": "BPL",
+   "icao": "ZWBL",
+   "nameEn": "Bole Alashankou Airport",
+   "cityEn": "Bole",
+   "cityZh": "博乐",
+   "lat": 44.89,
+   "lng": 82.11
+  },
+  "oa": [
+   {
+    "icao": "ZWBL",
+    "iata": "BPL",
+    "name": "Bole Alashankou Airport",
+    "city": "Bole",
+    "lat": 44.895,
+    "lng": 82.3
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWBL",
+    "iata": "BPL",
+    "name": "Alashankou Bole (Bortala) airport",
+    "city": "Bole",
+    "lat": 44.895,
+    "lng": 82.3
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "库车龟兹机场",
+  "id": "KCA/ZWKC",
+  "from": "41.25,83.02",
+  "to": "41.677856,82.872917",
+  "ours": {
+   "iata": "KCA",
+   "icao": "ZWKC",
+   "nameEn": "Kuqa Qiuci Airport",
+   "cityEn": "Kuqa",
+   "cityZh": "库车",
+   "lat": 41.25,
+   "lng": 83.02
+  },
+  "oa": [
+   {
+    "icao": "ZWKC",
+    "iata": "KCA",
+    "name": "Kuqa Qiuci Airport",
+    "city": "Kuqa",
+    "lat": 41.678,
+    "lng": 82.873
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWKC",
+    "iata": "KCA",
+    "name": "Kuqa Airport",
+    "city": "Kuqa",
+    "lat": 41.718,
+    "lng": 82.987
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "石河子花园机场",
+  "id": "SHF/",
+  "from": "44.32,86.1",
+  "to": "44.2421,85.8905",
+  "ours": {
+   "iata": "SHF",
+   "icao": "",
+   "nameEn": "Shihezi Huayuan Airport",
+   "cityEn": "Shihezi",
+   "cityZh": "石河子",
+   "lat": 44.32,
+   "lng": 86.1
+  },
+  "oa": [
+   {
+    "icao": "ZWHZ",
+    "iata": "SHF",
+    "name": "Shihezi Huayuan Airport",
+    "city": "Shihezi",
+    "lat": 44.242,
+    "lng": 85.891
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "icao",
+  "nameZh": "台中清泉岗机场",
+  "id": "RMQ/RCQM",
+  "from": "RCQM",
+  "to": "RCMQ",
+  "ours": {
+   "iata": "RMQ",
+   "icao": "RCQM",
+   "nameEn": "Taichung Chingchuankang Airport",
+   "cityEn": "Taichung",
+   "cityZh": "台中",
+   "lat": 24.2647,
+   "lng": 120.621002
+  },
+  "oa": [
+   {
+    "icao": "RCMQ",
+    "iata": "RMQ",
+    "name": "Taichung International Airport / Ching Chuang Kang Air Base",
+    "city": "Taichung (Qingshui)",
+    "lat": 24.265,
+    "lng": 120.621
+   }
+  ],
+  "ad": [
+   {
+    "icao": "RCMQ",
+    "iata": "RMQ",
+    "name": "Taichung Ching Chuang Kang Airport",
+    "city": "Taichung City",
+    "lat": 24.265,
+    "lng": 120.621
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "花莲机场",
+  "id": "HUN/RCBS",
+  "from": "24.02,121.62",
+  "to": "24.4279,118.359001",
+  "ours": {
+   "iata": "HUN",
+   "icao": "RCBS",
+   "nameEn": "Hualien Airport",
+   "cityEn": "Hualien",
+   "cityZh": "花莲",
+   "lat": 24.02,
+   "lng": 121.62
+  },
+  "oa": [
+   {
+    "icao": "RCBS",
+    "iata": "KNH",
+    "name": "Kinmen Airport",
+    "city": "Shang-I",
+    "lat": 24.428,
+    "lng": 118.359
+   },
+   {
+    "icao": "RCYU",
+    "iata": "HUN",
+    "name": "Hualien Chiashan Airport",
+    "city": "Hualien City",
+    "lat": 24.023,
+    "lng": 121.618
+   }
+  ],
+  "ad": [
+   {
+    "icao": "RCBS",
+    "iata": "KNH",
+    "name": "Kinmen Airport",
+    "city": "Shang-I",
+    "lat": 24.428,
+    "lng": 118.359
+   },
+   {
+    "icao": "RCYU",
+    "iata": "HUN",
+    "name": "Hualien Airport",
+    "city": "Hualien City",
+    "lat": 24.023,
+    "lng": 121.618
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "澎湖马公机场",
+  "id": "MZG/RCMT",
+  "from": "23.57,119.63",
+  "to": "26.22414,120.002679",
+  "ours": {
+   "iata": "MZG",
+   "icao": "RCMT",
+   "nameEn": "Penghu Magong Airport",
+   "cityEn": "Magong",
+   "cityZh": "马公",
+   "lat": 23.57,
+   "lng": 119.63
+  },
+  "oa": [
+   {
+    "icao": "RCMT",
+    "iata": "MFK",
+    "name": "Matsu Beigan Airport",
+    "city": "Matsu (Beigan)",
+    "lat": 26.224,
+    "lng": 120.003
+   },
+   {
+    "icao": "RCQC",
+    "iata": "MZG",
+    "name": "Penghu Magong Airport",
+    "city": "Huxi",
+    "lat": 23.569,
+    "lng": 119.628
+   }
+  ],
+  "ad": [
+   {
+    "icao": "RCMT",
+    "iata": "MFK",
+    "name": "Matsu Beigan Airport",
+    "city": "Beigan Island",
+    "lat": 26.224,
+    "lng": 120.003
+   },
+   {
+    "icao": "RCQC",
+    "iata": "MZG",
+    "name": "Makung Airport",
+    "city": "Makung City",
+    "lat": 23.569,
+    "lng": 119.628
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "金门尚义机场",
+  "id": "KNH/RCQC",
+  "from": "24.43,118.36",
+  "to": "23.568701,119.627998",
+  "ours": {
+   "iata": "KNH",
+   "icao": "RCQC",
+   "nameEn": "Kinmen Shangyi Airport",
+   "cityEn": "Kinmen",
+   "cityZh": "金门",
+   "lat": 24.43,
+   "lng": 118.36
+  },
+  "oa": [
+   {
+    "icao": "RCBS",
+    "iata": "KNH",
+    "name": "Kinmen Airport",
+    "city": "Shang-I",
+    "lat": 24.428,
+    "lng": 118.359
+   },
+   {
+    "icao": "RCQC",
+    "iata": "MZG",
+    "name": "Penghu Magong Airport",
+    "city": "Huxi",
+    "lat": 23.569,
+    "lng": 119.628
+   }
+  ],
+  "ad": [
+   {
+    "icao": "RCBS",
+    "iata": "KNH",
+    "name": "Kinmen Airport",
+    "city": "Shang-I",
+    "lat": 24.428,
+    "lng": 118.359
+   },
+   {
+    "icao": "RCQC",
+    "iata": "MZG",
+    "name": "Makung Airport",
+    "city": "Makung City",
+    "lat": 23.569,
+    "lng": 119.628
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "黔江武陵山机场",
+  "id": "JIQ/ZUQJ",
+  "from": "29.61,108.99",
+  "to": "29.5133333333,108.831111111",
+  "ours": {
+   "iata": "JIQ",
+   "icao": "ZUQJ",
+   "nameEn": "Chongqing Qianjiang Wulingshan Airport",
+   "cityEn": "Qianjiang",
+   "cityZh": "黔江",
+   "lat": 29.61,
+   "lng": 108.99
+  },
+  "oa": [
+   {
+    "icao": "ZUQJ",
+    "iata": "JIQ",
+    "name": "Qianjiang Wulingshan Airport",
+    "city": "Qianjiang",
+    "lat": 29.513,
+    "lng": 108.831
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUQJ",
+    "iata": "JIQ",
+    "name": "Qianjiang Wulingshan Airport",
+    "city": "Chongqing",
+    "lat": 29.515,
+    "lng": 108.834
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "榆林榆阳机场",
+  "id": "UYN/ZLYL",
+  "from": "38.44,109.45",
+  "to": "38.35971,109.590927",
+  "ours": {
+   "iata": "UYN",
+   "icao": "ZLYL",
+   "nameEn": "Yulin Yuyang Airport",
+   "cityEn": "Yulin",
+   "cityZh": "榆林",
+   "lat": 38.44,
+   "lng": 109.45
+  },
+  "oa": [
+   {
+    "icao": "ZLYL",
+    "iata": "UYN",
+    "name": "Yulin Yuyang Airport",
+    "city": "Yulin",
+    "lat": 38.36,
+    "lng": 109.591
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLYL",
+    "iata": "UYN",
+    "name": "Yulin Airport",
+    "city": "Yulin",
+    "lat": 38.269,
+    "lng": 109.731
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "延安南泥湾机场",
+  "id": "ENY/ZLYA",
+  "from": "36.53,109.48",
+  "to": "36.479413,109.464083",
+  "ours": {
+   "iata": "ENY",
+   "icao": "ZLYA",
+   "nameEn": "Yan'an Nanniwan Airport",
+   "cityEn": "Yan'an",
+   "cityZh": "延安",
+   "lat": 36.53,
+   "lng": 109.48
+  },
+  "oa": [
+   {
+    "icao": "ZLYA",
+    "iata": "ENY",
+    "name": "Yan'an Nanniwan Airport",
+    "city": "Yan'an (Baota)",
+    "lat": 36.479,
+    "lng": 109.464
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLYA",
+    "iata": "ENY",
+    "name": "Yan'an Airport",
+    "city": "Yan'an",
+    "lat": 36.637,
+    "lng": 109.554
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "汉中城固机场",
+  "id": "HZG/ZLHZ",
+  "from": "33.18,107.42",
+  "to": "33.133527,107.203817",
+  "ours": {
+   "iata": "HZG",
+   "icao": "ZLHZ",
+   "nameEn": "Hanzhong Chenggu Airport",
+   "cityEn": "Hanzhong",
+   "cityZh": "汉中",
+   "lat": 33.18,
+   "lng": 107.42
+  },
+  "oa": [
+   {
+    "icao": "ZLHZ",
+    "iata": "HZG",
+    "name": "Hanzhong Chenggu Airport",
+    "city": "Hanzhong (Chenggu)",
+    "lat": 33.134,
+    "lng": 107.204
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLHZ",
+    "iata": "HZG",
+    "name": "Hanzhong Airport",
+    "city": "Hanzhong",
+    "lat": 33.064,
+    "lng": 107.008
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "安康富强机场",
+  "id": "AKA/ZLAK",
+  "from": "32.74,109.06",
+  "to": "32.75696,108.87338",
+  "ours": {
+   "iata": "AKA",
+   "icao": "ZLAK",
+   "nameEn": "Ankang Fuqiang Airport",
+   "cityEn": "Ankang",
+   "cityZh": "安康",
+   "lat": 32.74,
+   "lng": 109.06
+  },
+  "oa": [
+   {
+    "icao": "ZLAK",
+    "iata": "AKA",
+    "name": "Ankang Fuqiang Airport",
+    "city": "Ankang (Hanbin)",
+    "lat": 32.757,
+    "lng": 108.873
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLAK",
+    "iata": "AKA",
+    "name": "Ankang Airport",
+    "city": "Ankang",
+    "lat": 32.708,
+    "lng": 108.931
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "陇南成县机场",
+  "id": "LNL/",
+  "from": "33.75,105.68",
+  "to": "33.789918,105.790014",
+  "ours": {
+   "iata": "LNL",
+   "icao": "",
+   "nameEn": "Longnan Chengxian Airport",
+   "cityEn": "Longnan",
+   "cityZh": "陇南",
+   "lat": 33.75,
+   "lng": 105.68
+  },
+  "oa": [
+   {
+    "icao": "ZLLN",
+    "iata": "LNL",
+    "name": "Longnan Chengzhou Airport",
+    "city": "Longnan (Cheng)",
+    "lat": 33.79,
+    "lng": 105.79
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLLN",
+    "iata": "LNL",
+    "name": "Longnan Chengxian Airport",
+    "city": "Longnan",
+    "lat": 33.788,
+    "lng": 105.797
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "甘南夏河机场",
+  "id": "GXH/",
+  "from": "35.22,102.61",
+  "to": "34.819014,102.622261",
+  "ours": {
+   "iata": "GXH",
+   "icao": "",
+   "nameEn": "Gannan Xiahe Airport",
+   "cityEn": "Gannan",
+   "cityZh": "甘南",
+   "lat": 35.22,
+   "lng": 102.61
+  },
+  "oa": [
+   {
+    "icao": "ZLXH",
+    "iata": "GXH",
+    "name": "Gannan Xiahe Airport",
+    "city": "Gannan (Xiahe)",
+    "lat": 34.819,
+    "lng": 102.622
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZLXH",
+    "iata": "GXH",
+    "name": "Gannan Xiahe Airport",
+    "city": "Xiahe",
+    "lat": 34.819,
+    "lng": 102.622
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "甘孜格萨尔机场",
+  "id": "GZG/",
+  "from": "31.71,99.94",
+  "to": "31.7575,99.554167",
+  "ours": {
+   "iata": "GZG",
+   "icao": "",
+   "nameEn": "Ganzi Gesar Airport",
+   "cityEn": "Ganzi",
+   "cityZh": "甘孜",
+   "lat": 31.71,
+   "lng": 99.94
+  },
+  "oa": [
+   {
+    "icao": "ZUGZ",
+    "iata": "GZG",
+    "name": "Garze Gesar Airport",
+    "city": "Garzê (Garzê)",
+    "lat": 31.758,
+    "lng": 99.554
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZUGZ",
+    "iata": "GZG",
+    "name": "Garze Gesar Airport",
+    "city": "Garze",
+    "lat": 31.758,
+    "lng": 99.554
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "安阳红旗渠机场",
+  "id": "HQQ/",
+  "from": "36.13,114.29",
+  "to": "35.870833,114.461944",
+  "ours": {
+   "iata": "HQQ",
+   "icao": "",
+   "nameEn": "Anyang Hongqi Canal Airport",
+   "cityEn": "Anyang",
+   "cityZh": "安阳",
+   "lat": 36.13,
+   "lng": 114.29
+  },
+  "oa": [
+   {
+    "icao": "ZHQQ",
+    "iata": "HQQ",
+    "name": "Anyang Hongqiqu Airport",
+    "city": "Anyang",
+    "lat": 35.871,
+    "lng": 114.462
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "建三江湿地机场",
+  "id": "JSJ/",
+  "from": "47.44,132.34",
+  "to": "47.108248,132.65792",
+  "ours": {
+   "iata": "JSJ",
+   "icao": "",
+   "nameEn": "Jiansanjiang Shidi Airport",
+   "cityEn": "Jiansanjiang",
+   "cityZh": "建三江",
+   "lat": 47.44,
+   "lng": 132.34
+  },
+  "oa": [
+   {
+    "icao": "ZYJS",
+    "iata": "JSJ",
+    "name": "Jiansanjiang Shidi Airport",
+    "city": "Jiansanjiang",
+    "lat": 47.108,
+    "lng": 132.658
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "莎车叶尔羌机场",
+  "id": "QSZ/",
+  "from": "38.45,77.21",
+  "to": "38.24542,77.056149",
+  "ours": {
+   "iata": "QSZ",
+   "icao": "",
+   "nameEn": "Yarkand Airport",
+   "cityEn": "Shache",
+   "cityZh": "莎车",
+   "lat": 38.45,
+   "lng": 77.21
+  },
+  "oa": [
+   {
+    "icao": "ZWSC",
+    "iata": "QSZ",
+    "name": "Shache Airport",
+    "city": "Shache",
+    "lat": 38.245,
+    "lng": 77.056
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWSC",
+    "iata": "QSZ",
+    "name": "Shache Airport",
+    "city": "Shache",
+    "lat": 38.245,
+    "lng": 77.056
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "富蕴可可托海机场",
+  "id": "FYN/",
+  "from": "46.98,89.48",
+  "to": "46.804169,89.512006",
+  "ours": {
+   "iata": "FYN",
+   "icao": "",
+   "nameEn": "Fuyun Koktokay Airport",
+   "cityEn": "Fuyun",
+   "cityZh": "富蕴",
+   "lat": 46.98,
+   "lng": 89.48
+  },
+  "oa": [
+   {
+    "icao": "ZWFY",
+    "iata": "FYN",
+    "name": "Fuyun Koktokay Airport",
+    "city": "Fuyun",
+    "lat": 46.804,
+    "lng": 89.512
+   }
+  ],
+  "ad": []
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "阿拉尔塔里木机场",
+  "id": "ACF/",
+  "from": "40.55,81.26",
+  "to": "40.434748,81.26206",
+  "ours": {
+   "iata": "ACF",
+   "icao": "",
+   "nameEn": "Aral Tarim Airport",
+   "cityEn": "Aral",
+   "cityZh": "阿拉尔",
+   "lat": 40.55,
+   "lng": 81.26
+  },
+  "oa": [
+   {
+    "icao": "ZWAL",
+    "iata": "ACF",
+    "name": "Aral Tarim Airport",
+    "city": "Aral",
+    "lat": 40.435,
+    "lng": 81.262
+   }
+  ],
+  "ad": [
+   {
+    "icao": "ZWAL",
+    "iata": "ACF",
+    "name": "Aral Talim Airport",
+    "city": "Aral",
+    "lat": 40.433,
+    "lng": 81.259
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "熊本机场",
+  "id": "KMJ/RJFT",
+  "from": "32.75,130.85",
+  "to": "32.837299,130.854996",
+  "ours": {
+   "iata": "KMJ",
+   "icao": "RJFT",
+   "nameEn": "Kumamoto Airport",
+   "cityEn": "Kumamoto",
+   "cityZh": "熊本",
+   "lat": 32.75,
+   "lng": 130.85
+  },
+  "oa": [
+   {
+    "icao": "RJFT",
+    "iata": "KMJ",
+    "name": "Kumamoto Airport",
+    "city": "Kumamoto",
+    "lat": 32.837,
+    "lng": 130.855
+   }
+  ],
+  "ad": [
+   {
+    "icao": "RJFT",
+    "iata": "KMJ",
+    "name": "Kumamoto Airport",
+    "city": "Kumamoto",
+    "lat": 32.837,
+    "lng": 130.855
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "乌兰巴托成吉思汗国际机场",
+  "id": "ULA/ZMUL",
+  "from": "47.65,106.82",
+  "to": "48.993301,89.922501",
+  "ours": {
+   "iata": "ULA",
+   "icao": "ZMUL",
+   "nameEn": "Ulaanbaatar Chinggis Khaan International Airport",
+   "cityEn": "Ulaanbaatar",
+   "cityZh": "乌兰巴托",
+   "lat": 47.65,
+   "lng": 106.82
+  },
+  "oa": [
+   {
+    "icao": "SAWJ",
+    "iata": "ULA",
+    "name": "Capitan D Daniel Vazquez Airport",
+    "city": "San Julian",
+    "lat": -49.307,
+    "lng": -67.803
+   },
+   {
+    "icao": "ZMUL",
+    "iata": "ULG",
+    "name": "Ölgii Mongolei International Airport",
+    "city": "Ölgii",
+    "lat": 48.993,
+    "lng": 89.923
+   }
+  ],
+  "ad": [
+   {
+    "icao": "SAWJ",
+    "iata": "ULA",
+    "name": "Capitan D Daniel Vazquez Airport",
+    "city": "San Julian",
+    "lat": -49.307,
+    "lng": -67.803
+   },
+   {
+    "icao": "ZMUL",
+    "iata": "ULG",
+    "name": "Ulgii Mongolei Airport",
+    "lat": 48.993,
+    "lng": 89.922
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "甲米国际机场",
+  "id": "KBV/VTCB",
+  "from": "8.1,98.98",
+  "to": "19.5,100.282997",
+  "ours": {
+   "iata": "KBV",
+   "icao": "VTCB",
+   "nameEn": "Krabi International Airport",
+   "cityEn": "Krabi",
+   "cityZh": "甲米",
+   "lat": 8.1,
+   "lng": 98.98
+  },
+  "oa": [
+   {
+    "icao": "VTCB",
+    "name": "Chiang Kham Airport",
+    "city": "Phayao Ban Chiang Kham",
+    "lat": 19.5,
+    "lng": 100.283
+   },
+   {
+    "icao": "VTSG",
+    "iata": "KBV",
+    "name": "Krabi International Airport",
+    "city": "Krabi",
+    "lat": 8.096,
+    "lng": 98.989
+   }
+  ],
+  "ad": [
+   {
+    "icao": "VTCB",
+    "name": "Phayao Ban Chiang Kham Airport",
+    "city": "Phayao Ban Chiang Kham",
+    "lat": 19.5,
+    "lng": 100.283
+   },
+   {
+    "icao": "VTSG",
+    "iata": "KBV",
+    "name": "Krabi Airport",
+    "city": "Krabi",
+    "lat": 8.099,
+    "lng": 98.986
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "泗水朱安达国际机场",
+  "id": "SUB/WRSJ",
+  "from": "WRSJ",
+  "to": "WARR",
+  "ours": {
+   "iata": "SUB",
+   "icao": "WRSJ",
+   "nameEn": "Surabaya Juanda International Airport",
+   "cityEn": "Surabaya",
+   "cityZh": "泗水",
+   "lat": -7.37983,
+   "lng": 112.787003
+  },
+  "oa": [
+   {
+    "icao": "WARR",
+    "iata": "SUB",
+    "name": "Juanda International Airport",
+    "city": "Surabaya",
+    "lat": -7.38,
+    "lng": 112.787
+   }
+  ],
+  "ad": [
+   {
+    "icao": "WARR",
+    "iata": "SUB",
+    "name": "Juanda International Airport",
+    "city": "Surabaya",
+    "lat": -7.38,
+    "lng": 112.787
+   }
+  ]
+ },
+ {
+  "field": "lat/lng",
+  "nameZh": "暹粒吴哥国际机场",
+  "id": "REP/VDSR",
+  "from": "13.41,104.16",
+  "to": "13.4107,103.813",
+  "ours": {
+   "iata": "REP",
+   "icao": "VDSR",
+   "nameEn": "Siem Reap Angkor International Airport",
+   "cityEn": "Siem Reap",
+   "cityZh": "暹粒",
+   "lat": 13.41,
+   "lng": 104.16
+  },
+  "oa": [],
+  "ad": [
+   {
+    "icao": "VDSR",
+    "name": "Angkor International Airport",
+    "city": "Siem Reap",
+    "lat": 13.411,
+    "lng": 103.813
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "科威特国际机场",
+  "id": "KWI/OKBK",
+  "from": "OKBK",
+  "to": "OKKK",
+  "ours": {
+   "iata": "KWI",
+   "icao": "OKBK",
+   "nameEn": "Kuwait International Airport",
+   "cityEn": "Kuwait City",
+   "cityZh": "科威特城",
+   "lat": 29.224487,
+   "lng": 47.969813
+  },
+  "oa": [
+   {
+    "icao": "OKKK",
+    "iata": "KWI",
+    "name": "Kuwait International Airport",
+    "city": "Kuwait City",
+    "lat": 29.224,
+    "lng": 47.97
+   }
+  ],
+  "ad": [
+   {
+    "icao": "OKKK",
+    "iata": "KWI",
+    "name": "Kuwait International Airport",
+    "city": "Kuwait City",
+    "lat": 29.227,
+    "lng": 47.98
+   }
+  ]
+ },
+ {
+  "field": "icao",
+  "nameZh": "塔什干国际机场",
+  "id": "TAS/UTTT",
+  "from": "UTTT",
+  "to": "UZTT",
+  "ours": {
+   "iata": "TAS",
+   "icao": "UTTT",
+   "nameEn": "Tashkent International Airport",
+   "cityEn": "Tashkent",
+   "cityZh": "塔什干",
+   "lat": 41.2579,
+   "lng": 69.281197
+  },
+  "oa": [
+   {
+    "icao": "UZTT",
+    "iata": "TAS",
+    "name": "Tashkent International Airport",
+    "city": "Tashkent",
+    "lat": 41.258,
+    "lng": 69.281
+   }
+  ],
+  "ad": [
+   {
+    "icao": "UZTT",
+    "iata": "TAS",
+    "name": "Tashkent International Airport",
+    "city": "Tashkent",
+    "lat": 41.258,
+    "lng": 69.281
+   }
+  ]
+ }
+]

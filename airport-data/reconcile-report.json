@@ -1,6 +1,34 @@
 {
   "generatedAt": "2026-09-14",
   "curatedCount": 553,
+  "caac": {
+    "expected": 270,
+    "asOf": "2025-12-31",
+    "accessedAt": "2026-09-14",
+    "matched": 270,
+    "refMismatch": [],
+    "missingInDb": [],
+    "hkMoTw": [
+      "香港国际机场",
+      "澳门国际机场",
+      "台北桃园国际机场",
+      "台北松山机场",
+      "高雄国际机场",
+      "台中清泉岗机场",
+      "台南机场",
+      "花莲机场",
+      "澎湖马公机场",
+      "金门尚义机场"
+    ],
+    "suspectedRenames": [],
+    "extraInDbUnclassified": [
+      {
+        "nameZh": "吉林二台子机场",
+        "iata": "JIL",
+        "icao": "ZYJL"
+      }
+    ]
+  },
   "fields": {
     "curatedTotal": 553,
     "matchedUpstream": 552,
@@ -14,17 +42,10 @@
     ],
     "changes": [
       {
-        "id": "BPE/ZBSD",
+        "id": "BPE/ZBDH",
         "nameZh": "秦皇岛北戴河机场",
         "file": "data-cn-1.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZBSD",
-            "to": "ZBDH",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "cityEn",
             "from": "Qinhuangdao",
@@ -56,13 +77,6 @@
             "from": "ZQG",
             "to": "ZQZ",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "40.68,114.94",
-            "to": "40.738664,114.933395",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -76,13 +90,6 @@
             "from": "ZXD",
             "to": "CDE",
             "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "40.89,117.85",
-            "to": "41.1225,118.073889",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -113,37 +120,16 @@
         ]
       },
       {
-        "id": "CIH/ZBCP",
+        "id": "CIH/ZBCZ",
         "nameZh": "长治王村机场",
         "file": "data-cn-1.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZBCP",
-            "to": "ZBCZ",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "WUT/ZBXZ",
-        "nameZh": "忻州五台山机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "38.62,112.72",
-            "to": "38.597456,112.969173",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -157,13 +143,6 @@
             "from": "Linfen",
             "to": "Linfen (Yaodu)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "36.02,111.64",
-            "to": "36.132629,111.641236",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -183,13 +162,6 @@
             "from": "Yuncheng",
             "to": "Yuncheng (Yanhu)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.03,110.99",
-            "to": "35.117823,111.034023",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -216,13 +188,6 @@
             "from": "UCG",
             "to": "UCB",
             "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "41.03,113.19",
-            "to": "41.130266,113.107274",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -240,80 +205,10 @@
         ]
       },
       {
-        "id": "WUA/ZBUH",
-        "nameZh": "乌海机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "39.7,106.79",
-            "to": "39.7934,106.7993",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "RLK/ZBYL",
-        "nameZh": "巴彦淖尔天吉泰机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "icao",
-            "from": "ZBYL",
-            "to": "ZBYZ",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
-            "field": "lat/lng",
-            "from": "40.73,107.39",
-            "to": "40.926358,107.74093",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "CIF/ZBCF",
-        "nameZh": "赤峰玉龙机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "42.24,118.54",
-            "to": "42.159723,118.840971",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "TGO/ZBTL",
-        "nameZh": "通辽机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "43.55,122.34",
-            "to": "43.556702,122.199997",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "XIL/ZBXH",
         "nameZh": "锡林浩特机场",
         "file": "data-cn-1.json",
         "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "43.92,116.05",
-            "to": "43.91559982299805,115.96399688720703",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
@@ -333,13 +228,6 @@
             "from": "Erenhot Saivus Airport",
             "to": "Erenhot Saiwusu International Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "43.61,111.87",
-            "to": "43.424079,112.091081",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -431,13 +319,6 @@
             "from": "Dandong",
             "to": "Dandong (Zhenxing)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "40.11,124.29",
-            "to": "40.025453,124.28669",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -451,13 +332,6 @@
             "from": "Jinzhou",
             "to": "Jinzhou (Linghai)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "41.1,121.09",
-            "to": "40.936032,121.277114",
-            "via": "ourairports",
-            "severity": "high"
           },
           {
             "field": "elevM",
@@ -478,28 +352,14 @@
             "from": "Yingkou",
             "to": "Yingkou (Laobian)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "40.47,122.36",
-            "to": "40.542524,122.3586",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
       {
-        "id": "CHG/ZYZX",
+        "id": "CHG/ZYCY",
         "nameZh": "朝阳机场",
         "file": "data-cn-1.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZYZX",
-            "to": "ZYCY",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "cityEn",
             "from": "Chaoyang",
@@ -520,13 +380,6 @@
             "via": "ourairports"
           },
           {
-            "field": "lat/lng",
-            "from": "41.09,122.63",
-            "to": "41.105301,122.853996",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
@@ -540,13 +393,6 @@
         "nameZh": "吉林二台子机场",
         "file": "data-cn-1.json",
         "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "43.85,126.38",
-            "to": "44.002652,126.395244",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
@@ -570,43 +416,15 @@
         ]
       },
       {
-        "id": "NBS/ZYNB",
+        "id": "NBS/ZYBS",
         "nameZh": "白山长白山机场",
         "file": "data-cn-1.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZYNB",
-            "to": "ZYBS",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "nameEn",
             "from": "Baishan Changbaishan Airport",
             "to": "Changbaishan Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "42.09,127.66",
-            "to": "42.066944,127.602222",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "TNH/ZYTN",
-        "nameZh": "通化三源浦机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "41.66,125.66",
-            "to": "42.048435,125.733963",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -620,34 +438,6 @@
             "from": "Songyuan",
             "to": "Qian Gorlos Mongol Autonomous County",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "45.06,124.31",
-            "to": "44.931143,124.552121",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "DBC/ZYBC",
-        "nameZh": "白城长安机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "icao",
-            "from": "ZYBC",
-            "to": "ZYBA",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
-            "field": "lat/lng",
-            "from": "45.35,122.81",
-            "to": "45.505278,123.019722",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -661,90 +451,6 @@
             "from": "Jiamusi Dongjiao Airport",
             "to": "Jiamusi Songjiang International Airport",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "HEK/ZYHE",
-        "nameZh": "黑河瑷珲机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "50.22,127.5",
-            "to": "50.171621,127.308884",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "OHE/ZYMH",
-        "nameZh": "漠河古莲机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "52.96,122.52",
-            "to": "52.916871,122.422759",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "DQA/ZYDQ",
-        "nameZh": "大庆萨尔图机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "46.72,125.23",
-            "to": "46.750883,125.138642",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "JXA/ZYJX",
-        "nameZh": "鸡西兴凯湖机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "45.33,130.94",
-            "to": "45.293,131.193",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "LDS/ZYLD",
-        "nameZh": "伊春林都机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "47.8,129.15",
-            "to": "47.752056,129.019125",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "FYJ/ZYFY",
-        "nameZh": "抚远东极机场",
-        "file": "data-cn-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "48.34,134.33",
-            "to": "48.197219,134.36298",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -771,13 +477,6 @@
             "from": "Wudalianchi",
             "to": "Heihe",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "48.6,126.1",
-            "to": "48.441037,126.128374",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -856,13 +555,6 @@
             "from": "Huai'an Lianshui International Airport",
             "to": "Huai'an Lianshui Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "33.55,119.16",
-            "to": "33.792712,119.126657",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -886,31 +578,10 @@
         ]
       },
       {
-        "id": "XUZ/ZSXZ",
-        "nameZh": "徐州观音国际机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "34.11,117.55",
-            "to": "34.059056,117.555278",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "LYG/ZSLG",
         "nameZh": "连云港花果山国际机场",
         "file": "data-cn-2.json",
         "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "34.56,119.19",
-            "to": "34.41406,119.17899",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
@@ -1027,36 +698,15 @@
         ]
       },
       {
-        "id": "FUG/ZSFU",
+        "id": "FUG/ZSFY",
         "nameZh": "阜阳机场",
         "file": "data-cn-2.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZSFU",
-            "to": "ZSFY",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "cityEn",
             "from": "Fuyang",
             "to": "Yingzhou, Fuyang",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "JUH/ZSJH",
-        "nameZh": "池州九华山机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "30.75,117.76",
-            "to": "30.7403,117.6856",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1076,13 +726,6 @@
             "from": "Wuhu Xuanzhou Airport",
             "to": "Wuhu Wanli Airport / Wuhu Air Base",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "31.15,118.63",
-            "to": "31.3906,118.408997",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1128,13 +771,6 @@
             "from": "Longyan Guanzhaishan Airport",
             "to": "Longyan Guanzhishan Airport",
             "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "25.61,116.68",
-            "to": "25.6747,116.747",
-            "via": "airportsdata",
-            "severity": "high"
           }
         ]
       },
@@ -1158,86 +794,16 @@
         ]
       },
       {
-        "id": "KOW/ZSGZ",
-        "nameZh": "赣州黄金机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "25.68,114.78",
-            "to": "25.853333,114.778889",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "JDZ/ZSJD",
-        "nameZh": "景德镇罗家机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "29.28,117.27",
-            "to": "29.3386,117.176003",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "JIU/ZSJJ",
         "nameZh": "九江庐山机场",
         "file": "data-cn-2.json",
         "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "29.48,116.19",
-            "to": "29.476944,115.801111",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "JGS/ZSJM",
-        "nameZh": "吉安井冈山机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "icao",
-            "from": "ZSJM",
-            "to": "ZSGS",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
-            "field": "lat/lng",
-            "from": "26.85,114.42",
-            "to": "26.856899,114.737",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "YIC/ZSYC",
-        "nameZh": "宜春明月山机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "27.81,114.4",
-            "to": "27.8025,114.3062",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1251,13 +817,6 @@
             "from": "Shangrao",
             "to": "Shangrao (Hengfeng)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "28.46,117.96",
-            "to": "28.3797,117.9643",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1271,13 +830,6 @@
             "from": "Jinan",
             "to": "Jinan (Licheng)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "36.72,117.22",
-            "to": "36.857201,117.216003",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1291,20 +843,6 @@
             "from": "Qingdao",
             "to": "Qingdao (Jiaozhou)",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "YNT/ZSYT",
-        "nameZh": "烟台蓬莱国际机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "37.61,121.04",
-            "to": "37.659724,120.978124",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1331,13 +869,6 @@
             "from": "Linyi",
             "to": "Linyi (Hedong)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.05,118.36",
-            "to": "35.052918,118.411828",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1351,13 +882,6 @@
             "from": "Jining Da'anshan Airport",
             "to": "Jining Da'an Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.42,116.61",
-            "to": "35.647358,116.743269",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1371,13 +895,6 @@
             "from": "Rizhao",
             "to": "Rizhao (Donggang)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.39,119.44",
-            "to": "35.405033,119.324403",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1391,13 +908,6 @@
             "from": "Dongying",
             "to": "Dongying (Kenli)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "37.51,118.63",
-            "to": "37.50137,118.789863",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1411,13 +921,6 @@
             "from": "Weifang",
             "to": "Weifang (Kuiwen)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "36.71,119.17",
-            "to": "36.646702,119.119003",
-            "via": "ourairports",
-            "severity": "high"
           },
           {
             "field": "elevM",
@@ -1438,13 +941,6 @@
             "from": "Heze",
             "to": "Heze (Dingtao)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.16,115.5",
-            "to": "35.212972,115.736748",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1477,13 +973,6 @@
             "from": "Yichang",
             "to": "Yichang (Xiaoting)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "30.66,111.48",
-            "to": "30.554132,111.482563",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1510,13 +999,6 @@
             "from": "Enshi",
             "to": "Enshi (Enshi)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "30.4,109.49",
-            "to": "30.320299,109.485001",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1551,32 +1033,11 @@
             "via": "ourairports"
           },
           {
-            "field": "lat/lng",
-            "from": "32.4,110.76",
-            "to": "32.592889,110.906296",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "EHU/ZHEC",
-        "nameZh": "鄂州花湖国际机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "30.48,115",
-            "to": "30.341178,115.03926",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1596,13 +1057,6 @@
             "from": "Jingzhou",
             "to": "Shashi",
             "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "30.34,112.44",
-            "to": "30.3244,112.281",
-            "via": "airportsdata",
-            "severity": "high"
           },
           {
             "field": "elevM",
@@ -1659,45 +1113,10 @@
         ]
       },
       {
-        "id": "HJJ/ZGCJ",
-        "nameZh": "怀化芷江机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "27.45,109.8",
-            "to": "27.443087,109.704666",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "HCZ/ZGCZ",
-        "nameZh": "郴州北湖机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "25.77,113.03",
-            "to": "25.753419,112.845404",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "HNY/ZGHY",
         "nameZh": "衡阳南岳机场",
         "file": "data-cn-2.json",
         "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "26.86,112.67",
-            "to": "26.72208,112.617958",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
@@ -1708,29 +1127,15 @@
         ]
       },
       {
-        "id": "WGN/ZGWG",
+        "id": "WGN/ZGSY",
         "nameZh": "邵阳武冈机场",
         "file": "data-cn-2.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZGWG",
-            "to": "ZGSY",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "cityEn",
             "from": "Shaoyang",
             "to": "Shaoyang (Wugang)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "26.64,110.6",
-            "to": "26.806123,110.641042",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1744,13 +1149,6 @@
             "from": "Yueyang",
             "to": "Yueyang (Yueyanglou)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "29.38,113.32",
-            "to": "29.311699,113.281574",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1825,32 +1223,11 @@
         "file": "data-cn-2.json",
         "diffs": [
           {
-            "field": "lat/lng",
-            "from": "21.21,110.35",
-            "to": "21.481667,110.590278",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "HSC/ZGSG",
-        "nameZh": "韶关丹霞机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "24.96,113.57",
-            "to": "24.9786,113.420998",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1864,13 +1241,6 @@
             "from": "Huizhou",
             "to": "Huizhou (Pingtan)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "23.25,114.65",
-            "to": "23.049999,114.599998",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1884,13 +1254,6 @@
             "from": "Foshan",
             "to": "Foshan (Nanhai)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "23.17,112.98",
-            "to": "23.0825,113.070833",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1921,17 +1284,10 @@
         ]
       },
       {
-        "id": "LZH/ZGLZ",
+        "id": "LZH/ZGZH",
         "nameZh": "柳州白莲机场",
         "file": "data-cn-2.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZGLZ",
-            "to": "ZGZH",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "nameEn",
             "from": "Liuzhou Bailian Airport",
@@ -1943,13 +1299,6 @@
             "from": "Liuzhou",
             "to": "Liuzhou (Liujiang)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "24.2,109.62",
-            "to": "24.2075,109.390999",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -1969,27 +1318,6 @@
             "from": "Wuzhou",
             "to": "Tangbu",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "23.49,111.29",
-            "to": "23.40316,111.09331",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "YLX/ZGYL",
-        "nameZh": "玉林福绵机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "22.61,110.07",
-            "to": "22.433042,110.119996",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2009,13 +1337,6 @@
             "from": "Baise",
             "to": "Baise (Tianyang)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "23.9,106.77",
-            "to": "23.7206,106.959999",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2074,13 +1395,6 @@
             "from": "Qionghai",
             "to": "Qionghai (Basuo)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "19.23,110.46",
-            "to": "19.140951,110.452766",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2094,13 +1408,6 @@
             "from": "Luoyang",
             "to": "Luoyang (Laocheng)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "34.69,112.4",
-            "to": "34.7411,112.388",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2114,20 +1421,6 @@
             "from": "Nanyang",
             "to": "Nanyang (Wancheng)",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "XAI/ZHXY",
-        "nameZh": "信阳明港机场",
-        "file": "data-cn-2.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "32.45,114.05",
-            "to": "32.540819,114.079141",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2173,13 +1466,6 @@
             "from": "Mianyang",
             "to": "Mianyang (Fucheng)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "31.43,104.68",
-            "to": "31.428101,104.740997",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2193,13 +1479,6 @@
             "from": "Yibin",
             "to": "Yibin (Cuiping)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "28.98,104.65",
-            "to": "28.858431,104.526157",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2213,13 +1492,6 @@
             "from": "Luzhou",
             "to": "Luzhou (Yunlong)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "29.17,105.43",
-            "to": "29.030357,105.468407",
-            "via": "ourairports",
-            "severity": "high"
           },
           {
             "field": "elevM",
@@ -2244,17 +1516,10 @@
         ]
       },
       {
-        "id": "DAX/ZUDY",
+        "id": "DAX/ZUDX",
         "nameZh": "达州金垭机场",
         "file": "data-cn-3.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZUDY",
-            "to": "ZUDX",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "nameEn",
             "from": "Dazhou Jinya Airport",
@@ -2266,13 +1531,6 @@
             "from": "Dazhou",
             "to": "Dazhou (Daxian)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "31.18,107.24",
-            "to": "31.1302,107.4295",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2288,32 +1546,11 @@
             "via": "ourairports"
           },
           {
-            "field": "lat/lng",
-            "from": "32.47,105.75",
-            "to": "32.390254,105.694571",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "BZX/ZUBZ",
-        "nameZh": "巴中恩阳机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "31.58,106.58",
-            "to": "31.73842,106.644872",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2378,13 +1615,6 @@
             "from": "Daocheng",
             "to": "Garzê (Daocheng)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "29.11,100.07",
-            "to": "29.31632,100.060317",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2398,52 +1628,25 @@
             "from": "Kangding",
             "to": "Garzê (Kangding)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "30.29,101.76",
-            "to": "30.142464,101.73872",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
       {
-        "id": "ABH/ZUAH",
+        "id": "AHJ/ZUHY",
         "nameZh": "阿坝红原机场",
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "icao",
-            "from": "ZUAH",
-            "to": "YAPH",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "nameEn",
             "from": "Aba Hongyuan Airport",
-            "to": "Alpha Airport",
+            "to": "Hongyuan Airport",
             "via": "ourairports"
           },
           {
             "field": "cityEn",
             "from": "Aba",
-            "to": "Alpha",
+            "to": "Ngawa (Hongyuan)",
             "via": "ourairports"
-          },
-          {
-            "field": "tz",
-            "from": "Asia/Shanghai",
-            "to": "Australia/Brisbane",
-            "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "32.24,102.53",
-            "to": "-23.652849,146.582668",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2461,31 +1664,10 @@
         ]
       },
       {
-        "id": "ACX/ZUYI",
-        "nameZh": "兴义万峰林机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "25.11,104.77",
-            "to": "25.083423,104.960804",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "TEN/ZUTL",
+        "id": "TEN/ZUTR",
         "nameZh": "铜仁凤凰机场",
         "file": "data-cn-3.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZUTL",
-            "to": "ZUTR",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "cityEn",
             "from": "Tongren",
@@ -2508,20 +1690,6 @@
         ]
       },
       {
-        "id": "WMT/ZUMT",
-        "nameZh": "遵义茅台机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "27.88,106.19",
-            "to": "27.961837,106.435416",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "AVA/ZUAS",
         "nameZh": "安顺黄果树机场",
         "file": "data-cn-3.json",
@@ -2531,27 +1699,6 @@
             "from": "Anshun",
             "to": "Anshun (Xixiu)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "26.26,105.94",
-            "to": "26.260556,105.873333",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "BFJ/ZUBJ",
-        "nameZh": "毕节飞雄机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "27.15,105.57",
-            "to": "27.267066,105.472097",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2565,13 +1712,6 @@
             "from": "Liupanshui",
             "to": "Liupanshui (Zhongshan)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "26.55,104.84",
-            "to": "26.609417,104.979",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2637,13 +1777,6 @@
             "from": "Dehong",
             "to": "Dehong (Mangshi)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "24.4,98.47",
-            "to": "24.4011,98.5317",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2661,20 +1794,6 @@
         ]
       },
       {
-        "id": "LNJ/ZPLC",
-        "nameZh": "临沧博尚机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "23.75,100.08",
-            "to": "23.7381,100.025002",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "BSD/ZPBS",
         "nameZh": "保山云瑞机场",
         "file": "data-cn-3.json",
@@ -2684,13 +1803,6 @@
             "from": "Baoshan",
             "to": "Baoshan (Longyang)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "25.11,99.17",
-            "to": "25.053301,99.168297",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2700,32 +1812,11 @@
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "lat/lng",
-            "from": "22.79,101.03",
-            "to": "22.793301,100.959",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "WNH/ZPWS",
-        "nameZh": "文山砚山机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "23.51,104.24",
-            "to": "23.5583,104.3255",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2739,13 +1830,6 @@
             "from": "Lijiang",
             "to": "Ninglang",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "27.28,100.83",
-            "to": "27.5403,100.7593",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2763,17 +1847,10 @@
         ]
       },
       {
-        "id": "LZY/ZUNL",
+        "id": "LZY/ZUNZ",
         "nameZh": "林芝米林机场",
         "file": "data-cn-3.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZUNL",
-            "to": "ZUNZ",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "cityEn",
             "from": "Nyingchi",
@@ -2859,13 +1936,6 @@
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "lat/lng",
-            "from": "40.29,94.69",
-            "to": "40.161953,94.812827",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
@@ -2897,13 +1967,6 @@
             "from": "Tianshui",
             "to": "Tianshui (Maiji)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "34.35,105.87",
-            "to": "34.5601,105.860343",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2919,32 +1982,11 @@
             "via": "ourairports"
           },
           {
-            "field": "lat/lng",
-            "from": "35.61,107.65",
-            "to": "35.802638,107.598896",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "JIC/ZLJC",
-        "nameZh": "金昌金川机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "38.55,102.53",
-            "to": "38.542222,102.348333",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2958,13 +2000,6 @@
             "from": "Zhangye",
             "to": "Zhangye (Ganzhou)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "39.04,100.42",
-            "to": "38.801899,100.675003",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -2984,13 +2019,6 @@
             "from": "Zhongwei",
             "to": "Zhongwei (Shapotou)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "37.52,105.81",
-            "to": "37.573125,105.154454",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3004,13 +2032,6 @@
             "from": "Guyuan",
             "to": "Guyuan (Yuanzhou)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.99,106.24",
-            "to": "36.078889,106.216944",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3075,13 +2096,6 @@
             "from": "Delingha Airport",
             "to": "Haixi Delingha Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "37.37,97.36",
-            "to": "37.125286,97.268658",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3101,13 +2115,6 @@
             "from": "Golog",
             "to": "Golog (Maqên)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "34.4,100.24",
-            "to": "34.418066,100.301144",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3176,20 +2183,6 @@
         ]
       },
       {
-        "id": "KRL/ZWKL",
-        "nameZh": "库尔勒梨城机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "41.7,86.14",
-            "to": "41.614979,86.140817",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "AKU/ZWAK",
         "nameZh": "阿克苏红旗坡机场",
         "file": "data-cn-3.json",
@@ -3203,17 +2196,10 @@
         ]
       },
       {
-        "id": "HTN/ZWWT",
+        "id": "HTN/ZWTN",
         "nameZh": "和田昆冈机场",
         "file": "data-cn-3.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "ZWWT",
-            "to": "ZWTN",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "nameEn",
             "from": "Hotan Kungang Airport",
@@ -3228,50 +2214,11 @@
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "lat/lng",
-            "from": "45.07,84.94",
-            "to": "45.46655,84.9527",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
             "via": "airportsdata",
             "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "TLQ/ZWTN",
-        "nameZh": "吐鲁番交河机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "iata",
-            "from": "TLQ",
-            "to": "HTN",
-            "via": "airportsdata"
-          },
-          {
-            "field": "nameEn",
-            "from": "Turpan Jiaohe Airport",
-            "to": "Hotan Airport",
-            "via": "ourairports"
-          },
-          {
-            "field": "cityEn",
-            "from": "Turpan",
-            "to": "Hotan",
-            "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "43.01,89.15",
-            "to": "37.03850173950195,79.86489868164062",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3285,13 +2232,6 @@
             "from": "Hami Yizhou Airport",
             "to": "Hami Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "42.88,93.54",
-            "to": "42.8414,93.669197",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3300,13 +2240,6 @@
         "nameZh": "塔城千泉机场",
         "file": "data-cn-3.json",
         "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "46.72,83.02",
-            "to": "46.672501,83.340797",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "elevM",
             "from": "",
@@ -3332,55 +2265,6 @@
             "from": "Altay",
             "to": "Burqin",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "48.85,87.13",
-            "to": "48.2223,86.9959",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "BPL/ZWBL",
-        "nameZh": "博乐阿拉山口机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "44.89,82.11",
-            "to": "44.895461,82.30007",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "KCA/ZWKC",
-        "nameZh": "库车龟兹机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "41.25,83.02",
-            "to": "41.677856,82.872917",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "SHF/",
-        "nameZh": "石河子花园机场",
-        "file": "data-cn-3.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "44.32,86.1",
-            "to": "44.2421,85.8905",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3456,17 +2340,10 @@
         ]
       },
       {
-        "id": "RMQ/RCQM",
+        "id": "RMQ/RCMQ",
         "nameZh": "台中清泉岗机场",
         "file": "data-cn-3.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "RCQM",
-            "to": "RCMQ",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "nameEn",
             "from": "Taichung Chingchuankang Airport",
@@ -3501,98 +2378,53 @@
         ]
       },
       {
-        "id": "HUN/RCBS",
+        "id": "HUN/RCYU",
         "nameZh": "花莲机场",
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "iata",
-            "from": "HUN",
-            "to": "KNH",
-            "via": "airportsdata"
-          },
-          {
             "field": "nameEn",
             "from": "Hualien Airport",
-            "to": "Kinmen Airport",
+            "to": "Hualien Chiashan Airport",
             "via": "ourairports"
           },
           {
             "field": "cityEn",
             "from": "Hualien",
-            "to": "Shang-I",
+            "to": "Hualien City",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "24.02,121.62",
-            "to": "24.4279,118.359001",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
       {
-        "id": "MZG/RCMT",
+        "id": "MZG/RCQC",
         "nameZh": "澎湖马公机场",
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "iata",
-            "from": "MZG",
-            "to": "MFK",
-            "via": "airportsdata"
-          },
-          {
-            "field": "nameEn",
-            "from": "Penghu Magong Airport",
-            "to": "Matsu Beigan Airport",
-            "via": "ourairports"
-          },
-          {
             "field": "cityEn",
             "from": "Magong",
-            "to": "Matsu (Beigan)",
+            "to": "Huxi",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "23.57,119.63",
-            "to": "26.22414,120.002679",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
       {
-        "id": "KNH/RCQC",
+        "id": "KNH/RCBS",
         "nameZh": "金门尚义机场",
         "file": "data-cn-3.json",
         "diffs": [
           {
-            "field": "iata",
-            "from": "KNH",
-            "to": "MZG",
-            "via": "airportsdata"
-          },
-          {
             "field": "nameEn",
             "from": "Kinmen Shangyi Airport",
-            "to": "Penghu Magong Airport",
+            "to": "Kinmen Airport",
             "via": "ourairports"
           },
           {
             "field": "cityEn",
             "from": "Kinmen",
-            "to": "Huxi",
+            "to": "Shang-I",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "24.43,118.36",
-            "to": "23.568701,119.627998",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3626,27 +2458,6 @@
             "from": "Chongqing Qianjiang Wulingshan Airport",
             "to": "Qianjiang Wulingshan Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "29.61,108.99",
-            "to": "29.5133333333,108.831111111",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "UYN/ZLYL",
-        "nameZh": "榆林榆阳机场",
-        "file": "data-cn-4.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "38.44,109.45",
-            "to": "38.35971,109.590927",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3660,13 +2471,6 @@
             "from": "Yan'an",
             "to": "Yan'an (Baota)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "36.53,109.48",
-            "to": "36.479413,109.464083",
-            "via": "ourairports",
-            "severity": "high"
           },
           {
             "field": "elevM",
@@ -3689,13 +2493,6 @@
             "via": "ourairports"
           },
           {
-            "field": "lat/lng",
-            "from": "33.18,107.42",
-            "to": "33.133527,107.203817",
-            "via": "ourairports",
-            "severity": "high"
-          },
-          {
             "field": "elevM",
             "from": "",
             "to": 0,
@@ -3714,13 +2511,6 @@
             "from": "Ankang",
             "to": "Ankang (Hanbin)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "32.74,109.06",
-            "to": "32.75696,108.87338",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3740,13 +2530,6 @@
             "from": "Longnan",
             "to": "Longnan (Cheng)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "33.75,105.68",
-            "to": "33.789918,105.790014",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3760,13 +2543,6 @@
             "from": "Gannan",
             "to": "Gannan (Xiahe)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "35.22,102.61",
-            "to": "34.819014,102.622261",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3786,13 +2562,6 @@
             "from": "Ganzi",
             "to": "Garzê (Garzê)",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "31.71,99.94",
-            "to": "31.7575,99.554167",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3806,27 +2575,6 @@
             "from": "Anyang Hongqi Canal Airport",
             "to": "Anyang Hongqiqu Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "36.13,114.29",
-            "to": "35.870833,114.461944",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "JSJ/",
-        "nameZh": "建三江湿地机场",
-        "file": "data-cn-4.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "47.44,132.34",
-            "to": "47.108248,132.65792",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3840,13 +2588,6 @@
             "from": "Yarkand Airport",
             "to": "Shache Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "38.45,77.21",
-            "to": "38.24542,77.056149",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -3860,34 +2601,6 @@
             "from": 1090,
             "to": 1087,
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "FYN/",
-        "nameZh": "富蕴可可托海机场",
-        "file": "data-cn-4.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "46.98,89.48",
-            "to": "46.804169,89.512006",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
-        "id": "ACF/",
-        "nameZh": "阿拉尔塔里木机场",
-        "file": "data-cn-4.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "40.55,81.26",
-            "to": "40.434748,81.26206",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -4267,20 +2980,6 @@
         ]
       },
       {
-        "id": "KMJ/RJFT",
-        "nameZh": "熊本机场",
-        "file": "data-global-1.json",
-        "diffs": [
-          {
-            "field": "lat/lng",
-            "from": "32.75,130.85",
-            "to": "32.837299,130.854996",
-            "via": "ourairports",
-            "severity": "high"
-          }
-        ]
-      },
-      {
         "id": "KMQ/RJNK",
         "nameZh": "小松机场",
         "file": "data-global-1.json",
@@ -4378,40 +3077,15 @@
         ]
       },
       {
-        "id": "ULA/ZMUL",
+        "id": "UBN/ZMCK",
         "nameZh": "乌兰巴托成吉思汗国际机场",
         "file": "data-global-1.json",
         "diffs": [
           {
-            "field": "iata",
-            "from": "ULA",
-            "to": "ULG",
-            "via": "airportsdata"
-          },
-          {
-            "field": "nameEn",
-            "from": "Ulaanbaatar Chinggis Khaan International Airport",
-            "to": "Ölgii Mongolei International Airport",
-            "via": "ourairports"
-          },
-          {
             "field": "cityEn",
             "from": "Ulaanbaatar",
-            "to": "Ölgii",
+            "to": "Ulaanbaatar (Sergelen)",
             "via": "ourairports"
-          },
-          {
-            "field": "tz",
-            "from": "Asia/Ulaanbaatar",
-            "to": "Asia/Hovd",
-            "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "47.65,106.82",
-            "to": "48.993301,89.922501",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -4457,32 +3131,6 @@
             "from": "Koh Samui",
             "to": "Na Thon (Ko Samui Island)",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "KBV/VTCB",
-        "nameZh": "甲米国际机场",
-        "file": "data-global-1.json",
-        "diffs": [
-          {
-            "field": "nameEn",
-            "from": "Krabi International Airport",
-            "to": "Chiang Kham Airport",
-            "via": "ourairports"
-          },
-          {
-            "field": "cityEn",
-            "from": "Krabi",
-            "to": "Phayao Ban Chiang Kham",
-            "via": "ourairports"
-          },
-          {
-            "field": "lat/lng",
-            "from": "8.1,98.98",
-            "to": "19.5,100.282997",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -4545,17 +3193,10 @@
         ]
       },
       {
-        "id": "SUB/WRSJ",
+        "id": "SUB/WARR",
         "nameZh": "泗水朱安达国际机场",
         "file": "data-global-1.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "WRSJ",
-            "to": "WARR",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "nameEn",
             "from": "Surabaya Juanda International Airport",
@@ -4727,13 +3368,6 @@
             "from": "Siem Reap Angkor International Airport",
             "to": "Angkor International Airport",
             "via": "airportsdata"
-          },
-          {
-            "field": "lat/lng",
-            "from": "13.41,104.16",
-            "to": "13.4107,103.813",
-            "via": "airportsdata",
-            "severity": "high"
           }
         ]
       },
@@ -5063,20 +3697,6 @@
             "from": "Medina Prince Mohammad bin Abdulaziz Airport",
             "to": "Prince Mohammad Bin Abdulaziz Airport",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "KWI/OKBK",
-        "nameZh": "科威特国际机场",
-        "file": "data-global-1.json",
-        "diffs": [
-          {
-            "field": "icao",
-            "from": "OKBK",
-            "to": "OKKK",
-            "via": "ourairports",
-            "severity": "high"
           }
         ]
       },
@@ -5929,17 +4549,10 @@
         ]
       },
       {
-        "id": "TAS/UTTT",
+        "id": "TAS/UZTT",
         "nameZh": "塔什干国际机场",
         "file": "data-global-2.json",
         "diffs": [
-          {
-            "field": "icao",
-            "from": "UTTT",
-            "to": "UZTT",
-            "via": "ourairports",
-            "severity": "high"
-          },
           {
             "field": "tz",
             "from": "Asia/Tashkent",

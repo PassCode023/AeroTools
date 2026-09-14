@@ -80,3 +80,23 @@
 
 - 升级 **374 条**坐标：两位小数量级 → ourairports 权威精确值（同址差异 Δ∈(0.001°,0.05°]，全部经由 ourairports）。
 - 剩余队列：位移 >0.05°（约 5.5km）的 ★ 级冲突与 ICAO 改动（如秦皇岛 ZBSD→ZBDH、长治 ZBCP→ZBCZ）需逐案人工核实后再处理；对账报告 `reconcile-report.json` 实时维护。
+
+### ★ 级批次：ICAO 改动 + 坐标位移（2026-09-14，工具脚本 `tools/fix-stars.js`）
+
+**A. 18 条 ICAO 改动**（15 双源 + 3 仅 OA 按矩阵；目标行身份逐条经上游英文名核验）：秦皇岛北戴河 ZBSD→ZBDH、长治王村 ZBCP→ZBCZ、巴彦淖尔 ZBYL→ZBYZ、朝阳 ZYZX→ZYCY、长白山 ZYNB→ZYBS、白城 ZYBC→ZYBA、阜阳 ZSFU→ZSFY、井冈山 ZSJM→ZSGS、邵阳武冈 ZGWG→ZGSY、柳州 ZGLZ→ZGZH、达州 ZUDY→ZUDX、铜仁凤凰 ZUTL→ZUTR、林芝 ZUNL→ZUNZ、和田 ZWWT→ZWTN、台中清泉岗 RCQM→RCMQ、泗水朱安达 WRSJ→WARR、科威特 OKBK→OKKK（2020s 换码）、塔什干 UTTT→UZTT（乌兹别克斯坦 UT→UZ 换码）。
+
+**B. 7 条错码连环案**（库内码串错位或假性撞车，双源可证，连带坐标/海拔）：
+
+| 机场 | 错码 → 正码 | 真相 |
+|---|---|---|
+| 吐鲁番交河 | icao ZWTN→ZWTL | ZWTN 是和田的；TLQ/ZWTL 双源一致，旧坐标偏至和田场址 |
+| 花莲 | RCBS→RCYU | RCBS 是金门的 |
+| 金门尚义 | RCQC→RCBS | RCQC 是马公的——三案构成首尾错位链 |
+| 澎湖马公 | RCMT→RCQC | RCMT 是马祖北竿的 |
+| 乌兰巴托成吉思汗 | ULA/ZMUL→UBN/ZMCK | ULA 是阿根廷机场、ZMUL 是乌列盖的 |
+| 甲米 | VTCB→VTSG | VTCB 是泰国清堪的 |
+| 阿坝红原 | ABH/ZUAH→AHJ/ZUHY | ABH 是澳洲 Alpha Airport 的；旧坐标偏约 30km |
+
+**C. 120 条坐标位移**（127 − 7 错码案；位移 >5.5km 且上游英文名身份核验通过；甘孜格萨尔为 Garze/Ganzi 异拼虚惊）。
+
+**终态**：★ 级高置信冲突清零；名录对账 270 精确命中、0 ref 错位、0 疑似更名；字段级队列仅余字符串类差异（nameEn/cityEn/tz/iata 非冲突类）与 29 条海拔留空（28 零值占位 + 巫山）。

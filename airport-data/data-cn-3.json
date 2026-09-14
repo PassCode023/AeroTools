@@ -49,8 +49,8 @@
     "cityZh": "绵阳",
     "cityEn": "Mianyang",
     "country": "中国",
-    "lat": 31.43,
-    "lng": 104.68,
+    "lat": 31.428101,
+    "lng": 104.740997,
     "tz": "Asia/Shanghai",
     "caacRef": "p10e02",
     "elevM": 2400
@@ -63,8 +63,8 @@
     "cityZh": "宜宾",
     "cityEn": "Yibin",
     "country": "中国",
-    "lat": 28.98,
-    "lng": 104.65,
+    "lat": 28.858431,
+    "lng": 104.526157,
     "tz": "Asia/Shanghai",
     "caacRef": "p12e05",
     "elevM": 420
@@ -77,8 +77,8 @@
     "cityZh": "泸州",
     "cityEn": "Luzhou",
     "country": "中国",
-    "lat": 29.17,
-    "lng": 105.43,
+    "lat": 29.030357,
+    "lng": 105.468407,
     "tz": "Asia/Shanghai",
     "caacRef": "p22e06"
   },
@@ -98,14 +98,14 @@
   },
   {
     "iata": "DAX",
-    "icao": "ZUDY",
+    "icao": "ZUDX",
     "nameZh": "达州金垭机场",
     "nameEn": "Dazhou Jinya Airport",
     "cityZh": "达州",
     "cityEn": "Dazhou",
     "country": "中国",
-    "lat": 31.18,
-    "lng": 107.24,
+    "lat": 31.1302,
+    "lng": 107.4295,
     "tz": "Asia/Shanghai",
     "caacRef": "p21e05"
   },
@@ -116,8 +116,8 @@
     "cityZh": "广元",
     "cityEn": "Guangyuan",
     "country": "中国",
-    "lat": 32.47,
-    "lng": 105.75,
+    "lat": 32.390254,
+    "lng": 105.694571,
     "tz": "Asia/Shanghai",
     "caacRef": "p24e04"
   },
@@ -129,8 +129,8 @@
     "cityZh": "巴中",
     "cityEn": "Bazhong",
     "country": "中国",
-    "lat": 31.58,
-    "lng": 106.58,
+    "lat": 31.73842,
+    "lng": 106.644872,
     "tz": "Asia/Shanghai",
     "caacRef": "p26e04",
     "elevM": 550
@@ -185,8 +185,8 @@
     "cityZh": "稻城",
     "cityEn": "Daocheng",
     "country": "中国",
-    "lat": 29.11,
-    "lng": 100.07,
+    "lat": 29.31632,
+    "lng": 100.060317,
     "tz": "Asia/Shanghai",
     "elevM": 4411,
     "caacRef": "p24e09"
@@ -199,8 +199,8 @@
     "cityZh": "康定",
     "cityEn": "Kangding",
     "country": "中国",
-    "lat": 30.29,
-    "lng": 101.76,
+    "lat": 30.142464,
+    "lng": 101.73872,
     "tz": "Asia/Shanghai",
     "elevM": 4280,
     "aliases": [
@@ -209,18 +209,18 @@
     "caacRef": "p25e04"
   },
   {
-    "iata": "ABH",
-    "icao": "ZUAH",
+    "iata": "AHJ",
+    "icao": "ZUHY",
     "nameZh": "阿坝红原机场",
     "nameEn": "Aba Hongyuan Airport",
     "cityZh": "阿坝",
     "cityEn": "Aba",
     "country": "中国",
-    "lat": 32.24,
-    "lng": 102.53,
+    "lat": 32.53154,
+    "lng": 102.35224,
     "tz": "Asia/Shanghai",
     "caacRef": "p25e08",
-    "elevM": 383
+    "elevM": 3536
   },
   {
     "iata": "KWE",
@@ -244,15 +244,15 @@
     "cityZh": "兴义",
     "cityEn": "Xingyi",
     "country": "中国",
-    "lat": 25.11,
-    "lng": 104.77,
+    "lat": 25.083423,
+    "lng": 104.960804,
     "tz": "Asia/Shanghai",
     "caacRef": "p14e10",
     "elevM": 1265
   },
   {
     "iata": "TEN",
-    "icao": "ZUTL",
+    "icao": "ZUTR",
     "nameZh": "铜仁凤凰机场",
     "nameEn": "Tongren Fenghuang Airport",
     "cityZh": "铜仁",
@@ -286,8 +286,8 @@
     "cityZh": "遵义",
     "cityEn": "Zunyi",
     "country": "中国",
-    "lat": 27.88,
-    "lng": 106.19,
+    "lat": 27.961837,
+    "lng": 106.435416,
     "tz": "Asia/Shanghai",
     "caacRef": "p23e01",
     "elevM": 1240
@@ -300,8 +300,8 @@
     "cityZh": "安顺",
     "cityEn": "Anshun",
     "country": "中国",
-    "lat": 26.26,
-    "lng": 105.94,
+    "lat": 26.260556,
+    "lng": 105.873333,
     "tz": "Asia/Shanghai",
     "caacRef": "p19e05",
     "elevM": 1467
@@ -314,8 +314,8 @@
     "cityZh": "毕节",
     "cityEn": "Bijie",
     "country": "中国",
-    "lat": 27.15,
-    "lng": 105.57,
+    "lat": 27.267066,
+    "lng": 105.472097,
     "tz": "Asia/Shanghai",
     "caacRef": "p12e08",
     "elevM": 1448
@@ -328,8 +328,8 @@
     "cityZh": "六盘水",
     "cityEn": "Liupanshui",
     "country": "中国",
-    "lat": 26.55,
-    "lng": 104.84,
+    "lat": 26.609417,
+    "lng": 104.979,
     "tz": "Asia/Shanghai",
     "caacRef": "p21e03",
     "elevM": 1963
@@ -412,8 +412,8 @@
     "cityZh": "德宏",
     "cityEn": "Dehong",
     "country": "中国",
-    "lat": 24.4,
-    "lng": 98.47,
+    "lat": 24.4011,
+    "lng": 98.5317,
     "tz": "Asia/Shanghai",
     "caacRef": "p12e07",
     "elevM": 881
@@ -440,8 +440,8 @@
     "cityZh": "临沧",
     "cityEn": "Lincang",
     "country": "中国",
-    "lat": 23.75,
-    "lng": 100.08,
+    "lat": 23.7381,
+    "lng": 100.025002,
     "tz": "Asia/Shanghai",
     "caacRef": "p23e09",
     "elevM": 1899
@@ -454,8 +454,8 @@
     "cityZh": "保山",
     "cityEn": "Baoshan",
     "country": "中国",
-    "lat": 25.11,
-    "lng": 99.17,
+    "lat": 25.053301,
+    "lng": 99.168297,
     "tz": "Asia/Shanghai",
     "caacRef": "p19e07",
     "elevM": 1662
@@ -468,8 +468,8 @@
     "cityZh": "普洱",
     "cityEn": "Pu'er",
     "country": "中国",
-    "lat": 22.79,
-    "lng": 101.03,
+    "lat": 22.793301,
+    "lng": 100.959,
     "tz": "Asia/Shanghai",
     "caacRef": "p21e06"
   },
@@ -498,8 +498,8 @@
     "cityZh": "文山",
     "cityEn": "Wenshan",
     "country": "中国",
-    "lat": 23.51,
-    "lng": 104.24,
+    "lat": 23.5583,
+    "lng": 104.3255,
     "tz": "Asia/Shanghai",
     "aliases": [
       "文山普者黑机场"
@@ -515,8 +515,8 @@
     "cityZh": "丽江",
     "cityEn": "Lijiang",
     "country": "中国",
-    "lat": 27.28,
-    "lng": 100.83,
+    "lat": 27.5403,
+    "lng": 100.7593,
     "tz": "Asia/Shanghai",
     "caacRef": "p26e02",
     "elevM": 3293
@@ -537,7 +537,7 @@
   },
   {
     "iata": "LZY",
-    "icao": "ZUNL",
+    "icao": "ZUNZ",
     "nameZh": "林芝米林机场",
     "nameEn": "Nyingchi Mainling Airport",
     "cityZh": "林芝",
@@ -627,8 +627,8 @@
     "cityZh": "敦煌",
     "cityEn": "Dunhuang",
     "country": "中国",
-    "lat": 40.29,
-    "lng": 94.69,
+    "lat": 40.161953,
+    "lng": 94.812827,
     "tz": "Asia/Shanghai",
     "caacRef": "p09e07"
   },
@@ -654,8 +654,8 @@
     "cityZh": "天水",
     "cityEn": "Tianshui",
     "country": "中国",
-    "lat": 34.35,
-    "lng": 105.87,
+    "lat": 34.5601,
+    "lng": 105.860343,
     "tz": "Asia/Shanghai",
     "caacRef": "p14e08",
     "elevM": 1094
@@ -668,8 +668,8 @@
     "cityZh": "庆阳",
     "cityEn": "Qingyang",
     "country": "中国",
-    "lat": 35.61,
-    "lng": 107.65,
+    "lat": 35.802638,
+    "lng": 107.598896,
     "tz": "Asia/Shanghai",
     "aliases": [
       "庆阳西峰机场"
@@ -684,8 +684,8 @@
     "cityZh": "金昌",
     "cityEn": "Jinchang",
     "country": "中国",
-    "lat": 38.55,
-    "lng": 102.53,
+    "lat": 38.542222,
+    "lng": 102.348333,
     "tz": "Asia/Shanghai",
     "caacRef": "p17e01",
     "elevM": 1445
@@ -698,8 +698,8 @@
     "cityZh": "张掖",
     "cityEn": "Zhangye",
     "country": "中国",
-    "lat": 39.04,
-    "lng": 100.42,
+    "lat": 38.801899,
+    "lng": 100.675003,
     "tz": "Asia/Shanghai",
     "caacRef": "p19e04",
     "elevM": 1609
@@ -725,8 +725,8 @@
     "cityZh": "中卫",
     "cityEn": "Zhongwei",
     "country": "中国",
-    "lat": 37.52,
-    "lng": 105.81,
+    "lat": 37.573125,
+    "lng": 105.154454,
     "tz": "Asia/Shanghai",
     "caacRef": "p09e06",
     "elevM": 1246
@@ -739,8 +739,8 @@
     "cityZh": "固原",
     "cityEn": "Guyuan",
     "country": "中国",
-    "lat": 35.99,
-    "lng": 106.24,
+    "lat": 36.078889,
+    "lng": 106.216944,
     "tz": "Asia/Shanghai",
     "caacRef": "p08e06",
     "elevM": 1746
@@ -812,8 +812,8 @@
     "cityZh": "德令哈",
     "cityEn": "Delingha",
     "country": "中国",
-    "lat": 37.37,
-    "lng": 97.36,
+    "lat": 37.125286,
+    "lng": 97.268658,
     "tz": "Asia/Shanghai",
     "aliases": [
       "德令哈机场"
@@ -828,8 +828,8 @@
     "cityZh": "果洛",
     "cityEn": "Golog",
     "country": "中国",
-    "lat": 34.4,
-    "lng": 100.24,
+    "lat": 34.418066,
+    "lng": 100.301144,
     "tz": "Asia/Shanghai",
     "caacRef": "p16e03",
     "elevM": 3787
@@ -906,8 +906,8 @@
     "cityZh": "库尔勒",
     "cityEn": "Korla",
     "country": "中国",
-    "lat": 41.7,
-    "lng": 86.14,
+    "lat": 41.614979,
+    "lng": 86.140817,
     "tz": "Asia/Shanghai",
     "caacRef": "p08e03",
     "elevM": 927
@@ -928,7 +928,7 @@
   },
   {
     "iata": "HTN",
-    "icao": "ZWWT",
+    "icao": "ZWTN",
     "nameZh": "和田昆冈机场",
     "nameEn": "Hotan Kungang Airport",
     "cityZh": "和田",
@@ -948,8 +948,8 @@
     "cityZh": "克拉玛依",
     "cityEn": "Karamay",
     "country": "中国",
-    "lat": 45.07,
-    "lng": 84.94,
+    "lat": 45.46655,
+    "lng": 84.9527,
     "tz": "Asia/Shanghai",
     "aliases": [
       "克拉玛依机场"
@@ -958,17 +958,17 @@
   },
   {
     "iata": "TLQ",
-    "icao": "ZWTN",
+    "icao": "ZWTL",
     "nameZh": "吐鲁番交河机场",
     "nameEn": "Turpan Jiaohe Airport",
     "cityZh": "吐鲁番",
     "cityEn": "Turpan",
     "country": "中国",
-    "lat": 43.01,
-    "lng": 89.15,
+    "lat": 43.0308,
+    "lng": 89.0987,
     "tz": "Asia/Shanghai",
     "caacRef": "p23e06",
-    "elevM": 1424
+    "elevM": 285
   },
   {
     "iata": "HMI",
@@ -978,8 +978,8 @@
     "cityZh": "哈密",
     "cityEn": "Hami",
     "country": "中国",
-    "lat": 42.88,
-    "lng": 93.54,
+    "lat": 42.8414,
+    "lng": 93.669197,
     "tz": "Asia/Shanghai",
     "caacRef": "p21e01",
     "elevM": 824
@@ -992,8 +992,8 @@
     "cityZh": "塔城",
     "cityEn": "Tacheng",
     "country": "中国",
-    "lat": 46.72,
-    "lng": 83.02,
+    "lat": 46.672501,
+    "lng": 83.340797,
     "tz": "Asia/Shanghai",
     "caacRef": "p26e05"
   },
@@ -1019,8 +1019,8 @@
     "cityZh": "阿勒泰",
     "cityEn": "Altay",
     "country": "中国",
-    "lat": 48.85,
-    "lng": 87.13,
+    "lat": 48.2223,
+    "lng": 86.9959,
     "tz": "Asia/Shanghai",
     "aliases": [
       "喀纳斯机场"
@@ -1036,8 +1036,8 @@
     "cityZh": "博乐",
     "cityEn": "Bole",
     "country": "中国",
-    "lat": 44.89,
-    "lng": 82.11,
+    "lat": 44.895461,
+    "lng": 82.30007,
     "tz": "Asia/Shanghai",
     "caacRef": "p24e02",
     "elevM": 382
@@ -1064,8 +1064,8 @@
     "cityZh": "库车",
     "cityEn": "Kuqa",
     "country": "中国",
-    "lat": 41.25,
-    "lng": 83.02,
+    "lat": 41.677856,
+    "lng": 82.872917,
     "tz": "Asia/Shanghai",
     "caacRef": "p22e05",
     "elevM": 1074
@@ -1077,8 +1077,8 @@
     "cityZh": "石河子",
     "cityEn": "Shihezi",
     "country": "中国",
-    "lat": 44.32,
-    "lng": 86.1,
+    "lat": 44.2421,
+    "lng": 85.8905,
     "tz": "Asia/Shanghai",
     "caacRef": "p26e03",
     "elevM": 518
@@ -1164,7 +1164,7 @@
   },
   {
     "iata": "RMQ",
-    "icao": "RCQM",
+    "icao": "RCMQ",
     "nameZh": "台中清泉岗机场",
     "nameEn": "Taichung Chingchuankang Airport",
     "cityZh": "台中",
@@ -1190,41 +1190,41 @@
   },
   {
     "iata": "HUN",
-    "icao": "RCBS",
+    "icao": "RCYU",
     "nameZh": "花莲机场",
     "nameEn": "Hualien Airport",
     "cityZh": "花莲",
     "cityEn": "Hualien",
     "country": "中国",
-    "lat": 24.02,
-    "lng": 121.62,
+    "lat": 24.023163,
+    "lng": 121.617991,
     "tz": "Asia/Taipei",
-    "elevM": 28
+    "elevM": 16
   },
   {
     "iata": "MZG",
-    "icao": "RCMT",
+    "icao": "RCQC",
     "nameZh": "澎湖马公机场",
     "nameEn": "Penghu Magong Airport",
     "cityZh": "马公",
     "cityEn": "Magong",
     "country": "中国",
-    "lat": 23.57,
-    "lng": 119.63,
+    "lat": 23.568701,
+    "lng": 119.627998,
     "tz": "Asia/Taipei",
-    "elevM": 12
+    "elevM": 31
   },
   {
     "iata": "KNH",
-    "icao": "RCQC",
+    "icao": "RCBS",
     "nameZh": "金门尚义机场",
     "nameEn": "Kinmen Shangyi Airport",
     "cityZh": "金门",
     "cityEn": "Kinmen",
     "country": "中国",
-    "lat": 24.43,
-    "lng": 118.36,
+    "lat": 24.4279,
+    "lng": 118.359001,
     "tz": "Asia/Taipei",
-    "elevM": 31
+    "elevM": 28
   }
 ]
