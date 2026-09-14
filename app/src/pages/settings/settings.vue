@@ -3,7 +3,7 @@ import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import { computed, ref } from 'vue'
 import { currentInfo, bundledInfo, type DbInfo } from '../../utils/db'
 import { checkAndPrompt, type UpdateStatus } from '../../utils/updater'
-import { APP_VERSION, FEEDBACK_URL } from '../../config'
+import { APP_VERSION, FEEDBACK_URL, DB_UPDATE_BASE_URL } from '../../config'
 import { useTheme, syncNavBar, type ThemeMode } from '../../utils/theme'
 
 // 声明后右上角胶囊菜单才出现"转发给朋友/分享到朋友圈"
@@ -18,8 +18,16 @@ const { themeClass, mode, setTheme } = useTheme()
 const dbInfo = ref<DbInfo>({ version: '', count: 0, updatedAt: '', fromRemote: false })
 const bundledVer = bundledInfo()
 
+// 评审 P0-3：更新服务未配置时不展示任何可点击的更新入口
+const updateConfigured = !!DB_UPDATE_BASE_URL
+
 const status = ref<UpdateStatus>({ state: 'idle' })
 const checking = computed(() => status.value.state === 'checking' || status.value.state === 'downloading')
+
+/** 数据来源：两个上游开源数据集地址，逐行展示 */
+const sourceLines = computed(() =>
+  (dbInfo.value.source || '').split('\n').map((s) => s.trim()).filter(Boolean)
+)
 
 /** 复制反馈地址（小程序端的主要留言路径） */
 function copyFeedback(): void {
@@ -75,7 +83,7 @@ const statusText = computed(() => {
     case 'error':
       return `更新失败：${status.value.message}`
     case 'not-configured':
-      return '未配置更新服务（当前使用内置数据库）'
+      return '使用内置数据库'
     default:
       return dbInfo.value.fromRemote ? '已使用在线更新的数据库' : '使用内置数据库'
   }
@@ -92,12 +100,12 @@ function pickTheme(m: ThemeMode) {
     <view class="card section">
       <text class="card-title">外观</text>
       <view class="theme-switch">
-        <view class="theme-opt" :class="{ active: mode === 'light' }" @tap="pickTheme('light')">
+        <button class="theme-opt" :class="{ active: mode === 'light' }" @tap="pickTheme('light')">
           <text>☀️ 浅色</text>
-        </view>
-        <view class="theme-opt" :class="{ active: mode === 'dark' }" @tap="pickTheme('dark')">
+        </button>
+        <button class="theme-opt" :class="{ active: mode === 'dark' }" @tap="pickTheme('dark')">
           <text>🌙 深色</text>
-        </view>
+        </button>
       </view>
     </view>
 
@@ -113,29 +121,41 @@ function pickTheme(m: ThemeMode) {
         <text class="info-value">{{ dbInfo.count }} 家</text>
       </view>
       <view class="info-row">
-        <text class="info-label">更新时间</text>
+        <text class="info-label">资料截至</text>
+        <text class="info-value">{{ dbInfo.dataAsOf || dbInfo.updatedAt }}</text>
+      </view>
+      <view class="info-row">
+        <text class="info-label">数据构建时间</text>
         <text class="info-value">{{ dbInfo.updatedAt }}</text>
       </view>
       <view class="info-row">
         <text class="info-label">内置版本</text>
         <text class="info-value">{{ bundledVer.version }}（{{ bundledVer.count }} 家）</text>
       </view>
-      <view class="status-line">
-        <text class="status-text">{{ statusText }}</text>
+      <template v-if="updateConfigured">
+        <view class="status-line">
+          <text class="status-text">{{ statusText }}</text>
+        </view>
+        <button class="btn primary" :disabled="checking" @tap="manualCheck">
+          {{ checking ? '处理中…' : '检查更新' }}
+        </button>
+        <text class="note">支持 Wi-Fi 与移动网络下载；更新前会提示确认，失败自动保留原数据库。</text>
+      </template>
+      <view class="note tight source-note">
+        <text>数据来源：</text>
+        <text v-for="line in sourceLines" :key="line" class="source-url">{{ line }}</text>
       </view>
-      <button class="btn primary" :disabled="checking" @tap="manualCheck">
-        {{ checking ? '处理中…' : '检查更新' }}
-      </button>
-      <text class="note">支持 Wi-Fi 与移动网络下载；更新前会提示确认，失败自动保留原数据库。</text>
     </view>
 
     <!-- 意见反馈 -->
     <view class="card section">
       <text class="card-title">意见反馈</text>
       <text class="note tight">使用中遇到问题，或有功能建议，欢迎留言告诉我们：</text>
-      <view class="fb-url" @tap="copyFeedback">
+      <view class="fb-url">
         <text class="fb-link">{{ FEEDBACK_URL }}</text>
-        <text class="fb-copy">复制</text>
+        <button class="fb-copy" aria-label="复制反馈地址" @tap="copyFeedback">
+          <text>复制</text>
+        </button>
       </view>
       <button class="btn primary" @tap="openFeedback">打开留言页</button>
     </view>
@@ -215,7 +235,10 @@ function pickTheme(m: ThemeMode) {
 }
 .theme-opt {
   flex: 1;
-  padding: 20rpx 0;
+  min-height: 88rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 999rpx;
   text-align: center;
   font-size: 28rpx;
@@ -269,9 +292,18 @@ function pickTheme(m: ThemeMode) {
 .note {
   display: block;
   margin-top: 20rpx;
-  font-size: 22rpx;
+  font-size: 24rpx;
   line-height: 1.6;
   color: var(--at-weak);
+}
+.source-note {
+  display: flex;
+  flex-direction: column;
+  gap: 4rpx;
+}
+.source-url {
+  color: var(--at-primary);
+  word-break: break-all;
 }
 .note.tight {
   margin-top: 0;
@@ -287,16 +319,20 @@ function pickTheme(m: ThemeMode) {
 }
 .fb-link {
   flex: 1;
-  font-size: 22rpx;
+  font-size: 24rpx;
   color: var(--at-primary);
   word-break: break-all;
 }
 .fb-copy {
   flex-shrink: 0;
+  min-height: 72rpx;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
   font-size: 24rpx;
   color: var(--at-primary);
   font-weight: 600;
-  padding: 6rpx 20rpx;
+  padding: 0 24rpx;
   border: 2rpx solid var(--at-primary);
   border-radius: 999rpx;
 }

@@ -4,14 +4,18 @@ import { onShow, onShareAppMessage, onShareTimeline } from '@dcloudio/uni-app'
 import {
   type TimeValue,
   type TimeKind,
-  type Op,
   clockView,
   durationView,
   dualViews,
   displayBuffer,
-  commitBuffer,
-  applyOp,
 } from '../../utils/timeMath'
+import {
+  freshState,
+  pressKey,
+  canInput,
+  opEnabled,
+  allowedKinds,
+} from '../../utils/calcInput'
 import { loadHistory, addHistory, clearHistory, type HistoryEntry } from '../../utils/calcHistory'
 import { useTheme, syncNavBar } from '../../utils/theme'
 import NumKeypad from '../../components/num-keypad.vue'
@@ -25,13 +29,9 @@ onShareTimeline(() => ({ title: '航枢 · 航班时刻加减，多步连续运�
 
 const { themeClass } = useTheme()
 
-/* ---- 计算链状态 ---- */
-const acc = ref<TimeValue | null>(null)
-const pendingOp = ref<Op | null>(null)
-const buf = ref('')
-const inputKind = ref<TimeKind>('clock')
+/* ---- 计算链状态（纯函数状态机见 utils/calcInput，P0-1 修复：任意状态可退格/C 恢复） ---- */
+const state = ref(freshState())
 const steps = ref<string[]>([])
-const error = ref('')
 
 /* ---- 历史记录 ---- */
 const historyOpen = ref(false)
@@ -42,151 +42,80 @@ onShow(() => {
   history.value = loadHistory()
 })
 
-/** 当前输入允许的操作数类型（运算语义约束） */
-const allowedKinds = computed<TimeKind[]>(() => {
-  if (!acc.value || !pendingOp.value) return ['clock', 'duration']
-  if (acc.value.kind === 'duration') return ['duration']
-  return pendingOp.value === '+' ? ['duration'] : ['clock', 'duration']
-})
-const kindLocked = computed(() => allowedKinds.value.length === 1)
-
-/** 是否处于可输入状态：无累计值，或已有待运算符 */
-const canInput = computed(() => !acc.value || !!pendingOp.value)
-const opEnabled = computed(() => !!acc.value && !pendingOp.value)
+const kindList = computed<TimeKind[]>(() => allowedKinds(state.value))
+const kindLocked = computed(() => kindList.value.length === 1)
+const canInputNow = computed(() => canInput(state.value))
+const opEnabledNow = computed(() => opEnabled(state.value))
 
 const fmt = (t: TimeValue): string =>
   t.kind === 'clock' ? clockView(t.raw).text : durationView(t.raw)
 
-const accViews = computed(() => (acc.value && !pendingOp.value && !buf.value ? dualViews(acc.value) : null))
+const accViews = computed(() =>
+  state.value.acc && !state.value.pendingOp && !state.value.buf ? dualViews(state.value.acc) : null
+)
 
 /** 输入预览行：累计值 运算符 输入缓冲 */
 const inputLine = computed(() => {
   const parts: string[] = []
-  if (acc.value) parts.push(fmt(acc.value))
-  if (pendingOp.value) parts.push(pendingOp.value === '+' ? '＋' : '－')
-  if (buf.value || pendingOp.value || (!acc.value && !buf.value)) {
-    parts.push(buf.value ? displayBuffer(buf.value) : '____')
+  if (state.value.acc) parts.push(fmt(state.value.acc))
+  if (state.value.pendingOp) parts.push(state.value.pendingOp === '+' ? '＋' : '－')
+  if (state.value.buf || state.value.pendingOp || (!state.value.acc && !state.value.buf)) {
+    parts.push(state.value.buf ? displayBuffer(state.value.buf) : '____')
   }
   return parts.join(' ')
 })
 
-const showHint = computed(() => !acc.value && !buf.value)
+const showHint = computed(() => !state.value.acc && !state.value.buf)
 
-/* ---- 按键处理 ---- */
-function pushError(msg: string) {
-  error.value = msg
-}
-
-function commitBuf(): boolean {
-  const v = commitBuffer(buf.value, inputKind.value)
-  if (!v) {
-    pushError(
-      inputKind.value === 'clock' && buf.value.length === 4
-        ? '时刻无效：小时 ≤23，分钟 ≤59'
-        : buf.value.length < 4
-          ? '请输入 4 位数字，如 1425 → 14:25'
-          : '时长无效：分钟 ≤59'
-    )
-    return false
+const errorText = computed(() => {
+  switch (state.value.error) {
+    case 'incomplete':
+      return '请输入 4 位数字，如 1425 → 14:25'
+    case 'invalidClock':
+      return '时刻无效：小时 ≤23，分钟 ≤59'
+    case 'invalidDuration':
+      return '时长无效：分钟 ≤59'
+    case 'badOp':
+      return '该运算组合不合法'
+    default:
+      return ''
   }
-  error.value = ''
-  if (!acc.value) {
-    acc.value = v
-    buf.value = ''
-    return true
-  }
-  if (pendingOp.value) {
-    const r = applyOp(acc.value, pendingOp.value, v)
-    if (!r) {
-      pushError('该运算组合不合法')
-      return false
-    }
-    const left = fmt(acc.value)
-    const right = fmt(v)
-    const views = dualViews(r)
-    const resultStr =
-      views.secondary && views.secondary.label === '累计'
-        ? `${views.primary.text}${views.primary.note ? ` ${views.primary.note}` : ''}（累计 ${views.secondary.text}）`
-        : views.secondary && views.secondary.label === '跨日读数'
-          ? `${views.primary.text}（跨日 ${views.secondary.text}）`
-          : views.secondary
-            ? `${views.primary.text}（${views.secondary.label} ${views.secondary.text}）`
-            : views.primary.text
-    steps.value.push(`${left} ${pendingOp.value === '+' ? '＋' : '－'} ${right} ＝ ${resultStr}`)
-    addHistory({
-      expr: `${left} ${pendingOp.value === '+' ? '+' : '-'} ${right}`,
-      primary: views.primary.text,
-      primaryNote: views.primary.note,
-      secondary: views.secondary?.text,
-      ts: Date.now(),
-    })
-    history.value = loadHistory()
-    acc.value = r
-    pendingOp.value = null
-    buf.value = ''
-    return true
-  }
-  return false
-}
+})
 
-function ensureKindAllowed(): void {
-  const allowed = allowedKinds.value
-  if (!allowed.includes(inputKind.value)) inputKind.value = allowed[0]
-}
-
+/* ---- 按键处理：状态流转在 calcInput，这里只消费事件（计算链/历史属视图副作用） ---- */
 function onKey(k: string): void {
-  if (k >= '0' && k <= '9') {
-    if (!canInput.value) return
-    error.value = ''
-    ensureKindAllowed()
-    const next = (buf.value + k).slice(0, 4)
-    buf.value = next
-    // 4 位且合法时自动提交（连续输入最快路径）
-    if (next.length === 4 && commitBuffer(next, inputKind.value)) commitBuf()
-    return
-  }
-  if (k === 'back') {
-    buf.value = buf.value.slice(0, -1)
-    error.value = ''
-    return
-  }
-  if (k === 'clear') {
-    buf.value = ''
-    error.value = ''
-    return
-  }
-  if (k === 'ok') {
-    if (buf.value) commitBuf()
-    return
-  }
-  if (k === 'add' || k === 'sub') {
-    if (!acc.value) {
-      if (buf.value) commitBuf()
-      if (!acc.value) return
-    } else if (buf.value && pendingOp.value) {
-      commitBuf()
-    }
-    const op: Op = k === 'add' ? '+' : '-'
-    if (acc.value && !pendingOp.value) {
-      pendingOp.value = op
-      buf.value = ''
-      ensureKindAllowed()
-    }
-  }
+  const { state: next, event } = pressKey(state.value, k)
+  state.value = next
+  if (!event || event.type !== 'computed') return
+  const { op, left, right, result } = event.ev
+  const views = dualViews(result)
+  const resultStr =
+    views.secondary && views.secondary.label === '累计'
+      ? `${views.primary.text}${views.primary.note ? ` ${views.primary.note}` : ''}（累计 ${views.secondary.text}）`
+      : views.secondary && views.secondary.label === '跨日读数'
+        ? `${views.primary.text}（跨日 ${views.secondary.text}）`
+        : views.secondary
+          ? `${views.primary.text}（${views.secondary.label} ${views.secondary.text}）`
+          : views.primary.text
+  steps.value.push(`${fmt(left)} ${op === '+' ? '＋' : '－'} ${fmt(right)} ＝ ${resultStr}`)
+  addHistory({
+    expr: `${fmt(left)} ${op === '+' ? '+' : '-'} ${fmt(right)}`,
+    primary: views.primary.text,
+    primaryNote: views.primary.note,
+    secondary: views.secondary?.text,
+    ts: Date.now(),
+  })
+  history.value = loadHistory()
 }
 
 function setKind(kind: TimeKind): void {
-  if (!allowedKinds.value.includes(kind)) return
-  inputKind.value = kind
+  if (!kindList.value.includes(kind)) return
+  state.value = { ...state.value, inputKind: kind }
 }
 
 function resetAll(): void {
-  acc.value = null
-  pendingOp.value = null
-  buf.value = ''
+  state.value = freshState()
   steps.value = []
-  error.value = ''
-  inputKind.value = 'clock'
 }
 
 function doClearHistory(): void {
@@ -209,9 +138,9 @@ const fmtTime = (ts: number): string => {
       <view v-for="(s, i) in steps" :key="i" class="step-line">
         <text>{{ s }}</text>
       </view>
-      <view class="reset-btn" @tap="resetAll">
+      <button class="reset-btn" @tap="resetAll">
         <text>清空计算</text>
-      </view>
+      </button>
     </view>
 
     <!-- 主显示区 -->
@@ -230,36 +159,42 @@ const fmtTime = (ts: number): string => {
       <template v-else>
         <text class="input-line">{{ inputLine }}</text>
         <view class="kind-chips">
-          <view
+          <button
             class="chip"
-            :class="{ active: inputKind === 'clock', disabled: kindLocked && inputKind !== 'clock' }"
+            :class="{ active: state.inputKind === 'clock', disabled: kindLocked && state.inputKind !== 'clock' }"
             @tap="setKind('clock')"
           >
             <text>时刻</text>
-          </view>
-          <view
+          </button>
+          <button
             class="chip"
-            :class="{ active: inputKind === 'duration', disabled: kindLocked && inputKind !== 'duration' }"
+            :class="{ active: state.inputKind === 'duration', disabled: kindLocked && state.inputKind !== 'duration' }"
             @tap="setKind('duration')"
           >
             <text>时长</text>
-          </view>
+          </button>
         </view>
         <text v-if="showHint" class="hint">连续输入数字自动格式化，如 1425 → 14:25</text>
-        <text v-else-if="!canInput" class="hint">请选择 ＋ 或 － 继续运算，或清空重新开始</text>
+        <text v-else-if="!canInputNow" class="hint">请选择 ＋ 或 － 继续运算，或按 ⌫ 修改、C 清空重来</text>
       </template>
-      <text v-if="error" class="error">{{ error }}</text>
+      <text v-if="errorText" class="error">{{ errorText }}</text>
     </view>
 
-    <NumKeypad :op-enabled="opEnabled" @key="onKey" />
+    <NumKeypad :op-enabled="opEnabledNow" @key="onKey" />
 
     <!-- 历史记录（可折叠） -->
     <view class="history">
-      <view class="history-head" @tap="historyOpen = !historyOpen">
-        <text class="history-title">历史记录（{{ history.length }}）</text>
+      <view class="history-head">
+        <button class="history-title-btn" @tap="historyOpen = !historyOpen">
+          <text class="history-title">历史记录（{{ history.length }}）</text>
+        </button>
         <view class="history-actions">
-          <text v-if="historyOpen && history.length" class="history-clear" @tap.stop="doClearHistory">清空</text>
-          <text class="history-toggle">{{ historyOpen ? '收起 ▲' : '展开 ▼' }}</text>
+          <button v-if="historyOpen && history.length" class="history-clear" @tap.stop="doClearHistory">
+            <text>清空</text>
+          </button>
+          <button class="history-toggle" @tap="historyOpen = !historyOpen">
+            <text>{{ historyOpen ? '收起 ▲' : '展开 ▼' }}</text>
+          </button>
         </view>
       </view>
       <view v-if="historyOpen">
@@ -307,9 +242,15 @@ const fmtTime = (ts: number): string => {
 }
 .reset-btn {
   margin-top: 8rpx;
-  font-size: 24rpx;
+  margin-left: auto;
+  min-height: 72rpx;
+  padding: 0 28rpx;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  font-size: 26rpx;
   color: var(--at-danger);
-  text-align: right;
+  font-weight: 600;
 }
 
 .display {
@@ -365,7 +306,10 @@ const fmtTime = (ts: number): string => {
   margin-top: 4rpx;
 }
 .chip {
-  padding: 8rpx 28rpx;
+  min-height: 88rpx;
+  padding: 0 36rpx;
+  display: flex;
+  align-items: center;
   border-radius: 999rpx;
   background: var(--at-card-2);
   color: var(--at-sub);
@@ -398,7 +342,16 @@ const fmtTime = (ts: number): string => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20rpx 0;
+  padding: 8rpx 0;
+}
+.history-title-btn {
+  flex: 1;
+  min-height: 72rpx;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+  text-align: left;
 }
 .history-title {
   font-size: 26rpx;
@@ -408,13 +361,24 @@ const fmtTime = (ts: number): string => {
 .history-actions {
   display: flex;
   align-items: center;
-  gap: 24rpx;
+  gap: 16rpx;
 }
 .history-clear {
+  min-height: 72rpx;
+  padding: 0 16rpx;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
   font-size: 24rpx;
   color: var(--at-danger);
+  font-weight: 600;
 }
 .history-toggle {
+  min-height: 72rpx;
+  padding: 0 8rpx;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
   font-size: 24rpx;
   color: var(--at-weak);
 }
@@ -444,7 +408,7 @@ const fmtTime = (ts: number): string => {
   color: var(--at-sub);
 }
 .hi-ts {
-  font-size: 22rpx;
+  font-size: 24rpx;
   color: var(--at-weak);
 }
 </style>

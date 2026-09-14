@@ -2,7 +2,7 @@
  * 机场数据库在线更新（问卷 Q20/Q21：检测到新版提示用户确认；Wi-Fi/移动网络均可下载）。
  *
  * 流程：GET manifest.json → 版本比较 → 用户确认 → 下载数据包 →
- * 结构校验 → 分块写入本地 → 失败保留旧库。
+ * 逐字段结构校验 → 原子写入本地（meta 提交点）→ 失败旧库完好。
  */
 import { DB_UPDATE_BASE_URL } from '../config'
 import { compareVersion, currentVersion, saveDb, bundledInfo } from './db'
@@ -13,6 +13,10 @@ export interface Manifest {
   count: number
   updatedAt: string
   file: string
+  /** 数据溯源（评审 P0-2）：来源署名 / 资料截至日期 / 字段完整率（%） */
+  source?: string
+  dataAsOf?: string
+  completeness?: Record<string, number>
 }
 
 export type UpdateStatus =
@@ -67,13 +71,42 @@ export async function checkForUpdate(): Promise<UpdateStatus> {
   }
 }
 
-/** 下载并应用新数据库；写入失败返回 false，旧库不受影响 */
+/**
+ * 下载数据包的逐字段结构校验（评审 P0-3）：
+ * 数组、条数与清单一致、必填字段、坐标范围、代码至少其一。
+ * 校验失败抛错，由调用方转为用户可见错误；旧库不受影响。
+ */
+export function validateAirportData(data: unknown, expectedCount: number): Airport[] {
+  if (!Array.isArray(data)) throw new Error('数据包校验失败（非数组）')
+  if (data.length !== expectedCount) throw new Error('数据包校验失败（条数不符）')
+  const required = ['nameZh', 'nameEn', 'cityZh', 'cityEn', 'country', 'tz'] as const
+  for (const r of data) {
+    const a = r as Record<string, unknown>
+    for (const k of required) {
+      if (typeof a[k] !== 'string' || !(a[k] as string).trim()) {
+        throw new Error(`数据包校验失败（记录缺少 ${k}）`)
+      }
+    }
+    if (typeof a.lat !== 'number' || a.lat < -90 || a.lat > 90) {
+      throw new Error('数据包校验失败（坐标非法）')
+    }
+    if (typeof a.lng !== 'number' || a.lng < -180 || a.lng > 180) {
+      throw new Error('数据包校验失败（坐标非法）')
+    }
+    if (!a.iata && !a.icao) throw new Error('数据包校验失败（记录缺少 IATA/ICAO 代码）')
+  }
+  return data as Airport[]
+}
+
+/** 下载并应用新数据库：结构校验通过后经 saveDb 原子写入；失败时旧库保持完整可用 */
 export async function downloadAndApply(manifest: Manifest): Promise<boolean> {
   const data = await request<unknown>(`${DB_UPDATE_BASE_URL}/${manifest.file}`, 30000)
-  if (!Array.isArray(data) || data.length !== manifest.count) {
-    throw new Error('数据包校验失败（条数不符）')
-  }
-  return saveDb(data as Airport[], manifest.version, manifest.updatedAt)
+  const airports = validateAirportData(data, manifest.count)
+  return saveDb(airports, manifest.version, manifest.updatedAt, {
+    source: manifest.source,
+    dataAsOf: manifest.dataAsOf,
+    completeness: manifest.completeness,
+  })
 }
 
 export interface CheckUi {

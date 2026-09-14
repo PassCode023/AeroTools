@@ -5,24 +5,36 @@ const emit = defineEmits<{ (e: 'key', k: string): void }>()
 
 <template>
   <view class="pad">
-    <view class="key" @tap="emit('key', '7')">7</view>
-    <view class="key" @tap="emit('key', '8')">8</view>
-    <view class="key" @tap="emit('key', '9')">9</view>
-    <view class="key fn" @tap="emit('key', 'back')">⌫</view>
+    <button class="key" @tap="emit('key', '7')">7</button>
+    <button class="key" @tap="emit('key', '8')">8</button>
+    <button class="key" @tap="emit('key', '9')">9</button>
+    <button class="key fn" aria-label="退格删除末位" @tap="emit('key', 'back')">⌫</button>
 
-    <view class="key" @tap="emit('key', '4')">4</view>
-    <view class="key" @tap="emit('key', '5')">5</view>
-    <view class="key" @tap="emit('key', '6')">6</view>
-    <view class="key fn" @tap="emit('key', 'clear')">C</view>
+    <button class="key" @tap="emit('key', '4')">4</button>
+    <button class="key" @tap="emit('key', '5')">5</button>
+    <button class="key" @tap="emit('key', '6')">6</button>
+    <button class="key fn" aria-label="清空重算" @tap="emit('key', 'clear')">C</button>
 
-    <view class="key" @tap="emit('key', '1')">1</view>
-    <view class="key" @tap="emit('key', '2')">2</view>
-    <view class="key" @tap="emit('key', '3')">3</view>
-    <view class="key ok" @tap="emit('key', 'ok')">✓</view>
+    <button class="key" @tap="emit('key', '1')">1</button>
+    <button class="key" @tap="emit('key', '2')">2</button>
+    <button class="key" @tap="emit('key', '3')">3</button>
+    <button class="key ok" aria-label="确认输入" @tap="emit('key', 'ok')">✓</button>
 
-    <view class="key op" :class="{ disabled: !props.opEnabled }" @tap="props.opEnabled && emit('key', 'add')">＋</view>
-    <view class="key op" :class="{ disabled: !props.opEnabled }" @tap="props.opEnabled && emit('key', 'sub')">－</view>
-    <view class="key span2" @tap="emit('key', '0')">0</view>
+    <button
+      class="key op"
+      :class="{ disabled: !props.opEnabled }"
+      :disabled="!props.opEnabled"
+      aria-label="加"
+      @tap="props.opEnabled && emit('key', 'add')"
+    >＋</button>
+    <button
+      class="key op"
+      :class="{ disabled: !props.opEnabled }"
+      :disabled="!props.opEnabled"
+      aria-label="减"
+      @tap="props.opEnabled && emit('key', 'sub')"
+    >－</button>
+    <button class="key span2" @tap="emit('key', '0')">0</button>
   </view>
 </template>
 
@@ -34,6 +46,7 @@ const emit = defineEmits<{ (e: 'key', k: string): void }>()
   margin-top: 24rpx;
 }
 .key {
+  width: 100%;
   height: 108rpx;
   border-radius: 18rpx;
   background: var(--at-card);
@@ -44,6 +57,7 @@ const emit = defineEmits<{ (e: 'key', k: string): void }>()
   font-weight: 600;
   color: var(--at-text);
   box-shadow: var(--at-shadow);
+  line-height: 1;
 }
 .key:active {
   background: var(--at-primary-soft);
@@ -61,7 +75,8 @@ const emit = defineEmits<{ (e: 'key', k: string): void }>()
   background: var(--at-primary-soft);
   color: var(--at-primary);
 }
-.key.op.disabled {
+.key.op.disabled,
+.key.op[disabled] {
   opacity: 0.35;
 }
 .key.span2 {

@@ -2,8 +2,8 @@
     "name" : "AeroTools 航枢",
     "appid" : "",
     "description" : "飞行时间计算与机场查询工具（离线可用）",
-    "versionName" : "1.0.0",
-    "versionCode" : "100",
+    "versionName" : "1.0.1",
+    "versionCode" : "101",
     "transformPx" : false,
     "app-plus" : {
         "usingComponents" : true,

@@ -3,6 +3,13 @@
  *
  * 内置库打包在 src/static/airports.json；在线更新后的库分块写入本地存储
  * （规避微信小程序单 key 1MB 限制）。本地版本 >= 内置版本时优先用本地。
+ *
+ * 写入协议（v2，评审 P0-3 修复）：
+ * - 分块键带版本号：`at:db:chunk:<version>:<i>`，meta 为唯一提交点；
+ *   新库全部分块写入成功后才写 meta，中途失败旧库 meta/分块均未被触碰。
+ * - v1 兼容：旧版本使用固定键 `at:db:chunk:<i>`，loadDb 在版本化键缺失时回读。
+ * - 成功提交后按旧 meta 清理旧分块（版本化键 + legacy 键），
+ *   极端中断遗留的孤立键不影响正确性，仅在下次成功保存时不被清（可忽略）。
  */
 import type { Airport } from './airportSearch'
 import { getItem, setItem, removeItem } from './storage'
@@ -13,7 +20,14 @@ const META_KEY = 'at:db:meta'
 const CHUNK_PREFIX = 'at:db:chunk:'
 const CHUNK_SIZE = 400
 
-interface DbMeta {
+/** 数据溯源信息（随库保存并在 UI 展示，评审 P0-2） */
+export interface DbSourceInfo {
+  source?: string
+  dataAsOf?: string
+  completeness?: Record<string, number>
+}
+
+interface DbMeta extends DbSourceInfo {
   version: string
   count: number
   chunks: number
@@ -35,6 +49,19 @@ export function compareVersion(a: string, b: string): number {
   return 0
 }
 
+const chunkKey = (version: string, i: number): string => `${CHUNK_PREFIX}${version}:${i}`
+const legacyChunkKey = (i: number): string => `${CHUNK_PREFIX}${i}`
+
+function readChunks(keys: string[], count: number): Airport[] | null {
+  const parts: Airport[] = []
+  for (const key of keys) {
+    const chunk = getItem<Airport[]>(key)
+    if (chunk && chunk.length) parts.push(...chunk)
+    else return null
+  }
+  return parts.length === count ? parts : null
+}
+
 /** 当前生效的数据库版本号 */
 export function currentVersion(): string {
   const meta = getItem<DbMeta>(META_KEY)
@@ -50,7 +77,7 @@ export function isRemoteDb(): boolean {
   return !!meta && compareVersion(meta.version, bundledVersion.version) >= 0
 }
 
-export interface DbInfo {
+export interface DbInfo extends DbSourceInfo {
   version: string
   count: number
   updatedAt: string
@@ -61,13 +88,24 @@ export interface DbInfo {
 export function currentInfo(): DbInfo {
   const meta = getItem<DbMeta>(META_KEY)
   if (meta && compareVersion(meta.version, bundledVersion.version) >= 0) {
-    return { version: meta.version, count: meta.count, updatedAt: meta.updatedAt, fromRemote: true }
+    return {
+      version: meta.version,
+      count: meta.count,
+      updatedAt: meta.updatedAt,
+      fromRemote: true,
+      source: meta.source,
+      dataAsOf: meta.dataAsOf,
+      completeness: meta.completeness,
+    }
   }
   return {
     version: bundledVersion.version,
     count: bundledVersion.count,
     updatedAt: bundledVersion.updatedAt,
     fromRemote: false,
+    source: (bundledVersion as { source?: string }).source,
+    dataAsOf: (bundledVersion as { dataAsOf?: string }).dataAsOf,
+    completeness: (bundledVersion as { completeness?: Record<string, number> }).completeness,
   }
 }
 
@@ -75,16 +113,18 @@ export function currentInfo(): DbInfo {
 export function loadDb(): Airport[] {
   if (cache) return cache
   const meta = getItem<DbMeta>(META_KEY)
-  if (meta && meta.version && compareVersion(meta.version, bundledVersion.version) >= 0) {
-    const parts: Airport[] = []
-    let ok = true
-    for (let i = 0; i < meta.chunks; i++) {
-      const chunk = getItem<Airport[]>(CHUNK_PREFIX + i)
-      if (chunk && chunk.length) parts.push(...chunk)
-      else { ok = false; break }
-    }
-    if (ok && parts.length === meta.count) {
+  if (meta && meta.version && meta.chunks > 0 && compareVersion(meta.version, bundledVersion.version) >= 0) {
+    const keys = Array.from({ length: meta.chunks }, (_, i) => chunkKey(meta.version, i))
+    const parts = readChunks(keys, meta.count)
+    if (parts) {
       cache = parts
+      return cache
+    }
+    // v1 迁移：旧安装的分块在固定键上
+    const legacyKeys = Array.from({ length: meta.chunks }, (_, i) => legacyChunkKey(i))
+    const legacyParts = readChunks(legacyKeys, meta.count)
+    if (legacyParts) {
+      cache = legacyParts
       return cache
     }
     // 本地数据损坏 → 清掉，回退内置
@@ -99,18 +139,37 @@ export function bundledInfo(): { version: string; count: number; updatedAt: stri
   return bundledVersion
 }
 
-/** 分块保存下载数据库；任一块写入失败返回 false（调用方保留旧库） */
-export function saveDb(airports: Airport[], version: string, updatedAt: string): boolean {
+/**
+ * 分块保存下载数据库（原子写入）：
+ * 先写带版本号的分块键，全部成功后再写 meta（唯一提交点）；
+ * 任一步失败即回滚已写的新键并返回 false，旧库 meta/分块未被触碰，保持完整可用。
+ * 提交成功后按写入前快照的旧 meta 清理旧库分块（版本化键 + v1 legacy 键）。
+ */
+export function saveDb(airports: Airport[], version: string, updatedAt: string, extra: DbSourceInfo = {}): boolean {
   const chunks: Airport[][] = []
   for (let i = 0; i < airports.length; i += CHUNK_SIZE) {
     chunks.push(airports.slice(i, i + CHUNK_SIZE))
   }
-  const meta: DbMeta = { version, count: airports.length, chunks: chunks.length, updatedAt }
-  // 先写数据块，最后写 meta（meta 在场即数据完整）
+  const keys = chunks.map((_, i) => chunkKey(version, i))
   for (let i = 0; i < chunks.length; i++) {
-    if (!setItem(CHUNK_PREFIX + i, chunks[i])) return false
+    if (!setItem(keys[i], chunks[i])) {
+      for (let j = 0; j <= i; j++) removeItem(keys[j])
+      return false
+    }
   }
-  if (!setItem(META_KEY, meta)) return false
+  // 快照旧 meta：提交成功后据此清理旧库分块（含块数变多的旧库与 legacy 固定键）
+  const oldMeta = getItem<DbMeta>(META_KEY)
+  const meta: DbMeta = { version, count: airports.length, chunks: chunks.length, updatedAt, ...extra }
+  if (!setItem(META_KEY, meta)) {
+    for (const key of keys) removeItem(key)
+    return false
+  }
+  if (oldMeta && compareVersion(oldMeta.version, version) !== 0) {
+    for (let i = 0; i < oldMeta.chunks; i++) {
+      removeItem(chunkKey(oldMeta.version, i))
+      removeItem(legacyChunkKey(i))
+    }
+  }
   cache = null
   return true
 }
@@ -119,7 +178,10 @@ export function saveDb(airports: Airport[], version: string, updatedAt: string):
 export function clearLocalDb(): void {
   const meta = getItem<DbMeta>(META_KEY)
   if (meta) {
-    for (let i = 0; i < meta.chunks; i++) removeItem(CHUNK_PREFIX + i)
+    for (let i = 0; i < meta.chunks; i++) {
+      removeItem(chunkKey(meta.version, i))
+      removeItem(legacyChunkKey(i))
+    }
   }
   removeItem(META_KEY)
   cache = null

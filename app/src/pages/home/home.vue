@@ -37,10 +37,8 @@ onShow(() => {
   dbInfo.value = currentInfo()
 })
 
-const updatedShort = computed(() => {
-  const t = dbInfo.value.updatedAt
-  return t.startsWith(String(new Date().getFullYear()) + '-') ? t.slice(5) : t
-})
+/** 资料截至日期：优先数据整理截至日期，缺省回退构建时间 */
+const asOfShort = computed(() => dbInfo.value.dataAsOf || dbInfo.value.updatedAt)
 
 function goTimeCalc() {
   uni.navigateTo({ url: '/pages/time-calc/time-calc' })
@@ -57,7 +55,7 @@ function goSettings() {
   <view class="page at-page" :class="themeClass">
     <view class="hero" :style="heroTop ? { paddingTop: heroTop + 'px' } : {}">
       <view class="hero-nav">
-        <view class="gear-btn" aria-label="设置" @tap="goSettings"></view>
+        <button class="gear-btn" aria-label="设置" @tap="goSettings"></button>
       </view>
       <view class="brand">
         <image class="brand-logo" src="/static/logo.png" mode="aspectFill" />
@@ -72,7 +70,7 @@ function goSettings() {
     </view>
 
     <view class="entries">
-      <view class="entry" @tap="goTimeCalc">
+      <button class="entry" @tap="goTimeCalc">
         <view class="entry-icon">
           <text>🕒</text>
         </view>
@@ -81,9 +79,9 @@ function goSettings() {
           <text class="entry-desc">时刻与时长加减 · 多步连续运算</text>
         </view>
         <text class="entry-arrow">›</text>
-      </view>
+      </button>
 
-      <view class="entry" @tap="goAirportSearch">
+      <button class="entry" @tap="goAirportSearch">
         <view class="entry-icon green">
           <text>🛫</text>
         </view>
@@ -92,19 +90,19 @@ function goSettings() {
           <text class="entry-desc">IATA / ICAO / 中文名 / 城市</text>
         </view>
         <text class="entry-arrow">›</text>
-      </view>
+      </button>
     </view>
 
-    <view class="db-card" @tap="goSettings">
+    <button class="db-card" aria-label="机场数据库信息，点按进入设置" @tap="goSettings">
       <view class="db-row">
         <text class="db-label">机场数据库</text>
         <text class="db-version">{{ dbInfo.version }}</text>
       </view>
       <view class="db-row sub">
-        <text class="db-sub">{{ dbInfo.count }} 家机场 · 更新于 {{ updatedShort }}</text>
+        <text class="db-sub">{{ dbInfo.count }} 家机场 · 资料截至 {{ asOfShort }}</text>
         <text class="db-sub offline">离线可用</text>
       </view>
-    </view>
+    </button>
   </view>
 </template>
 
@@ -143,9 +141,10 @@ function goSettings() {
   z-index: 1;
 }
 .gear-btn {
-  width: 72rpx;
-  height: 72rpx;
+  width: 88rpx;
+  height: 88rpx;
   margin: -12rpx -12rpx 0 0;
+  background-color: transparent;
   background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAyNCAyNCcgZmlsbD0nd2hpdGUnPjxwYXRoIGQ9J00xOS4xNCAxMi45NGMuMDQtLjMuMDYtLjYxLjA2LS45NCAwLS4zMi0uMDItLjY0LS4wNy0uOTRsMi4wMy0xLjU4Yy4xOC0uMTQuMjMtLjQxLjEyLS42MWwtMS45Mi0zLjMyYy0uMTItLjIyLS4zNy0uMjktLjU5LS4yMmwtMi4zOS45NmMtLjUtLjM4LTEuMDMtLjctMS42Mi0uOTRMMTQuNCAyLjgxYy0uMDQtLjI0LS4yNC0uNDEtLjQ4LS40MWgtMy44NGMtLjI0IDAtLjQzLjE3LS40Ny40MUw5LjI1IDUuMzVDOC42NiA1LjU5IDguMTIgNS45MiA3LjYzIDYuMjlMNS4yNCA1LjMzYy0uMjItLjA4LS40NyAwLS41OS4yMkwyLjc0IDguODdjLS4xMi4yMS0uMDguNDcuMTIuNjFsMi4wMyAxLjU4Yy0uMDUuMy0uMDkuNjMtLjA5Ljk0cy4wMi42NC4wNy45NGwtMi4wMyAxLjU4Yy0uMTguMTQtLjIzLjQxLS4xMi42MWwxLjkyIDMuMzJjLjEyLjIyLjM3LjI5LjU5LjIybDIuMzktLjk2Yy41LjM4IDEuMDMuNyAxLjYyLjk0bC4zNiAyLjU0Yy4wNS4yNC4yNC40MS40OC40MWgzLjg0Yy4yNCAwIC40NC0uMTcuNDctLjQxbC4zNi0yLjU0Yy41OS0uMjQgMS4xMy0uNTYgMS42Mi0uOTRsMi4zOS45NmMuMjIuMDguNDcgMCAuNTktLjIybDEuOTItMy4zMmMuMTItLjIyLjA3LS40Ny0uMTItLjYxbC0yLjAxLTEuNTh6TTEyIDE1LjZjLTEuOTggMC0zLjYtMS42Mi0zLjYtMy42czEuNjItMy42IDMuNi0zLjYgMy42IDEuNjIgMy42IDMuNi0xLjYyIDMuNi0zLjYgMy42eicvPjwvc3ZnPg==);
   background-position: center;
   background-size: 44rpx 44rpx;
@@ -208,6 +207,8 @@ function goSettings() {
   z-index: 1;
 }
 .entry {
+  width: 100%;
+  text-align: left;
   display: flex;
   align-items: center;
   padding: 36rpx 32rpx;
@@ -254,6 +255,8 @@ function goSettings() {
 }
 
 .db-card {
+  width: 100%;
+  text-align: left;
   margin-top: auto;
   padding: 28rpx 32rpx;
   background: var(--at-card);
@@ -267,6 +270,8 @@ function goSettings() {
 }
 .db-row.sub {
   margin-top: 10rpx;
+  justify-content: flex-start;
+  gap: 16rpx;
 }
 .db-label {
   font-size: 28rpx;

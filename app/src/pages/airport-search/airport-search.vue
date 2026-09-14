@@ -62,7 +62,7 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
         confirm-type="search"
         @input="onInput"
       />
-      <text v-if="query" class="search-clear" @tap="clearQuery">✕</text>
+      <text v-if="query" class="search-clear" role="button" aria-label="清除搜索" @tap="clearQuery">✕</text>
     </view>
 
     <view v-if="!showResults" class="empty">
@@ -78,7 +78,7 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
     </view>
 
     <view v-else class="list">
-      <view
+      <button
         v-for="a in results"
         :key="`${a.iata}|${a.icao}`"
         class="item"
@@ -112,7 +112,7 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
             <text class="d-value">{{ a.elevM }} 米</text>
           </view>
         </view>
-      </view>
+      </button>
     </view>
   </view>
 </template>
@@ -142,15 +142,15 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
   color: var(--at-weak);
 }
 .search-clear {
-  width: 44rpx;
-  height: 44rpx;
+  width: 64rpx;
+  height: 64rpx;
   border-radius: 50%;
   background: var(--at-card-2);
   color: var(--at-sub);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24rpx;
+  font-size: 26rpx;
 }
 
 .empty {
@@ -179,6 +179,8 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
   gap: 20rpx;
 }
 .item {
+  width: 100%;
+  text-align: left;
   background: var(--at-card);
   border-radius: 24rpx;
   padding: 28rpx;
@@ -203,7 +205,7 @@ const fmtCoord = (v: number, pos: string, neg: string): string =>
   letter-spacing: 2rpx;
 }
 .icao {
-  font-size: 22rpx;
+  font-size: 24rpx;
   color: var(--at-weak);
   letter-spacing: 1rpx;
 }

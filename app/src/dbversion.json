@@ -1,5 +1,19 @@
 {
   "version": "2026.9.1",
   "count": 519,
-  "updatedAt": "2026-09-13 16:12"
+  "updatedAt": "2026-09-14 13:30",
+  "source": "https://github.com/mborsetti/airportsdata\nhttps://github.com/davidmegginson/ourairports-data",
+  "dataAsOf": "2026-09-13",
+  "completeness": {
+    "iata": 100,
+    "icao": 97,
+    "nameZh": 100,
+    "nameEn": 100,
+    "cityZh": 100,
+    "cityEn": 100,
+    "lat": 100,
+    "lng": 100,
+    "elevM": 9,
+    "tz": 100
+  }
 }

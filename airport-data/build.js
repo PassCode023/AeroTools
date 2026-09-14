@@ -20,6 +20,12 @@ if (!/^\d{4}\.\d{1,2}\.\d{1,2}$/.test(version)) {
   process.exit(1)
 }
 
+// 数据溯源（评审 P0-2）：来源 = 两个上游开源数据集地址（node build.js <版本> [资料截至YYYY-MM-DD]）。
+// 于 2026-09-13 整理入库；source 数据有增补或重新整理时，同步更新 DATA_AS_OF。
+const DATA_SOURCE =
+  'https://github.com/mborsetti/airportsdata\nhttps://github.com/davidmegginson/ourairports-data'
+const DATA_AS_OF = /^\d{4}-\d{2}-\d{2}$/.test(process.argv[3] || '') ? process.argv[3] : '2026-09-13'
+
 // 1. 合并
 const files = fs.readdirSync(ROOT).filter((f) => /^data-.*\.json$/.test(f)).sort()
 if (files.length === 0) {
@@ -84,7 +90,15 @@ const pad = (n) => String(n).padStart(2, '0')
 const updatedAt = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())} ${pad(now.getHours())}:${pad(now.getMinutes())}`
 const count = clean.length
 
-const dbVersion = { version, count, updatedAt }
+// 字段完整率（%）：对 IATA/ICAO/名称/城市/坐标/海拔/时区等如实统计，UI 展示用
+const FIELDS = ['iata', 'icao', 'nameZh', 'nameEn', 'cityZh', 'cityEn', 'lat', 'lng', 'elevM', 'tz']
+const completeness = {}
+for (const f of FIELDS) {
+  const present = clean.filter((r) => r[f] !== undefined && r[f] !== null && r[f] !== '').length
+  completeness[f] = Math.round((present / count) * 100)
+}
+
+const dbVersion = { version, count, updatedAt, source: DATA_SOURCE, dataAsOf: DATA_AS_OF, completeness }
 fs.writeFileSync(path.join(ROOT, '..', 'app', 'src', 'dbversion.json'), JSON.stringify(dbVersion, null, 2))
 fs.writeFileSync(
   path.join(ROOT, '..', 'app', 'src', 'static', 'airports.json'),
@@ -97,12 +111,13 @@ const dataFile = `airports-${version}.json`
 fs.writeFileSync(path.join(distDir, dataFile), JSON.stringify(clean))
 fs.writeFileSync(
   path.join(distDir, 'manifest.json'),
-  JSON.stringify({ version, count, updatedAt, file: dataFile }, null, 2)
+  JSON.stringify({ version, count, updatedAt, file: dataFile, source: DATA_SOURCE, dataAsOf: DATA_AS_OF, completeness }, null, 2)
 )
 
 const kb = (p) => (fs.statSync(p).size / 1024).toFixed(1) + 'KB'
 console.log('产出：')
 console.log(`  app/src/static/airports.json  (${kb(path.join(ROOT, '..', 'app', 'src', 'static', 'airports.json'))})`)
-console.log(`  app/src/dbversion.json        version=${version} count=${count}`)
+console.log(`  app/src/dbversion.json        version=${version} count=${count} dataAsOf=${DATA_AS_OF}`)
 console.log(`  dist/${dataFile} (${kb(path.join(distDir, dataFile))})`)
 console.log(`  dist/manifest.json`)
+console.log(`字段完整率（%）:`, completeness)

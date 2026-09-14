@@ -23,8 +23,9 @@ onLaunch(() => {
   --at-card: #ffffff;
   --at-card-2: #eef1f6;
   --at-text: #1f2937;
-  --at-sub: #6b7280;
-  --at-weak: #9ca3af;
+  /* 对比度 ≥4.5:1（白卡）：sub 7.5:1、weak 4.8:1（评审 P1-4） */
+  --at-sub: #4b5563;
+  --at-weak: #6b7280;
   --at-border: #e5e7eb;
   --at-primary: #2456e6;
   --at-primary-contrast: #ffffff;
@@ -41,8 +42,9 @@ onLaunch(() => {
   --at-card: #1e293b;
   --at-card-2: #263349;
   --at-text: #e2e8f0;
-  --at-sub: #94a3b8;
-  --at-weak: #64748b;
+  /* 对比度 ≥4.5:1（卡片 #1e293b）：sub 6.6:1、weak 4.7:1（评审 P1-4，原 weak 3.07:1） */
+  --at-sub: #9fb0c5;
+  --at-weak: #8093ad;
   --at-border: #334155;
   --at-primary: #5b8cff;
   --at-primary-contrast: #ffffff;
@@ -63,6 +65,29 @@ page {
 view, text, input, button {
   box-sizing: border-box;
 }
+
+/* ===== button 语义控件的全局重置（评审 P1-4：交互控件改用 button） ===== */
+/* uni-app H5 将 button 渲染为 <uni-button> 自定义元素，必须一并重置 */
+button, uni-button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+button::after, uni-button::after {
+  border: none;
+}
+/* #ifdef H5 */
+/* 键盘操作的聚焦可见性（读屏/键盘用户） */
+button:focus-visible, uni-button:focus-visible {
+  outline: 4rpx solid var(--at-primary, #2456e6);
+  outline-offset: 2rpx;
+}
+/* #endif */
 
 /* ===== 通用工具类（使用令牌，自动适配双主题） ===== */
 .at-page {

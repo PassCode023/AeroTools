@@ -9,7 +9,14 @@ const airports: Airport[] = JSON.parse(
 )
 const dbVersion = JSON.parse(
   readFileSync(resolve(__dirname, '../src/dbversion.json'), 'utf8')
-) as { version: string; count: number; updatedAt: string }
+) as {
+  version: string
+  count: number
+  updatedAt: string
+  source: string
+  dataAsOf: string
+  completeness: Record<string, number>
+}
 
 describe('内置机场数据库', () => {
   it('数量与版本清单一致', () => {
@@ -51,6 +58,27 @@ describe('内置机场数据库', () => {
       expect(a.lat).toBeLessThanOrEqual(90)
       expect(a.lng).toBeGreaterThanOrEqual(-180)
       expect(a.lng).toBeLessThanOrEqual(180)
+    }
+  })
+})
+
+describe('数据溯源与完整率契约（P0-2）', () => {
+  it('版本信息包含来源署名与资料截至日期', () => {
+    expect(dbVersion.source.trim().length).toBeGreaterThan(0)
+    expect(dbVersion.source).toContain('airportsdata')
+    expect(dbVersion.source).toContain('ourairports-data')
+    expect(dbVersion.dataAsOf).toMatch(/^\d{4}-\d{2}-\d{2}$/)
+  })
+  it('completeness 覆盖全部字段且与实际数据一致', () => {
+    const fields = ['iata', 'icao', 'nameZh', 'nameEn', 'cityZh', 'cityEn', 'lat', 'lng', 'elevM', 'tz']
+    expect(Object.keys(dbVersion.completeness).sort()).toEqual([...fields].sort())
+    for (const f of fields) {
+      const present = airports.filter(
+        (a) => (a as unknown as Record<string, unknown>)[f] !== undefined &&
+               (a as unknown as Record<string, unknown>)[f] !== null &&
+               (a as unknown as Record<string, unknown>)[f] !== ''
+      ).length
+      expect(dbVersion.completeness[f]).toBe(Math.round((present / airports.length) * 100))
     }
   })
 })
