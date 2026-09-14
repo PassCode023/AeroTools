@@ -2,7 +2,8 @@
 
 ## v1.1.1 机场搜索与详情增强（实施完成，2026-09-15）
 
-- TDD：红灯 `.ai/v1.1.1/tdd/red-run-1.txt` → 绿灯；测试 135 → 186 全绿
+- TDD：红灯 `.ai/v1.1.1/tdd/red-run-1.txt` → 绿灯；测试 135 → 188 全绿（含版本一致性门禁：package.json/manifest/APP_VERSION 三处强一致）
+- 修正：`config.ts` APP_VERSION 升版漏改（设置页仍显示 1.0.2），已随 `1833ceb` 补齐并加门禁
 - 构建：build.js 生成 py/pj 拼音字段（pinyin-pro@3.29.4 仅构建期）与 tzoffsets.json（116 时区/362 跳变）
 - 数据 2026.9.3；应用 1.1.1 / versionCode 111；微信主包 852KB < 2MiB，无拼音运行时（`.ai/v1.1.1/builds.txt`）
 - 待办：微信真机回归（拼音/英文搜索 + 详情新字段，iOS 真机重点看时区偏移显示）
