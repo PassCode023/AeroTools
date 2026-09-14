@@ -80,13 +80,6 @@
             "to": "36.524824,114.424126",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 70,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -114,13 +107,6 @@
             "to": "39.666384,119.061384",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 14,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -141,13 +127,6 @@
             "to": "39.7178,118.002625",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 15,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -168,13 +147,6 @@
             "to": "40.738664,114.933395",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 715,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -195,13 +167,6 @@
             "to": "41.1225,118.073889",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 702,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -222,13 +187,6 @@
             "to": "40.06139,113.480509",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1049,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -291,13 +249,6 @@
             "to": "38.597456,112.969173",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 770,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -318,13 +269,6 @@
             "to": "36.132629,111.641236",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 452,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -339,13 +283,6 @@
             "to": "37.683333,111.142778",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1160,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -372,13 +309,6 @@
             "to": "35.117823,111.034023",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 379,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -419,13 +349,6 @@
             "to": "41.130266,113.107274",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1408,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -446,13 +369,6 @@
             "to": "40.560001,109.997002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1012,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -467,13 +383,6 @@
             "to": "39.7934,106.7993",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1113,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -495,13 +404,6 @@
             "to": "40.926358,107.74093",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1036,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -516,13 +418,6 @@
             "to": "39.493514,109.8599",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1389,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -537,13 +432,6 @@
             "to": "42.159723,118.840971",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 615,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -558,13 +446,6 @@
             "to": "43.556702,122.199997",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 730,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -606,13 +487,6 @@
             "to": "43.424079,112.091081",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1006,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -660,13 +534,6 @@
             "to": "47.3106,119.9117",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 892,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -687,13 +554,6 @@
             "to": "49.208616,119.822301",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 661,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -708,13 +568,6 @@
             "to": "49.566667,117.33",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 680,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -755,13 +608,6 @@
             "to": "38.965719,121.538477",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 33,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -788,13 +634,6 @@
             "to": "40.025453,124.28669",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -842,13 +681,6 @@
             "to": "40.542524,122.3586",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -876,13 +708,6 @@
             "to": "41.538101,120.434998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 173,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -965,13 +790,6 @@
             "to": "42.8828010559,129.451004028",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 190,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -999,13 +817,6 @@
             "to": "42.066944,127.602222",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 876,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1020,13 +831,6 @@
             "to": "42.048435,125.733963",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 411,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1047,13 +851,6 @@
             "to": "44.931143,124.552121",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 140,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1075,13 +872,6 @@
             "to": "45.505278,123.019722",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 146,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1110,13 +900,6 @@
             "to": "47.229969,123.914179",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 145,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1131,13 +914,6 @@
             "to": "44.525172,129.568634",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 269,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1158,13 +934,6 @@
             "to": "46.842793,130.46426",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 80,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1179,13 +948,6 @@
             "to": "50.171621,127.308884",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 319,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1200,13 +962,6 @@
             "to": "52.916871,122.422759",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 560,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1221,13 +976,6 @@
             "to": "46.750883,125.138642",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 151,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1242,13 +990,6 @@
             "to": "45.293,131.193",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 232,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1263,13 +1004,6 @@
             "to": "47.752056,129.019125",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 241,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1304,13 +1038,6 @@
             "to": "50.371389,124.1175",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 367,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1331,13 +1058,6 @@
             "to": "48.441037,126.128374",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 300,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1412,13 +1132,6 @@
             "to": "31.496952,120.43038",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 7,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1433,13 +1146,6 @@
             "to": "31.920485,119.77546",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1460,13 +1166,6 @@
             "to": "32.073566,120.980076",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1487,13 +1186,6 @@
             "to": "32.5634,119.7198",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1514,13 +1206,6 @@
             "to": "33.792712,119.126657",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1547,13 +1232,6 @@
             "to": "33.428317,120.20545",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1568,13 +1246,6 @@
             "to": "34.059056,117.555278",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 33,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1624,13 +1295,6 @@
             "to": "29.82670021057129,121.46199798583984",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1651,13 +1315,6 @@
             "to": "27.910572,120.853465",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1678,13 +1335,6 @@
             "to": "29.342095,120.03116",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 80,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1705,13 +1355,6 @@
             "to": "29.933874,122.362307",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1759,13 +1402,6 @@
             "to": "28.96613,118.898793",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 65,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1780,13 +1416,6 @@
             "to": "31.98779,116.9769",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 63,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1862,13 +1491,6 @@
             "to": "32.882157,115.734364",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 32,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1883,13 +1505,6 @@
             "to": "30.7403,117.6856",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 18,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1916,13 +1531,6 @@
             "to": "31.3906,118.408997",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1943,13 +1551,6 @@
             "to": "25.929254,119.672524",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 14,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -1978,13 +1579,6 @@
             "to": "24.795855,118.588599",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2011,13 +1605,6 @@
             "to": "27.7019,118.000999",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 187,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2038,13 +1625,6 @@
             "to": "25.6747,116.747",
             "via": "airportsdata",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 373,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -2071,13 +1651,6 @@
             "to": "26.4263,117.8336",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 253,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2092,13 +1665,6 @@
             "to": "28.864815,115.90271",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 44,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2113,13 +1679,6 @@
             "to": "25.853333,114.778889",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 118,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2134,13 +1693,6 @@
             "to": "29.3386,117.176003",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 34,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2183,13 +1735,6 @@
             "to": "26.856899,114.737",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 86,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2204,13 +1749,6 @@
             "to": "27.8025,114.3062",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 131,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2231,13 +1769,6 @@
             "to": "28.3797,117.9643",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 104,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2258,13 +1789,6 @@
             "to": "36.857201,117.216003",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 23,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2285,13 +1809,6 @@
             "to": "36.361953,120.088171",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2306,13 +1823,6 @@
             "to": "37.659724,120.978124",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 47,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2333,13 +1843,6 @@
             "to": "37.187099,122.228996",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 44,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2360,13 +1863,6 @@
             "to": "35.052918,118.411828",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 54,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2387,13 +1883,6 @@
             "to": "35.647358,116.743269",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 52,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2414,13 +1903,6 @@
             "to": "35.405033,119.324403",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 37,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2441,13 +1923,6 @@
             "to": "37.50137,118.789863",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2495,13 +1970,6 @@
             "to": "35.212972,115.736748",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 46,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2548,13 +2016,6 @@
             "to": "30.554132,111.482563",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 205,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2575,13 +2036,6 @@
             "to": "32.152222,112.291666",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 71,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2602,13 +2056,6 @@
             "to": "30.320299,109.485001",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 489,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2635,13 +2082,6 @@
             "to": "31.626,110.34",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2550,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2683,13 +2123,6 @@
             "to": "30.341178,115.03926",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 26,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2762,13 +2195,6 @@
             "to": "29.104749,110.442786",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2600,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2789,13 +2215,6 @@
             "to": "28.9189,111.639999",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 39,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2810,13 +2229,6 @@
             "to": "27.443087,109.704666",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 269,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2831,13 +2243,6 @@
             "to": "26.338661,111.610043",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 104,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2852,13 +2257,6 @@
             "to": "25.753419,112.845404",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 326,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2907,13 +2305,6 @@
             "to": "26.806123,110.641042",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 440,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2934,13 +2325,6 @@
             "to": "29.311699,113.281574",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 70,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -2995,13 +2379,6 @@
             "to": "22.006399,113.375999",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 7,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3055,13 +2432,6 @@
             "to": "24.263425,116.097857",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 95,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3097,13 +2467,6 @@
             "to": "24.9786,113.420998",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 85,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3124,13 +2487,6 @@
             "to": "23.049999,114.599998",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 15,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3151,13 +2507,6 @@
             "to": "23.0825,113.070833",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3178,13 +2527,6 @@
             "to": "22.598071,108.181922",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 128,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3198,13 +2540,6 @@
             "from": "Guilin",
             "to": "Guilin (Lingui)",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 174,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3219,13 +2554,6 @@
             "to": "21.538659,109.293683",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 23,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3259,13 +2587,6 @@
             "to": "24.2075,109.390999",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 90,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3292,13 +2613,6 @@
             "to": "23.40316,111.09331",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 109,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3313,13 +2627,6 @@
             "to": "22.433042,110.119996",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 100,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3346,13 +2653,6 @@
             "to": "23.7206,106.959999",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 149,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3386,13 +2686,6 @@
             "to": "19.9349,110.459",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 23,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3413,13 +2706,6 @@
             "to": "18.3029,109.412003",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 28,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3446,13 +2732,6 @@
             "to": "19.140951,110.452766",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3487,13 +2766,6 @@
             "to": "34.7411,112.388",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 256,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3514,13 +2786,6 @@
             "to": "32.982696,112.617467",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 256,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3535,13 +2800,6 @@
             "to": "32.540819,114.079141",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 95,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3622,13 +2880,6 @@
             "to": "31.428101,104.740997",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2400,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3649,13 +2900,6 @@
             "to": "28.858431,104.526157",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 420,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3703,13 +2947,6 @@
             "to": "30.798104,106.16415",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 349,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3784,13 +3021,6 @@
             "to": "31.73842,106.644872",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 550,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3811,13 +3041,6 @@
             "to": "27.9891,102.183998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1558,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3844,13 +3067,6 @@
             "to": "26.54,101.79852",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 494,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3956,13 +3172,6 @@
             "to": "-23.652849,146.582668",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 383,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -3997,13 +3206,6 @@
             "to": "25.083423,104.960804",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1265,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4031,13 +3233,6 @@
             "to": "27.883333,109.308889",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 705,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -4058,13 +3253,6 @@
             "to": "27.810723,107.247189",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 830,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4079,13 +3267,6 @@
             "to": "27.961837,106.435416",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1240,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4106,13 +3287,6 @@
             "to": "26.260556,105.873333",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1467,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4127,13 +3301,6 @@
             "to": "27.267066,105.472097",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1448,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4154,13 +3321,6 @@
             "to": "26.609417,104.979",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1963,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -4195,13 +3355,6 @@
             "to": "26.677483,100.244944",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2243,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4222,13 +3375,6 @@
             "to": "21.974648,100.762224",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 553,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4242,13 +3388,6 @@
             "from": "Dali",
             "to": "Dali (Xiaguan)",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2149,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4269,13 +3408,6 @@
             "to": "24.938056,98.485833",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1905,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4296,13 +3428,6 @@
             "to": "24.4011,98.5317",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 881,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4323,13 +3448,6 @@
             "to": "27.7936,99.6772",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3280,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4344,13 +3462,6 @@
             "to": "23.7381,100.025002",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1899,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4371,13 +3482,6 @@
             "to": "25.053301,99.168297",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1662,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4413,13 +3517,6 @@
             "to": "27.205843,103.691511",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1932,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4434,13 +3531,6 @@
             "to": "23.5583,104.3255",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1590,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4461,13 +3551,6 @@
             "to": "27.5403,100.7593",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3293,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4555,13 +3638,6 @@
             "to": "32.09794,80.053971",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4274,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4588,13 +3664,6 @@
             "to": "29.350876,89.299157",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3782,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4635,13 +3704,6 @@
             "to": "36.515202,103.620003",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1947,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4683,13 +3745,6 @@
             "to": "39.859052,98.339344",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1558,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4710,13 +3765,6 @@
             "to": "34.5601,105.860343",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1094,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4758,13 +3806,6 @@
             "to": "38.542222,102.348333",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1445,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4785,13 +3826,6 @@
             "to": "38.801899,100.675003",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1609,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4806,13 +3840,6 @@
             "to": "38.322758,106.393214",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1141,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4839,13 +3866,6 @@
             "to": "37.573125,105.154454",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1246,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4866,13 +3886,6 @@
             "to": "36.078889,106.216944",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1746,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4893,13 +3906,6 @@
             "to": "36.52775,102.040215",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2170,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4914,13 +3920,6 @@
             "to": "36.4006,94.786102",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2845,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4941,13 +3940,6 @@
             "to": "32.836389,97.036389",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3906,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -4993,13 +3985,6 @@
             "to": "37.125286,97.268658",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3000,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5026,13 +4011,6 @@
             "to": "34.418066,100.301144",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3787,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5059,13 +4037,6 @@
             "to": "43.913584,87.479372",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 648,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5080,13 +4051,6 @@
             "to": "39.542273,76.02023",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1380,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5146,13 +4110,6 @@
             "to": "43.4318,83.3786",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 930,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5167,13 +4124,6 @@
             "to": "41.614979,86.140817",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 927,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5194,13 +4144,6 @@
             "to": "41.262501,80.291702",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1163,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5228,13 +4171,6 @@
             "to": "37.03850173950195,79.86489868164062",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1424,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5288,13 +4224,6 @@
             "to": "37.03850173950195,79.86489868164062",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1424,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5315,13 +4244,6 @@
             "to": "42.8414,93.669197",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 824,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5357,13 +4279,6 @@
             "to": "47.749886,88.085808",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 750,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5390,13 +4305,6 @@
             "to": "48.2223,86.9959",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1195,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5411,13 +4319,6 @@
             "to": "44.895461,82.30007",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 382,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5432,13 +4333,6 @@
             "to": "41.677856,82.872917",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1074,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5453,13 +4347,6 @@
             "to": "44.2421,85.8905",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 518,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5507,13 +4394,6 @@
             "to": "22.149599,113.592003",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 6,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5560,13 +4440,6 @@
             "to": "25.067244,121.552822",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5587,13 +4460,6 @@
             "to": "22.577101,120.349998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5627,13 +4493,6 @@
             "to": "24.2647,120.621002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 202,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5660,13 +4519,6 @@
             "to": "22.950399,120.206001",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 19,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5699,13 +4551,6 @@
             "to": "24.4279,118.359001",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 28,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5738,13 +4583,6 @@
             "to": "26.22414,120.002679",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5777,13 +4615,6 @@
             "to": "23.568701,119.627998",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 31,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5831,13 +4662,6 @@
             "to": "29.5133333333,108.831111111",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 632,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5852,13 +4676,6 @@
             "to": "38.35971,109.590927",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1186,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5933,13 +4750,6 @@
             "to": "32.75696,108.87338",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 369,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5966,13 +4776,6 @@
             "to": "33.789918,105.790014",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1130,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -5993,13 +4796,6 @@
             "to": "34.819014,102.622261",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3203,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6026,13 +4822,6 @@
             "to": "31.7575,99.554167",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4068,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6087,52 +4876,26 @@
             "to": "38.24542,77.056149",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1290,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
       {
-        "id": "TMC/",
+        "id": "TWC/ZWTS",
         "nameZh": "图木舒克唐王城机场",
         "file": "data-cn-4.json",
         "diffs": [
           {
-            "field": "nameEn",
-            "from": "Tumxuk Tangwangcheng Airport",
-            "to": "Tambolaka Airport",
-            "via": "airportsdata"
-          },
-          {
-            "field": "cityEn",
-            "from": "Tumxuk",
-            "to": "Waikabubak-Sumba Island",
-            "via": "airportsdata"
-          },
-          {
-            "field": "tz",
-            "from": "Asia/Shanghai",
-            "to": "Asia/Makassar",
-            "via": "airportsdata"
-          },
-          {
             "field": "lat/lng",
-            "from": "39.85,79.12",
-            "to": "-9.40972,119.244",
-            "via": "airportsdata",
-            "severity": "high"
+            "from": "39.888139,79.231911",
+            "to": "39.886663,79.233408",
+            "via": "ourairports",
+            "severity": "precisionUpgrade"
           },
           {
             "field": "elevM",
-            "from": "",
-            "to": 49,
-            "via": "airportsdata",
-            "backfill": true
+            "from": 1090,
+            "to": 1087,
+            "via": "ourairports"
           }
         ]
       },
@@ -6147,13 +4910,6 @@
             "to": "46.804169,89.512006",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 939,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6168,13 +4924,6 @@
             "to": "40.434748,81.26206",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 999,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -6201,34 +4950,6 @@
             "from": "Burang",
             "to": "Burang Town",
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "DXJ/ZGXX",
-        "nameZh": "湘西边城机场",
-        "file": "data-cn-5.json",
-        "diffs": [
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 702,
-            "via": "airportsdata",
-            "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "SZH/ZBSG",
-        "nameZh": "朔州滋润机场",
-        "file": "data-cn-5.json",
-        "diffs": [
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1043,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -6413,13 +5134,6 @@
             "from": "Libo",
             "to": "Qiannan (Libo)",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 825,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -6471,20 +5185,6 @@
             "from": 935,
             "to": 938,
             "via": "ourairports"
-          }
-        ]
-      },
-      {
-        "id": "HUO/ZBHZ",
-        "nameZh": "霍林郭勒霍林河机场",
-        "file": "data-cn-5.json",
-        "diffs": [
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 975,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -6603,13 +5303,6 @@
             "to": "34.780853,135.440829",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 15,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6630,13 +5323,6 @@
             "to": "34.858398,136.804993",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6651,13 +5337,6 @@
             "to": "33.585899353027344,130.4510040283203",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6678,13 +5357,6 @@
             "to": "42.774753,141.690414",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 25,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6705,13 +5377,6 @@
             "to": "26.192437,127.639804",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6726,13 +5391,6 @@
             "to": "31.8034,130.718994",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 276,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6753,13 +5411,6 @@
             "to": "38.139702,140.917007",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6774,13 +5425,6 @@
             "to": "34.4361,132.919006",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 332,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6795,13 +5439,6 @@
             "to": "32.837299,130.854996",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 196,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6828,13 +5465,6 @@
             "to": "36.393407,136.406895",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 11,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6849,13 +5479,6 @@
             "to": "34.214963,134.015454",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 185,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6870,13 +5493,6 @@
             "to": "33.826893,132.700114",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 8,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6891,13 +5507,6 @@
             "to": "32.916901,129.914001",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6912,13 +5521,6 @@
             "to": "31.877199,131.449005",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 6,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6939,13 +5541,6 @@
             "to": "34.756901,133.854996",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 246,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6960,13 +5555,6 @@
             "to": "40.733777,140.689477",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 202,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -6981,13 +5569,6 @@
             "to": "41.77,140.822006",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 46,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7008,13 +5589,6 @@
             "to": "43.670799,142.447006",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 220,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7029,13 +5603,6 @@
             "to": "24.396389,124.245",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 31,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7070,13 +5637,6 @@
             "to": "37.5583,126.791",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 18,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7097,13 +5657,6 @@
             "to": "35.179501,128.938004",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7124,13 +5677,6 @@
             "to": "33.512058,126.492548",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 36,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7145,13 +5691,6 @@
             "to": "35.894394,128.656989",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 35,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7172,13 +5711,6 @@
             "to": "36.71556,127.500289",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 58,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7193,13 +5725,6 @@
             "to": "35.123173,126.805444",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7238,13 +5763,6 @@
             "to": "48.993301,89.922501",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1747,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7259,13 +5777,6 @@
             "to": "39.224098,125.669998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 36,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7300,13 +5811,6 @@
             "to": "13.6811,100.747002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7327,13 +5831,6 @@
             "to": "13.9126,100.607002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7348,13 +5845,6 @@
             "to": "8.113257,98.3174",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 25,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7369,13 +5859,6 @@
             "to": "18.766799926799997,98.962600708",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 316,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7402,13 +5885,6 @@
             "to": "9.54779,100.061996",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 20,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7435,13 +5911,6 @@
             "to": "19.5,100.282997",
             "via": "ourairports",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 388,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7456,13 +5925,6 @@
             "to": "6.93321,100.392998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 27,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7483,13 +5945,6 @@
             "to": "2.74558,101.709999",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 21,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7504,13 +5959,6 @@
             "to": "5.296303,100.276185",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7525,13 +5973,6 @@
             "to": "1.64131,103.669998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 41,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7546,13 +5987,6 @@
             "to": "6.32973,99.728699",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7567,13 +6001,6 @@
             "to": "5.932743,116.049324",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7594,13 +6021,6 @@
             "to": "1.487364,110.352859",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 27,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7621,13 +6041,6 @@
             "to": "-6.12557,106.655998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7654,13 +6067,6 @@
             "to": "-8.748409,115.167123",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7688,13 +6094,6 @@
             "to": "-7.37983,112.787003",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7721,13 +6120,6 @@
             "to": "3.637847,98.870566",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 7,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7748,13 +6140,6 @@
             "to": "-5.075539,119.553702",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 14,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7781,13 +6166,6 @@
             "to": "14.5086,121.019997",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 23,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7814,13 +6192,6 @@
             "to": "10.309261,123.97974",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7847,13 +6218,6 @@
             "to": "15.186,120.559998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 148,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7874,13 +6238,6 @@
             "to": "10.8188,106.652",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7907,13 +6264,6 @@
             "to": "21.221201,105.806999",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7928,13 +6278,6 @@
             "to": "16.0439,108.198997",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7961,13 +6304,6 @@
             "to": "11.9982,109.219002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -7988,13 +6324,6 @@
             "to": "11.547155,104.844699",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8015,13 +6344,6 @@
             "to": "13.4107,103.813",
             "via": "airportsdata",
             "severity": "high"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 18,
-            "via": "airportsdata",
-            "backfill": true
           }
         ]
       },
@@ -8036,13 +6358,6 @@
             "to": "16.907300949099998,96.1332015991",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 33,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8057,13 +6372,6 @@
             "to": "21.702199935913086,95.97789764404297",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 91,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8084,13 +6392,6 @@
             "to": "17.985052,102.566692",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 172,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8117,13 +6418,6 @@
             "to": "19.904273,102.167191",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 291,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8170,13 +6464,6 @@
             "to": "19.088699,72.867897",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8197,27 +6484,6 @@
             "to": "13.1979,77.706299",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 914,
-            "via": "ourairports",
-            "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "MAA/VOMM",
-        "nameZh": "金奈国际机场",
-        "file": "data-global-1.json",
-        "diffs": [
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 16,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8238,13 +6504,6 @@
             "to": "17.231318,78.429855",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 617,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8265,13 +6524,6 @@
             "to": "22.654012,88.44765",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8286,13 +6538,6 @@
             "to": "10.151047,76.400838",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8313,13 +6558,6 @@
             "to": "23.0772,72.634697",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 58,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8340,13 +6578,6 @@
             "to": "7.180759906768799,79.88410186767578",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8373,13 +6604,6 @@
             "to": "4.19183,73.529099",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8400,13 +6624,6 @@
             "to": "27.6966,85.3591",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1338,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8427,13 +6644,6 @@
             "to": "23.843347,90.397783",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8454,13 +6664,6 @@
             "to": "27.4032,89.424599",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2245,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8481,13 +6684,6 @@
             "to": "33.549,72.82566",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 537,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8508,13 +6704,6 @@
             "to": "24.9065,67.160797",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 30,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8535,13 +6724,6 @@
             "to": "31.521601,74.403603",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 217,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8556,13 +6738,6 @@
             "to": "34.565899,69.212303",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1791,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8603,13 +6778,6 @@
             "to": "24.896171,55.16235",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 35,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8630,13 +6798,6 @@
             "to": "24.440966,54.649237",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 27,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8651,13 +6812,6 @@
             "to": "25.3286,55.5172",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 34,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8678,13 +6832,6 @@
             "to": "25.273056,51.608056",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8705,13 +6852,6 @@
             "to": "24.9576,46.698799",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 625,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8732,13 +6872,6 @@
             "to": "21.680241,39.157436",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 15,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8765,13 +6898,6 @@
             "to": "26.4691,49.798209",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 22,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8792,13 +6918,6 @@
             "to": "24.5534,39.705101",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 656,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8820,13 +6939,6 @@
             "to": "29.224487,47.969813",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 63,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8841,13 +6953,6 @@
             "to": "26.267295,50.63764",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8868,13 +6973,6 @@
             "to": "23.600218,58.285268",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 15,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8895,13 +6993,6 @@
             "to": "31.7226009369,35.9931983948",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 730,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8916,13 +7007,6 @@
             "to": "33.819833,35.487443",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 27,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8943,13 +7027,6 @@
             "to": "32.011398,34.8867",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 41,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8970,13 +7047,6 @@
             "to": "35.416099548339844,51.152198791503906",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1007,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -8991,13 +7061,6 @@
             "to": "36.234821,59.642949",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 995,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9018,13 +7081,6 @@
             "to": "41.274874,28.732136",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 99,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9051,13 +7107,6 @@
             "to": "40.898602,29.3092",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 95,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9078,13 +7127,6 @@
             "to": "36.898701,30.800501",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 54,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9111,13 +7153,6 @@
             "to": "38.2924,27.157",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 126,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9132,13 +7167,6 @@
             "to": "30.111534,31.396694",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 98,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9153,13 +7181,6 @@
             "to": "27.176776,33.796692",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 10,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9174,13 +7195,6 @@
             "to": "27.977272,34.394717",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 58,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9195,13 +7209,6 @@
             "to": "51.148744,-0.185739",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 62,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9222,13 +7229,6 @@
             "to": "51.884998,0.235",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 106,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9249,13 +7249,6 @@
             "to": "51.874699,-0.368333",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 160,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9269,13 +7262,6 @@
             "from": "Manchester",
             "to": "Manchester, Greater Manchester",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 78,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9296,13 +7282,6 @@
             "to": "55.950145,-3.372288",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 41,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9323,13 +7302,6 @@
             "to": "52.453899,-1.74803",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 100,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9344,13 +7316,6 @@
             "to": "55.871899,-4.43306",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 8,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9377,13 +7342,6 @@
             "to": "55.037958,-1.689577",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 81,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9398,13 +7356,6 @@
             "to": "53.428713,-6.262121",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 74,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9457,13 +7408,6 @@
             "to": "48.729499,2.358963",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 89,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9490,13 +7434,6 @@
             "to": "43.658401,7.21587",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9523,13 +7460,6 @@
             "to": "45.725996,5.090139",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 250,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9550,13 +7480,6 @@
             "to": "43.438088,5.2125",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 23,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9583,13 +7506,6 @@
             "to": "43.629101,1.36382",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 152,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9630,13 +7546,6 @@
             "to": "48.353802,11.7861",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 453,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9651,13 +7560,6 @@
             "to": "52.361738,13.502341",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 48,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9684,13 +7586,6 @@
             "to": "51.289501,6.76678",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 45,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9711,13 +7606,6 @@
             "to": "53.630402,9.98823",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 16,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9738,13 +7626,6 @@
             "to": "50.865898,7.14274",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 92,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9759,13 +7640,6 @@
             "to": "48.689899,9.22196",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 389,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9806,13 +7680,6 @@
             "to": "50.901402,4.48444",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 53,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9833,13 +7700,6 @@
             "to": "47.458056,8.548056",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 432,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9860,27 +7720,6 @@
             "to": "46.238098,6.10895",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 430,
-            "via": "ourairports",
-            "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "VIE/LOWW",
-        "nameZh": "维也纳国际机场",
-        "file": "data-global-2.json",
-        "diffs": [
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 183,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9901,13 +7740,6 @@
             "to": "40.493407,-3.572249",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 609,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9928,13 +7760,6 @@
             "to": "41.2971,2.07846",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9955,13 +7780,6 @@
             "to": "39.551701,2.73881",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 8,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -9988,13 +7806,6 @@
             "to": "36.6749,-4.49911",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 16,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10009,13 +7820,6 @@
             "to": "38.7813,-9.13592",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 114,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10036,13 +7840,6 @@
             "to": "41.2481002808,-8.68138980865",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 69,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10095,13 +7892,6 @@
             "to": "45.6306,8.72811",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 234,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10128,13 +7918,6 @@
             "to": "45.445099,9.27674",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 108,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10155,13 +7938,6 @@
             "to": "45.505299,12.3519",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10182,13 +7958,6 @@
             "to": "40.886002,14.2908",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 90,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10215,13 +7984,6 @@
             "to": "37.936401,23.9445",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 94,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10235,13 +7997,6 @@
             "from": "Prague Vaclav Havel Airport",
             "to": "Václav Havel Airport Prague",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 380,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10262,13 +8017,6 @@
             "to": "47.43018,19.262393",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 151,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10283,13 +8031,6 @@
             "to": "52.165699,20.9671",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 110,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10316,13 +8057,6 @@
             "to": "50.077702,19.7848",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 241,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10349,13 +8083,6 @@
             "to": "44.571792,26.103285",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 96,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10370,13 +8097,6 @@
             "to": "55.617900848389,12.656000137329",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10397,13 +8117,6 @@
             "to": "59.64849,17.928829",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 42,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10430,13 +8143,6 @@
             "to": "60.193901,11.1004",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 208,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10463,13 +8169,6 @@
             "to": "60.318363,24.963341",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 55,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10490,13 +8189,6 @@
             "to": "63.985001,-22.6056",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 52,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10517,13 +8209,6 @@
             "to": "55.976858,37.41121",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 190,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10544,13 +8229,6 @@
             "to": "55.408798,37.9063",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 179,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10571,13 +8249,6 @@
             "to": "55.591499,37.261501",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 209,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10598,13 +8269,6 @@
             "to": "59.800301,30.262501",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 24,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10625,13 +8289,6 @@
             "to": "55.019756,82.618675",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 111,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10652,13 +8309,6 @@
             "to": "56.743099212646,60.802700042725",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 233,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10685,13 +8335,6 @@
             "to": "43.396256,132.148155",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 18,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10706,13 +8349,6 @@
             "to": "52.266707,104.395563",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 511,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10733,13 +8369,6 @@
             "to": "43.449902,39.9566",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 27,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10754,13 +8383,6 @@
             "to": "43.354267,77.042828",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 681,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10781,13 +8403,6 @@
             "to": "51.027035,71.467094",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 355,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10815,13 +8430,6 @@
             "to": "41.2579,69.281197",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 432,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10849,13 +8457,6 @@
             "to": "41.669201,44.9547",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 495,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10876,13 +8477,6 @@
             "to": "40.47278,50.050931",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10903,13 +8497,6 @@
             "to": "40.148941,44.397887",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 865,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10930,13 +8517,6 @@
             "to": "-26.140081,28.246801",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1694,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10951,13 +8531,6 @@
             "to": "-33.97403,18.604333",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 46,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10978,13 +8551,6 @@
             "to": "-1.318886,36.928233",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1625,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -10999,13 +8565,6 @@
             "to": "8.97789,38.799301",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2326,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11026,13 +8585,6 @@
             "to": "6.57737,3.32116",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 41,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11053,13 +8605,6 @@
             "to": "9.00679,7.26317",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 342,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11080,13 +8625,6 @@
             "to": "5.605189800262451,-0.16678600013256073",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 62,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11107,13 +8645,6 @@
             "to": "33.3675,-7.58997",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 200,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11134,13 +8665,6 @@
             "to": "36.693886,3.214531",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 25,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11155,13 +8679,6 @@
             "to": "-4.67434,55.521801",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11188,13 +8705,6 @@
             "to": "-20.430201,57.683601",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 57,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11241,13 +8751,6 @@
             "to": "-37.670732,144.837898",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 132,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11268,13 +8771,6 @@
             "to": "-27.384199142456055,153.11700439453125",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11295,13 +8791,6 @@
             "to": "-31.94029998779297,115.96700286865234",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 20,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11322,13 +8811,6 @@
             "to": "-34.947512,138.533393",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 6,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11343,13 +8825,6 @@
             "to": "-28.165962,153.506641",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 6,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11370,13 +8845,6 @@
             "to": "-16.878921,145.74948",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11391,13 +8859,6 @@
             "to": "-35.3069,149.195007",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 575,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11418,13 +8879,6 @@
             "to": "-12.41497,130.88185",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 31,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11445,13 +8899,6 @@
             "to": "-37.01199,174.786331",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 7,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11466,13 +8913,6 @@
             "to": "-41.326839,174.806862",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 12,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11493,13 +8933,6 @@
             "to": "-43.489029,172.532065",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 37,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11514,13 +8947,6 @@
             "to": "-45.019205,168.746379",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 357,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11535,13 +8961,6 @@
             "to": "-17.761822,177.437843",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 18,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11562,13 +8981,6 @@
             "to": "-17.553472,-149.606936",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11595,13 +9007,6 @@
             "from": "New York",
             "to": "Newark",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11622,13 +9027,6 @@
             "to": "40.777199,-73.872597",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 6,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11657,13 +9055,6 @@
             "to": "37.619806,-122.374821",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11684,13 +9075,6 @@
             "to": "37.362452,-121.929188",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 19,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11705,13 +9089,6 @@
             "to": "41.9786,-87.9048",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 207,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11726,13 +9103,6 @@
             "to": "41.785999,-87.752403",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 189,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11753,13 +9123,6 @@
             "to": "32.896801,-97.038002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 185,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11780,13 +9143,6 @@
             "to": "29.9844,-95.3414",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 30,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11807,13 +9163,6 @@
             "to": "29.645336,-95.276812",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 14,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11834,13 +9183,6 @@
             "to": "33.6367,-84.428101",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 313,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11855,13 +9197,6 @@
             "to": "25.796011,-80.289751",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11876,13 +9211,6 @@
             "to": "28.429399490356445,-81.30899810791016",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 29,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11897,13 +9225,6 @@
             "to": "27.9755,-82.533203",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 8,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11918,13 +9239,6 @@
             "to": "42.36197,-71.0079",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 6,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11945,13 +9259,6 @@
             "to": "38.9445,-77.455803",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 95,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11972,13 +9279,6 @@
             "to": "38.8521,-77.037697",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -11999,13 +9299,6 @@
             "to": "39.1754,-76.668297",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 45,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12020,13 +9313,6 @@
             "to": "39.871899,-75.241096",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 11,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12067,13 +9353,6 @@
             "to": "47.447943,-122.310276",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 132,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12088,13 +9367,6 @@
             "to": "45.588699,-122.598",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12115,13 +9387,6 @@
             "to": "36.083361,-115.151817",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 665,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12136,13 +9401,6 @@
             "to": "33.435302,-112.005905",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 346,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12163,13 +9421,6 @@
             "to": "44.880081,-93.221741",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 256,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12190,13 +9441,6 @@
             "to": "42.21377,-83.353786",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 197,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12217,13 +9461,6 @@
             "to": "38.748697,-90.370003",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 188,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12238,13 +9475,6 @@
             "to": "35.2140007019043,-80.94309997558594",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 228,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12265,13 +9495,6 @@
             "to": "35.878659,-78.7873",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 133,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12286,13 +9509,6 @@
             "to": "36.1245,-86.6782",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 183,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12313,13 +9529,6 @@
             "to": "35.043845,-89.97634",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 104,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12340,13 +9549,6 @@
             "to": "29.993401,-90.264673",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12361,13 +9563,6 @@
             "to": "39.301699,-94.713893",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 313,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12394,13 +9589,6 @@
             "to": "39.048801,-84.667801",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 273,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12415,13 +9603,6 @@
             "to": "41.411701,-81.8498",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 241,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12436,13 +9617,6 @@
             "to": "40.491501,-80.232903",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 367,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12463,13 +9637,6 @@
             "to": "39.7173,-86.294403",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 243,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12490,13 +9657,6 @@
             "to": "30.197535,-97.662015",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 165,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12511,13 +9671,6 @@
             "to": "29.533701,-98.469803",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 247,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12532,13 +9685,6 @@
             "to": "40.78886,-111.979866",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1288,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12553,13 +9699,6 @@
             "to": "38.6954,-121.591003",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 8,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12574,13 +9713,6 @@
             "to": "32.733601,-117.190002",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 5,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12601,13 +9733,6 @@
             "to": "37.720085,-122.221184",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 3,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12628,13 +9753,6 @@
             "to": "42.947201,-87.896599",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 220,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12655,13 +9773,6 @@
             "to": "61.179004,-149.992561",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 46,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12688,13 +9799,6 @@
             "to": "21.318387,-157.92567",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12721,13 +9825,6 @@
             "to": "20.896263,-156.431837",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 16,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12748,13 +9845,6 @@
             "to": "13.485,144.797282",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 91,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12769,13 +9859,6 @@
             "to": "43.675935,-79.629421",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 173,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12790,13 +9873,6 @@
             "to": "49.193901,-123.183998",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 4,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12823,13 +9899,6 @@
             "to": "45.467837,-73.742294",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 36,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12844,13 +9913,6 @@
             "to": "51.118822,-114.009933",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1084,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12865,27 +9927,6 @@
             "to": "45.322498,-75.669197",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 114,
-            "via": "ourairports",
-            "backfill": true
-          }
-        ]
-      },
-      {
-        "id": "YEG/CYEG",
-        "nameZh": "埃德蒙顿国际机场",
-        "file": "data-global-3.json",
-        "diffs": [
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 723,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12899,13 +9940,6 @@
             "from": "Winnipeg Richardson International Airport",
             "to": "Winnipeg / James Armstrong Richardson International Airport",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 239,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12926,13 +9960,6 @@
             "to": "44.8807983398,-63.5085983276",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 145,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12947,13 +9974,6 @@
             "to": "48.647201,-123.427792",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 19,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -12980,13 +10000,6 @@
             "to": "46.7911,-71.393303",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 74,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13007,13 +10020,6 @@
             "to": "19.435822,-99.07033",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2230,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13040,13 +10046,6 @@
             "to": "21.040817,-86.87347",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 7,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13067,13 +10066,6 @@
             "to": "20.523342,-103.310108",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1529,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13100,13 +10092,6 @@
             "to": "25.778521,-100.106989",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 390,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13127,13 +10112,6 @@
             "to": "32.541043,-116.969976",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 149,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13154,13 +10132,6 @@
             "to": "23.151919,-109.720731",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 114,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13187,13 +10158,6 @@
             "to": "9.07136,-79.383499",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 41,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13220,13 +10184,6 @@
             "to": "-23.431274,-46.469954",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 750,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13253,13 +10210,6 @@
             "to": "-23.627657,-46.654601",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 802,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13279,13 +10229,6 @@
             "from": "Rio de Janeiro",
             "to": "Rio De Janeiro",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 9,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13305,13 +10248,6 @@
             "from": "Brasilia",
             "to": "Brasília",
             "via": "ourairports"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 1066,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13338,13 +10274,6 @@
             "to": "-34.8222,-58.5358",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 20,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13365,13 +10294,6 @@
             "to": "-33.393001556396484,-70.78579711914062",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 474,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13392,13 +10314,6 @@
             "to": "-12.0219,-77.114305",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 34,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13419,13 +10334,6 @@
             "to": "4.70159,-74.1469",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2548,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13446,13 +10354,6 @@
             "to": "-0.125399,-78.354306",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 2390,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       },
@@ -13479,18 +10380,11 @@
             "to": "-34.835647,-56.026497",
             "via": "ourairports",
             "severity": "precisionUpgrade"
-          },
-          {
-            "field": "elevM",
-            "from": "",
-            "to": 32,
-            "via": "ourairports",
-            "backfill": true
           }
         ]
       }
     ],
-    "elevBackfills": 465,
-    "precisionUpgrades": 373
+    "elevBackfills": 29,
+    "precisionUpgrades": 374
   }
 }

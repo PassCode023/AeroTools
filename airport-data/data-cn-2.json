@@ -52,7 +52,8 @@
     "lat": 31.5,
     "lng": 120.43,
     "tz": "Asia/Shanghai",
-    "caacRef": "p18e02"
+    "caacRef": "p18e02",
+    "elevM": 7
   },
   {
     "iata": "CZX",
@@ -65,7 +66,8 @@
     "lat": 31.92,
     "lng": 119.78,
     "tz": "Asia/Shanghai",
-    "caacRef": "p05e03"
+    "caacRef": "p05e03",
+    "elevM": 10
   },
   {
     "iata": "NTG",
@@ -78,7 +80,8 @@
     "lat": 32.07,
     "lng": 120.98,
     "tz": "Asia/Shanghai",
-    "caacRef": "p16e02"
+    "caacRef": "p16e02",
+    "elevM": 5
   },
   {
     "iata": "YTY",
@@ -91,7 +94,8 @@
     "lat": 32.56,
     "lng": 119.72,
     "tz": "Asia/Shanghai",
-    "caacRef": "p22e09"
+    "caacRef": "p22e09",
+    "elevM": 2
   },
   {
     "iata": "HIA",
@@ -104,7 +108,8 @@
     "lat": 33.55,
     "lng": 119.16,
     "tz": "Asia/Shanghai",
-    "caacRef": "p06e03"
+    "caacRef": "p06e03",
+    "elevM": 9
   },
   {
     "iata": "YNZ",
@@ -120,7 +125,8 @@
     "aliases": [
       "盐城南阳机场"
     ],
-    "caacRef": "p21e08"
+    "caacRef": "p21e08",
+    "elevM": 3
   },
   {
     "iata": "XUZ",
@@ -133,7 +139,8 @@
     "lat": 34.11,
     "lng": 117.55,
     "tz": "Asia/Shanghai",
-    "caacRef": "p20e02"
+    "caacRef": "p20e02",
+    "elevM": 33
   },
   {
     "iata": "LYG",
@@ -173,7 +180,8 @@
     "lat": 29.83,
     "lng": 121.46,
     "tz": "Asia/Shanghai",
-    "caacRef": "p06e02"
+    "caacRef": "p06e02",
+    "elevM": 4
   },
   {
     "iata": "WNZ",
@@ -186,7 +194,8 @@
     "lat": 27.91,
     "lng": 120.85,
     "tz": "Asia/Shanghai",
-    "caacRef": "p16e01"
+    "caacRef": "p16e01",
+    "elevM": 4
   },
   {
     "iata": "YIW",
@@ -199,7 +208,8 @@
     "lat": 29.35,
     "lng": 120.05,
     "tz": "Asia/Shanghai",
-    "caacRef": "p18e01"
+    "caacRef": "p18e01",
+    "elevM": 80
   },
   {
     "iata": "HSN",
@@ -215,7 +225,8 @@
     "aliases": [
       "舟山普陀山机场"
     ],
-    "caacRef": "p20e01"
+    "caacRef": "p20e01",
+    "elevM": 2
   },
   {
     "iata": "HYN",
@@ -241,7 +252,8 @@
     "lat": 28.97,
     "lng": 118.88,
     "tz": "Asia/Shanghai",
-    "caacRef": "p11e04"
+    "caacRef": "p11e04",
+    "elevM": 65
   },
   {
     "iata": "HFE",
@@ -254,7 +266,8 @@
     "lat": 31.98,
     "lng": 116.98,
     "tz": "Asia/Shanghai",
-    "caacRef": "p13e03"
+    "caacRef": "p13e03",
+    "elevM": 63
   },
   {
     "iata": "TXN",
@@ -296,7 +309,8 @@
     "aliases": [
       "阜阳西关机场"
     ],
-    "caacRef": "p11e03"
+    "caacRef": "p11e03",
+    "elevM": 32
   },
   {
     "iata": "JUH",
@@ -309,7 +323,8 @@
     "lat": 30.75,
     "lng": 117.76,
     "tz": "Asia/Shanghai",
-    "caacRef": "p06e01"
+    "caacRef": "p06e01",
+    "elevM": 18
   },
   {
     "iata": "WHA",
@@ -322,7 +337,8 @@
     "lat": 31.15,
     "lng": 118.63,
     "tz": "Asia/Shanghai",
-    "caacRef": "p18e08"
+    "caacRef": "p18e08",
+    "elevM": 10
   },
   {
     "iata": "FOC",
@@ -335,7 +351,8 @@
     "lat": 25.94,
     "lng": 119.66,
     "tz": "Asia/Shanghai",
-    "caacRef": "p04e10"
+    "caacRef": "p04e10",
+    "elevM": 14
   },
   {
     "iata": "XMN",
@@ -362,7 +379,8 @@
     "lat": 24.8,
     "lng": 118.6,
     "tz": "Asia/Shanghai",
-    "caacRef": "p11e02"
+    "caacRef": "p11e02",
+    "elevM": 12
   },
   {
     "iata": "WUS",
@@ -375,7 +393,8 @@
     "lat": 27.7,
     "lng": 118.01,
     "tz": "Asia/Shanghai",
-    "caacRef": "p17e10"
+    "caacRef": "p17e10",
+    "elevM": 187
   },
   {
     "iata": "LCX",
@@ -391,7 +410,8 @@
     "aliases": [
       "龙岩冠豸山机场"
     ],
-    "caacRef": "p07e10"
+    "caacRef": "p07e10",
+    "elevM": 373
   },
   {
     "iata": "SQJ",
@@ -404,7 +424,8 @@
     "lat": 26.44,
     "lng": 117.85,
     "tz": "Asia/Shanghai",
-    "caacRef": "p13e07"
+    "caacRef": "p13e07",
+    "elevM": 253
   },
   {
     "iata": "KHN",
@@ -417,7 +438,8 @@
     "lat": 28.86,
     "lng": 115.9,
     "tz": "Asia/Shanghai",
-    "caacRef": "p15e07"
+    "caacRef": "p15e07",
+    "elevM": 44
   },
   {
     "iata": "KOW",
@@ -430,7 +452,8 @@
     "lat": 25.68,
     "lng": 114.78,
     "tz": "Asia/Shanghai",
-    "caacRef": "p04e08"
+    "caacRef": "p04e08",
+    "elevM": 118
   },
   {
     "iata": "JDZ",
@@ -443,7 +466,8 @@
     "lat": 29.28,
     "lng": 117.27,
     "tz": "Asia/Shanghai",
-    "caacRef": "p11e01"
+    "caacRef": "p11e01",
+    "elevM": 34
   },
   {
     "iata": "JIU",
@@ -472,7 +496,8 @@
     "aliases": [
       "井冈山机场"
     ],
-    "caacRef": "p07e09"
+    "caacRef": "p07e09",
+    "elevM": 86
   },
   {
     "iata": "YIC",
@@ -485,7 +510,8 @@
     "lat": 27.81,
     "lng": 114.4,
     "tz": "Asia/Shanghai",
-    "caacRef": "p19e10"
+    "caacRef": "p19e10",
+    "elevM": 131
   },
   {
     "iata": "SQD",
@@ -498,7 +524,8 @@
     "lat": 28.46,
     "lng": 117.96,
     "tz": "Asia/Shanghai",
-    "caacRef": "p18e06"
+    "caacRef": "p18e06",
+    "elevM": 104
   },
   {
     "iata": "TNA",
@@ -511,7 +538,8 @@
     "lat": 36.72,
     "lng": 117.22,
     "tz": "Asia/Shanghai",
-    "caacRef": "p08e09"
+    "caacRef": "p08e09",
+    "elevM": 23
   },
   {
     "iata": "TAO",
@@ -524,7 +552,8 @@
     "lat": 36.36,
     "lng": 120.08,
     "tz": "Asia/Shanghai",
-    "caacRef": "p17e09"
+    "caacRef": "p17e09",
+    "elevM": 9
   },
   {
     "iata": "YNT",
@@ -537,7 +566,8 @@
     "lat": 37.61,
     "lng": 121.04,
     "tz": "Asia/Shanghai",
-    "caacRef": "p23e10"
+    "caacRef": "p23e10",
+    "elevM": 47
   },
   {
     "iata": "WEH",
@@ -550,7 +580,8 @@
     "lat": 37.19,
     "lng": 122.23,
     "tz": "Asia/Shanghai",
-    "caacRef": "p21e07"
+    "caacRef": "p21e07",
+    "elevM": 44
   },
   {
     "iata": "LYI",
@@ -566,7 +597,8 @@
     "aliases": [
       "临沂启阳机场"
     ],
-    "caacRef": "p15e08"
+    "caacRef": "p15e08",
+    "elevM": 54
   },
   {
     "iata": "JNG",
@@ -582,7 +614,8 @@
     "aliases": [
       "济宁大安山机场"
     ],
-    "caacRef": "p13e02"
+    "caacRef": "p13e02",
+    "elevM": 52
   },
   {
     "iata": "RIZ",
@@ -595,7 +628,8 @@
     "lat": 35.39,
     "lng": 119.44,
     "tz": "Asia/Shanghai",
-    "caacRef": "p20e03"
+    "caacRef": "p20e03",
+    "elevM": 37
   },
   {
     "iata": "DOY",
@@ -608,7 +642,8 @@
     "lat": 37.51,
     "lng": 118.63,
     "tz": "Asia/Shanghai",
-    "caacRef": "p04e09"
+    "caacRef": "p04e09",
+    "elevM": 5
   },
   {
     "iata": "WEF",
@@ -637,7 +672,8 @@
     "lat": 35.16,
     "lng": 115.5,
     "tz": "Asia/Shanghai",
-    "caacRef": "p06e06"
+    "caacRef": "p06e06",
+    "elevM": 46
   },
   {
     "iata": "WUH",
@@ -664,7 +700,8 @@
     "lat": 30.66,
     "lng": 111.48,
     "tz": "Asia/Shanghai",
-    "caacRef": "p07e07"
+    "caacRef": "p07e07",
+    "elevM": 205
   },
   {
     "iata": "XFN",
@@ -677,7 +714,8 @@
     "lat": 32.13,
     "lng": 112.28,
     "tz": "Asia/Shanghai",
-    "caacRef": "p10e01"
+    "caacRef": "p10e01",
+    "elevM": 71
   },
   {
     "iata": "ENH",
@@ -693,7 +731,8 @@
     "aliases": [
       "恩施许家坪机场"
     ],
-    "caacRef": "p15e06"
+    "caacRef": "p15e06",
+    "elevM": 489
   },
   {
     "iata": "HPV",
@@ -706,7 +745,8 @@
     "lat": 31.61,
     "lng": 110.39,
     "tz": "Asia/Shanghai",
-    "caacRef": "p17e08"
+    "caacRef": "p17e08",
+    "elevM": 2550
   },
   {
     "iata": "WDS",
@@ -732,7 +772,8 @@
     "lat": 30.48,
     "lng": 115,
     "tz": "Asia/Shanghai",
-    "caacRef": "p22e02"
+    "caacRef": "p22e02",
+    "elevM": 26
   },
   {
     "iata": "SHS",
@@ -772,7 +813,8 @@
     "lat": 29.1,
     "lng": 110.45,
     "tz": "Asia/Shanghai",
-    "caacRef": "p05e08"
+    "caacRef": "p05e08",
+    "elevM": 2600
   },
   {
     "iata": "CGD",
@@ -785,7 +827,8 @@
     "lat": 28.92,
     "lng": 111.63,
     "tz": "Asia/Shanghai",
-    "caacRef": "p12e03"
+    "caacRef": "p12e03",
+    "elevM": 39
   },
   {
     "iata": "HJJ",
@@ -798,7 +841,8 @@
     "lat": 27.45,
     "lng": 109.8,
     "tz": "Asia/Shanghai",
-    "caacRef": "p15e05"
+    "caacRef": "p15e05",
+    "elevM": 269
   },
   {
     "iata": "LLF",
@@ -811,7 +855,8 @@
     "lat": 26.34,
     "lng": 111.63,
     "tz": "Asia/Shanghai",
-    "caacRef": "p17e07"
+    "caacRef": "p17e07",
+    "elevM": 104
   },
   {
     "iata": "HCZ",
@@ -824,7 +869,8 @@
     "lat": 25.77,
     "lng": 113.03,
     "tz": "Asia/Shanghai",
-    "caacRef": "p23e02"
+    "caacRef": "p23e02",
+    "elevM": 326
   },
   {
     "iata": "HNY",
@@ -850,7 +896,8 @@
     "lat": 26.64,
     "lng": 110.6,
     "tz": "Asia/Shanghai",
-    "caacRef": "p20e05"
+    "caacRef": "p20e05",
+    "elevM": 440
   },
   {
     "iata": "YYA",
@@ -863,7 +910,8 @@
     "lat": 29.38,
     "lng": 113.32,
     "tz": "Asia/Shanghai",
-    "caacRef": "p21e10"
+    "caacRef": "p21e10",
+    "elevM": 70
   },
   {
     "iata": "CAN",
@@ -904,7 +952,8 @@
     "lat": 22.01,
     "lng": 113.37,
     "tz": "Asia/Shanghai",
-    "caacRef": "p10e07"
+    "caacRef": "p10e07",
+    "elevM": 7
   },
   {
     "iata": "SWA",
@@ -930,7 +979,8 @@
     "lat": 24.26,
     "lng": 116.11,
     "tz": "Asia/Shanghai",
-    "caacRef": "p21e04"
+    "caacRef": "p21e04",
+    "elevM": 95
   },
   {
     "iata": "ZHA",
@@ -956,7 +1006,8 @@
     "lat": 24.96,
     "lng": 113.57,
     "tz": "Asia/Shanghai",
-    "caacRef": "p23e03"
+    "caacRef": "p23e03",
+    "elevM": 85
   },
   {
     "iata": "HUZ",
@@ -969,7 +1020,8 @@
     "lat": 23.25,
     "lng": 114.65,
     "tz": "Asia/Shanghai",
-    "caacRef": "p17e05"
+    "caacRef": "p17e05",
+    "elevM": 15
   },
   {
     "iata": "FUO",
@@ -982,7 +1034,8 @@
     "lat": 23.17,
     "lng": 112.98,
     "tz": "Asia/Shanghai",
-    "caacRef": "p19e08"
+    "caacRef": "p19e08",
+    "elevM": 2
   },
   {
     "iata": "NNG",
@@ -995,7 +1048,8 @@
     "lat": 22.61,
     "lng": 108.17,
     "tz": "Asia/Shanghai",
-    "caacRef": "p04e04"
+    "caacRef": "p04e04",
+    "elevM": 128
   },
   {
     "iata": "KWL",
@@ -1008,7 +1062,8 @@
     "lat": 25.22,
     "lng": 110.04,
     "tz": "Asia/Shanghai",
-    "caacRef": "p07e06"
+    "caacRef": "p07e06",
+    "elevM": 174
   },
   {
     "iata": "BHY",
@@ -1021,7 +1076,8 @@
     "lat": 21.54,
     "lng": 109.29,
     "tz": "Asia/Shanghai",
-    "caacRef": "p10e08"
+    "caacRef": "p10e08",
+    "elevM": 23
   },
   {
     "iata": "LZH",
@@ -1034,7 +1090,8 @@
     "lat": 24.2,
     "lng": 109.62,
     "tz": "Asia/Shanghai",
-    "caacRef": "p12e04"
+    "caacRef": "p12e04",
+    "elevM": 90
   },
   {
     "iata": "WUZ",
@@ -1050,7 +1107,8 @@
     "aliases": [
       "梧州长洲岛机场"
     ],
-    "caacRef": "p17e06"
+    "caacRef": "p17e06",
+    "elevM": 109
   },
   {
     "iata": "YLX",
@@ -1063,7 +1121,8 @@
     "lat": 22.61,
     "lng": 110.07,
     "tz": "Asia/Shanghai",
-    "caacRef": "p22e01"
+    "caacRef": "p22e01",
+    "elevM": 100
   },
   {
     "iata": "AEB",
@@ -1076,7 +1135,8 @@
     "lat": 23.9,
     "lng": 106.77,
     "tz": "Asia/Shanghai",
-    "caacRef": "p15e04"
+    "caacRef": "p15e04",
+    "elevM": 149
   },
   {
     "iata": "HNI",
@@ -1103,7 +1163,8 @@
     "lat": 19.94,
     "lng": 110.46,
     "tz": "Asia/Shanghai",
-    "caacRef": "p05e07"
+    "caacRef": "p05e07",
+    "elevM": 23
   },
   {
     "iata": "SYX",
@@ -1116,7 +1177,8 @@
     "lat": 18.3,
     "lng": 109.41,
     "tz": "Asia/Shanghai",
-    "caacRef": "p09e10"
+    "caacRef": "p09e10",
+    "elevM": 28
   },
   {
     "iata": "BAR",
@@ -1132,7 +1194,8 @@
     "aliases": [
       "琼海博鳌机场"
     ],
-    "caacRef": "p11e05"
+    "caacRef": "p11e05",
+    "elevM": 9
   },
   {
     "iata": "XYI",
@@ -1175,7 +1238,8 @@
     "lat": 34.69,
     "lng": 112.4,
     "tz": "Asia/Shanghai",
-    "caacRef": "p07e08"
+    "caacRef": "p07e08",
+    "elevM": 256
   },
   {
     "iata": "NNY",
@@ -1188,7 +1252,8 @@
     "lat": 32.97,
     "lng": 112.63,
     "tz": "Asia/Shanghai",
-    "caacRef": "p10e10"
+    "caacRef": "p10e10",
+    "elevM": 256
   },
   {
     "iata": "XAI",
@@ -1201,6 +1266,7 @@
     "lat": 32.45,
     "lng": 114.05,
     "tz": "Asia/Shanghai",
-    "caacRef": "p13e10"
+    "caacRef": "p13e10",
+    "elevM": 95
   }
 ]

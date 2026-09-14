@@ -29,7 +29,8 @@
     "aliases": [
       "重庆黔江武陵山机场"
     ],
-    "caacRef": "p10e06"
+    "caacRef": "p10e06",
+    "elevM": 632
   },
   {
     "iata": "UYN",
@@ -42,7 +43,8 @@
     "lat": 38.44,
     "lng": 109.45,
     "tz": "Asia/Shanghai",
-    "caacRef": "p09e08"
+    "caacRef": "p09e08",
+    "elevM": 1186
   },
   {
     "iata": "ENY",
@@ -81,7 +83,8 @@
     "lat": 32.74,
     "lng": 109.06,
     "tz": "Asia/Shanghai",
-    "caacRef": "p14e09"
+    "caacRef": "p14e09",
+    "elevM": 369
   },
   {
     "iata": "LNL",
@@ -93,7 +96,8 @@
     "lat": 33.75,
     "lng": 105.68,
     "tz": "Asia/Shanghai",
-    "caacRef": "p22e10"
+    "caacRef": "p22e10",
+    "elevM": 1130
   },
   {
     "iata": "GXH",
@@ -105,7 +109,8 @@
     "lat": 35.22,
     "lng": 102.61,
     "tz": "Asia/Shanghai",
-    "caacRef": "p21e02"
+    "caacRef": "p21e02",
+    "elevM": 3203
   },
   {
     "iata": "GZG",
@@ -117,7 +122,8 @@
     "lat": 31.71,
     "lng": 99.94,
     "tz": "Asia/Shanghai",
-    "caacRef": "p26e07"
+    "caacRef": "p26e07",
+    "elevM": 4068
   },
   {
     "iata": "HQQ",
@@ -153,19 +159,22 @@
     "lat": 38.45,
     "lng": 77.21,
     "tz": "Asia/Shanghai",
-    "caacRef": "p27e01"
+    "caacRef": "p27e01",
+    "elevM": 1290
   },
   {
-    "iata": "TMC",
+    "iata": "TWC",
     "nameZh": "图木舒克唐王城机场",
     "nameEn": "Tumxuk Tangwangcheng Airport",
     "cityZh": "图木舒克",
     "cityEn": "Tumxuk",
     "country": "中国",
-    "lat": 39.85,
-    "lng": 79.12,
+    "lat": 39.888139,
+    "lng": 79.231911,
     "tz": "Asia/Shanghai",
-    "caacRef": "p27e05"
+    "caacRef": "p27e05",
+    "icao": "ZWTS",
+    "elevM": 1090
   },
   {
     "iata": "FYN",
@@ -177,7 +186,8 @@
     "lat": 46.98,
     "lng": 89.48,
     "tz": "Asia/Shanghai",
-    "caacRef": "p27e03"
+    "caacRef": "p27e03",
+    "elevM": 939
   },
   {
     "iata": "ACF",
@@ -189,6 +199,7 @@
     "lat": 40.55,
     "lng": 81.26,
     "tz": "Asia/Shanghai",
-    "caacRef": "p27e08"
+    "caacRef": "p27e08",
+    "elevM": 999
   }
 ]

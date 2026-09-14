@@ -22,7 +22,8 @@
     "country": "美国",
     "lat": 40.69,
     "lng": -74.17,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 5
   },
   {
     "iata": "LGA",
@@ -34,7 +35,8 @@
     "country": "美国",
     "lat": 40.78,
     "lng": -73.87,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 6
   },
   {
     "iata": "LAX",
@@ -59,7 +61,8 @@
     "country": "美国",
     "lat": 37.62,
     "lng": -122.38,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 4
   },
   {
     "iata": "SJC",
@@ -71,7 +74,8 @@
     "country": "美国",
     "lat": 37.36,
     "lng": -121.93,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 19
   },
   {
     "iata": "ORD",
@@ -83,7 +87,8 @@
     "country": "美国",
     "lat": 41.98,
     "lng": -87.9,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 207
   },
   {
     "iata": "MDW",
@@ -95,7 +100,8 @@
     "country": "美国",
     "lat": 41.79,
     "lng": -87.75,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 189
   },
   {
     "iata": "DFW",
@@ -107,7 +113,8 @@
     "country": "美国",
     "lat": 32.9,
     "lng": -97.04,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 185
   },
   {
     "iata": "IAH",
@@ -119,7 +126,8 @@
     "country": "美国",
     "lat": 29.98,
     "lng": -95.34,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 30
   },
   {
     "iata": "HOU",
@@ -131,7 +139,8 @@
     "country": "美国",
     "lat": 29.65,
     "lng": -95.28,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 14
   },
   {
     "iata": "ATL",
@@ -143,7 +152,8 @@
     "country": "美国",
     "lat": 33.64,
     "lng": -84.43,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 313
   },
   {
     "iata": "MIA",
@@ -155,7 +165,8 @@
     "country": "美国",
     "lat": 25.79,
     "lng": -80.29,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 2
   },
   {
     "iata": "MCO",
@@ -167,7 +178,8 @@
     "country": "美国",
     "lat": 28.43,
     "lng": -81.31,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 29
   },
   {
     "iata": "TPA",
@@ -179,7 +191,8 @@
     "country": "美国",
     "lat": 27.98,
     "lng": -82.53,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 8
   },
   {
     "iata": "BOS",
@@ -191,7 +204,8 @@
     "country": "美国",
     "lat": 42.36,
     "lng": -71.01,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 6
   },
   {
     "iata": "IAD",
@@ -203,7 +217,8 @@
     "country": "美国",
     "lat": 38.95,
     "lng": -77.46,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 95
   },
   {
     "iata": "DCA",
@@ -215,7 +230,8 @@
     "country": "美国",
     "lat": 38.85,
     "lng": -77.04,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 5
   },
   {
     "iata": "BWI",
@@ -227,7 +243,8 @@
     "country": "美国",
     "lat": 39.18,
     "lng": -76.67,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 45
   },
   {
     "iata": "PHL",
@@ -239,7 +256,8 @@
     "country": "美国",
     "lat": 39.87,
     "lng": -75.24,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 11
   },
   {
     "iata": "DEN",
@@ -264,7 +282,8 @@
     "country": "美国",
     "lat": 47.45,
     "lng": -122.31,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 132
   },
   {
     "iata": "PDX",
@@ -276,7 +295,8 @@
     "country": "美国",
     "lat": 45.59,
     "lng": -122.6,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 9
   },
   {
     "iata": "LAS",
@@ -288,7 +308,8 @@
     "country": "美国",
     "lat": 36.08,
     "lng": -115.15,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 665
   },
   {
     "iata": "PHX",
@@ -300,7 +321,8 @@
     "country": "美国",
     "lat": 33.43,
     "lng": -112.01,
-    "tz": "America/Phoenix"
+    "tz": "America/Phoenix",
+    "elevM": 346
   },
   {
     "iata": "MSP",
@@ -312,7 +334,8 @@
     "country": "美国",
     "lat": 44.88,
     "lng": -93.22,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 256
   },
   {
     "iata": "DTW",
@@ -324,7 +347,8 @@
     "country": "美国",
     "lat": 42.21,
     "lng": -83.35,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 197
   },
   {
     "iata": "STL",
@@ -336,7 +360,8 @@
     "country": "美国",
     "lat": 38.75,
     "lng": -90.37,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 188
   },
   {
     "iata": "CLT",
@@ -348,7 +373,8 @@
     "country": "美国",
     "lat": 35.21,
     "lng": -80.94,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 228
   },
   {
     "iata": "RDU",
@@ -360,7 +386,8 @@
     "country": "美国",
     "lat": 35.88,
     "lng": -78.79,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 133
   },
   {
     "iata": "BNA",
@@ -372,7 +399,8 @@
     "country": "美国",
     "lat": 36.12,
     "lng": -86.68,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 183
   },
   {
     "iata": "MEM",
@@ -384,7 +412,8 @@
     "country": "美国",
     "lat": 35.04,
     "lng": -89.98,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 104
   },
   {
     "iata": "MSY",
@@ -396,7 +425,8 @@
     "country": "美国",
     "lat": 29.99,
     "lng": -90.26,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 1
   },
   {
     "iata": "MCI",
@@ -408,7 +438,8 @@
     "country": "美国",
     "lat": 39.3,
     "lng": -94.71,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 313
   },
   {
     "iata": "CVG",
@@ -420,7 +451,8 @@
     "country": "美国",
     "lat": 39.05,
     "lng": -84.66,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 273
   },
   {
     "iata": "CLE",
@@ -432,7 +464,8 @@
     "country": "美国",
     "lat": 41.41,
     "lng": -81.85,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 241
   },
   {
     "iata": "PIT",
@@ -444,7 +477,8 @@
     "country": "美国",
     "lat": 40.49,
     "lng": -80.23,
-    "tz": "America/New_York"
+    "tz": "America/New_York",
+    "elevM": 367
   },
   {
     "iata": "IND",
@@ -456,7 +490,8 @@
     "country": "美国",
     "lat": 39.72,
     "lng": -86.29,
-    "tz": "America/Indiana/Indianapolis"
+    "tz": "America/Indiana/Indianapolis",
+    "elevM": 243
   },
   {
     "iata": "AUS",
@@ -468,7 +503,8 @@
     "country": "美国",
     "lat": 30.19,
     "lng": -97.67,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 165
   },
   {
     "iata": "SAT",
@@ -480,7 +516,8 @@
     "country": "美国",
     "lat": 29.53,
     "lng": -98.47,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 247
   },
   {
     "iata": "SLC",
@@ -492,7 +529,8 @@
     "country": "美国",
     "lat": 40.79,
     "lng": -111.98,
-    "tz": "America/Denver"
+    "tz": "America/Denver",
+    "elevM": 1288
   },
   {
     "iata": "SMF",
@@ -504,7 +542,8 @@
     "country": "美国",
     "lat": 38.7,
     "lng": -121.59,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 8
   },
   {
     "iata": "SAN",
@@ -516,7 +555,8 @@
     "country": "美国",
     "lat": 32.73,
     "lng": -117.19,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 5
   },
   {
     "iata": "OAK",
@@ -528,7 +568,8 @@
     "country": "美国",
     "lat": 37.72,
     "lng": -122.22,
-    "tz": "America/Los_Angeles"
+    "tz": "America/Los_Angeles",
+    "elevM": 3
   },
   {
     "iata": "MKE",
@@ -540,7 +581,8 @@
     "country": "美国",
     "lat": 42.95,
     "lng": -87.9,
-    "tz": "America/Chicago"
+    "tz": "America/Chicago",
+    "elevM": 220
   },
   {
     "iata": "ANC",
@@ -552,7 +594,8 @@
     "country": "美国",
     "lat": 61.17,
     "lng": -149.99,
-    "tz": "America/Anchorage"
+    "tz": "America/Anchorage",
+    "elevM": 46
   },
   {
     "iata": "HNL",
@@ -564,7 +607,8 @@
     "country": "美国",
     "lat": 21.32,
     "lng": -157.92,
-    "tz": "Pacific/Honolulu"
+    "tz": "Pacific/Honolulu",
+    "elevM": 4
   },
   {
     "iata": "OGG",
@@ -576,7 +620,8 @@
     "country": "美国",
     "lat": 20.9,
     "lng": -156.43,
-    "tz": "Pacific/Honolulu"
+    "tz": "Pacific/Honolulu",
+    "elevM": 16
   },
   {
     "iata": "GUM",
@@ -588,7 +633,8 @@
     "country": "美国",
     "lat": 13.48,
     "lng": 144.8,
-    "tz": "Pacific/Guam"
+    "tz": "Pacific/Guam",
+    "elevM": 91
   },
   {
     "iata": "YYZ",
@@ -600,7 +646,8 @@
     "country": "加拿大",
     "lat": 43.68,
     "lng": -79.63,
-    "tz": "America/Toronto"
+    "tz": "America/Toronto",
+    "elevM": 173
   },
   {
     "iata": "YVR",
@@ -612,7 +659,8 @@
     "country": "加拿大",
     "lat": 49.19,
     "lng": -123.18,
-    "tz": "America/Vancouver"
+    "tz": "America/Vancouver",
+    "elevM": 4
   },
   {
     "iata": "YUL",
@@ -624,7 +672,8 @@
     "country": "加拿大",
     "lat": 45.47,
     "lng": -73.74,
-    "tz": "America/Toronto"
+    "tz": "America/Toronto",
+    "elevM": 36
   },
   {
     "iata": "YYC",
@@ -636,7 +685,8 @@
     "country": "加拿大",
     "lat": 51.11,
     "lng": -114.02,
-    "tz": "America/Edmonton"
+    "tz": "America/Edmonton",
+    "elevM": 1084
   },
   {
     "iata": "YOW",
@@ -648,7 +698,8 @@
     "country": "加拿大",
     "lat": 45.32,
     "lng": -75.67,
-    "tz": "America/Toronto"
+    "tz": "America/Toronto",
+    "elevM": 114
   },
   {
     "iata": "YEG",
@@ -660,7 +711,8 @@
     "country": "加拿大",
     "lat": 53.31,
     "lng": -113.58,
-    "tz": "America/Edmonton"
+    "tz": "America/Edmonton",
+    "elevM": 723
   },
   {
     "iata": "YWG",
@@ -672,7 +724,8 @@
     "country": "加拿大",
     "lat": 49.91,
     "lng": -97.24,
-    "tz": "America/Winnipeg"
+    "tz": "America/Winnipeg",
+    "elevM": 239
   },
   {
     "iata": "YHZ",
@@ -684,7 +737,8 @@
     "country": "加拿大",
     "lat": 44.88,
     "lng": -63.51,
-    "tz": "America/Halifax"
+    "tz": "America/Halifax",
+    "elevM": 145
   },
   {
     "iata": "YYJ",
@@ -696,7 +750,8 @@
     "country": "加拿大",
     "lat": 48.65,
     "lng": -123.43,
-    "tz": "America/Vancouver"
+    "tz": "America/Vancouver",
+    "elevM": 19
   },
   {
     "iata": "YQB",
@@ -708,7 +763,8 @@
     "country": "加拿大",
     "lat": 46.79,
     "lng": -71.39,
-    "tz": "America/Toronto"
+    "tz": "America/Toronto",
+    "elevM": 74
   },
   {
     "iata": "MEX",
@@ -720,7 +776,8 @@
     "country": "墨西哥",
     "lat": 19.44,
     "lng": -99.07,
-    "tz": "America/Mexico_City"
+    "tz": "America/Mexico_City",
+    "elevM": 2230
   },
   {
     "iata": "CUN",
@@ -732,7 +789,8 @@
     "country": "墨西哥",
     "lat": 21.04,
     "lng": -86.87,
-    "tz": "America/Cancun"
+    "tz": "America/Cancun",
+    "elevM": 7
   },
   {
     "iata": "GDL",
@@ -744,7 +802,8 @@
     "country": "墨西哥",
     "lat": 20.52,
     "lng": -103.31,
-    "tz": "America/Mexico_City"
+    "tz": "America/Mexico_City",
+    "elevM": 1529
   },
   {
     "iata": "MTY",
@@ -756,7 +815,8 @@
     "country": "墨西哥",
     "lat": 25.78,
     "lng": -100.11,
-    "tz": "America/Monterrey"
+    "tz": "America/Monterrey",
+    "elevM": 390
   },
   {
     "iata": "TIJ",
@@ -768,7 +828,8 @@
     "country": "墨西哥",
     "lat": 32.54,
     "lng": -116.97,
-    "tz": "America/Tijuana"
+    "tz": "America/Tijuana",
+    "elevM": 149
   },
   {
     "iata": "SJD",
@@ -780,7 +841,8 @@
     "country": "墨西哥",
     "lat": 23.15,
     "lng": -109.72,
-    "tz": "America/Mazatlan"
+    "tz": "America/Mazatlan",
+    "elevM": 114
   },
   {
     "iata": "PTY",
@@ -792,7 +854,8 @@
     "country": "巴拿马",
     "lat": 9.07,
     "lng": -79.38,
-    "tz": "America/Panama"
+    "tz": "America/Panama",
+    "elevM": 41
   },
   {
     "iata": "GRU",
@@ -804,7 +867,8 @@
     "country": "巴西",
     "lat": -23.43,
     "lng": -46.47,
-    "tz": "America/Sao_Paulo"
+    "tz": "America/Sao_Paulo",
+    "elevM": 750
   },
   {
     "iata": "CGH",
@@ -816,7 +880,8 @@
     "country": "巴西",
     "lat": -23.63,
     "lng": -46.66,
-    "tz": "America/Sao_Paulo"
+    "tz": "America/Sao_Paulo",
+    "elevM": 802
   },
   {
     "iata": "GIG",
@@ -828,7 +893,8 @@
     "country": "巴西",
     "lat": -22.81,
     "lng": -43.25,
-    "tz": "America/Sao_Paulo"
+    "tz": "America/Sao_Paulo",
+    "elevM": 9
   },
   {
     "iata": "BSB",
@@ -840,7 +906,8 @@
     "country": "巴西",
     "lat": -15.87,
     "lng": -47.92,
-    "tz": "America/Sao_Paulo"
+    "tz": "America/Sao_Paulo",
+    "elevM": 1066
   },
   {
     "iata": "EZE",
@@ -852,7 +919,8 @@
     "country": "阿根廷",
     "lat": -34.82,
     "lng": -58.54,
-    "tz": "America/Argentina/Buenos_Aires"
+    "tz": "America/Argentina/Buenos_Aires",
+    "elevM": 20
   },
   {
     "iata": "SCL",
@@ -864,7 +932,8 @@
     "country": "智利",
     "lat": -33.39,
     "lng": -70.79,
-    "tz": "America/Santiago"
+    "tz": "America/Santiago",
+    "elevM": 474
   },
   {
     "iata": "LIM",
@@ -876,7 +945,8 @@
     "country": "秘鲁",
     "lat": -12.02,
     "lng": -77.11,
-    "tz": "America/Lima"
+    "tz": "America/Lima",
+    "elevM": 34
   },
   {
     "iata": "BOG",
@@ -888,7 +958,8 @@
     "country": "哥伦比亚",
     "lat": 4.7,
     "lng": -74.14,
-    "tz": "America/Bogota"
+    "tz": "America/Bogota",
+    "elevM": 2548
   },
   {
     "iata": "UIO",
@@ -900,7 +971,8 @@
     "country": "厄瓜多尔",
     "lat": -0.13,
     "lng": -78.36,
-    "tz": "America/Guayaquil"
+    "tz": "America/Guayaquil",
+    "elevM": 2390
   },
   {
     "iata": "MVD",
@@ -912,6 +984,7 @@
     "country": "乌拉圭",
     "lat": -34.84,
     "lng": -56.03,
-    "tz": "America/Montevideo"
+    "tz": "America/Montevideo",
+    "elevM": 32
   }
 ]

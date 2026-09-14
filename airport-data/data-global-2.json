@@ -22,7 +22,8 @@
     "country": "英国",
     "lat": 51.15,
     "lng": -0.19,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 62
   },
   {
     "iata": "STN",
@@ -34,7 +35,8 @@
     "country": "英国",
     "lat": 51.89,
     "lng": 0.24,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 106
   },
   {
     "iata": "LTN",
@@ -46,7 +48,8 @@
     "country": "英国",
     "lat": 51.87,
     "lng": -0.37,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 160
   },
   {
     "iata": "MAN",
@@ -58,7 +61,8 @@
     "country": "英国",
     "lat": 53.35,
     "lng": -2.28,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 78
   },
   {
     "iata": "EDI",
@@ -70,7 +74,8 @@
     "country": "英国",
     "lat": 55.95,
     "lng": -3.37,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 41
   },
   {
     "iata": "BHX",
@@ -82,7 +87,8 @@
     "country": "英国",
     "lat": 52.45,
     "lng": -1.75,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 100
   },
   {
     "iata": "GLA",
@@ -94,7 +100,8 @@
     "country": "英国",
     "lat": 55.87,
     "lng": -4.43,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 8
   },
   {
     "iata": "NCL",
@@ -106,7 +113,8 @@
     "country": "英国",
     "lat": 55.04,
     "lng": -1.69,
-    "tz": "Europe/London"
+    "tz": "Europe/London",
+    "elevM": 81
   },
   {
     "iata": "DUB",
@@ -118,7 +126,8 @@
     "country": "爱尔兰",
     "lat": 53.43,
     "lng": -6.24,
-    "tz": "Europe/Dublin"
+    "tz": "Europe/Dublin",
+    "elevM": 74
   },
   {
     "iata": "CDG",
@@ -143,7 +152,8 @@
     "country": "法国",
     "lat": 48.72,
     "lng": 2.38,
-    "tz": "Europe/Paris"
+    "tz": "Europe/Paris",
+    "elevM": 89
   },
   {
     "iata": "NCE",
@@ -155,7 +165,8 @@
     "country": "法国",
     "lat": 43.66,
     "lng": 7.22,
-    "tz": "Europe/Paris"
+    "tz": "Europe/Paris",
+    "elevM": 4
   },
   {
     "iata": "LYS",
@@ -167,7 +178,8 @@
     "country": "法国",
     "lat": 45.73,
     "lng": 5.09,
-    "tz": "Europe/Paris"
+    "tz": "Europe/Paris",
+    "elevM": 250
   },
   {
     "iata": "MRS",
@@ -179,7 +191,8 @@
     "country": "法国",
     "lat": 43.44,
     "lng": 5.22,
-    "tz": "Europe/Paris"
+    "tz": "Europe/Paris",
+    "elevM": 23
   },
   {
     "iata": "TLS",
@@ -191,7 +204,8 @@
     "country": "法国",
     "lat": 43.63,
     "lng": 1.37,
-    "tz": "Europe/Paris"
+    "tz": "Europe/Paris",
+    "elevM": 152
   },
   {
     "iata": "FRA",
@@ -216,7 +230,8 @@
     "country": "德国",
     "lat": 48.35,
     "lng": 11.79,
-    "tz": "Europe/Berlin"
+    "tz": "Europe/Berlin",
+    "elevM": 453
   },
   {
     "iata": "BER",
@@ -228,7 +243,8 @@
     "country": "德国",
     "lat": 52.37,
     "lng": 13.5,
-    "tz": "Europe/Berlin"
+    "tz": "Europe/Berlin",
+    "elevM": 48
   },
   {
     "iata": "DUS",
@@ -240,7 +256,8 @@
     "country": "德国",
     "lat": 51.29,
     "lng": 6.77,
-    "tz": "Europe/Berlin"
+    "tz": "Europe/Berlin",
+    "elevM": 45
   },
   {
     "iata": "HAM",
@@ -252,7 +269,8 @@
     "country": "德国",
     "lat": 53.63,
     "lng": 9.99,
-    "tz": "Europe/Berlin"
+    "tz": "Europe/Berlin",
+    "elevM": 16
   },
   {
     "iata": "CGN",
@@ -264,7 +282,8 @@
     "country": "德国",
     "lat": 50.87,
     "lng": 7.14,
-    "tz": "Europe/Berlin"
+    "tz": "Europe/Berlin",
+    "elevM": 92
   },
   {
     "iata": "STR",
@@ -276,7 +295,8 @@
     "country": "德国",
     "lat": 48.69,
     "lng": 9.22,
-    "tz": "Europe/Berlin"
+    "tz": "Europe/Berlin",
+    "elevM": 389
   },
   {
     "iata": "AMS",
@@ -301,7 +321,8 @@
     "country": "比利时",
     "lat": 50.9,
     "lng": 4.48,
-    "tz": "Europe/Brussels"
+    "tz": "Europe/Brussels",
+    "elevM": 53
   },
   {
     "iata": "ZRH",
@@ -313,7 +334,8 @@
     "country": "瑞士",
     "lat": 47.46,
     "lng": 8.55,
-    "tz": "Europe/Zurich"
+    "tz": "Europe/Zurich",
+    "elevM": 432
   },
   {
     "iata": "GVA",
@@ -325,7 +347,8 @@
     "country": "瑞士",
     "lat": 46.24,
     "lng": 6.11,
-    "tz": "Europe/Zurich"
+    "tz": "Europe/Zurich",
+    "elevM": 430
   },
   {
     "iata": "VIE",
@@ -337,7 +360,8 @@
     "country": "奥地利",
     "lat": 48.11,
     "lng": 16.57,
-    "tz": "Europe/Vienna"
+    "tz": "Europe/Vienna",
+    "elevM": 183
   },
   {
     "iata": "MAD",
@@ -349,7 +373,8 @@
     "country": "西班牙",
     "lat": 40.47,
     "lng": -3.56,
-    "tz": "Europe/Madrid"
+    "tz": "Europe/Madrid",
+    "elevM": 609
   },
   {
     "iata": "BCN",
@@ -361,7 +386,8 @@
     "country": "西班牙",
     "lat": 41.3,
     "lng": 2.08,
-    "tz": "Europe/Madrid"
+    "tz": "Europe/Madrid",
+    "elevM": 4
   },
   {
     "iata": "PMI",
@@ -373,7 +399,8 @@
     "country": "西班牙",
     "lat": 39.55,
     "lng": 2.74,
-    "tz": "Europe/Madrid"
+    "tz": "Europe/Madrid",
+    "elevM": 8
   },
   {
     "iata": "AGP",
@@ -385,7 +412,8 @@
     "country": "西班牙",
     "lat": 36.67,
     "lng": -4.5,
-    "tz": "Europe/Madrid"
+    "tz": "Europe/Madrid",
+    "elevM": 16
   },
   {
     "iata": "LIS",
@@ -397,7 +425,8 @@
     "country": "葡萄牙",
     "lat": 38.77,
     "lng": -9.13,
-    "tz": "Europe/Lisbon"
+    "tz": "Europe/Lisbon",
+    "elevM": 114
   },
   {
     "iata": "OPO",
@@ -409,7 +438,8 @@
     "country": "葡萄牙",
     "lat": 41.24,
     "lng": -8.68,
-    "tz": "Europe/Lisbon"
+    "tz": "Europe/Lisbon",
+    "elevM": 69
   },
   {
     "iata": "FCO",
@@ -434,7 +464,8 @@
     "country": "意大利",
     "lat": 45.63,
     "lng": 8.72,
-    "tz": "Europe/Rome"
+    "tz": "Europe/Rome",
+    "elevM": 234
   },
   {
     "iata": "LIN",
@@ -446,7 +477,8 @@
     "country": "意大利",
     "lat": 45.45,
     "lng": 9.28,
-    "tz": "Europe/Rome"
+    "tz": "Europe/Rome",
+    "elevM": 108
   },
   {
     "iata": "VCE",
@@ -458,7 +490,8 @@
     "country": "意大利",
     "lat": 45.51,
     "lng": 12.35,
-    "tz": "Europe/Rome"
+    "tz": "Europe/Rome",
+    "elevM": 2
   },
   {
     "iata": "NAP",
@@ -470,7 +503,8 @@
     "country": "意大利",
     "lat": 40.88,
     "lng": 14.29,
-    "tz": "Europe/Rome"
+    "tz": "Europe/Rome",
+    "elevM": 90
   },
   {
     "iata": "ATH",
@@ -482,7 +516,8 @@
     "country": "希腊",
     "lat": 37.94,
     "lng": 23.94,
-    "tz": "Europe/Athens"
+    "tz": "Europe/Athens",
+    "elevM": 94
   },
   {
     "iata": "PRG",
@@ -494,7 +529,8 @@
     "country": "捷克",
     "lat": 50.1,
     "lng": 14.26,
-    "tz": "Europe/Prague"
+    "tz": "Europe/Prague",
+    "elevM": 380
   },
   {
     "iata": "BUD",
@@ -506,7 +542,8 @@
     "country": "匈牙利",
     "lat": 47.44,
     "lng": 19.26,
-    "tz": "Europe/Budapest"
+    "tz": "Europe/Budapest",
+    "elevM": 151
   },
   {
     "iata": "WAW",
@@ -518,7 +555,8 @@
     "country": "波兰",
     "lat": 52.17,
     "lng": 20.97,
-    "tz": "Europe/Warsaw"
+    "tz": "Europe/Warsaw",
+    "elevM": 110
   },
   {
     "iata": "KRK",
@@ -530,7 +568,8 @@
     "country": "波兰",
     "lat": 50.08,
     "lng": 19.78,
-    "tz": "Europe/Warsaw"
+    "tz": "Europe/Warsaw",
+    "elevM": 241
   },
   {
     "iata": "OTP",
@@ -542,7 +581,8 @@
     "country": "罗马尼亚",
     "lat": 44.57,
     "lng": 26.1,
-    "tz": "Europe/Bucharest"
+    "tz": "Europe/Bucharest",
+    "elevM": 96
   },
   {
     "iata": "CPH",
@@ -554,7 +594,8 @@
     "country": "丹麦",
     "lat": 55.62,
     "lng": 12.66,
-    "tz": "Europe/Copenhagen"
+    "tz": "Europe/Copenhagen",
+    "elevM": 5
   },
   {
     "iata": "ARN",
@@ -566,7 +607,8 @@
     "country": "瑞典",
     "lat": 59.65,
     "lng": 17.92,
-    "tz": "Europe/Stockholm"
+    "tz": "Europe/Stockholm",
+    "elevM": 42
   },
   {
     "iata": "OSL",
@@ -578,7 +620,8 @@
     "country": "挪威",
     "lat": 60.19,
     "lng": 11.1,
-    "tz": "Europe/Oslo"
+    "tz": "Europe/Oslo",
+    "elevM": 208
   },
   {
     "iata": "HEL",
@@ -590,7 +633,8 @@
     "country": "芬兰",
     "lat": 60.32,
     "lng": 24.96,
-    "tz": "Europe/Helsinki"
+    "tz": "Europe/Helsinki",
+    "elevM": 55
   },
   {
     "iata": "KEF",
@@ -602,7 +646,8 @@
     "country": "冰岛",
     "lat": 63.99,
     "lng": -22.61,
-    "tz": "Atlantic/Reykjavik"
+    "tz": "Atlantic/Reykjavik",
+    "elevM": 52
   },
   {
     "iata": "SVO",
@@ -614,7 +659,8 @@
     "country": "俄罗斯",
     "lat": 55.97,
     "lng": 37.41,
-    "tz": "Europe/Moscow"
+    "tz": "Europe/Moscow",
+    "elevM": 190
   },
   {
     "iata": "DME",
@@ -626,7 +672,8 @@
     "country": "俄罗斯",
     "lat": 55.41,
     "lng": 37.9,
-    "tz": "Europe/Moscow"
+    "tz": "Europe/Moscow",
+    "elevM": 179
   },
   {
     "iata": "VKO",
@@ -638,7 +685,8 @@
     "country": "俄罗斯",
     "lat": 55.6,
     "lng": 37.27,
-    "tz": "Europe/Moscow"
+    "tz": "Europe/Moscow",
+    "elevM": 209
   },
   {
     "iata": "LED",
@@ -650,7 +698,8 @@
     "country": "俄罗斯",
     "lat": 59.8,
     "lng": 30.26,
-    "tz": "Europe/Moscow"
+    "tz": "Europe/Moscow",
+    "elevM": 24
   },
   {
     "iata": "OVB",
@@ -662,7 +711,8 @@
     "country": "俄罗斯",
     "lat": 55.01,
     "lng": 82.65,
-    "tz": "Asia/Novosibirsk"
+    "tz": "Asia/Novosibirsk",
+    "elevM": 111
   },
   {
     "iata": "SVX",
@@ -674,7 +724,8 @@
     "country": "俄罗斯",
     "lat": 56.74,
     "lng": 60.8,
-    "tz": "Asia/Yekaterinburg"
+    "tz": "Asia/Yekaterinburg",
+    "elevM": 233
   },
   {
     "iata": "VVO",
@@ -686,7 +737,8 @@
     "country": "俄罗斯",
     "lat": 43.4,
     "lng": 132.15,
-    "tz": "Asia/Vladivostok"
+    "tz": "Asia/Vladivostok",
+    "elevM": 18
   },
   {
     "iata": "IKT",
@@ -698,7 +750,8 @@
     "country": "俄罗斯",
     "lat": 52.27,
     "lng": 104.39,
-    "tz": "Asia/Irkutsk"
+    "tz": "Asia/Irkutsk",
+    "elevM": 511
   },
   {
     "iata": "AER",
@@ -710,7 +763,8 @@
     "country": "俄罗斯",
     "lat": 43.45,
     "lng": 39.94,
-    "tz": "Europe/Moscow"
+    "tz": "Europe/Moscow",
+    "elevM": 27
   },
   {
     "iata": "ALA",
@@ -722,7 +776,8 @@
     "country": "哈萨克斯坦",
     "lat": 43.35,
     "lng": 77.04,
-    "tz": "Asia/Almaty"
+    "tz": "Asia/Almaty",
+    "elevM": 681
   },
   {
     "iata": "NQZ",
@@ -734,7 +789,8 @@
     "country": "哈萨克斯坦",
     "lat": 51.02,
     "lng": 71.47,
-    "tz": "Asia/Almaty"
+    "tz": "Asia/Almaty",
+    "elevM": 355
   },
   {
     "iata": "TAS",
@@ -746,7 +802,8 @@
     "country": "乌兹别克斯坦",
     "lat": 41.26,
     "lng": 69.28,
-    "tz": "Asia/Tashkent"
+    "tz": "Asia/Tashkent",
+    "elevM": 432
   },
   {
     "iata": "BSZ",
@@ -771,7 +828,8 @@
     "country": "格鲁吉亚",
     "lat": 41.67,
     "lng": 44.95,
-    "tz": "Asia/Tbilisi"
+    "tz": "Asia/Tbilisi",
+    "elevM": 495
   },
   {
     "iata": "GYD",
@@ -783,7 +841,8 @@
     "country": "阿塞拜疆",
     "lat": 40.47,
     "lng": 50.05,
-    "tz": "Asia/Baku"
+    "tz": "Asia/Baku",
+    "elevM": 3
   },
   {
     "iata": "EVN",
@@ -795,7 +854,8 @@
     "country": "亚美尼亚",
     "lat": 40.15,
     "lng": 44.4,
-    "tz": "Asia/Yerevan"
+    "tz": "Asia/Yerevan",
+    "elevM": 865
   },
   {
     "iata": "JNB",
@@ -807,7 +867,8 @@
     "country": "南非",
     "lat": -26.14,
     "lng": 28.25,
-    "tz": "Africa/Johannesburg"
+    "tz": "Africa/Johannesburg",
+    "elevM": 1694
   },
   {
     "iata": "CPT",
@@ -819,7 +880,8 @@
     "country": "南非",
     "lat": -33.97,
     "lng": 18.6,
-    "tz": "Africa/Johannesburg"
+    "tz": "Africa/Johannesburg",
+    "elevM": 46
   },
   {
     "iata": "NBO",
@@ -831,7 +893,8 @@
     "country": "肯尼亚",
     "lat": -1.32,
     "lng": 36.93,
-    "tz": "Africa/Nairobi"
+    "tz": "Africa/Nairobi",
+    "elevM": 1625
   },
   {
     "iata": "ADD",
@@ -843,7 +906,8 @@
     "country": "埃塞俄比亚",
     "lat": 8.98,
     "lng": 38.8,
-    "tz": "Africa/Addis_Ababa"
+    "tz": "Africa/Addis_Ababa",
+    "elevM": 2326
   },
   {
     "iata": "LOS",
@@ -855,7 +919,8 @@
     "country": "尼日利亚",
     "lat": 6.58,
     "lng": 3.32,
-    "tz": "Africa/Lagos"
+    "tz": "Africa/Lagos",
+    "elevM": 41
   },
   {
     "iata": "ABV",
@@ -867,7 +932,8 @@
     "country": "尼日利亚",
     "lat": 9.01,
     "lng": 7.26,
-    "tz": "Africa/Lagos"
+    "tz": "Africa/Lagos",
+    "elevM": 342
   },
   {
     "iata": "ACC",
@@ -879,7 +945,8 @@
     "country": "加纳",
     "lat": 5.61,
     "lng": -0.17,
-    "tz": "Africa/Accra"
+    "tz": "Africa/Accra",
+    "elevM": 62
   },
   {
     "iata": "CMN",
@@ -891,7 +958,8 @@
     "country": "摩洛哥",
     "lat": 33.37,
     "lng": -7.59,
-    "tz": "Africa/Casablanca"
+    "tz": "Africa/Casablanca",
+    "elevM": 200
   },
   {
     "iata": "ALG",
@@ -903,7 +971,8 @@
     "country": "阿尔及利亚",
     "lat": 36.69,
     "lng": 3.22,
-    "tz": "Africa/Algiers"
+    "tz": "Africa/Algiers",
+    "elevM": 25
   },
   {
     "iata": "SEZ",
@@ -915,7 +984,8 @@
     "country": "塞舌尔",
     "lat": -4.68,
     "lng": 55.52,
-    "tz": "Indian/Mahe"
+    "tz": "Indian/Mahe",
+    "elevM": 3
   },
   {
     "iata": "MRU",
@@ -927,7 +997,8 @@
     "country": "毛里求斯",
     "lat": -20.43,
     "lng": 57.68,
-    "tz": "Indian/Mauritius"
+    "tz": "Indian/Mauritius",
+    "elevM": 57
   },
   {
     "iata": "SYD",
@@ -952,7 +1023,8 @@
     "country": "澳大利亚",
     "lat": -37.67,
     "lng": 144.84,
-    "tz": "Australia/Melbourne"
+    "tz": "Australia/Melbourne",
+    "elevM": 132
   },
   {
     "iata": "BNE",
@@ -964,7 +1036,8 @@
     "country": "澳大利亚",
     "lat": -27.38,
     "lng": 153.12,
-    "tz": "Australia/Brisbane"
+    "tz": "Australia/Brisbane",
+    "elevM": 4
   },
   {
     "iata": "PER",
@@ -976,7 +1049,8 @@
     "country": "澳大利亚",
     "lat": -31.94,
     "lng": 115.97,
-    "tz": "Australia/Perth"
+    "tz": "Australia/Perth",
+    "elevM": 20
   },
   {
     "iata": "ADL",
@@ -988,7 +1062,8 @@
     "country": "澳大利亚",
     "lat": -34.95,
     "lng": 138.53,
-    "tz": "Australia/Adelaide"
+    "tz": "Australia/Adelaide",
+    "elevM": 6
   },
   {
     "iata": "OOL",
@@ -1000,7 +1075,8 @@
     "country": "澳大利亚",
     "lat": -28.16,
     "lng": 153.5,
-    "tz": "Australia/Brisbane"
+    "tz": "Australia/Brisbane",
+    "elevM": 6
   },
   {
     "iata": "CNS",
@@ -1012,7 +1088,8 @@
     "country": "澳大利亚",
     "lat": -16.89,
     "lng": 145.75,
-    "tz": "Australia/Brisbane"
+    "tz": "Australia/Brisbane",
+    "elevM": 3
   },
   {
     "iata": "CBR",
@@ -1024,7 +1101,8 @@
     "country": "澳大利亚",
     "lat": -35.31,
     "lng": 149.2,
-    "tz": "Australia/Sydney"
+    "tz": "Australia/Sydney",
+    "elevM": 575
   },
   {
     "iata": "DRW",
@@ -1036,7 +1114,8 @@
     "country": "澳大利亚",
     "lat": -12.41,
     "lng": 130.88,
-    "tz": "Australia/Darwin"
+    "tz": "Australia/Darwin",
+    "elevM": 31
   },
   {
     "iata": "AKL",
@@ -1048,7 +1127,8 @@
     "country": "新西兰",
     "lat": -37.01,
     "lng": 174.79,
-    "tz": "Pacific/Auckland"
+    "tz": "Pacific/Auckland",
+    "elevM": 7
   },
   {
     "iata": "WLG",
@@ -1060,7 +1140,8 @@
     "country": "新西兰",
     "lat": -41.33,
     "lng": 174.81,
-    "tz": "Pacific/Auckland"
+    "tz": "Pacific/Auckland",
+    "elevM": 12
   },
   {
     "iata": "CHC",
@@ -1072,7 +1153,8 @@
     "country": "新西兰",
     "lat": -43.49,
     "lng": 172.53,
-    "tz": "Pacific/Auckland"
+    "tz": "Pacific/Auckland",
+    "elevM": 37
   },
   {
     "iata": "ZQN",
@@ -1084,7 +1166,8 @@
     "country": "新西兰",
     "lat": -45.02,
     "lng": 168.74,
-    "tz": "Pacific/Auckland"
+    "tz": "Pacific/Auckland",
+    "elevM": 357
   },
   {
     "iata": "NAN",
@@ -1096,7 +1179,8 @@
     "country": "斐济",
     "lat": -17.76,
     "lng": 177.44,
-    "tz": "Pacific/Fiji"
+    "tz": "Pacific/Fiji",
+    "elevM": 18
   },
   {
     "iata": "PPT",
@@ -1108,6 +1192,7 @@
     "country": "法属波利尼西亚",
     "lat": -17.56,
     "lng": -149.61,
-    "tz": "Pacific/Tahiti"
+    "tz": "Pacific/Tahiti",
+    "elevM": 2
   }
 ]

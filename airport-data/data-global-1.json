@@ -48,7 +48,8 @@
     "country": "日本",
     "lat": 34.79,
     "lng": 135.44,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 15
   },
   {
     "iata": "NGO",
@@ -60,7 +61,8 @@
     "country": "日本",
     "lat": 34.86,
     "lng": 136.81,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 5
   },
   {
     "iata": "FUK",
@@ -72,7 +74,8 @@
     "country": "日本",
     "lat": 33.59,
     "lng": 130.44,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 10
   },
   {
     "iata": "CTS",
@@ -84,7 +87,8 @@
     "country": "日本",
     "lat": 42.78,
     "lng": 141.69,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 25
   },
   {
     "iata": "OKA",
@@ -96,7 +100,8 @@
     "country": "日本",
     "lat": 26.2,
     "lng": 127.65,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 4
   },
   {
     "iata": "KOJ",
@@ -108,7 +113,8 @@
     "country": "日本",
     "lat": 31.8,
     "lng": 130.72,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 276
   },
   {
     "iata": "SDJ",
@@ -120,7 +126,8 @@
     "country": "日本",
     "lat": 38.14,
     "lng": 140.92,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 5
   },
   {
     "iata": "HIJ",
@@ -132,7 +139,8 @@
     "country": "日本",
     "lat": 34.44,
     "lng": 132.92,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 332
   },
   {
     "iata": "KMJ",
@@ -144,7 +152,8 @@
     "country": "日本",
     "lat": 32.75,
     "lng": 130.85,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 196
   },
   {
     "iata": "KMQ",
@@ -156,7 +165,8 @@
     "country": "日本",
     "lat": 36.39,
     "lng": 136.41,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 11
   },
   {
     "iata": "TAK",
@@ -168,7 +178,8 @@
     "country": "日本",
     "lat": 34.21,
     "lng": 134.01,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 185
   },
   {
     "iata": "MYJ",
@@ -180,7 +191,8 @@
     "country": "日本",
     "lat": 33.83,
     "lng": 132.7,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 8
   },
   {
     "iata": "NGS",
@@ -192,7 +204,8 @@
     "country": "日本",
     "lat": 32.92,
     "lng": 129.91,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 5
   },
   {
     "iata": "KMI",
@@ -204,7 +217,8 @@
     "country": "日本",
     "lat": 31.87,
     "lng": 131.45,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 6
   },
   {
     "iata": "OKJ",
@@ -216,7 +230,8 @@
     "country": "日本",
     "lat": 34.76,
     "lng": 133.85,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 246
   },
   {
     "iata": "AOJ",
@@ -228,7 +243,8 @@
     "country": "日本",
     "lat": 40.73,
     "lng": 140.69,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 202
   },
   {
     "iata": "HKD",
@@ -240,7 +256,8 @@
     "country": "日本",
     "lat": 41.77,
     "lng": 140.82,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 46
   },
   {
     "iata": "AKJ",
@@ -252,7 +269,8 @@
     "country": "日本",
     "lat": 43.67,
     "lng": 142.45,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 220
   },
   {
     "iata": "ISG",
@@ -264,7 +282,8 @@
     "country": "日本",
     "lat": 24.39,
     "lng": 124.24,
-    "tz": "Asia/Tokyo"
+    "tz": "Asia/Tokyo",
+    "elevM": 31
   },
   {
     "iata": "ICN",
@@ -289,7 +308,8 @@
     "country": "韩国",
     "lat": 37.56,
     "lng": 126.79,
-    "tz": "Asia/Seoul"
+    "tz": "Asia/Seoul",
+    "elevM": 18
   },
   {
     "iata": "PUS",
@@ -301,7 +321,8 @@
     "country": "韩国",
     "lat": 35.18,
     "lng": 128.94,
-    "tz": "Asia/Seoul"
+    "tz": "Asia/Seoul",
+    "elevM": 2
   },
   {
     "iata": "CJU",
@@ -313,7 +334,8 @@
     "country": "韩国",
     "lat": 33.51,
     "lng": 126.49,
-    "tz": "Asia/Seoul"
+    "tz": "Asia/Seoul",
+    "elevM": 36
   },
   {
     "iata": "TAE",
@@ -325,7 +347,8 @@
     "country": "韩国",
     "lat": 35.89,
     "lng": 128.66,
-    "tz": "Asia/Seoul"
+    "tz": "Asia/Seoul",
+    "elevM": 35
   },
   {
     "iata": "CJJ",
@@ -337,7 +360,8 @@
     "country": "韩国",
     "lat": 36.72,
     "lng": 127.5,
-    "tz": "Asia/Seoul"
+    "tz": "Asia/Seoul",
+    "elevM": 58
   },
   {
     "iata": "KWJ",
@@ -349,7 +373,8 @@
     "country": "韩国",
     "lat": 35.13,
     "lng": 126.81,
-    "tz": "Asia/Seoul"
+    "tz": "Asia/Seoul",
+    "elevM": 12
   },
   {
     "iata": "ULA",
@@ -361,7 +386,8 @@
     "country": "蒙古",
     "lat": 47.65,
     "lng": 106.82,
-    "tz": "Asia/Ulaanbaatar"
+    "tz": "Asia/Ulaanbaatar",
+    "elevM": 1747
   },
   {
     "iata": "FNJ",
@@ -373,7 +399,8 @@
     "country": "朝鲜",
     "lat": 39.22,
     "lng": 125.67,
-    "tz": "Asia/Pyongyang"
+    "tz": "Asia/Pyongyang",
+    "elevM": 36
   },
   {
     "iata": "SIN",
@@ -398,7 +425,8 @@
     "country": "泰国",
     "lat": 13.69,
     "lng": 100.75,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 2
   },
   {
     "iata": "DMK",
@@ -410,7 +438,8 @@
     "country": "泰国",
     "lat": 13.91,
     "lng": 100.61,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 3
   },
   {
     "iata": "HKT",
@@ -422,7 +451,8 @@
     "country": "泰国",
     "lat": 8.11,
     "lng": 98.31,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 25
   },
   {
     "iata": "CNX",
@@ -434,7 +464,8 @@
     "country": "泰国",
     "lat": 18.77,
     "lng": 98.96,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 316
   },
   {
     "iata": "USM",
@@ -446,7 +477,8 @@
     "country": "泰国",
     "lat": 9.55,
     "lng": 100.06,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 20
   },
   {
     "iata": "KBV",
@@ -458,7 +490,8 @@
     "country": "泰国",
     "lat": 8.1,
     "lng": 98.98,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 388
   },
   {
     "iata": "HDY",
@@ -470,7 +503,8 @@
     "country": "泰国",
     "lat": 6.93,
     "lng": 100.39,
-    "tz": "Asia/Bangkok"
+    "tz": "Asia/Bangkok",
+    "elevM": 27
   },
   {
     "iata": "KUL",
@@ -482,7 +516,8 @@
     "country": "马来西亚",
     "lat": 2.75,
     "lng": 101.71,
-    "tz": "Asia/Kuala_Lumpur"
+    "tz": "Asia/Kuala_Lumpur",
+    "elevM": 21
   },
   {
     "iata": "PEN",
@@ -494,7 +529,8 @@
     "country": "马来西亚",
     "lat": 5.3,
     "lng": 100.28,
-    "tz": "Asia/Kuala_Lumpur"
+    "tz": "Asia/Kuala_Lumpur",
+    "elevM": 3
   },
   {
     "iata": "JHB",
@@ -506,7 +542,8 @@
     "country": "马来西亚",
     "lat": 1.64,
     "lng": 103.67,
-    "tz": "Asia/Kuala_Lumpur"
+    "tz": "Asia/Kuala_Lumpur",
+    "elevM": 41
   },
   {
     "iata": "LGK",
@@ -518,7 +555,8 @@
     "country": "马来西亚",
     "lat": 6.33,
     "lng": 99.73,
-    "tz": "Asia/Kuala_Lumpur"
+    "tz": "Asia/Kuala_Lumpur",
+    "elevM": 9
   },
   {
     "iata": "BKI",
@@ -530,7 +568,8 @@
     "country": "马来西亚",
     "lat": 5.94,
     "lng": 116.05,
-    "tz": "Asia/Kuching"
+    "tz": "Asia/Kuching",
+    "elevM": 3
   },
   {
     "iata": "KCH",
@@ -542,7 +581,8 @@
     "country": "马来西亚",
     "lat": 1.48,
     "lng": 110.34,
-    "tz": "Asia/Kuching"
+    "tz": "Asia/Kuching",
+    "elevM": 27
   },
   {
     "iata": "CGK",
@@ -554,7 +594,8 @@
     "country": "印度尼西亚",
     "lat": -6.13,
     "lng": 106.66,
-    "tz": "Asia/Jakarta"
+    "tz": "Asia/Jakarta",
+    "elevM": 10
   },
   {
     "iata": "DPS",
@@ -566,7 +607,8 @@
     "country": "印度尼西亚",
     "lat": -8.75,
     "lng": 115.17,
-    "tz": "Asia/Makassar"
+    "tz": "Asia/Makassar",
+    "elevM": 4
   },
   {
     "iata": "SUB",
@@ -578,7 +620,8 @@
     "country": "印度尼西亚",
     "lat": -7.38,
     "lng": 112.79,
-    "tz": "Asia/Jakarta"
+    "tz": "Asia/Jakarta",
+    "elevM": 3
   },
   {
     "iata": "KNO",
@@ -590,7 +633,8 @@
     "country": "印度尼西亚",
     "lat": 3.64,
     "lng": 98.89,
-    "tz": "Asia/Jakarta"
+    "tz": "Asia/Jakarta",
+    "elevM": 7
   },
   {
     "iata": "UPG",
@@ -602,7 +646,8 @@
     "country": "印度尼西亚",
     "lat": -5.06,
     "lng": 119.56,
-    "tz": "Asia/Makassar"
+    "tz": "Asia/Makassar",
+    "elevM": 14
   },
   {
     "iata": "MNL",
@@ -614,7 +659,8 @@
     "country": "菲律宾",
     "lat": 14.51,
     "lng": 121.02,
-    "tz": "Asia/Manila"
+    "tz": "Asia/Manila",
+    "elevM": 23
   },
   {
     "iata": "CEB",
@@ -626,7 +672,8 @@
     "country": "菲律宾",
     "lat": 10.31,
     "lng": 124,
-    "tz": "Asia/Manila"
+    "tz": "Asia/Manila",
+    "elevM": 9
   },
   {
     "iata": "CRK",
@@ -638,7 +685,8 @@
     "country": "菲律宾",
     "lat": 15.19,
     "lng": 120.56,
-    "tz": "Asia/Manila"
+    "tz": "Asia/Manila",
+    "elevM": 148
   },
   {
     "iata": "SGN",
@@ -650,7 +698,8 @@
     "country": "越南",
     "lat": 10.82,
     "lng": 106.66,
-    "tz": "Asia/Ho_Chi_Minh"
+    "tz": "Asia/Ho_Chi_Minh",
+    "elevM": 10
   },
   {
     "iata": "HAN",
@@ -662,7 +711,8 @@
     "country": "越南",
     "lat": 21.22,
     "lng": 105.81,
-    "tz": "Asia/Ho_Chi_Minh"
+    "tz": "Asia/Ho_Chi_Minh",
+    "elevM": 12
   },
   {
     "iata": "DAD",
@@ -674,7 +724,8 @@
     "country": "越南",
     "lat": 16.04,
     "lng": 108.2,
-    "tz": "Asia/Ho_Chi_Minh"
+    "tz": "Asia/Ho_Chi_Minh",
+    "elevM": 10
   },
   {
     "iata": "CXR",
@@ -686,7 +737,8 @@
     "country": "越南",
     "lat": 11.99,
     "lng": 109.22,
-    "tz": "Asia/Ho_Chi_Minh"
+    "tz": "Asia/Ho_Chi_Minh",
+    "elevM": 12
   },
   {
     "iata": "PNH",
@@ -698,7 +750,8 @@
     "country": "柬埔寨",
     "lat": 11.55,
     "lng": 104.84,
-    "tz": "Asia/Phnom_Penh"
+    "tz": "Asia/Phnom_Penh",
+    "elevM": 12
   },
   {
     "iata": "REP",
@@ -710,7 +763,8 @@
     "country": "柬埔寨",
     "lat": 13.41,
     "lng": 104.16,
-    "tz": "Asia/Phnom_Penh"
+    "tz": "Asia/Phnom_Penh",
+    "elevM": 18
   },
   {
     "iata": "RGN",
@@ -722,7 +776,8 @@
     "country": "缅甸",
     "lat": 16.91,
     "lng": 96.13,
-    "tz": "Asia/Yangon"
+    "tz": "Asia/Yangon",
+    "elevM": 33
   },
   {
     "iata": "MDL",
@@ -734,7 +789,8 @@
     "country": "缅甸",
     "lat": 21.7,
     "lng": 95.98,
-    "tz": "Asia/Yangon"
+    "tz": "Asia/Yangon",
+    "elevM": 91
   },
   {
     "iata": "VTE",
@@ -746,7 +802,8 @@
     "country": "老挝",
     "lat": 17.99,
     "lng": 102.56,
-    "tz": "Asia/Vientiane"
+    "tz": "Asia/Vientiane",
+    "elevM": 172
   },
   {
     "iata": "LPQ",
@@ -758,7 +815,8 @@
     "country": "老挝",
     "lat": 19.9,
     "lng": 102.16,
-    "tz": "Asia/Vientiane"
+    "tz": "Asia/Vientiane",
+    "elevM": 291
   },
   {
     "iata": "DEL",
@@ -783,7 +841,8 @@
     "country": "印度",
     "lat": 19.09,
     "lng": 72.87,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 12
   },
   {
     "iata": "BLR",
@@ -795,7 +854,8 @@
     "country": "印度",
     "lat": 13.2,
     "lng": 77.71,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 914
   },
   {
     "iata": "MAA",
@@ -807,7 +867,8 @@
     "country": "印度",
     "lat": 12.99,
     "lng": 80.17,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 16
   },
   {
     "iata": "HYD",
@@ -819,7 +880,8 @@
     "country": "印度",
     "lat": 17.24,
     "lng": 78.43,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 617
   },
   {
     "iata": "CCU",
@@ -831,7 +893,8 @@
     "country": "印度",
     "lat": 22.65,
     "lng": 88.45,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 5
   },
   {
     "iata": "COK",
@@ -843,7 +906,8 @@
     "country": "印度",
     "lat": 10.15,
     "lng": 76.4,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 9
   },
   {
     "iata": "AMD",
@@ -855,7 +919,8 @@
     "country": "印度",
     "lat": 23.07,
     "lng": 72.63,
-    "tz": "Asia/Kolkata"
+    "tz": "Asia/Kolkata",
+    "elevM": 58
   },
   {
     "iata": "CMB",
@@ -867,7 +932,8 @@
     "country": "斯里兰卡",
     "lat": 7.18,
     "lng": 79.88,
-    "tz": "Asia/Colombo"
+    "tz": "Asia/Colombo",
+    "elevM": 9
   },
   {
     "iata": "MLE",
@@ -879,7 +945,8 @@
     "country": "马尔代夫",
     "lat": 4.19,
     "lng": 73.53,
-    "tz": "Indian/Maldives"
+    "tz": "Indian/Maldives",
+    "elevM": 2
   },
   {
     "iata": "KTM",
@@ -891,7 +958,8 @@
     "country": "尼泊尔",
     "lat": 27.7,
     "lng": 85.36,
-    "tz": "Asia/Kathmandu"
+    "tz": "Asia/Kathmandu",
+    "elevM": 1338
   },
   {
     "iata": "DAC",
@@ -903,7 +971,8 @@
     "country": "孟加拉国",
     "lat": 23.84,
     "lng": 90.4,
-    "tz": "Asia/Dhaka"
+    "tz": "Asia/Dhaka",
+    "elevM": 9
   },
   {
     "iata": "PBH",
@@ -915,7 +984,8 @@
     "country": "不丹",
     "lat": 27.4,
     "lng": 89.42,
-    "tz": "Asia/Thimphu"
+    "tz": "Asia/Thimphu",
+    "elevM": 2245
   },
   {
     "iata": "ISB",
@@ -927,7 +997,8 @@
     "country": "巴基斯坦",
     "lat": 33.55,
     "lng": 72.83,
-    "tz": "Asia/Karachi"
+    "tz": "Asia/Karachi",
+    "elevM": 537
   },
   {
     "iata": "KHI",
@@ -939,7 +1010,8 @@
     "country": "巴基斯坦",
     "lat": 24.91,
     "lng": 67.16,
-    "tz": "Asia/Karachi"
+    "tz": "Asia/Karachi",
+    "elevM": 30
   },
   {
     "iata": "LHE",
@@ -951,7 +1023,8 @@
     "country": "巴基斯坦",
     "lat": 31.52,
     "lng": 74.4,
-    "tz": "Asia/Karachi"
+    "tz": "Asia/Karachi",
+    "elevM": 217
   },
   {
     "iata": "KBL",
@@ -963,7 +1036,8 @@
     "country": "阿富汗",
     "lat": 34.57,
     "lng": 69.21,
-    "tz": "Asia/Kabul"
+    "tz": "Asia/Kabul",
+    "elevM": 1791
   },
   {
     "iata": "DXB",
@@ -988,7 +1062,8 @@
     "country": "阿联酋",
     "lat": 24.9,
     "lng": 55.16,
-    "tz": "Asia/Dubai"
+    "tz": "Asia/Dubai",
+    "elevM": 35
   },
   {
     "iata": "AUH",
@@ -1000,7 +1075,8 @@
     "country": "阿联酋",
     "lat": 24.43,
     "lng": 54.65,
-    "tz": "Asia/Dubai"
+    "tz": "Asia/Dubai",
+    "elevM": 27
   },
   {
     "iata": "SHJ",
@@ -1012,7 +1088,8 @@
     "country": "阿联酋",
     "lat": 25.33,
     "lng": 55.52,
-    "tz": "Asia/Dubai"
+    "tz": "Asia/Dubai",
+    "elevM": 34
   },
   {
     "iata": "DOH",
@@ -1024,7 +1101,8 @@
     "country": "卡塔尔",
     "lat": 25.27,
     "lng": 51.61,
-    "tz": "Asia/Qatar"
+    "tz": "Asia/Qatar",
+    "elevM": 4
   },
   {
     "iata": "RUH",
@@ -1036,7 +1114,8 @@
     "country": "沙特阿拉伯",
     "lat": 24.96,
     "lng": 46.7,
-    "tz": "Asia/Riyadh"
+    "tz": "Asia/Riyadh",
+    "elevM": 625
   },
   {
     "iata": "JED",
@@ -1048,7 +1127,8 @@
     "country": "沙特阿拉伯",
     "lat": 21.68,
     "lng": 39.16,
-    "tz": "Asia/Riyadh"
+    "tz": "Asia/Riyadh",
+    "elevM": 15
   },
   {
     "iata": "DMM",
@@ -1060,7 +1140,8 @@
     "country": "沙特阿拉伯",
     "lat": 26.47,
     "lng": 49.8,
-    "tz": "Asia/Riyadh"
+    "tz": "Asia/Riyadh",
+    "elevM": 22
   },
   {
     "iata": "MED",
@@ -1072,7 +1153,8 @@
     "country": "沙特阿拉伯",
     "lat": 24.55,
     "lng": 39.71,
-    "tz": "Asia/Riyadh"
+    "tz": "Asia/Riyadh",
+    "elevM": 656
   },
   {
     "iata": "KWI",
@@ -1084,7 +1166,8 @@
     "country": "科威特",
     "lat": 29.23,
     "lng": 47.97,
-    "tz": "Asia/Kuwait"
+    "tz": "Asia/Kuwait",
+    "elevM": 63
   },
   {
     "iata": "BAH",
@@ -1096,7 +1179,8 @@
     "country": "巴林",
     "lat": 26.27,
     "lng": 50.63,
-    "tz": "Asia/Bahrain"
+    "tz": "Asia/Bahrain",
+    "elevM": 2
   },
   {
     "iata": "MCT",
@@ -1108,7 +1192,8 @@
     "country": "阿曼",
     "lat": 23.59,
     "lng": 58.28,
-    "tz": "Asia/Muscat"
+    "tz": "Asia/Muscat",
+    "elevM": 15
   },
   {
     "iata": "AMM",
@@ -1120,7 +1205,8 @@
     "country": "约旦",
     "lat": 31.72,
     "lng": 35.99,
-    "tz": "Asia/Amman"
+    "tz": "Asia/Amman",
+    "elevM": 730
   },
   {
     "iata": "BEY",
@@ -1132,7 +1218,8 @@
     "country": "黎巴嫩",
     "lat": 33.82,
     "lng": 35.49,
-    "tz": "Asia/Beirut"
+    "tz": "Asia/Beirut",
+    "elevM": 27
   },
   {
     "iata": "TLV",
@@ -1144,7 +1231,8 @@
     "country": "以色列",
     "lat": 32,
     "lng": 34.87,
-    "tz": "Asia/Jerusalem"
+    "tz": "Asia/Jerusalem",
+    "elevM": 41
   },
   {
     "iata": "IKA",
@@ -1156,7 +1244,8 @@
     "country": "伊朗",
     "lat": 35.41,
     "lng": 51.15,
-    "tz": "Asia/Tehran"
+    "tz": "Asia/Tehran",
+    "elevM": 1007
   },
   {
     "iata": "MHD",
@@ -1168,7 +1257,8 @@
     "country": "伊朗",
     "lat": 36.24,
     "lng": 59.64,
-    "tz": "Asia/Tehran"
+    "tz": "Asia/Tehran",
+    "elevM": 995
   },
   {
     "iata": "IST",
@@ -1180,7 +1270,8 @@
     "country": "土耳其",
     "lat": 41.26,
     "lng": 28.74,
-    "tz": "Europe/Istanbul"
+    "tz": "Europe/Istanbul",
+    "elevM": 99
   },
   {
     "iata": "SAW",
@@ -1192,7 +1283,8 @@
     "country": "土耳其",
     "lat": 40.9,
     "lng": 29.31,
-    "tz": "Europe/Istanbul"
+    "tz": "Europe/Istanbul",
+    "elevM": 95
   },
   {
     "iata": "AYT",
@@ -1204,7 +1296,8 @@
     "country": "土耳其",
     "lat": 36.9,
     "lng": 30.79,
-    "tz": "Europe/Istanbul"
+    "tz": "Europe/Istanbul",
+    "elevM": 54
   },
   {
     "iata": "ADB",
@@ -1216,7 +1309,8 @@
     "country": "土耳其",
     "lat": 38.29,
     "lng": 27.16,
-    "tz": "Europe/Istanbul"
+    "tz": "Europe/Istanbul",
+    "elevM": 126
   },
   {
     "iata": "CAI",
@@ -1228,7 +1322,8 @@
     "country": "埃及",
     "lat": 30.11,
     "lng": 31.41,
-    "tz": "Africa/Cairo"
+    "tz": "Africa/Cairo",
+    "elevM": 98
   },
   {
     "iata": "HRG",
@@ -1240,7 +1335,8 @@
     "country": "埃及",
     "lat": 27.18,
     "lng": 33.8,
-    "tz": "Africa/Cairo"
+    "tz": "Africa/Cairo",
+    "elevM": 10
   },
   {
     "iata": "SSH",
@@ -1252,6 +1348,7 @@
     "country": "埃及",
     "lat": 27.98,
     "lng": 34.4,
-    "tz": "Africa/Cairo"
+    "tz": "Africa/Cairo",
+    "elevM": 58
   }
 ]

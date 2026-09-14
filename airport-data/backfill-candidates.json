@@ -1,0 +1,3061 @@
+[
+ {
+  "nameZh": "邯郸机场",
+  "file": "data-cn-1.json",
+  "id": "HDG/ZBHD",
+  "to": 70,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "秦皇岛北戴河机场",
+  "file": "data-cn-1.json",
+  "id": "BPE/ZBSD",
+  "to": 14,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "唐山三女河机场",
+  "file": "data-cn-1.json",
+  "id": "TVS/ZBSN",
+  "to": 15,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "张家口宁远机场",
+  "file": "data-cn-1.json",
+  "id": "ZQG/ZBZJ",
+  "to": 715,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "承德普宁机场",
+  "file": "data-cn-1.json",
+  "id": "ZXD/ZBCD",
+  "to": 702,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "大同云冈国际机场",
+  "file": "data-cn-1.json",
+  "id": "DAT/ZBDT",
+  "to": 1049,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "忻州五台山机场",
+  "file": "data-cn-1.json",
+  "id": "WUT/ZBXZ",
+  "to": 770,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "临汾尧都机场",
+  "file": "data-cn-1.json",
+  "id": "LFQ/ZBLF",
+  "to": 452,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "吕梁大武机场",
+  "file": "data-cn-1.json",
+  "id": "LLV/ZBLL",
+  "to": 1160,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "运城盐湖国际机场",
+  "file": "data-cn-1.json",
+  "id": "YCU/ZBYC",
+  "to": 379,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "乌兰察布集宁机场",
+  "file": "data-cn-1.json",
+  "id": "UCG/ZBUC",
+  "to": 1408,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "包头东河国际机场",
+  "file": "data-cn-1.json",
+  "id": "BAV/ZBOW",
+  "to": 1012,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "乌海机场",
+  "file": "data-cn-1.json",
+  "id": "WUA/ZBUH",
+  "to": 1113,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴彦淖尔天吉泰机场",
+  "file": "data-cn-1.json",
+  "id": "RLK/ZBYL",
+  "to": 1036,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "鄂尔多斯伊金霍洛国际机场",
+  "file": "data-cn-1.json",
+  "id": "DSN/ZBDS",
+  "to": 1389,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "赤峰玉龙机场",
+  "file": "data-cn-1.json",
+  "id": "CIF/ZBCF",
+  "to": 615,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "通辽机场",
+  "file": "data-cn-1.json",
+  "id": "TGO/ZBTL",
+  "to": 730,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "二连浩特赛乌素国际机场",
+  "file": "data-cn-1.json",
+  "id": "ERL/ZBER",
+  "to": 1006,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿尔山伊尔施机场",
+  "file": "data-cn-1.json",
+  "id": "YIE/ZBES",
+  "to": 892,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "呼伦贝尔海拉尔国际机场",
+  "file": "data-cn-1.json",
+  "id": "HLD/ZBLA",
+  "to": 661,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "满洲里西郊机场",
+  "file": "data-cn-1.json",
+  "id": "NZH/ZBMZ",
+  "to": 680,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "大连周水子国际机场",
+  "file": "data-cn-1.json",
+  "id": "DLC/ZYTL",
+  "to": 33,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "丹东浪头机场",
+  "file": "data-cn-1.json",
+  "id": "DDG/ZYDD",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "营口兰旗机场",
+  "file": "data-cn-1.json",
+  "id": "YKH/ZYYK",
+  "to": 2,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "朝阳机场",
+  "file": "data-cn-1.json",
+  "id": "CHG/ZYZX",
+  "to": 173,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "延吉朝阳川国际机场",
+  "file": "data-cn-1.json",
+  "id": "YNJ/ZYYJ",
+  "to": 190,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "白山长白山机场",
+  "file": "data-cn-1.json",
+  "id": "NBS/ZYNB",
+  "to": 876,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "通化三源浦机场",
+  "file": "data-cn-1.json",
+  "id": "TNH/ZYTN",
+  "to": 411,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "松原查干湖机场",
+  "file": "data-cn-1.json",
+  "id": "YSQ/ZYSQ",
+  "to": 140,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "白城长安机场",
+  "file": "data-cn-1.json",
+  "id": "DBC/ZYBC",
+  "to": 146,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "齐齐哈尔三家子机场",
+  "file": "data-cn-1.json",
+  "id": "NDG/ZYQQ",
+  "to": 145,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "牡丹江海浪国际机场",
+  "file": "data-cn-1.json",
+  "id": "MDG/ZYMD",
+  "to": 269,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "佳木斯松江国际机场",
+  "file": "data-cn-1.json",
+  "id": "JMU/ZYJM",
+  "to": 80,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "黑河瑷珲机场",
+  "file": "data-cn-1.json",
+  "id": "HEK/ZYHE",
+  "to": 319,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "漠河古莲机场",
+  "file": "data-cn-1.json",
+  "id": "OHE/ZYMH",
+  "to": 560,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "大庆萨尔图机场",
+  "file": "data-cn-1.json",
+  "id": "DQA/ZYDQ",
+  "to": 151,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "鸡西兴凯湖机场",
+  "file": "data-cn-1.json",
+  "id": "JXA/ZYJX",
+  "to": 232,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伊春林都机场",
+  "file": "data-cn-1.json",
+  "id": "LDS/ZYLD",
+  "to": 241,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "大兴安岭鄂伦春机场",
+  "file": "data-cn-1.json",
+  "id": "JGD/ZYJD",
+  "to": 367,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "五大连池德都机场",
+  "file": "data-cn-1.json",
+  "id": "DTU/ZYDU",
+  "to": 300,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "无锡硕放机场",
+  "file": "data-cn-2.json",
+  "id": "WUX/ZSWX",
+  "to": 7,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "常州奔牛国际机场",
+  "file": "data-cn-2.json",
+  "id": "CZX/ZSCG",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "南通兴东国际机场",
+  "file": "data-cn-2.json",
+  "id": "NTG/ZSNT",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "扬州泰州国际机场",
+  "file": "data-cn-2.json",
+  "id": "YTY/ZSYA",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "淮安涟水国际机场",
+  "file": "data-cn-2.json",
+  "id": "HIA/ZSSH",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "盐城南洋国际机场",
+  "file": "data-cn-2.json",
+  "id": "YNZ/ZSYN",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "徐州观音国际机场",
+  "file": "data-cn-2.json",
+  "id": "XUZ/ZSXZ",
+  "to": 33,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宁波栎社国际机场",
+  "file": "data-cn-2.json",
+  "id": "NGB/ZSNB",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "温州龙湾国际机场",
+  "file": "data-cn-2.json",
+  "id": "WNZ/ZSWZ",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "义乌机场",
+  "file": "data-cn-2.json",
+  "id": "YIW/ZSYW",
+  "to": 80,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "舟山普陀山国际机场",
+  "file": "data-cn-2.json",
+  "id": "HSN/ZSZS",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "衢州机场",
+  "file": "data-cn-2.json",
+  "id": "JUZ/ZSJU",
+  "to": 65,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "合肥新桥国际机场",
+  "file": "data-cn-2.json",
+  "id": "HFE/ZSOF",
+  "to": 63,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阜阳机场",
+  "file": "data-cn-2.json",
+  "id": "FUG/ZSFU",
+  "to": 32,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "池州九华山机场",
+  "file": "data-cn-2.json",
+  "id": "JUH/ZSJH",
+  "to": 18,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "芜湖宣州机场",
+  "file": "data-cn-2.json",
+  "id": "WHA/ZSWU",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "福州长乐国际机场",
+  "file": "data-cn-2.json",
+  "id": "FOC/ZSFZ",
+  "to": 14,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "泉州晋江国际机场",
+  "file": "data-cn-2.json",
+  "id": "JJN/ZSQZ",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "武夷山机场",
+  "file": "data-cn-2.json",
+  "id": "WUS/ZSWY",
+  "to": 187,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "连城冠豸山机场",
+  "file": "data-cn-2.json",
+  "id": "LCX/ZSLD",
+  "to": 373,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "三明沙县机场",
+  "file": "data-cn-2.json",
+  "id": "SQJ/ZSSM",
+  "to": 253,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "南昌昌北国际机场",
+  "file": "data-cn-2.json",
+  "id": "KHN/ZSCN",
+  "to": 44,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "赣州黄金机场",
+  "file": "data-cn-2.json",
+  "id": "KOW/ZSGZ",
+  "to": 118,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "景德镇罗家机场",
+  "file": "data-cn-2.json",
+  "id": "JDZ/ZSJD",
+  "to": 34,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "吉安井冈山机场",
+  "file": "data-cn-2.json",
+  "id": "JGS/ZSJM",
+  "to": 86,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宜春明月山机场",
+  "file": "data-cn-2.json",
+  "id": "YIC/ZSYC",
+  "to": 131,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "上饶三清山机场",
+  "file": "data-cn-2.json",
+  "id": "SQD/ZSSR",
+  "to": 104,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "济南遥墙国际机场",
+  "file": "data-cn-2.json",
+  "id": "TNA/ZSJN",
+  "to": 23,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "青岛胶东国际机场",
+  "file": "data-cn-2.json",
+  "id": "TAO/ZSQD",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "烟台蓬莱国际机场",
+  "file": "data-cn-2.json",
+  "id": "YNT/ZSYT",
+  "to": 47,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "威海大水泊国际机场",
+  "file": "data-cn-2.json",
+  "id": "WEH/ZSWH",
+  "to": 44,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "临沂启阳国际机场",
+  "file": "data-cn-2.json",
+  "id": "LYI/ZSLY",
+  "to": 54,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "济宁大安机场",
+  "file": "data-cn-2.json",
+  "id": "JNG/ZSJG",
+  "to": 52,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "日照山字河机场",
+  "file": "data-cn-2.json",
+  "id": "RIZ/ZSRZ",
+  "to": 37,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "东营胜利机场",
+  "file": "data-cn-2.json",
+  "id": "DOY/ZSDY",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "菏泽牡丹机场",
+  "file": "data-cn-2.json",
+  "id": "HZA/ZSHZ",
+  "to": 46,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宜昌三峡国际机场",
+  "file": "data-cn-2.json",
+  "id": "YIH/ZHYC",
+  "to": 205,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "襄阳刘集机场",
+  "file": "data-cn-2.json",
+  "id": "XFN/ZHXF",
+  "to": 71,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "恩施许家坪国际机场",
+  "file": "data-cn-2.json",
+  "id": "ENH/ZHES",
+  "to": 489,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "神农架红坪机场",
+  "file": "data-cn-2.json",
+  "id": "HPV/ZHSN",
+  "to": 2550,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "鄂州花湖国际机场",
+  "file": "data-cn-2.json",
+  "id": "EHU/ZHEC",
+  "to": 26,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "张家界荷花国际机场",
+  "file": "data-cn-2.json",
+  "id": "DYX/ZGDY",
+  "to": 2600,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "常德桃花源机场",
+  "file": "data-cn-2.json",
+  "id": "CGD/ZGCD",
+  "to": 39,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "怀化芷江机场",
+  "file": "data-cn-2.json",
+  "id": "HJJ/ZGCJ",
+  "to": 269,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "永州零陵机场",
+  "file": "data-cn-2.json",
+  "id": "LLF/ZGLG",
+  "to": 104,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "郴州北湖机场",
+  "file": "data-cn-2.json",
+  "id": "HCZ/ZGCZ",
+  "to": 326,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "邵阳武冈机场",
+  "file": "data-cn-2.json",
+  "id": "WGN/ZGWG",
+  "to": 440,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "岳阳三荷机场",
+  "file": "data-cn-2.json",
+  "id": "YYA/ZGYY",
+  "to": 70,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "珠海金湾机场",
+  "file": "data-cn-2.json",
+  "id": "ZUH/ZGSD",
+  "to": 7,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "梅州梅县机场",
+  "file": "data-cn-2.json",
+  "id": "MXZ/ZGMX",
+  "to": 95,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "韶关丹霞机场",
+  "file": "data-cn-2.json",
+  "id": "HSC/ZGSG",
+  "to": 85,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "惠州平潭机场",
+  "file": "data-cn-2.json",
+  "id": "HUZ/ZGHZ",
+  "to": 15,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "佛山沙堤机场",
+  "file": "data-cn-2.json",
+  "id": "FUO/ZGFS",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "南宁吴圩国际机场",
+  "file": "data-cn-2.json",
+  "id": "NNG/ZGNN",
+  "to": 128,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "桂林两江国际机场",
+  "file": "data-cn-2.json",
+  "id": "KWL/ZGKL",
+  "to": 174,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "北海福成机场",
+  "file": "data-cn-2.json",
+  "id": "BHY/ZGBH",
+  "to": 23,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "柳州白莲机场",
+  "file": "data-cn-2.json",
+  "id": "LZH/ZGLZ",
+  "to": 90,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "梧州西江机场",
+  "file": "data-cn-2.json",
+  "id": "WUZ/ZGWZ",
+  "to": 109,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "玉林福绵机场",
+  "file": "data-cn-2.json",
+  "id": "YLX/ZGYL",
+  "to": 100,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "百色巴马机场",
+  "file": "data-cn-2.json",
+  "id": "AEB/ZGBS",
+  "to": 149,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "海口美兰国际机场",
+  "file": "data-cn-2.json",
+  "id": "HAK/ZJHK",
+  "to": 23,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "三亚凤凰国际机场",
+  "file": "data-cn-2.json",
+  "id": "SYX/ZJSY",
+  "to": 28,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "琼海博鳌国际机场",
+  "file": "data-cn-2.json",
+  "id": "BAR/ZJQH",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "洛阳北郊机场",
+  "file": "data-cn-2.json",
+  "id": "LYA/ZHLY",
+  "to": 256,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "南阳姜营机场",
+  "file": "data-cn-2.json",
+  "id": "NNY/ZHNY",
+  "to": 256,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "信阳明港机场",
+  "file": "data-cn-2.json",
+  "id": "XAI/ZHXY",
+  "to": 95,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "绵阳南郊机场",
+  "file": "data-cn-3.json",
+  "id": "MIG/ZUMY",
+  "to": 2400,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宜宾五粮液机场",
+  "file": "data-cn-3.json",
+  "id": "YBP/ZUYB",
+  "to": 420,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "南充高坪机场",
+  "file": "data-cn-3.json",
+  "id": "NAO/ZUNC",
+  "to": 349,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴中恩阳机场",
+  "file": "data-cn-3.json",
+  "id": "BZX/ZUBZ",
+  "to": 550,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "西昌青山机场",
+  "file": "data-cn-3.json",
+  "id": "XIC/ZUXC",
+  "to": 1558,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "攀枝花保安营机场",
+  "file": "data-cn-3.json",
+  "id": "PZI/ZUZH",
+  "to": 494,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿坝红原机场",
+  "file": "data-cn-3.json",
+  "id": "ABH/ZUAH",
+  "to": 383,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "兴义万峰林机场",
+  "file": "data-cn-3.json",
+  "id": "ACX/ZUYI",
+  "to": 1265,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "铜仁凤凰机场",
+  "file": "data-cn-3.json",
+  "id": "TEN/ZUTL",
+  "to": 705,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "遵义新舟机场",
+  "file": "data-cn-3.json",
+  "id": "ZHY/ZUZY",
+  "to": 830,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "遵义茅台机场",
+  "file": "data-cn-3.json",
+  "id": "WMT/ZUMT",
+  "to": 1240,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "安顺黄果树机场",
+  "file": "data-cn-3.json",
+  "id": "AVA/ZUAS",
+  "to": 1467,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "毕节飞雄机场",
+  "file": "data-cn-3.json",
+  "id": "BFJ/ZUBJ",
+  "to": 1448,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "六盘水月照机场",
+  "file": "data-cn-3.json",
+  "id": "LPF/ZUPS",
+  "to": 1963,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "丽江三义国际机场",
+  "file": "data-cn-3.json",
+  "id": "LJG/ZPLJ",
+  "to": 2243,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "西双版纳嘎洒国际机场",
+  "file": "data-cn-3.json",
+  "id": "JHG/ZPJH",
+  "to": 553,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "大理凤仪机场",
+  "file": "data-cn-3.json",
+  "id": "DLU/ZPDL",
+  "to": 2149,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "腾冲驼峰机场",
+  "file": "data-cn-3.json",
+  "id": "TCZ/ZPTC",
+  "to": 1905,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "德宏芒市国际机场",
+  "file": "data-cn-3.json",
+  "id": "LUM/ZPMS",
+  "to": 881,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "迪庆香格里拉机场",
+  "file": "data-cn-3.json",
+  "id": "DIG/ZPDQ",
+  "to": 3280,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "临沧博尚机场",
+  "file": "data-cn-3.json",
+  "id": "LNJ/ZPLC",
+  "to": 1899,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "保山云瑞机场",
+  "file": "data-cn-3.json",
+  "id": "BSD/ZPBS",
+  "to": 1662,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "昭通机场",
+  "file": "data-cn-3.json",
+  "id": "ZAT/ZPZT",
+  "to": 1932,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "文山砚山机场",
+  "file": "data-cn-3.json",
+  "id": "WNH/ZPWS",
+  "to": 1590,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宁蒗泸沽湖机场",
+  "file": "data-cn-3.json",
+  "id": "NLH/ZPNL",
+  "to": 3293,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿里昆莎机场",
+  "file": "data-cn-3.json",
+  "id": "NGQ/ZUAL",
+  "to": 4274,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "日喀则和平机场",
+  "file": "data-cn-3.json",
+  "id": "RKZ/ZURK",
+  "to": 3782,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "兰州中川国际机场",
+  "file": "data-cn-3.json",
+  "id": "LHW/ZLLL",
+  "to": 1947,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "嘉峪关酒泉机场",
+  "file": "data-cn-3.json",
+  "id": "JGN/ZLJQ",
+  "to": 1558,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "天水麦积山机场",
+  "file": "data-cn-3.json",
+  "id": "THQ/ZLTS",
+  "to": 1094,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "金昌金川机场",
+  "file": "data-cn-3.json",
+  "id": "JIC/ZLJC",
+  "to": 1445,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "张掖甘州机场",
+  "file": "data-cn-3.json",
+  "id": "YZY/ZLZY",
+  "to": 1609,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "银川河东国际机场",
+  "file": "data-cn-3.json",
+  "id": "INC/ZLIC",
+  "to": 1141,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "中卫沙坡头机场",
+  "file": "data-cn-3.json",
+  "id": "/ZLZW",
+  "to": 1246,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "固原六盘山机场",
+  "file": "data-cn-3.json",
+  "id": "GYU/ZLGY",
+  "to": 1746,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "西宁曹家堡国际机场",
+  "file": "data-cn-3.json",
+  "id": "XNN/ZLXN",
+  "to": 2170,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "格尔木机场",
+  "file": "data-cn-3.json",
+  "id": "GOQ/ZLGM",
+  "to": 2845,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "玉树巴塘机场",
+  "file": "data-cn-3.json",
+  "id": "YUS/ZLYS",
+  "to": 3906,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "海西德令哈机场",
+  "file": "data-cn-3.json",
+  "id": "DLH/ZLDL",
+  "to": 3000,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "果洛玛沁机场",
+  "file": "data-cn-3.json",
+  "id": "GMQ/",
+  "to": 3787,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "乌鲁木齐天山国际机场",
+  "file": "data-cn-3.json",
+  "id": "URC/ZWWW",
+  "to": 648,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "喀什徕宁国际机场",
+  "file": "data-cn-3.json",
+  "id": "KHG/ZWSH",
+  "to": 1380,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "新源那拉提机场",
+  "file": "data-cn-3.json",
+  "id": "NLT/ZWNL",
+  "to": 930,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "库尔勒梨城机场",
+  "file": "data-cn-3.json",
+  "id": "KRL/ZWKL",
+  "to": 927,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿克苏红旗坡机场",
+  "file": "data-cn-3.json",
+  "id": "AKU/ZWAK",
+  "to": 1163,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "和田昆冈机场",
+  "file": "data-cn-3.json",
+  "id": "HTN/ZWWT",
+  "to": 1424,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "吐鲁番交河机场",
+  "file": "data-cn-3.json",
+  "id": "TLQ/ZWTN",
+  "to": 1424,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "哈密伊州机场",
+  "file": "data-cn-3.json",
+  "id": "HMI/ZWHM",
+  "to": 824,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿勒泰雪都机场",
+  "file": "data-cn-3.json",
+  "id": "AAT/ZWAT",
+  "to": 750,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布尔津喀纳斯机场",
+  "file": "data-cn-3.json",
+  "id": "KJI/ZWKN",
+  "to": 1195,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "博乐阿拉山口机场",
+  "file": "data-cn-3.json",
+  "id": "BPL/ZWBL",
+  "to": 382,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "库车龟兹机场",
+  "file": "data-cn-3.json",
+  "id": "KCA/ZWKC",
+  "to": 1074,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "石河子花园机场",
+  "file": "data-cn-3.json",
+  "id": "SHF/",
+  "to": 518,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "澳门国际机场",
+  "file": "data-cn-3.json",
+  "id": "MFM/VMMC",
+  "to": 6,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "台北松山机场",
+  "file": "data-cn-3.json",
+  "id": "TSA/RCSS",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "高雄国际机场",
+  "file": "data-cn-3.json",
+  "id": "KHH/RCKH",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "台中清泉岗机场",
+  "file": "data-cn-3.json",
+  "id": "RMQ/RCQM",
+  "to": 202,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "台南机场",
+  "file": "data-cn-3.json",
+  "id": "TNN/RCNN",
+  "to": 19,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "花莲机场",
+  "file": "data-cn-3.json",
+  "id": "HUN/RCBS",
+  "to": 28,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "澎湖马公机场",
+  "file": "data-cn-3.json",
+  "id": "MZG/RCMT",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "金门尚义机场",
+  "file": "data-cn-3.json",
+  "id": "KNH/RCQC",
+  "to": 31,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "黔江武陵山机场",
+  "file": "data-cn-4.json",
+  "id": "JIQ/ZUQJ",
+  "to": 632,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "榆林榆阳机场",
+  "file": "data-cn-4.json",
+  "id": "UYN/ZLYL",
+  "to": 1186,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "安康富强机场",
+  "file": "data-cn-4.json",
+  "id": "AKA/ZLAK",
+  "to": 369,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "陇南成县机场",
+  "file": "data-cn-4.json",
+  "id": "LNL/",
+  "to": 1130,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "甘南夏河机场",
+  "file": "data-cn-4.json",
+  "id": "GXH/",
+  "to": 3203,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "甘孜格萨尔机场",
+  "file": "data-cn-4.json",
+  "id": "GZG/",
+  "to": 4068,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "莎车叶尔羌机场",
+  "file": "data-cn-4.json",
+  "id": "QSZ/",
+  "to": 1290,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "图木舒克唐王城机场",
+  "file": "data-cn-4.json",
+  "id": "TMC/",
+  "to": 49,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "富蕴可可托海机场",
+  "file": "data-cn-4.json",
+  "id": "FYN/",
+  "to": 939,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿拉尔塔里木机场",
+  "file": "data-cn-4.json",
+  "id": "ACF/",
+  "to": 999,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "湘西边城机场",
+  "file": "data-cn-5.json",
+  "id": "DXJ/ZGXX",
+  "to": 702,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "朔州滋润机场",
+  "file": "data-cn-5.json",
+  "id": "SZH/ZBSG",
+  "to": 1043,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "重庆巫山机场",
+  "file": "data-cn-5.json",
+  "id": "WSK/ZUWS",
+  "to": 1680,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "黔南荔波机场",
+  "file": "data-cn-5.json",
+  "id": "LLB/ZULB",
+  "to": 825,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "霍林郭勒霍林河机场",
+  "file": "data-cn-5.json",
+  "id": "HUO/ZBHZ",
+  "to": 975,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "大阪伊丹机场",
+  "file": "data-global-1.json",
+  "id": "ITM/RJOO",
+  "to": 15,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "名古屋中部国际机场",
+  "file": "data-global-1.json",
+  "id": "NGO/RJGG",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "福冈机场",
+  "file": "data-global-1.json",
+  "id": "FUK/RJFF",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "札幌新千岁机场",
+  "file": "data-global-1.json",
+  "id": "CTS/RJCC",
+  "to": 25,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "冲绳那霸机场",
+  "file": "data-global-1.json",
+  "id": "OKA/ROAH",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "鹿儿岛机场",
+  "file": "data-global-1.json",
+  "id": "KOJ/RJFK",
+  "to": 276,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "仙台机场",
+  "file": "data-global-1.json",
+  "id": "SDJ/RJSS",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "广岛机场",
+  "file": "data-global-1.json",
+  "id": "HIJ/RJOA",
+  "to": 332,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "熊本机场",
+  "file": "data-global-1.json",
+  "id": "KMJ/RJFT",
+  "to": 196,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "小松机场",
+  "file": "data-global-1.json",
+  "id": "KMQ/RJNK",
+  "to": 11,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "高松机场",
+  "file": "data-global-1.json",
+  "id": "TAK/RJOT",
+  "to": 185,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "松山机场",
+  "file": "data-global-1.json",
+  "id": "MYJ/RJOM",
+  "to": 8,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "长崎机场",
+  "file": "data-global-1.json",
+  "id": "NGS/RJFU",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宫崎机场",
+  "file": "data-global-1.json",
+  "id": "KMI/RJFM",
+  "to": 6,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "冈山机场",
+  "file": "data-global-1.json",
+  "id": "OKJ/RJOB",
+  "to": 246,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "青森机场",
+  "file": "data-global-1.json",
+  "id": "AOJ/RJSA",
+  "to": 202,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "函馆机场",
+  "file": "data-global-1.json",
+  "id": "HKD/RJCH",
+  "to": 46,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "旭川机场",
+  "file": "data-global-1.json",
+  "id": "AKJ/RJEC",
+  "to": 220,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "石垣机场",
+  "file": "data-global-1.json",
+  "id": "ISG/ROIG",
+  "to": 31,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "首尔金浦国际机场",
+  "file": "data-global-1.json",
+  "id": "GMP/RKSS",
+  "to": 18,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "釜山金海国际机场",
+  "file": "data-global-1.json",
+  "id": "PUS/RKPK",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "济州国际机场",
+  "file": "data-global-1.json",
+  "id": "CJU/RKPC",
+  "to": 36,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "大邱国际机场",
+  "file": "data-global-1.json",
+  "id": "TAE/RKTN",
+  "to": 35,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "清州国际机场",
+  "file": "data-global-1.json",
+  "id": "CJJ/RKTU",
+  "to": 58,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "光州机场",
+  "file": "data-global-1.json",
+  "id": "KWJ/RKJJ",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "乌兰巴托成吉思汗国际机场",
+  "file": "data-global-1.json",
+  "id": "ULA/ZMUL",
+  "to": 1747,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "平壤顺安国际机场",
+  "file": "data-global-1.json",
+  "id": "FNJ/ZKPY",
+  "to": 36,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "曼谷素万那普机场",
+  "file": "data-global-1.json",
+  "id": "BKK/VTBS",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "曼谷廊曼国际机场",
+  "file": "data-global-1.json",
+  "id": "DMK/VTBD",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "普吉国际机场",
+  "file": "data-global-1.json",
+  "id": "HKT/VTSP",
+  "to": 25,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "清迈国际机场",
+  "file": "data-global-1.json",
+  "id": "CNX/VTCC",
+  "to": 316,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "苏梅岛机场",
+  "file": "data-global-1.json",
+  "id": "USM/VTSM",
+  "to": 20,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "甲米国际机场",
+  "file": "data-global-1.json",
+  "id": "KBV/VTCB",
+  "to": 388,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "合艾国际机场",
+  "file": "data-global-1.json",
+  "id": "HDY/VTSS",
+  "to": 27,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "吉隆坡国际机场",
+  "file": "data-global-1.json",
+  "id": "KUL/WMKK",
+  "to": 21,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "槟城国际机场",
+  "file": "data-global-1.json",
+  "id": "PEN/WMKP",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "新山士乃国际机场",
+  "file": "data-global-1.json",
+  "id": "JHB/WMKJ",
+  "to": 41,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "兰卡威国际机场",
+  "file": "data-global-1.json",
+  "id": "LGK/WMKL",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "亚庇国际机场",
+  "file": "data-global-1.json",
+  "id": "BKI/WBKK",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "古晋国际机场",
+  "file": "data-global-1.json",
+  "id": "KCH/WBGG",
+  "to": 27,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "雅加达苏加诺-哈达国际机场",
+  "file": "data-global-1.json",
+  "id": "CGK/WIII",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴厘岛伍拉·赖国际机场",
+  "file": "data-global-1.json",
+  "id": "DPS/WADD",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "泗水朱安达国际机场",
+  "file": "data-global-1.json",
+  "id": "SUB/WRSJ",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "棉兰瓜拉纳姆国际机场",
+  "file": "data-global-1.json",
+  "id": "KNO/WIMM",
+  "to": 7,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "望加锡苏丹哈桑丁国际机场",
+  "file": "data-global-1.json",
+  "id": "UPG/WAAA",
+  "to": 14,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马尼拉尼诺·阿基诺国际机场",
+  "file": "data-global-1.json",
+  "id": "MNL/RPLL",
+  "to": 23,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "宿雾麦克坦国际机场",
+  "file": "data-global-1.json",
+  "id": "CEB/RPVM",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "克拉克国际机场",
+  "file": "data-global-1.json",
+  "id": "CRK/RPLC",
+  "to": 148,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "胡志明市新山一国际机场",
+  "file": "data-global-1.json",
+  "id": "SGN/VVTS",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "河内内排国际机场",
+  "file": "data-global-1.json",
+  "id": "HAN/VVNB",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "岘港国际机场",
+  "file": "data-global-1.json",
+  "id": "DAD/VVDN",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "芽庄金兰国际机场",
+  "file": "data-global-1.json",
+  "id": "CXR/VVCR",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "金边国际机场",
+  "file": "data-global-1.json",
+  "id": "PNH/VDPP",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "暹粒吴哥国际机场",
+  "file": "data-global-1.json",
+  "id": "REP/VDSR",
+  "to": 18,
+  "via": "airportsdata"
+ },
+ {
+  "nameZh": "仰光国际机场",
+  "file": "data-global-1.json",
+  "id": "RGN/VYYY",
+  "to": 33,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "曼德勒国际机场",
+  "file": "data-global-1.json",
+  "id": "MDL/VYMD",
+  "to": 91,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "万象瓦岱国际机场",
+  "file": "data-global-1.json",
+  "id": "VTE/VLVT",
+  "to": 172,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "琅勃拉邦国际机场",
+  "file": "data-global-1.json",
+  "id": "LPQ/VLLB",
+  "to": 291,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "孟买贾特拉帕蒂·希瓦吉国际机场",
+  "file": "data-global-1.json",
+  "id": "BOM/VABB",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "班加罗尔肯佩戈达国际机场",
+  "file": "data-global-1.json",
+  "id": "BLR/VOBL",
+  "to": 914,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "金奈国际机场",
+  "file": "data-global-1.json",
+  "id": "MAA/VOMM",
+  "to": 16,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "海得拉巴拉吉夫·甘地国际机场",
+  "file": "data-global-1.json",
+  "id": "HYD/VOHS",
+  "to": 617,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "加尔各答内塔吉·苏巴斯机场",
+  "file": "data-global-1.json",
+  "id": "CCU/VECC",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "科钦国际机场",
+  "file": "data-global-1.json",
+  "id": "COK/VOCI",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "艾哈迈达巴德国际机场",
+  "file": "data-global-1.json",
+  "id": "AMD/VAAH",
+  "to": 58,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "科伦坡班达拉奈克国际机场",
+  "file": "data-global-1.json",
+  "id": "CMB/VCBI",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马累维拉纳国际机场",
+  "file": "data-global-1.json",
+  "id": "MLE/VRMM",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "加德满都特里布万国际机场",
+  "file": "data-global-1.json",
+  "id": "KTM/VNKT",
+  "to": 1338,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "达卡沙阿贾拉勒国际机场",
+  "file": "data-global-1.json",
+  "id": "DAC/VGHS",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "帕罗机场",
+  "file": "data-global-1.json",
+  "id": "PBH/VQPR",
+  "to": 2245,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伊斯兰堡国际机场",
+  "file": "data-global-1.json",
+  "id": "ISB/OPIS",
+  "to": 537,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "卡拉奇真纳国际机场",
+  "file": "data-global-1.json",
+  "id": "KHI/OPKC",
+  "to": 30,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "拉合尔阿拉马·伊克巴尔国际机场",
+  "file": "data-global-1.json",
+  "id": "LHE/OPLA",
+  "to": 217,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "喀布尔国际机场",
+  "file": "data-global-1.json",
+  "id": "KBL/OAKB",
+  "to": 1791,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "迪拜阿勒马克图姆国际机场",
+  "file": "data-global-1.json",
+  "id": "DWC/OMDW",
+  "to": 35,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿布扎比扎耶德国际机场",
+  "file": "data-global-1.json",
+  "id": "AUH/OMAA",
+  "to": 27,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "沙迦国际机场",
+  "file": "data-global-1.json",
+  "id": "SHJ/OMSJ",
+  "to": 34,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "多哈哈马德国际机场",
+  "file": "data-global-1.json",
+  "id": "DOH/OTHH",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "利雅得哈立德国王国际机场",
+  "file": "data-global-1.json",
+  "id": "RUH/OERK",
+  "to": 625,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "吉达阿卜杜勒-阿齐兹国王国际机场",
+  "file": "data-global-1.json",
+  "id": "JED/OEJN",
+  "to": 15,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "达曼法赫德国王国际机场",
+  "file": "data-global-1.json",
+  "id": "DMM/OEDF",
+  "to": 22,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "麦地那穆罕默德·本·阿卜杜勒-阿齐兹亲王机场",
+  "file": "data-global-1.json",
+  "id": "MED/OEMA",
+  "to": 656,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "科威特国际机场",
+  "file": "data-global-1.json",
+  "id": "KWI/OKBK",
+  "to": 63,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴林国际机场",
+  "file": "data-global-1.json",
+  "id": "BAH/OBBI",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马斯喀特国际机场",
+  "file": "data-global-1.json",
+  "id": "MCT/OOMS",
+  "to": 15,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "安曼阿丽亚王后国际机场",
+  "file": "data-global-1.json",
+  "id": "AMM/OJAI",
+  "to": 730,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "贝鲁特拉菲克·哈里里国际机场",
+  "file": "data-global-1.json",
+  "id": "BEY/OLBA",
+  "to": 27,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "特拉维夫本·古里安国际机场",
+  "file": "data-global-1.json",
+  "id": "TLV/LLBG",
+  "to": 41,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "德黑兰伊玛目霍梅尼国际机场",
+  "file": "data-global-1.json",
+  "id": "IKA/OIIE",
+  "to": 1007,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马什哈德国际机场",
+  "file": "data-global-1.json",
+  "id": "MHD/OIMM",
+  "to": 995,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伊斯坦布尔机场",
+  "file": "data-global-1.json",
+  "id": "IST/LTFM",
+  "to": 99,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伊斯坦布尔萨比哈·格克琴国际机场",
+  "file": "data-global-1.json",
+  "id": "SAW/LTFJ",
+  "to": 95,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "安塔利亚机场",
+  "file": "data-global-1.json",
+  "id": "AYT/LTAI",
+  "to": 54,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伊兹密尔阿德南·曼德列斯机场",
+  "file": "data-global-1.json",
+  "id": "ADB/LTBJ",
+  "to": 126,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "开罗国际机场",
+  "file": "data-global-1.json",
+  "id": "CAI/HECA",
+  "to": 98,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "赫尔格达国际机场",
+  "file": "data-global-1.json",
+  "id": "HRG/HEGN",
+  "to": 10,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "沙姆沙伊赫国际机场",
+  "file": "data-global-1.json",
+  "id": "SSH/HESH",
+  "to": 58,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伦敦盖特威克机场",
+  "file": "data-global-2.json",
+  "id": "LGW/EGKK",
+  "to": 62,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伦敦斯坦斯特德机场",
+  "file": "data-global-2.json",
+  "id": "STN/EGSS",
+  "to": 106,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伦敦卢顿机场",
+  "file": "data-global-2.json",
+  "id": "LTN/EGGW",
+  "to": 160,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "曼彻斯特机场",
+  "file": "data-global-2.json",
+  "id": "MAN/EGCC",
+  "to": 78,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "爱丁堡机场",
+  "file": "data-global-2.json",
+  "id": "EDI/EGPH",
+  "to": 41,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伯明翰机场",
+  "file": "data-global-2.json",
+  "id": "BHX/EGBB",
+  "to": 100,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "格拉斯哥机场",
+  "file": "data-global-2.json",
+  "id": "GLA/EGPF",
+  "to": 8,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "纽卡斯尔机场",
+  "file": "data-global-2.json",
+  "id": "NCL/EGNT",
+  "to": 81,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "都柏林机场",
+  "file": "data-global-2.json",
+  "id": "DUB/EIDW",
+  "to": 74,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴黎奥利机场",
+  "file": "data-global-2.json",
+  "id": "ORY/LFPO",
+  "to": 89,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "尼斯蓝色海岸机场",
+  "file": "data-global-2.json",
+  "id": "NCE/LFMN",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "里昂圣埃克苏佩里机场",
+  "file": "data-global-2.json",
+  "id": "LYS/LFLL",
+  "to": 250,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马赛普罗旺斯机场",
+  "file": "data-global-2.json",
+  "id": "MRS/LFML",
+  "to": 23,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "图卢兹布拉尼亚克机场",
+  "file": "data-global-2.json",
+  "id": "TLS/LFBO",
+  "to": 152,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "慕尼黑机场",
+  "file": "data-global-2.json",
+  "id": "MUC/EDDM",
+  "to": 453,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "柏林勃兰登堡机场",
+  "file": "data-global-2.json",
+  "id": "BER/EDDB",
+  "to": 48,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "杜塞尔多夫机场",
+  "file": "data-global-2.json",
+  "id": "DUS/EDDL",
+  "to": 45,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "汉堡机场",
+  "file": "data-global-2.json",
+  "id": "HAM/EDDH",
+  "to": 16,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "科隆波恩机场",
+  "file": "data-global-2.json",
+  "id": "CGN/EDDK",
+  "to": 92,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "斯图加特机场",
+  "file": "data-global-2.json",
+  "id": "STR/EDDS",
+  "to": 389,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布鲁塞尔机场",
+  "file": "data-global-2.json",
+  "id": "BRU/EBBR",
+  "to": 53,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "苏黎世机场",
+  "file": "data-global-2.json",
+  "id": "ZRH/LSZH",
+  "to": 432,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "日内瓦机场",
+  "file": "data-global-2.json",
+  "id": "GVA/LSGG",
+  "to": 430,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "维也纳国际机场",
+  "file": "data-global-2.json",
+  "id": "VIE/LOWW",
+  "to": 183,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马德里巴拉哈斯机场",
+  "file": "data-global-2.json",
+  "id": "MAD/LEMD",
+  "to": 609,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴塞罗那埃尔普拉特机场",
+  "file": "data-global-2.json",
+  "id": "BCN/LEBL",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马略卡帕尔马机场",
+  "file": "data-global-2.json",
+  "id": "PMI/LEPA",
+  "to": 8,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "马拉加-太阳海岸机场",
+  "file": "data-global-2.json",
+  "id": "AGP/LEMG",
+  "to": 16,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "里斯本机场",
+  "file": "data-global-2.json",
+  "id": "LIS/LPPT",
+  "to": 114,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "波尔图机场",
+  "file": "data-global-2.json",
+  "id": "OPO/LPPR",
+  "to": 69,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "米兰马尔彭萨机场",
+  "file": "data-global-2.json",
+  "id": "MXP/LIMC",
+  "to": 234,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "米兰利纳特机场",
+  "file": "data-global-2.json",
+  "id": "LIN/LIML",
+  "to": 108,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "威尼斯马可·波罗机场",
+  "file": "data-global-2.json",
+  "id": "VCE/LIPZ",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "那不勒斯国际机场",
+  "file": "data-global-2.json",
+  "id": "NAP/LIRN",
+  "to": 90,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "雅典国际机场",
+  "file": "data-global-2.json",
+  "id": "ATH/LGAV",
+  "to": 94,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布拉格瓦茨拉夫·哈维尔机场",
+  "file": "data-global-2.json",
+  "id": "PRG/LKPR",
+  "to": 380,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布达佩斯李斯特·费伦茨国际机场",
+  "file": "data-global-2.json",
+  "id": "BUD/LHBP",
+  "to": 151,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "华沙肖邦机场",
+  "file": "data-global-2.json",
+  "id": "WAW/EPWA",
+  "to": 110,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "克拉科夫机场",
+  "file": "data-global-2.json",
+  "id": "KRK/EPKK",
+  "to": 241,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布加勒斯特亨利·科安德国际机场",
+  "file": "data-global-2.json",
+  "id": "OTP/LROP",
+  "to": 96,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "哥本哈根凯斯楚普机场",
+  "file": "data-global-2.json",
+  "id": "CPH/EKCH",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "斯德哥尔摩阿兰达机场",
+  "file": "data-global-2.json",
+  "id": "ARN/ESSA",
+  "to": 42,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "奥斯陆加勒穆恩机场",
+  "file": "data-global-2.json",
+  "id": "OSL/ENGM",
+  "to": 208,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "赫尔辛基万塔机场",
+  "file": "data-global-2.json",
+  "id": "HEL/EFHK",
+  "to": 55,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "凯夫拉维克国际机场",
+  "file": "data-global-2.json",
+  "id": "KEF/BIKF",
+  "to": 52,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "莫斯科谢列梅捷沃国际机场",
+  "file": "data-global-2.json",
+  "id": "SVO/UUEE",
+  "to": 190,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "莫斯科多莫杰多沃机场",
+  "file": "data-global-2.json",
+  "id": "DME/UUDD",
+  "to": 179,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "莫斯科伏努科沃机场",
+  "file": "data-global-2.json",
+  "id": "VKO/UUWW",
+  "to": 209,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣彼得堡普尔科沃机场",
+  "file": "data-global-2.json",
+  "id": "LED/ULLI",
+  "to": 24,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "新西伯利亚托尔马切沃机场",
+  "file": "data-global-2.json",
+  "id": "OVB/UNNT",
+  "to": 111,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "叶卡捷琳堡科利佐沃机场",
+  "file": "data-global-2.json",
+  "id": "SVX/USSS",
+  "to": 233,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "符拉迪沃斯托克克涅维奇机场",
+  "file": "data-global-2.json",
+  "id": "VVO/UHWW",
+  "to": 18,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "伊尔库茨克国际机场",
+  "file": "data-global-2.json",
+  "id": "IKT/UIII",
+  "to": 511,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "索契阿德列尔机场",
+  "file": "data-global-2.json",
+  "id": "AER/URSS",
+  "to": 27,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿拉木图国际机场",
+  "file": "data-global-2.json",
+  "id": "ALA/UAAA",
+  "to": 681,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿斯塔纳国际机场",
+  "file": "data-global-2.json",
+  "id": "NQZ/UACC",
+  "to": 355,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "塔什干国际机场",
+  "file": "data-global-2.json",
+  "id": "TAS/UTTT",
+  "to": 432,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "第比利斯国际机场",
+  "file": "data-global-2.json",
+  "id": "TBS/UGTB",
+  "to": 495,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴库盖达尔·阿利耶夫国际机场",
+  "file": "data-global-2.json",
+  "id": "GYD/UBBB",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "埃里温兹瓦尔特诺茨国际机场",
+  "file": "data-global-2.json",
+  "id": "EVN/UDYZ",
+  "to": 865,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "约翰内斯堡奥·坦博国际机场",
+  "file": "data-global-2.json",
+  "id": "JNB/FAOR",
+  "to": 1694,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "开普敦国际机场",
+  "file": "data-global-2.json",
+  "id": "CPT/FACT",
+  "to": 46,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "内罗毕乔莫·肯雅塔国际机场",
+  "file": "data-global-2.json",
+  "id": "NBO/HKJK",
+  "to": 1625,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "亚的斯亚贝巴博莱国际机场",
+  "file": "data-global-2.json",
+  "id": "ADD/HAAB",
+  "to": 2326,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "拉各斯穆尔塔拉·穆罕默德国际机场",
+  "file": "data-global-2.json",
+  "id": "LOS/DNMM",
+  "to": 41,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿布贾恩巴丹·纳姆迪·阿齐基韦国际机场",
+  "file": "data-global-2.json",
+  "id": "ABV/DNAA",
+  "to": 342,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿克拉科托卡国际机场",
+  "file": "data-global-2.json",
+  "id": "ACC/DGAA",
+  "to": 62,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "卡萨布兰卡穆罕默德五世国际机场",
+  "file": "data-global-2.json",
+  "id": "CMN/GMMN",
+  "to": 200,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿尔及尔胡阿里·布迈丁国际机场",
+  "file": "data-global-2.json",
+  "id": "ALG/DAAG",
+  "to": 25,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "塞舌尔国际机场",
+  "file": "data-global-2.json",
+  "id": "SEZ/FSIA",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "毛里求斯西沃萨古尔·拉姆古兰爵士国际机场",
+  "file": "data-global-2.json",
+  "id": "MRU/FIMP",
+  "to": 57,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "墨尔本图拉马林机场",
+  "file": "data-global-2.json",
+  "id": "MEL/YMML",
+  "to": 132,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布里斯班机场",
+  "file": "data-global-2.json",
+  "id": "BNE/YBBN",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "珀斯机场",
+  "file": "data-global-2.json",
+  "id": "PER/YPPH",
+  "to": 20,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "阿德莱德机场",
+  "file": "data-global-2.json",
+  "id": "ADL/YPAD",
+  "to": 6,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "黄金海岸机场",
+  "file": "data-global-2.json",
+  "id": "OOL/YBCG",
+  "to": 6,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "凯恩斯机场",
+  "file": "data-global-2.json",
+  "id": "CNS/YBCS",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "堪培拉机场",
+  "file": "data-global-2.json",
+  "id": "CBR/YSCB",
+  "to": 575,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "达尔文国际机场",
+  "file": "data-global-2.json",
+  "id": "DRW/YPDN",
+  "to": 31,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "奥克兰机场",
+  "file": "data-global-2.json",
+  "id": "AKL/NZAA",
+  "to": 7,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "惠灵顿国际机场",
+  "file": "data-global-2.json",
+  "id": "WLG/NZWN",
+  "to": 12,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "克赖斯特彻奇机场",
+  "file": "data-global-2.json",
+  "id": "CHC/NZCH",
+  "to": 37,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "皇后镇机场",
+  "file": "data-global-2.json",
+  "id": "ZQN/NZQN",
+  "to": 357,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "楠迪国际机场",
+  "file": "data-global-2.json",
+  "id": "NAN/NFFN",
+  "to": 18,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "帕皮提法阿国际机场",
+  "file": "data-global-2.json",
+  "id": "PPT/NTAA",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "纽瓦克自由国际机场",
+  "file": "data-global-3.json",
+  "id": "EWR/KEWR",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "纽约拉瓜迪亚机场",
+  "file": "data-global-3.json",
+  "id": "LGA/KLGA",
+  "to": 6,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "旧金山国际机场",
+  "file": "data-global-3.json",
+  "id": "SFO/KSFO",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣何塞国际机场",
+  "file": "data-global-3.json",
+  "id": "SJC/KSJC",
+  "to": 19,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "芝加哥奥黑尔国际机场",
+  "file": "data-global-3.json",
+  "id": "ORD/KORD",
+  "to": 207,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "芝加哥中途国际机场",
+  "file": "data-global-3.json",
+  "id": "MDW/KMDW",
+  "to": 189,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "达拉斯-沃思堡国际机场",
+  "file": "data-global-3.json",
+  "id": "DFW/KDFW",
+  "to": 185,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "休斯顿乔治·布什洲际机场",
+  "file": "data-global-3.json",
+  "id": "IAH/KIAH",
+  "to": 30,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "休斯顿霍比机场",
+  "file": "data-global-3.json",
+  "id": "HOU/KHOU",
+  "to": 14,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "亚特兰大哈茨菲尔德-杰克逊国际机场",
+  "file": "data-global-3.json",
+  "id": "ATL/KATL",
+  "to": 313,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "迈阿密国际机场",
+  "file": "data-global-3.json",
+  "id": "MIA/KMIA",
+  "to": 2,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "奥兰多国际机场",
+  "file": "data-global-3.json",
+  "id": "MCO/KMCO",
+  "to": 29,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "坦帕国际机场",
+  "file": "data-global-3.json",
+  "id": "TPA/KTPA",
+  "to": 8,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "波士顿洛根国际机场",
+  "file": "data-global-3.json",
+  "id": "BOS/KBOS",
+  "to": 6,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "华盛顿杜勒斯国际机场",
+  "file": "data-global-3.json",
+  "id": "IAD/KIAD",
+  "to": 95,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "华盛顿罗纳德·里根国家机场",
+  "file": "data-global-3.json",
+  "id": "DCA/KDCA",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴尔的摩-华盛顿国际机场",
+  "file": "data-global-3.json",
+  "id": "BWI/KBWI",
+  "to": 45,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "费城国际机场",
+  "file": "data-global-3.json",
+  "id": "PHL/KPHL",
+  "to": 11,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "西雅图-塔科马国际机场",
+  "file": "data-global-3.json",
+  "id": "SEA/KSEA",
+  "to": 132,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "波特兰国际机场",
+  "file": "data-global-3.json",
+  "id": "PDX/KPDX",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "拉斯维加斯哈里·里德国际机场",
+  "file": "data-global-3.json",
+  "id": "LAS/KLAS",
+  "to": 665,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "菲尼克斯天港国际机场",
+  "file": "data-global-3.json",
+  "id": "PHX/KPHX",
+  "to": 346,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "明尼阿波利斯-圣保罗国际机场",
+  "file": "data-global-3.json",
+  "id": "MSP/KMSP",
+  "to": 256,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "底特律大都会机场",
+  "file": "data-global-3.json",
+  "id": "DTW/KDTW",
+  "to": 197,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣路易斯兰伯特国际机场",
+  "file": "data-global-3.json",
+  "id": "STL/KSTL",
+  "to": 188,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "夏洛特道格拉斯国际机场",
+  "file": "data-global-3.json",
+  "id": "CLT/KCLT",
+  "to": 228,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "罗利-达勒姆国际机场",
+  "file": "data-global-3.json",
+  "id": "RDU/KRDU",
+  "to": 133,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "纳什维尔国际机场",
+  "file": "data-global-3.json",
+  "id": "BNA/KBNA",
+  "to": 183,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "孟菲斯国际机场",
+  "file": "data-global-3.json",
+  "id": "MEM/KMEM",
+  "to": 104,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "新奥尔良路易·阿姆斯特朗国际机场",
+  "file": "data-global-3.json",
+  "id": "MSY/KMSY",
+  "to": 1,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "堪萨斯城国际机场",
+  "file": "data-global-3.json",
+  "id": "MCI/KMCI",
+  "to": 313,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "辛辛那提/北肯塔基国际机场",
+  "file": "data-global-3.json",
+  "id": "CVG/KCVG",
+  "to": 273,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "克利夫兰霍普金斯国际机场",
+  "file": "data-global-3.json",
+  "id": "CLE/KCLE",
+  "to": 241,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "匹兹堡国际机场",
+  "file": "data-global-3.json",
+  "id": "PIT/KPIT",
+  "to": 367,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "印第安纳波利斯国际机场",
+  "file": "data-global-3.json",
+  "id": "IND/KIND",
+  "to": 243,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "奥斯汀-伯格斯特罗姆国际机场",
+  "file": "data-global-3.json",
+  "id": "AUS/KAUS",
+  "to": 165,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣安东尼奥国际机场",
+  "file": "data-global-3.json",
+  "id": "SAT/KSAT",
+  "to": 247,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "盐湖城国际机场",
+  "file": "data-global-3.json",
+  "id": "SLC/KSLC",
+  "to": 1288,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "萨克拉门托国际机场",
+  "file": "data-global-3.json",
+  "id": "SMF/KSMF",
+  "to": 8,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣地亚哥国际机场",
+  "file": "data-global-3.json",
+  "id": "SAN/KSAN",
+  "to": 5,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "奥克兰国际机场",
+  "file": "data-global-3.json",
+  "id": "OAK/KOAK",
+  "to": 3,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "密尔沃基米切尔机场",
+  "file": "data-global-3.json",
+  "id": "MKE/KMKE",
+  "to": 220,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "安克雷奇泰德·史蒂文斯国际机场",
+  "file": "data-global-3.json",
+  "id": "ANC/PANC",
+  "to": 46,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "檀香山丹尼尔·井上国际机场",
+  "file": "data-global-3.json",
+  "id": "HNL/PHNL",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "卡胡卢伊机场",
+  "file": "data-global-3.json",
+  "id": "OGG/PHOG",
+  "to": 16,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "关岛安东尼奥·汪帕特国际机场",
+  "file": "data-global-3.json",
+  "id": "GUM/PGUM",
+  "to": 91,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "多伦多皮尔逊国际机场",
+  "file": "data-global-3.json",
+  "id": "YYZ/CYYZ",
+  "to": 173,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "温哥华国际机场",
+  "file": "data-global-3.json",
+  "id": "YVR/CYVR",
+  "to": 4,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "蒙特利尔特鲁多国际机场",
+  "file": "data-global-3.json",
+  "id": "YUL/CYUL",
+  "to": 36,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "卡尔加里国际机场",
+  "file": "data-global-3.json",
+  "id": "YYC/CYYC",
+  "to": 1084,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "渥太华麦克唐纳-卡蒂埃机场",
+  "file": "data-global-3.json",
+  "id": "YOW/CYOW",
+  "to": 114,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "埃德蒙顿国际机场",
+  "file": "data-global-3.json",
+  "id": "YEG/CYEG",
+  "to": 723,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "温尼伯理查德森国际机场",
+  "file": "data-global-3.json",
+  "id": "YWG/CYWG",
+  "to": 239,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "哈利法克斯斯坦菲尔德国际机场",
+  "file": "data-global-3.json",
+  "id": "YHZ/CYHZ",
+  "to": 145,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "维多利亚国际机场",
+  "file": "data-global-3.json",
+  "id": "YYJ/CYYJ",
+  "to": 19,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "魁北克让·勒萨热国际机场",
+  "file": "data-global-3.json",
+  "id": "YQB/CYQB",
+  "to": 74,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "墨西哥城贝尼托·华雷斯国际机场",
+  "file": "data-global-3.json",
+  "id": "MEX/MMMX",
+  "to": 2230,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "坎昆国际机场",
+  "file": "data-global-3.json",
+  "id": "CUN/MMUN",
+  "to": 7,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "瓜达拉哈拉米格尔·伊达尔戈机场",
+  "file": "data-global-3.json",
+  "id": "GDL/MMGL",
+  "to": 1529,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "蒙特雷机场",
+  "file": "data-global-3.json",
+  "id": "MTY/MMMY",
+  "to": 390,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "蒂华纳国际机场",
+  "file": "data-global-3.json",
+  "id": "TIJ/MMTJ",
+  "to": 149,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "洛斯卡沃斯国际机场",
+  "file": "data-global-3.json",
+  "id": "SJD/MMSD",
+  "to": 114,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴拿马城托库门国际机场",
+  "file": "data-global-3.json",
+  "id": "PTY/MPTO",
+  "to": 41,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣保罗瓜鲁柳斯国际机场",
+  "file": "data-global-3.json",
+  "id": "GRU/SBGR",
+  "to": 750,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣保罗孔戈尼亚斯机场",
+  "file": "data-global-3.json",
+  "id": "CGH/SBSP",
+  "to": 802,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "里约热内卢加利昂国际机场",
+  "file": "data-global-3.json",
+  "id": "GIG/SBGL",
+  "to": 9,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "巴西利亚总统儒塞利诺·库比契克国际机场",
+  "file": "data-global-3.json",
+  "id": "BSB/SBBR",
+  "to": 1066,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "布宜诺斯艾利斯埃塞萨国际机场",
+  "file": "data-global-3.json",
+  "id": "EZE/SAEZ",
+  "to": 20,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "圣地亚哥阿图罗·梅里诺·贝尼特斯国际机场",
+  "file": "data-global-3.json",
+  "id": "SCL/SCEL",
+  "to": 474,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "利马豪尔赫·查韦斯国际机场",
+  "file": "data-global-3.json",
+  "id": "LIM/SPJC",
+  "to": 34,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "波哥大埃尔多拉多国际机场",
+  "file": "data-global-3.json",
+  "id": "BOG/SKBO",
+  "to": 2548,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "基多苏克雷元帅国际机场",
+  "file": "data-global-3.json",
+  "id": "UIO/SEQM",
+  "to": 2390,
+  "via": "ourairports"
+ },
+ {
+  "nameZh": "蒙得维的亚卡拉斯科国际机场",
+  "file": "data-global-3.json",
+  "id": "MVD/SUMU",
+  "to": 32,
+  "via": "ourairports"
+ }
+]

@@ -1,7 +1,7 @@
 {
   "version": "2026.9.2",
   "count": 553,
-  "updatedAt": "2026-09-14 23:08",
+  "updatedAt": "2026-09-14 23:19",
   "sources": [
     {
       "name": "airportsdata",
@@ -38,7 +38,7 @@
     "cityEn": 100,
     "lat": 100,
     "lng": 100,
-    "elevM": 14,
+    "elevM": 93,
     "tz": 100
   }
 }

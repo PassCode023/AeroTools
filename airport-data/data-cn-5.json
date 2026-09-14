@@ -41,7 +41,8 @@
     "tz": "Asia/Shanghai",
     "aliases": [],
     "icao": "ZGXX",
-    "caacRef": "p01e03"
+    "caacRef": "p01e03",
+    "elevM": 702
   },
   {
     "iata": "SZH",
@@ -55,7 +56,8 @@
     "tz": "Asia/Shanghai",
     "aliases": [],
     "icao": "ZBSG",
-    "caacRef": "p01e05"
+    "caacRef": "p01e05",
+    "elevM": 1043
   },
   {
     "iata": "XNT",
@@ -335,7 +337,8 @@
     "tz": "Asia/Shanghai",
     "aliases": [],
     "icao": "ZULB",
-    "caacRef": "p23e07"
+    "caacRef": "p23e07",
+    "elevM": 825
   },
   {
     "iata": "HZH",
@@ -452,7 +455,8 @@
     "tz": "Asia/Shanghai",
     "aliases": [],
     "icao": "ZBHZ",
-    "caacRef": "p26e09"
+    "caacRef": "p26e09",
+    "elevM": 975
   },
   {
     "iata": "YTW",
