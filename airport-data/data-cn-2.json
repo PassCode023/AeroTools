@@ -789,7 +789,7 @@
   },
   {
     "iata": "HJJ",
-    "icao": "ZGHC",
+    "icao": "ZGCJ",
     "nameZh": "怀化芷江机场",
     "nameEn": "Huaihua Zhijiang Airport",
     "cityZh": "怀化",
@@ -1079,17 +1079,18 @@
     "caacRef": "p15e04"
   },
   {
-    "iata": "HCJ",
-    "icao": "ZGJJ",
+    "iata": "HNI",
+    "icao": "ZGHC",
     "nameZh": "河池金城江机场",
     "nameEn": "Hechi Jinchengjiang Airport",
     "cityZh": "河池",
     "cityEn": "Hechi",
     "country": "中国",
-    "lat": 24.75,
-    "lng": 108.07,
+    "lat": 24.804344,
+    "lng": 107.710819,
     "tz": "Asia/Shanghai",
-    "caacRef": "p19e09"
+    "caacRef": "p19e09",
+    "elevM": 677
   },
   {
     "iata": "HAK",

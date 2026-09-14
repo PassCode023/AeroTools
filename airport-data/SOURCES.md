@@ -52,3 +52,19 @@
 - 名录站点 CDN 存在新旧快照混杂，第 9 页经三重交叉验证恢复（差集法 + 官方排名表 + 直读复核），详见 `docs/V1.0.2-迭代记录.md`。
 - 名录独立交叉验证（同日第二会话）：人工逐页浏览 27 页生成快照 `tools/caac-snapshot-2026-09-14.json`，经 `tools/caac-xcheck.js` 比对为集合级 0 差异（270 名称与省市属性两源一致）；第 6/8/9 页 30 处槽位轮转符合 CDN 快照混杂预期，登记表内容获得独立复现确认。
 - 开源 CSV 可复现性：第二会话经 `tools/fetch.js` 重新下载，两文件 SHA-256 与本登记表逐字节一致（ourairports `47880571…0529`、airportsdata `516c57d9…cf52`），上游快照可精确复现。
+
+### 首批"无上游对应"裁定（2026-09-14，依据 arbitrate.js 矩阵，工具脚本 `tools/arbitrate-6.js`）
+
+上游证据均为人工逐行核对两份登记 CSV；矩阵：icao/坐标/海拔以 OurAirports 优先、iata/时区以 airportsdata 优先、缺位回落次位。
+
+| 机场 | 裁定 | 依据 |
+|---|---|---|
+| 河池金城江 | icao ZGJJ→ZGHC、iata HCJ→HNI、坐标→OA 精确值（旧值偏约 6km）、海拔 677m | ZGHC 双源一致；iata 取 AD 权威值（OA=HCJ 不采）；海拔双源 2221ft |
+| 三沙永兴 | 不改（XYI/ZJYH） | 两上游均未收录该机场；名录 p13e09 为法源 |
+| 海西茫崖 | icao ZLHT→ZLHX、iata HXG→HTT、坐标→OA（旧值偏约 17km）、海拔 898m | AD 未收录，回落 OA 单源；nameEn 保留现值（含 Mangya 检索词） |
+| 且末玉都 | icao ZWQM→ZWCM、iata QMX→IQM、坐标→OA 新址（AD 坐标疑为老场址）、海拔 1252m | 代码双源一致；OA 名含 Yudu 与新址对应 |
+| 若羌楼兰 | iata RZX→RQA、icao 空→ZWRQ、坐标→双源一致精确值（旧值偏约 17km）、海拔 889m | 双源完全一致（ZWRQ/RQA） |
+| 比什凯克玛纳斯 | iata FRU→BSZ、icao UAFM→UCFM、坐标→OA 精确值、海拔 627m | 双源一致；吉尔吉斯斯坦换码（OA keywords 保留 FRU/UAFM 旧码为证） |
+| 怀化芷江（连带） | icao ZGHC→ZGCJ | 双源一致；库内旧值误占河池 ICAO，被唯一性门禁逮获 |
+
+上述 iata 单源回落（海西茫崖 HTT）与 AD 权威改写（河池 HNI）建议上线前按官方 AIP 复核；旧码遗留于本表与提交历史，可回溯。

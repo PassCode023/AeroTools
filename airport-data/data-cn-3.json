@@ -750,20 +750,21 @@
     "caacRef": "p09e05"
   },
   {
-    "iata": "HXG",
-    "icao": "ZLHT",
+    "iata": "HTT",
+    "icao": "ZLHX",
     "nameZh": "海西茫崖机场",
     "nameEn": "Mangya Huatugou Airport",
     "cityZh": "茫崖",
     "cityEn": "Mangya",
     "country": "中国",
-    "lat": 38.35,
-    "lng": 90.85,
+    "lat": 38.201645,
+    "lng": 90.837843,
     "tz": "Asia/Shanghai",
     "aliases": [
       "茫崖花土沟机场"
     ],
-    "caacRef": "p18e03"
+    "caacRef": "p18e03",
+    "elevM": 898
   },
   {
     "iata": "DLH",
@@ -991,17 +992,18 @@
     "caacRef": "p24e02"
   },
   {
-    "iata": "QMX",
-    "icao": "ZWQM",
+    "iata": "IQM",
+    "icao": "ZWCM",
     "nameZh": "且末玉都机场",
     "nameEn": "Qiemo Yudu Airport",
     "cityZh": "且末",
     "cityEn": "Qiemo",
     "country": "中国",
-    "lat": 38.13,
-    "lng": 85.55,
+    "lat": 38.234516,
+    "lng": 85.465462,
     "tz": "Asia/Shanghai",
-    "caacRef": "p26e08"
+    "caacRef": "p26e08",
+    "elevM": 1252
   },
   {
     "iata": "KCA",
@@ -1029,16 +1031,18 @@
     "caacRef": "p26e03"
   },
   {
-    "iata": "RZX",
+    "iata": "RQA",
     "nameZh": "若羌楼兰机场",
     "nameEn": "Ruoqiang Loulan Airport",
     "cityZh": "若羌",
     "cityEn": "Ruoqiang",
     "country": "中国",
-    "lat": 39.02,
-    "lng": 88.17,
+    "lat": 38.974722,
+    "lng": 88.008333,
     "tz": "Asia/Shanghai",
-    "caacRef": "p27e04"
+    "caacRef": "p27e04",
+    "icao": "ZWRQ",
+    "elevM": 889
   },
   {
     "iata": "HKG",

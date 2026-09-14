@@ -3,42 +3,13 @@
   "curatedCount": 553,
   "fields": {
     "curatedTotal": 553,
-    "matchedUpstream": 547,
+    "matchedUpstream": 552,
     "noUpstreamMatch": [
-      {
-        "nameZh": "河池金城江机场",
-        "iata": "HCJ",
-        "icao": "ZGJJ",
-        "caacRef": "p19e09"
-      },
       {
         "nameZh": "三沙永兴机场",
         "iata": "XYI",
         "icao": "ZJYH",
         "caacRef": "p13e09"
-      },
-      {
-        "nameZh": "海西茫崖机场",
-        "iata": "HXG",
-        "icao": "ZLHT",
-        "caacRef": "p18e03"
-      },
-      {
-        "nameZh": "且末玉都机场",
-        "iata": "QMX",
-        "icao": "ZWQM",
-        "caacRef": "p26e08"
-      },
-      {
-        "nameZh": "若羌楼兰机场",
-        "iata": "RZX",
-        "icao": "",
-        "caacRef": "p27e04"
-      },
-      {
-        "nameZh": "比什凯克玛纳斯国际机场",
-        "iata": "FRU",
-        "icao": "UAFM"
       }
     ],
     "changes": [
@@ -2829,39 +2800,21 @@
         ]
       },
       {
-        "id": "HJJ/ZGHC",
+        "id": "HJJ/ZGCJ",
         "nameZh": "怀化芷江机场",
         "file": "data-cn-2.json",
         "diffs": [
           {
-            "field": "iata",
-            "from": "HJJ",
-            "to": "HNI",
-            "via": "airportsdata"
-          },
-          {
-            "field": "nameEn",
-            "from": "Huaihua Zhijiang Airport",
-            "to": "Hechi Jinchengjiang Airport",
-            "via": "ourairports"
-          },
-          {
-            "field": "cityEn",
-            "from": "Huaihua",
-            "to": "Hechi (Jinchengjiang)",
-            "via": "ourairports"
-          },
-          {
             "field": "lat/lng",
             "from": "27.45,109.8",
-            "to": "24.804344,107.710819",
+            "to": "27.443087,109.704666",
             "via": "ourairports",
             "severity": "high"
           },
           {
             "field": "elevM",
             "from": "",
-            "to": 677,
+            "to": 269,
             "via": "ourairports",
             "backfill": true
           }
@@ -3400,6 +3353,19 @@
             "to": 149,
             "via": "ourairports",
             "backfill": true
+          }
+        ]
+      },
+      {
+        "id": "HNI/ZGHC",
+        "nameZh": "河池金城江机场",
+        "file": "data-cn-2.json",
+        "diffs": [
+          {
+            "field": "cityEn",
+            "from": "Hechi",
+            "to": "Hechi (Jinchengjiang)",
+            "via": "ourairports"
           }
         ]
       },
@@ -4986,6 +4952,25 @@
         ]
       },
       {
+        "id": "HTT/ZLHX",
+        "nameZh": "海西茫崖机场",
+        "file": "data-cn-3.json",
+        "diffs": [
+          {
+            "field": "nameEn",
+            "from": "Mangya Huatugou Airport",
+            "to": "Huatugou Airport",
+            "via": "ourairports"
+          },
+          {
+            "field": "cityEn",
+            "from": "Mangya",
+            "to": "Mengnai",
+            "via": "ourairports"
+          }
+        ]
+      },
+      {
         "id": "DLH/ZLDL",
         "nameZh": "海西德令哈机场",
         "file": "data-cn-3.json",
@@ -5475,6 +5460,19 @@
             "to": 518,
             "via": "ourairports",
             "backfill": true
+          }
+        ]
+      },
+      {
+        "id": "RQA/ZWRQ",
+        "nameZh": "若羌楼兰机场",
+        "file": "data-cn-3.json",
+        "diffs": [
+          {
+            "field": "cityEn",
+            "from": "Ruoqiang",
+            "to": "Ruoqiang Town",
+            "via": "ourairports"
           }
         ]
       },
@@ -10824,6 +10822,19 @@
             "to": 432,
             "via": "ourairports",
             "backfill": true
+          }
+        ]
+      },
+      {
+        "id": "BSZ/UCFM",
+        "nameZh": "比什凯克玛纳斯国际机场",
+        "file": "data-global-2.json",
+        "diffs": [
+          {
+            "field": "nameEn",
+            "from": "Bishkek Manas International Airport",
+            "to": "Manas International Airport",
+            "via": "ourairports"
           }
         ]
       },

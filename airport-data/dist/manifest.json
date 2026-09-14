@@ -1,7 +1,7 @@
 {
   "version": "2026.9.2",
   "count": 553,
-  "updatedAt": "2026-09-14 19:24",
+  "updatedAt": "2026-09-14 23:08",
   "file": "airports-2026.9.2.json",
   "sources": [
     {
@@ -32,14 +32,14 @@
   },
   "completeness": {
     "iata": 100,
-    "icao": 97,
+    "icao": 98,
     "nameZh": 100,
     "nameEn": 100,
     "cityZh": 100,
     "cityEn": 100,
     "lat": 100,
     "lng": 100,
-    "elevM": 13,
+    "elevM": 14,
     "tz": 100
   }
 }

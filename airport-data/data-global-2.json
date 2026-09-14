@@ -749,16 +749,17 @@
     "tz": "Asia/Tashkent"
   },
   {
-    "iata": "FRU",
-    "icao": "UAFM",
+    "iata": "BSZ",
+    "icao": "UCFM",
     "nameZh": "比什凯克玛纳斯国际机场",
     "nameEn": "Bishkek Manas International Airport",
     "cityZh": "比什凯克",
     "cityEn": "Bishkek",
     "country": "吉尔吉斯斯坦",
-    "lat": 43.06,
-    "lng": 74.48,
-    "tz": "Asia/Bishkek"
+    "lat": 43.061298,
+    "lng": 74.4776,
+    "tz": "Asia/Bishkek",
+    "elevM": 627
   },
   {
     "iata": "TBS",
