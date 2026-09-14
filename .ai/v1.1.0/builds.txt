@@ -1,0 +1,24 @@
+== v1.1.0 构建证据（2026-09-15） ==
+
+-- npm test:
+[2m   Start at [22m 00:26:18
+[2m   Duration [22m 574ms[2m (transform 657ms, setup 0ms, collect 1.18s, tests 201ms, environment 2ms, prepare 1.21s)[22m
+
+
+-- npm run type-check:
+
+exit=0
+
+-- npm run build:h5:
+DONE  Build complete.
+
+-- npm run build:mp-weixin:
+DONE  Build complete.
+Run method: open Weixin Mini Program Devtools, import [36mdist\build\mp-weixin[39m run.
+
+-- npm run build:app:
+DONE  Build complete.
+Run method: open HBuilderX, import [36mdist\build\app[39m run.
+
+-- 微信产物大小:
+759	dist/build/mp-weixin

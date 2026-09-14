@@ -46,6 +46,9 @@ function goTimeCalc() {
 function goAirportSearch() {
   uni.navigateTo({ url: '/pages/airport-search/airport-search' })
 }
+function goConvert() {
+  uni.navigateTo({ url: '/pages/convert/convert' })
+}
 function goSettings() {
   uni.navigateTo({ url: '/pages/settings/settings' })
 }
@@ -88,6 +91,17 @@ function goSettings() {
         <view class="entry-text">
           <text class="entry-title">机场查询</text>
           <text class="entry-desc">IATA / ICAO / 中文名 / 城市</text>
+        </view>
+        <text class="entry-arrow">›</text>
+      </button>
+
+      <button class="entry" @tap="goConvert">
+        <view class="entry-icon warm">
+          <text>📐</text>
+        </view>
+        <view class="entry-text">
+          <text class="entry-title">单位换算</text>
+          <text class="entry-desc">ft/m · NM/km · kt · inHg/hPa · 离线</text>
         </view>
         <text class="entry-arrow">›</text>
       </button>
@@ -233,6 +247,9 @@ function goSettings() {
 }
 .entry-icon.green {
   background: var(--at-success-soft);
+}
+.entry-icon.warm {
+  background: var(--at-danger-soft);
 }
 .entry-text {
   flex: 1;

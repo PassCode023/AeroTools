@@ -1,6 +1,6 @@
 {
   "name": "aerotools",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "AeroTools 民航工具箱 — 时间计算 + 机场查询（Android/iOS/微信小程序）",
   "scripts": {
     "dev:h5": "uni",

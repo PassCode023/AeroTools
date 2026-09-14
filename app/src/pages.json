@@ -13,6 +13,10 @@
       "style": { "navigationBarTitleText": "机场查询" }
     },
     {
+      "path": "pages/convert/convert",
+      "style": { "navigationBarTitleText": "单位换算" }
+    },
+    {
       "path": "pages/settings/settings",
       "style": { "navigationBarTitleText": "设置" }
     }
