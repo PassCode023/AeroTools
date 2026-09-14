@@ -7,8 +7,8 @@
     "cityZh": "万州",
     "cityEn": "Wanzhou",
     "country": "中国",
-    "lat": 30.77,
-    "lng": 108.42,
+    "lat": 30.8017,
+    "lng": 108.433,
     "tz": "Asia/Shanghai",
     "aliases": [
       "重庆万州五桥机场"
@@ -169,8 +169,8 @@
     "cityZh": "图木舒克",
     "cityEn": "Tumxuk",
     "country": "中国",
-    "lat": 39.888139,
-    "lng": 79.231911,
+    "lat": 39.886663,
+    "lng": 79.233408,
     "tz": "Asia/Shanghai",
     "caacRef": "p27e05",
     "icao": "ZWTS",

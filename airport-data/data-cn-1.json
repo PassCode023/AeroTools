@@ -7,8 +7,8 @@
     "cityZh": "北京",
     "cityEn": "Beijing",
     "country": "中国",
-    "lat": 40.08,
-    "lng": 116.58,
+    "lat": 40.077349,
+    "lng": 116.596702,
     "tz": "Asia/Shanghai",
     "elevM": 35,
     "caacRef": "p02e07"
@@ -21,8 +21,8 @@
     "cityZh": "北京",
     "cityEn": "Beijing",
     "country": "中国",
-    "lat": 39.51,
-    "lng": 116.41,
+    "lat": 39.501289,
+    "lng": 116.413967,
     "tz": "Asia/Shanghai",
     "elevM": 30,
     "caacRef": "p05e06"
@@ -35,8 +35,8 @@
     "cityZh": "天津",
     "cityEn": "Tianjin",
     "country": "中国",
-    "lat": 39.12,
-    "lng": 117.35,
+    "lat": 39.124401092499994,
+    "lng": 117.346000671,
     "tz": "Asia/Shanghai",
     "elevM": 3,
     "caacRef": "p02e06"
@@ -49,8 +49,8 @@
     "cityZh": "石家庄",
     "cityEn": "Shijiazhuang",
     "country": "中国",
-    "lat": 38.28,
-    "lng": 114.7,
+    "lat": 38.280701,
+    "lng": 114.696999,
     "tz": "Asia/Shanghai",
     "elevM": 71,
     "caacRef": "p03e03"
@@ -63,8 +63,8 @@
     "cityZh": "邯郸",
     "cityEn": "Handan",
     "country": "中国",
-    "lat": 36.53,
-    "lng": 114.4,
+    "lat": 36.524824,
+    "lng": 114.424126,
     "tz": "Asia/Shanghai",
     "caacRef": "p09e04",
     "elevM": 70
@@ -77,8 +77,8 @@
     "cityZh": "秦皇岛",
     "cityEn": "Qinhuangdao",
     "country": "中国",
-    "lat": 39.68,
-    "lng": 119.02,
+    "lat": 39.666384,
+    "lng": 119.061384,
     "tz": "Asia/Shanghai",
     "caacRef": "p14e07",
     "elevM": 14
@@ -91,8 +91,8 @@
     "cityZh": "唐山",
     "cityEn": "Tangshan",
     "country": "中国",
-    "lat": 39.72,
-    "lng": 118.01,
+    "lat": 39.7178,
+    "lng": 118.002625,
     "tz": "Asia/Shanghai",
     "caacRef": "p11e10",
     "elevM": 15
@@ -133,8 +133,8 @@
     "cityZh": "大同",
     "cityEn": "Datong",
     "country": "中国",
-    "lat": 40.06,
-    "lng": 113.48,
+    "lat": 40.06139,
+    "lng": 113.480509,
     "tz": "Asia/Shanghai",
     "aliases": [
       "大同云冈机场"
@@ -150,8 +150,8 @@
     "cityZh": "太原",
     "cityEn": "Taiyuan",
     "country": "中国",
-    "lat": 37.75,
-    "lng": 112.63,
+    "lat": 37.746899,
+    "lng": 112.627998,
     "tz": "Asia/Shanghai",
     "elevM": 783,
     "caacRef": "p03e02"
@@ -164,8 +164,8 @@
     "cityZh": "长治",
     "cityEn": "Changzhi",
     "country": "中国",
-    "lat": 36.25,
-    "lng": 113.09,
+    "lat": 36.247501,
+    "lng": 113.125999,
     "tz": "Asia/Shanghai",
     "caacRef": "p11e09"
   },
@@ -205,8 +205,8 @@
     "cityZh": "吕梁",
     "cityEn": "Lüliang",
     "country": "中国",
-    "lat": 37.67,
-    "lng": 111.19,
+    "lat": 37.683333,
+    "lng": 111.142778,
     "tz": "Asia/Shanghai",
     "caacRef": "p14e06",
     "elevM": 1160
@@ -236,8 +236,8 @@
     "cityZh": "呼和浩特",
     "cityEn": "Hohhot",
     "country": "中国",
-    "lat": 40.85,
-    "lng": 111.82,
+    "lat": 40.849658,
+    "lng": 111.824598,
     "tz": "Asia/Shanghai",
     "elevM": 1085,
     "caacRef": "p03e01"
@@ -264,8 +264,8 @@
     "cityZh": "包头",
     "cityEn": "Baotou",
     "country": "中国",
-    "lat": 40.56,
-    "lng": 110.01,
+    "lat": 40.560001,
+    "lng": 109.997002,
     "tz": "Asia/Shanghai",
     "aliases": [
       "包头东河机场"
@@ -309,8 +309,8 @@
     "cityZh": "鄂尔多斯",
     "cityEn": "Ordos",
     "country": "中国",
-    "lat": 39.49,
-    "lng": 109.86,
+    "lat": 39.493514,
+    "lng": 109.8599,
     "tz": "Asia/Shanghai",
     "caacRef": "p06e10",
     "elevM": 1389
@@ -378,8 +378,8 @@
     "cityZh": "乌兰浩特",
     "cityEn": "Ulanhot",
     "country": "中国",
-    "lat": 46.19,
-    "lng": 122.01,
+    "lat": 46.195333,
+    "lng": 122.008333,
     "tz": "Asia/Shanghai",
     "caacRef": "p19e01"
   },
@@ -391,8 +391,8 @@
     "cityZh": "阿尔山",
     "cityEn": "Arxan",
     "country": "中国",
-    "lat": 47.29,
-    "lng": 119.92,
+    "lat": 47.3106,
+    "lng": 119.9117,
     "tz": "Asia/Shanghai",
     "caacRef": "p25e07",
     "elevM": 892
@@ -405,8 +405,8 @@
     "cityZh": "呼伦贝尔",
     "cityEn": "Hulunbuir",
     "country": "中国",
-    "lat": 49.21,
-    "lng": 119.82,
+    "lat": 49.208616,
+    "lng": 119.822301,
     "tz": "Asia/Shanghai",
     "aliases": [
       "呼伦贝尔海拉尔机场"
@@ -422,8 +422,8 @@
     "cityZh": "满洲里",
     "cityEn": "Manzhouli",
     "country": "中国",
-    "lat": 49.57,
-    "lng": 117.32,
+    "lat": 49.566667,
+    "lng": 117.33,
     "tz": "Asia/Shanghai",
     "aliases": [
       "满洲里西郊国际机场"
@@ -439,8 +439,8 @@
     "cityZh": "沈阳",
     "cityEn": "Shenyang",
     "country": "中国",
-    "lat": 41.64,
-    "lng": 123.48,
+    "lat": 41.6398,
+    "lng": 123.483668,
     "tz": "Asia/Shanghai",
     "elevM": 65,
     "caacRef": "p09e01"
@@ -453,8 +453,8 @@
     "cityZh": "大连",
     "cityEn": "Dalian",
     "country": "中国",
-    "lat": 38.97,
-    "lng": 121.54,
+    "lat": 38.965719,
+    "lng": 121.538477,
     "tz": "Asia/Shanghai",
     "caacRef": "p02e10",
     "elevM": 33
@@ -511,8 +511,8 @@
     "cityZh": "朝阳",
     "cityEn": "Chaoyang",
     "country": "中国",
-    "lat": 41.54,
-    "lng": 120.43,
+    "lat": 41.538101,
+    "lng": 120.434998,
     "tz": "Asia/Shanghai",
     "caacRef": "p18e10",
     "elevM": 173
@@ -538,8 +538,8 @@
     "cityZh": "长春",
     "cityEn": "Changchun",
     "country": "中国",
-    "lat": 43.99,
-    "lng": 125.69,
+    "lat": 43.996201,
+    "lng": 125.684998,
     "tz": "Asia/Shanghai",
     "elevM": 215,
     "caacRef": "p02e09"
@@ -564,8 +564,8 @@
     "cityZh": "延吉",
     "cityEn": "Yanji",
     "country": "中国",
-    "lat": 42.88,
-    "lng": 129.45,
+    "lat": 42.8828010559,
+    "lng": 129.451004028,
     "tz": "Asia/Shanghai",
     "caacRef": "p05e10",
     "elevM": 190
@@ -634,7 +634,7 @@
     "cityZh": "哈尔滨",
     "cityEn": "Harbin",
     "country": "中国",
-    "lat": 45.62,
+    "lat": 45.623402,
     "lng": 126.25,
     "tz": "Asia/Shanghai",
     "elevM": 139,
@@ -648,8 +648,8 @@
     "cityZh": "齐齐哈尔",
     "cityEn": "Qiqihar",
     "country": "中国",
-    "lat": 47.24,
-    "lng": 123.92,
+    "lat": 47.229969,
+    "lng": 123.914179,
     "tz": "Asia/Shanghai",
     "caacRef": "p14e03",
     "elevM": 145
@@ -662,8 +662,8 @@
     "cityZh": "牡丹江",
     "cityEn": "Mudanjiang",
     "country": "中国",
-    "lat": 44.53,
-    "lng": 129.57,
+    "lat": 44.525172,
+    "lng": 129.568634,
     "tz": "Asia/Shanghai",
     "caacRef": "p05e09",
     "elevM": 269
@@ -676,8 +676,8 @@
     "cityZh": "佳木斯",
     "cityEn": "Jiamusi",
     "country": "中国",
-    "lat": 46.84,
-    "lng": 130.49,
+    "lat": 46.842793,
+    "lng": 130.46426,
     "tz": "Asia/Shanghai",
     "aliases": [
       "佳木斯东郊机场"
@@ -776,8 +776,8 @@
     "cityZh": "加格达奇",
     "cityEn": "Jiagedaqi",
     "country": "中国",
-    "lat": 50.39,
-    "lng": 124.11,
+    "lat": 50.371389,
+    "lng": 124.1175,
     "tz": "Asia/Shanghai",
     "aliases": [
       "加格达奇嘎仙机场"
