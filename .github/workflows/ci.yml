@@ -21,6 +21,9 @@ jobs:
           cache: npm
           cache-dependency-path: app/package-lock.json
       - run: npm ci
+      - name: 数据管道单测（node:test 零依赖，CSV 解析/三源规范化/裁定矩阵）
+        working-directory: airport-data/tools
+        run: node --test tests/csv.test.js tests/sources.test.js tests/arbitrate.test.js
       - name: 机场数据契约与全部测试（vitest，含 caacRef 270 门禁）
         run: npm test
       - name: TypeScript 类型检查（src + tests）

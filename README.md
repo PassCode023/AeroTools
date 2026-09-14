@@ -28,6 +28,8 @@
 
 资料整理截至日期、人工核验日期、覆盖状态（270/270）与字段完整率记录在 `app/src/dbversion.json`（由 `airport-data/build.js` 生成）；数据仅供参考，以官方 AIP 为准。
 
+三源的信任优先级、抓取方式与季度更新流程见[数据源与更新 SOP](docs/数据源与更新SOP.md)（工具链：`tools/fetch.js` 下载登记 / `tools/reconcile.js` 对账线索 / `tools/caac-xcheck.js` 名录交叉验证 / `tools/arbitrate.js` 字段裁定矩阵）。
+
 ## 目录结构
 
 ```
@@ -44,7 +46,7 @@
 │  ├─ data-*.json          # 机场源数据（按区域分文件，含 caacRef/aliases）
 │  ├─ caac-registry.json   # 民航局名录人工核对快照（27 页 × 10 条）
 │  ├─ SOURCES.md           # 来源登记表（URL/许可证/SHA-256）
-│  ├─ tools/               # 本地对账与迁移脚本（离线）
+│  ├─ tools/               # 更新工具链与迁移脚本（fetch/reconcile/arbitrate/xcheck，离线为主）
 │  ├─ build.js             # 合并 → 校验（caacRef=270 门禁）→ 产出
 │  └─ dist/                # 远端更新部署产物（manifest + 数据包）
 ├─ .github/workflows/      # 最小 CI（测试→类型检查→三端构建，离线）
