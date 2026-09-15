@@ -13,7 +13,7 @@
 
 ### 🛡️ 工程与质量
 
-- 严格 TDD:红灯 `.ai/v1.1.2/tdd/red-run-1.txt`(switchKind 5 例失败),绿灯 `green-run-1.txt`;`calcInput` 移除 `ok` 分支、新增 `switchKind` 纯函数,badOp 防御分支改经运算符提交路径覆盖;全量测试 **193** 项全绿(较基线净增 4:删 1 增 5;基线复核实为 189,v1.1.1 记录的 188 系少计)。
+- 严格 TDD:红灯 `.ai/v1.1.2/tdd/red-run-1.txt`(switchKind 5 例失败),绿灯 `green-run-1.txt`;`calcInput` 移除 `ok` 分支、新增 `switchKind` 纯函数,badOp 防御分支改经运算符提交路径覆盖(改写非增删);全量测试 **193** 项全绿(v1.1.1 基线 188 + 本版新增 5 例)。
 - 版本一致性门禁通过(package.json / manifest.json versionName+versionCode / APP_VERSION 三处同步)。
 
 ## v1.1.1(2026-09-15)

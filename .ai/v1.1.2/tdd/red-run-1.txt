@@ -1,0 +1,25 @@
+    [90m190| [39m    [35mconst[39m s [33m=[39m [34mpress[39m([34mfreshState[39m()[33m,[39m [32m'1'[39m[33m,[39m [32m'2'[39m)[33m.[39mstate
+    [90m191| [39m    [35mconst[39m r [33m=[39m [34mswitchKind[39m(s[33m,[39m [32m'duration'[39m)
+    [90m   | [39m              [31m^[39m
+    [90m192| [39m    [34mexpect[39m(r[33m.[39mstate[33m.[39minputKind)[33m.[39m[34mtoBe[39m([32m'duration'[39m)
+    [90m193| [39m    [34mexpect[39m(r[33m.[39mstate[33m.[39mbuf)[33m.[39m[34mtoBe[39m([32m'12'[39m)
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/5]⎯[22m[39m
+
+[31m[1m[7m FAIL [27m[22m[39m tests/calcInput.test.ts[2m > [22mswitchKind 切换类型重校验(v1.1.2:✓ 键移除后的提交兜底)[2m > [22m约束外的类型切换被忽略(时刻+ 后只能输时长)
+[31m[1mTypeError[22m: switchKind is not a function[39m
+[36m [2m❯[22m tests/calcInput.test.ts:[2m199:15[22m[39m
+    [90m197| [39m  [34mit[39m([32m'约束外的类型切换被忽略(时刻+ 后只能输时长)'[39m[33m,[39m () [33m=>[39m {
+    [90m198| [39m    [35mconst[39m s [33m=[39m [34mpress[39m([34mfreshState[39m()[33m,[39m [32m'1'[39m[33m,[39m [32m'0'[39m[33m,[39m [32m'0'[39m[33m,[39m [32m'0'[39m[33m,[39m [32m'add'[39m)[33m.[39mstate
+    [90m199| [39m    [35mconst[39m r [33m=[39m [34mswitchKind[39m(s[33m,[39m [32m'clock'[39m)
+    [90m   | [39m              [31m^[39m
+    [90m200| [39m    [34mexpect[39m(r[33m.[39mstate[33m.[39minputKind)[33m.[39m[34mtoBe[39m([32m'duration'[39m)
+    [90m201| [39m    [34mexpect[39m(r[33m.[39mevent)[33m.[39m[34mtoBeNull[39m()
+
+[31m[2m⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/5]⎯[22m[39m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m5 failed[39m[22m[2m | [22m[1m[32m16 passed[39m[22m[90m (21)[39m
+[2m   Start at [22m 10:39:01
+[2m   Duration [22m 269ms[2m (transform 36ms, setup 0ms, collect 39ms, tests 9ms, environment 0ms, prepare 66ms)[22m
+

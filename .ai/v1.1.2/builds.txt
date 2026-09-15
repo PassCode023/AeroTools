@@ -1,0 +1,38 @@
+== v1.1.2 构建证据（2026-09-15，HEAD d65e9ec 补录） ==
+
+-- 数据管道 node:test:
+ℹ tests 20
+ℹ pass 20
+ℹ fail 0
+
+-- npm test (vitest):
+ Test Files 13 passed (13)
+      Tests 193 passed (193)
+
+-- npm run type-check:
+
+exit=0
+
+-- npm run build:h5:
+DONE  Build complete.
+
+-- npm run build:mp-weixin:
+DONE  Build complete.
+Run method: open Weixin Mini Program Devtools, import dist\build\mp-weixin run.
+
+-- npm run build:app:
+DONE  Build complete.
+Run method: open HBuilderX, import dist\build\app run.
+
+-- 三端产物大小 (KB):
+852	dist/build/mp-weixin
+918	dist/build/h5
+1561	dist/build/app
+
+-- 微信产物 pinyin 运行时检查:
+未检出（通过）
+
+-- 微信产物 ✓ 死键残留检查（v1.1.2 专项，time-calc 页）:
+未检出（通过）
+
+说明：v1.1.2 提交时（5732230）构建证据未随录，本文件为 2026-09-15 在同一 HEAD（d65e9ec，v1.1.2 之后仅含 docs/gitignore 改动）补跑全量门禁所得。
