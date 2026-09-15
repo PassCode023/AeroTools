@@ -12,9 +12,11 @@ import {
 import {
   freshState,
   pressKey,
+  switchKind,
   canInput,
   opEnabled,
   allowedKinds,
+  type KeyResult,
 } from '../../utils/calcInput'
 import { loadHistory, addHistory, clearHistory, type HistoryEntry } from '../../utils/calcHistory'
 import { useTheme, syncNavBar } from '../../utils/theme'
@@ -67,6 +69,11 @@ const inputLine = computed(() => {
 
 const showHint = computed(() => !state.value.acc && !state.value.buf)
 
+/* ---- 计算链展示：最新一条置顶（位置稳定，反馈①配套）；超过限量只显示最近若干条，完整过程见历史 ---- */
+const MAX_VISIBLE_STEPS = 8
+const recentSteps = computed(() => steps.value.slice(-MAX_VISIBLE_STEPS).reverse())
+const hiddenSteps = computed(() => steps.value.length > MAX_VISIBLE_STEPS)
+
 const errorText = computed(() => {
   switch (state.value.error) {
     case 'incomplete':
@@ -83,11 +90,10 @@ const errorText = computed(() => {
 })
 
 /* ---- 按键处理：状态流转在 calcInput，这里只消费事件（计算链/历史属视图副作用） ---- */
-function onKey(k: string): void {
-  const { state: next, event } = pressKey(state.value, k)
-  state.value = next
-  if (!event || event.type !== 'computed') return
-  const { op, left, right, result } = event.ev
+function consume(r: KeyResult): void {
+  state.value = r.state
+  if (!r.event || r.event.type !== 'computed') return
+  const { op, left, right, result } = r.event.ev
   const views = dualViews(result)
   const resultStr =
     views.secondary && views.secondary.label === '累计'
@@ -108,9 +114,12 @@ function onKey(k: string): void {
   history.value = loadHistory()
 }
 
+function onKey(k: string): void {
+  consume(pressKey(state.value, k))
+}
+
 function setKind(kind: TimeKind): void {
-  if (!kindList.value.includes(kind)) return
-  state.value = { ...state.value, inputKind: kind }
+  consume(switchKind(state.value, kind))
 }
 
 function resetAll(): void {
@@ -132,94 +141,118 @@ const fmtTime = (ts: number): string => {
 
 <template>
   <view class="page at-page" :class="themeClass">
-    <!-- 步骤链 -->
-    <view v-if="steps.length" class="steps">
-      <text class="steps-title">计算链</text>
-      <view v-for="(s, i) in steps" :key="i" class="step-line">
-        <text>{{ s }}</text>
-      </view>
-      <button class="reset-btn" @tap="resetAll">
-        <text>清空计算</text>
-      </button>
-    </view>
-
-    <!-- 主显示区 -->
-    <view class="display">
-      <template v-if="accViews">
-        <view class="dual primary-row">
-          <text class="view-label">{{ accViews.primary.label }}</text>
-          <text class="primary-text">{{ accViews.primary.text }}</text>
-          <text v-if="accViews.primary.note" class="note">{{ accViews.primary.note }}</text>
+    <!-- 顶部滚动区：计算链 + 历史。随内容自然滚动，不挤压底部固定区 -->
+    <view class="top-area">
+      <!-- 步骤链（最新一条置顶） -->
+      <view v-if="steps.length" class="steps">
+        <text class="steps-title">计算链（{{ steps.length }}）</text>
+        <view v-for="(s, i) in recentSteps" :key="steps.length - 1 - i" class="step-line">
+          <text>{{ s }}</text>
         </view>
-        <view v-if="accViews.secondary" class="dual">
-          <text class="view-label">{{ accViews.secondary.label }}</text>
-          <text class="secondary-text">{{ accViews.secondary.text }}</text>
+        <view v-if="hiddenSteps" class="steps-more">
+          <text>仅显示最近 {{ MAX_VISIBLE_STEPS }} 条，更早的见下方历史记录</text>
         </view>
-      </template>
-      <template v-else>
-        <text class="input-line">{{ inputLine }}</text>
-        <view class="kind-chips">
-          <button
-            class="chip"
-            :class="{ active: state.inputKind === 'clock', disabled: kindLocked && state.inputKind !== 'clock' }"
-            @tap="setKind('clock')"
-          >
-            <text>时刻</text>
-          </button>
-          <button
-            class="chip"
-            :class="{ active: state.inputKind === 'duration', disabled: kindLocked && state.inputKind !== 'duration' }"
-            @tap="setKind('duration')"
-          >
-            <text>时长</text>
-          </button>
-        </view>
-        <text v-if="showHint" class="hint">连续输入数字自动格式化，如 1425 → 14:25</text>
-        <text v-else-if="!canInputNow" class="hint">请选择 ＋ 或 － 继续运算，或按 ⌫ 修改、C 清空重来</text>
-      </template>
-      <text v-if="errorText" class="error">{{ errorText }}</text>
-    </view>
-
-    <NumKeypad :op-enabled="opEnabledNow" @key="onKey" />
-
-    <!-- 历史记录（可折叠） -->
-    <view class="history">
-      <view class="history-head">
-        <button class="history-title-btn" @tap="historyOpen = !historyOpen">
-          <text class="history-title">历史记录（{{ history.length }}）</text>
+        <button class="reset-btn" @tap="resetAll">
+          <text>清空计算</text>
         </button>
-        <view class="history-actions">
-          <button v-if="historyOpen && history.length" class="history-clear" @tap.stop="doClearHistory">
-            <text>清空</text>
-          </button>
-          <button class="history-toggle" @tap="historyOpen = !historyOpen">
-            <text>{{ historyOpen ? '收起 ▲' : '展开 ▼' }}</text>
-          </button>
-        </view>
       </view>
-      <view v-if="historyOpen">
-        <view v-if="!history.length" class="history-empty">
-          <text>暂无记录</text>
-        </view>
-        <view v-for="(h, i) in history" :key="i" class="history-item">
-          <view class="hi-main">
-            <text class="hi-expr">{{ h.expr }}</text>
-            <text class="hi-result">
-              {{ h.primary }}{{ h.primaryNote ? ` ${h.primaryNote}` : '' }}{{ h.secondary ? `（跨日 ${h.secondary}）` : '' }}
-            </text>
+
+      <!-- 历史记录（可折叠） -->
+      <view class="history">
+        <view class="history-head">
+          <button class="history-title-btn" @tap="historyOpen = !historyOpen">
+            <text class="history-title">历史记录（{{ history.length }}）</text>
+          </button>
+          <view class="history-actions">
+            <button v-if="historyOpen && history.length" class="history-clear" @tap.stop="doClearHistory">
+              <text>清空</text>
+            </button>
+            <button class="history-toggle" @tap="historyOpen = !historyOpen">
+              <text>{{ historyOpen ? '收起 ▲' : '展开 ▼' }}</text>
+            </button>
           </view>
-          <text class="hi-ts">{{ fmtTime(h.ts) }}</text>
+        </view>
+        <view v-if="historyOpen">
+          <view v-if="!history.length" class="history-empty">
+            <text>暂无记录</text>
+          </view>
+          <view v-for="(h, i) in history" :key="i" class="history-item">
+            <view class="hi-main">
+              <text class="hi-expr">{{ h.expr }}</text>
+              <text class="hi-result">
+                {{ h.primary }}{{ h.primaryNote ? ` ${h.primaryNote}` : '' }}{{ h.secondary ? `（跨日 ${h.secondary}）` : '' }}
+              </text>
+            </view>
+            <text class="hi-ts">{{ fmtTime(h.ts) }}</text>
+          </view>
         </view>
       </view>
+    </view>
+
+    <!-- 底部固定区：主显示 + 键盘。位置恒定，不随计算链增长移动 -->
+    <view class="dock">
+      <view class="display">
+        <template v-if="accViews">
+          <view class="dual primary-row">
+            <text class="view-label">{{ accViews.primary.label }}</text>
+            <text class="primary-text">{{ accViews.primary.text }}</text>
+            <text v-if="accViews.primary.note" class="note">{{ accViews.primary.note }}</text>
+          </view>
+          <view v-if="accViews.secondary" class="dual">
+            <text class="view-label">{{ accViews.secondary.label }}</text>
+            <text class="secondary-text">{{ accViews.secondary.text }}</text>
+          </view>
+        </template>
+        <template v-else>
+          <text class="input-line">{{ inputLine }}</text>
+          <view class="kind-chips">
+            <button
+              class="chip"
+              :class="{ active: state.inputKind === 'clock', disabled: kindLocked && state.inputKind !== 'clock' }"
+              @tap="setKind('clock')"
+            >
+              <text>时刻</text>
+            </button>
+            <button
+              class="chip"
+              :class="{ active: state.inputKind === 'duration', disabled: kindLocked && state.inputKind !== 'duration' }"
+              @tap="setKind('duration')"
+            >
+              <text>时长</text>
+            </button>
+          </view>
+          <text v-if="showHint" class="hint">连续输入数字自动格式化，如 1425 → 14:25</text>
+          <text v-else-if="!canInputNow" class="hint">请选择 ＋ 或 － 继续运算，或按 ⌫ 修改、C 清空重来</text>
+        </template>
+        <text v-if="errorText" class="error">{{ errorText }}</text>
+      </view>
+
+      <NumKeypad :op-enabled="opEnabledNow" @key="onKey" />
     </view>
   </view>
 </template>
 
 <style lang="scss" scoped>
 .page {
-  padding: 24rpx 32rpx 48rpx;
+  padding: 24rpx 32rpx 0;
   display: flex;
   flex-direction: column;
+}
+/* 顶部滚动区：预留底部固定区（显示+键盘）高度，末尾内容可完整滚出固定区 */
+.top-area {
+  padding-bottom: 940rpx;
+  padding-bottom: calc(940rpx + env(safe-area-inset-bottom));
+}
+/* 底部固定区：位置恒定，不随计算链/历史增减移动 */
+.dock {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  padding: 8rpx 32rpx 16rpx;
+  padding-bottom: calc(16rpx + env(safe-area-inset-bottom));
+  background: var(--at-bg);
 }
 .steps {
   background: var(--at-card);
@@ -239,6 +272,11 @@ const fmtTime = (ts: number): string => {
 }
 .step-line:last-of-type {
   border-bottom: none;
+}
+.steps-more {
+  padding: 8rpx 0 0;
+  font-size: 22rpx;
+  color: var(--at-weak);
 }
 .reset-btn {
   margin-top: 8rpx;

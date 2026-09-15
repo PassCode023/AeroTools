@@ -97,7 +97,7 @@ function commit(s: CalcState): KeyResult {
   }
 }
 
-/** 键盘输入处理：数字 0-9、back（退格）、clear（C 整单重置）、ok、add/sub */
+/** 键盘输入处理：数字 0-9、back（退格）、clear（C 整单重置）、add/sub */
 export function pressKey(s: CalcState, k: string): KeyResult {
   if (k >= '0' && k <= '9') {
     if (!canInput(s)) return noEvent(s)
@@ -128,10 +128,6 @@ export function pressKey(s: CalcState, k: string): KeyResult {
     return noEvent(s)
   }
   if (k === 'clear') return noEvent(freshState())
-  if (k === 'ok') {
-    if (!s.buf) return noEvent(s)
-    return commit(s)
-  }
   if (k === 'add' || k === 'sub') {
     let st = s
     if (!st.acc) {
@@ -155,4 +151,16 @@ export function pressKey(s: CalcState, k: string): KeyResult {
     return noEvent(st)
   }
   return noEvent(s)
+}
+
+/**
+ * 切换操作数类型（时刻/时长）。切换即对已持有的 4 位缓冲按新类型重新校验：
+ * 合法则自动提交（v1.1.2 移除 ✓ 键后，这是「9930 按时刻非法 → 切时长」一类输入的兜底路径），
+ * 非法则错误码随新类型刷新；缓冲不足 4 位只切类型。约束外的切换被忽略。
+ */
+export function switchKind(s: CalcState, kind: TimeKind): KeyResult {
+  if (!allowedKinds(s).includes(kind)) return noEvent(s)
+  const next: CalcState = { ...s, inputKind: kind }
+  if (next.buf.length === 4) return commit(next)
+  return noEvent(next)
 }

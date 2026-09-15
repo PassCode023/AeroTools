@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import {
   freshState,
   pressKey,
+  switchKind,
   canInput,
   opEnabled,
   allowedKinds,
@@ -47,10 +48,6 @@ describe('基础输入(保持既有行为)', () => {
     s = press(s, '2', '3', '3', '0').state
     expect(s.acc).toEqual({ kind: 'clock', raw: 23 * 60 + 30 })
     expect(s.error).toBe('')
-  })
-  it('ok 键提交不完整缓冲报 incomplete', () => {
-    const { state } = press(freshState(), '1', '2', 'ok')
-    expect(state.error).toBe('incomplete')
   })
   it('输入中按 clear 清空缓冲回到初始状态', () => {
     const { state } = press(freshState(), '1', '4', 'clear')
@@ -124,7 +121,7 @@ describe('运算与类型约束(保持既有行为)', () => {
     const { state } = press(freshState(), '1', '0', '0', '0', 'sub', '0', '9', '3', '0')
     expect(state.acc).toEqual({ kind: 'duration', raw: 30 })
   })
-  it('防御分支:不合法组合报 badOp 且保留状态(直接构造状态)', () => {
+  it('防御分支:不合法组合报 badOp 且保留状态(直接构造状态,经运算符提交路径触发)', () => {
     const s: CalcState = {
       acc: { kind: 'duration', raw: 120 },
       pendingOp: '-',
@@ -133,7 +130,7 @@ describe('运算与类型约束(保持既有行为)', () => {
       error: '',
       directEntry: false,
     }
-    const r = pressKey(s, 'ok')
+    const r = pressKey(s, 'add')
     expect(r.state.error).toBe('badOp')
     expect(r.state.acc).toEqual({ kind: 'duration', raw: 120 })
     expect(r.event).toBeNull()
@@ -149,5 +146,58 @@ describe('运算与类型约束(保持既有行为)', () => {
     const { state } = press(committed, '3')
     expect(state.acc).toEqual({ kind: 'clock', raw: 14 * 60 + 25 })
     expect(state.buf).toBe('')
+  })
+})
+
+describe('switchKind 切换类型重校验(v1.1.2:✓ 键移除后的提交兜底)', () => {
+  it('时刻下键入 9930 非法被拒,切到时长自动提交为 99:30', () => {
+    const s = press(freshState(), '9', '9', '3', '0').state
+    expect(s.error).toBe('invalidClock')
+    expect(s.buf).toBe('9930')
+    const r = switchKind(s, 'duration')
+    expect(r.state.acc).toEqual({ kind: 'duration', raw: 99 * 60 + 30 })
+    expect(r.state.buf).toBe('')
+    expect(r.state.error).toBe('')
+    expect(r.event).toMatchObject({
+      type: 'firstCommit',
+      value: { kind: 'duration', raw: 99 * 60 + 30 },
+    })
+  })
+  it('分钟非法(2461)切换类型也不提交,错误码随新类型刷新', () => {
+    const s = press(freshState(), '2', '4', '6', '1').state
+    expect(s.error).toBe('invalidClock')
+    const r = switchKind(s, 'duration')
+    expect(r.state.acc).toBeNull()
+    expect(r.state.buf).toBe('2461')
+    expect(r.state.error).toBe('invalidDuration')
+    expect(r.event).toBeNull()
+  })
+  it('已有累计值+待运算符时,切换类型直接算出结果(10:00 − 24:00 时长)', () => {
+    let s = press(freshState(), '1', '0', '0', '0', 'sub').state
+    expect(allowedKinds(s)).toEqual(['clock', 'duration'])
+    s = press(s, '2', '4', '0', '0').state
+    expect(s.error).toBe('invalidClock')
+    expect(s.buf).toBe('2400')
+    const r = switchKind(s, 'duration')
+    expect(r.state.acc).toEqual({ kind: 'clock', raw: -840 })
+    expect(r.state.pendingOp).toBeNull()
+    expect(r.event).toMatchObject({
+      type: 'computed',
+      ev: { op: '-', result: { kind: 'clock', raw: -840 } },
+    })
+  })
+  it('不完整缓冲只切类型不提交', () => {
+    const s = press(freshState(), '1', '2').state
+    const r = switchKind(s, 'duration')
+    expect(r.state.inputKind).toBe('duration')
+    expect(r.state.buf).toBe('12')
+    expect(r.state.acc).toBeNull()
+    expect(r.event).toBeNull()
+  })
+  it('约束外的类型切换被忽略(时刻+ 后只能输时长)', () => {
+    const s = press(freshState(), '1', '0', '0', '0', 'add').state
+    const r = switchKind(s, 'clock')
+    expect(r.state.inputKind).toBe('duration')
+    expect(r.event).toBeNull()
   })
 })

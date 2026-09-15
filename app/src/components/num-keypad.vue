@@ -18,23 +18,22 @@ const emit = defineEmits<{ (e: 'key', k: string): void }>()
     <button class="key" @tap="emit('key', '1')">1</button>
     <button class="key" @tap="emit('key', '2')">2</button>
     <button class="key" @tap="emit('key', '3')">3</button>
-    <button class="key ok" aria-label="确认输入" @tap="emit('key', 'ok')">✓</button>
+    <button class="key" @tap="emit('key', '0')">0</button>
 
     <button
-      class="key op"
+      class="key op span2"
       :class="{ disabled: !props.opEnabled }"
       :disabled="!props.opEnabled"
       aria-label="加"
       @tap="props.opEnabled && emit('key', 'add')"
     >＋</button>
     <button
-      class="key op"
+      class="key op span2"
       :class="{ disabled: !props.opEnabled }"
       :disabled="!props.opEnabled"
       aria-label="减"
       @tap="props.opEnabled && emit('key', 'sub')"
     >－</button>
-    <button class="key span2" @tap="emit('key', '0')">0</button>
   </view>
 </template>
 
@@ -66,10 +65,6 @@ const emit = defineEmits<{ (e: 'key', k: string): void }>()
   background: var(--at-card-2);
   color: var(--at-sub);
   font-size: 38rpx;
-}
-.key.ok {
-  background: var(--at-primary);
-  color: var(--at-primary-contrast);
 }
 .key.op {
   background: var(--at-primary-soft);
