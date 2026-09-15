@@ -180,11 +180,11 @@ const negativeHint = computed(() => !cat.value.allowNegative)
   color: var(--at-text);
 }
 .unit {
-  min-width: 200rpx;
+  min-width: 232rpx;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 2rpx;
+  align-items: baseline;
+  gap: 8rpx;
+  white-space: nowrap;
 }
 .unit-sym {
   font-size: 32rpx;
