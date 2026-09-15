@@ -12,3 +12,6 @@ airport-data/raw/
 
 # 构建环境依赖（package.json/package-lock.json 入库，包体不入库）
 airport-data/node_modules/
+
+# AI 会话本地工作目录（不入库）
+app/.ai/
