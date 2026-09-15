@@ -17,8 +17,12 @@ export interface CategoryDef {
   label: string
   /** 左侧单位（基准单位，如 ft） */
   left: string
+  /** 左侧单位中文名（如 英尺） */
+  leftZh: string
   /** 右侧单位（如 m） */
   right: string
+  /** 右侧单位中文名（如 米） */
+  rightZh: string
   /** 反向换算因子：右 = 左 × toRight（温度类不用，单独写公式） */
   toRight: (v: number) => number
   /** 正向换算因子：左 = 右 × toLeft */
@@ -42,7 +46,9 @@ export const CATEGORIES: CategoryDef[] = [
     id: 'length',
     label: '长度',
     left: 'ft',
+    leftZh: '英尺',
     right: 'm',
+    rightZh: '米',
     toRight: (v) => v * FT_TO_M,
     toLeft: (v) => v / FT_TO_M,
     precisionLeft: 2,
@@ -53,7 +59,9 @@ export const CATEGORIES: CategoryDef[] = [
     id: 'distance',
     label: '航程',
     left: 'NM',
+    leftZh: '海里',
     right: 'km',
+    rightZh: '公里',
     toRight: (v) => v * NM_TO_KM,
     toLeft: (v) => v / NM_TO_KM,
     precisionLeft: 3,
@@ -64,7 +72,9 @@ export const CATEGORIES: CategoryDef[] = [
     id: 'speed',
     label: '速度',
     left: 'kt',
+    leftZh: '节',
     right: 'km/h',
+    rightZh: '公里/小时',
     toRight: (v) => v * NM_TO_KM,
     toLeft: (v) => v / NM_TO_KM,
     precisionLeft: 3,
@@ -75,7 +85,9 @@ export const CATEGORIES: CategoryDef[] = [
     id: 'pressure',
     label: '气压',
     left: 'inHg',
+    leftZh: '英寸汞柱',
     right: 'hPa',
+    rightZh: '百帕',
     toRight: (v) => v * INHG_TO_HPA,
     toLeft: (v) => v / INHG_TO_HPA,
     precisionLeft: 2,
@@ -86,7 +98,9 @@ export const CATEGORIES: CategoryDef[] = [
     id: 'mass',
     label: '质量',
     left: 'lb',
+    leftZh: '磅',
     right: 'kg',
+    rightZh: '千克',
     toRight: (v) => v * LB_TO_KG,
     toLeft: (v) => v / LB_TO_KG,
     precisionLeft: 2,
@@ -97,7 +111,9 @@ export const CATEGORIES: CategoryDef[] = [
     id: 'temperature',
     label: '温度',
     left: '°C',
+    leftZh: '摄氏度',
     right: '°F',
+    rightZh: '华氏度',
     toRight: (v) => (v * 9) / 5 + 32,
     toLeft: (v) => ((v - 32) * 5) / 9,
     precisionLeft: 1,

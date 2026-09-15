@@ -86,7 +86,10 @@ const negativeHint = computed(() => !cat.value.allowNegative)
           :maxlength="16"
           @input="onLeftInput"
         />
-        <text class="unit">{{ cat.left }}</text>
+        <view class="unit">
+          <text class="unit-sym">{{ cat.left }}</text>
+          <text class="unit-zh">（{{ cat.leftZh }}）</text>
+        </view>
       </view>
 
       <view class="eq">
@@ -103,7 +106,10 @@ const negativeHint = computed(() => !cat.value.allowNegative)
           :maxlength="16"
           @input="onRightInput"
         />
-        <text class="unit">{{ cat.right }}</text>
+        <view class="unit">
+          <text class="unit-sym">{{ cat.right }}</text>
+          <text class="unit-zh">（{{ cat.rightZh }}）</text>
+        </view>
       </view>
     </view>
 
@@ -174,11 +180,20 @@ const negativeHint = computed(() => !cat.value.allowNegative)
   color: var(--at-text);
 }
 .unit {
-  min-width: 110rpx;
-  text-align: left;
+  min-width: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rpx;
+}
+.unit-sym {
   font-size: 32rpx;
   font-weight: 600;
   color: var(--at-primary);
+}
+.unit-zh {
+  font-size: 22rpx;
+  color: var(--at-weak);
 }
 .ph {
   color: var(--at-weak);

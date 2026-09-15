@@ -26,6 +26,12 @@ describe('CATEGORIES 定义', () => {
     expect(byId.temperature.left).toBe('°C')
     expect(byId.temperature.right).toBe('°F')
   })
+  it('各类单位中文名非空', () => {
+    for (const c of CATEGORIES) {
+      expect(c.leftZh.trim().length, `${c.id}.leftZh`).toBeGreaterThan(0)
+      expect(c.rightZh.trim().length, `${c.id}.rightZh`).toBeGreaterThan(0)
+    }
+  })
 })
 
 describe('六类正向换算', () => {
